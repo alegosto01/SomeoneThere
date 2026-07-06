@@ -1,0 +1,32 @@
+# Disabled template.
+# Before enabling:
+# 1. Verify the current official Codex GitHub Action documentation.
+# 2. Confirm the correct action name and inputs.
+# 3. Add the required GitHub secrets.
+# 4. Rename this file to codex-risk-review.yml only after verification.
+
+name: Codex Risk Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  codex-risk-review:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      # TODO: Replace this placeholder with the current official Codex GitHub Action configuration.
+      # Do not enable until verified.
+      - name: Placeholder
+        run: |
+          echo "Codex risk review workflow is disabled until official action config is verified."
+          echo "Use prompts/codex/risk-review.md as the review prompt."

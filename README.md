@@ -44,6 +44,37 @@ HouseCheck/
     └── ISSUE_TEMPLATE/
 ```
 
+## Agent workflow
+
+This repo uses a controlled adversarial AI workflow:
+
+1. `problem-finder` finds risks.
+2. `problem-solver` proposes mitigations.
+3. `decision-judge` checks whether mitigations are strong enough.
+4. Codex implements small tasks using `AGENTS.md` instructions.
+5. GitHub issues and docs preserve decisions.
+
+Important files:
+- `AGENTS.md` — instructions for Codex and other coding agents
+- `CLAUDE.md` — project memory for Claude Code
+- `.claude/agents/` — Claude Code subagents
+- `docs/risk-register.md` — live risk register
+- `docs/decision-log.md` — product decision history
+- `docs/mvp-scope.md` — current MVP scope
+- `docs/agent-operating-system.md` — how the agent system works
+
+## MVP scope
+
+See `docs/mvp-scope.md`.
+
+## Risks
+
+See `docs/risk-register.md`.
+
+## Legal assumptions
+
+See `docs/legal-assumptions.md` and `docs/legal-questions-for-lawyer.md`.
+
 ## Current status
 
 This repo is prepared as a starting point for product validation, market research, and MVP planning. It does not yet contain production code.
