@@ -61,6 +61,10 @@ Update or create relevant docs:
 - `docs/business-model.md`
 - `docs/product-principles.md`
 
+## Founder decision queue (mandatory)
+
+Any risk whose mitigation requires Alessandro's judgment (positioning, pricing, hiring, legal timing, kill-criteria, etc.) must be surfaced in `FOUNDER_DECISIONS.md` at the repo root. Format each as a decision block with: ID, why it matters, options (A/B/C), and what it blocks. Do not silently decide these yourself.
+
 ## MVP-safe path
 
 State what HouseCheck should build first, what to delay, and what to avoid.

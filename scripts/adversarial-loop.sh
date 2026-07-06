@@ -77,8 +77,8 @@ mkdir -p "$RUN_DIR"
 FOCUS="${TOPIC:-the whole HouseCheck project (legal, technical, financial, operational, trust, safety, privacy, product, marketplace, fraud, UX, competition)}"
 EDIT_MODE="read-only: PROPOSE doc updates as fenced diff blocks in your output; do NOT edit files"
 if [ "$APPLY" -eq 1 ]; then
-  EDIT_MODE="apply mode: you MAY edit docs/risk-register.md, docs/decision-log.md, docs/mvp-scope.md, docs/legal-assumptions.md, docs/legal-questions-for-lawyer.md directly"
-fi
+  EDIT_MODE="apply mode: you MAY edit docs/risk-register.md, docs/decision-log.md, docs/mvp-scope.md, docs/legal-assumptions.md, docs/legal-questions-for-lawyer.md directly. You MUST also refresh FOUNDER_DECISIONS.md (repo root) so any decision needing Alessandro is surfaced there."
+  fi
 
 echo "▶ HouseCheck adversarial loop"
 echo "  runtime: $RUNTIME"

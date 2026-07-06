@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HouseCheck — Rental Listing Check for Madrid</title>
+  <meta name="description" content="Before you pay a deposit on a Madrid rental from abroad, HouseCheck collects evidence and risk indicators so you can decide with less uncertainty. We do not guarantee any rental is safe.">
+  <style>
+    :root {
+      --ink: #0f172a;
+      --slate: #475569;
+      --muted: #94a3b8;
+      --line: #e2e8f0;
+      --bg: #ffffff;
+      --soft: #f8fafc;
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+      --warn-bg: #fef3c7;
+      --warn-ink: #92400e;
+      --good-bg: #ecfdf5;
+      --good-ink: #065f46;
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+
+    /* Header */
+    header { border-bottom: 1px solid var(--line); padding: 16px 0; position: sticky; top: 0; background: rgba(255,255,255,0.92); backdrop-filter: blur(8px); z-index: 10; }
+    .nav { display: flex; justify-content: space-between; align-items: center; }
+    .brand { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; }
+    .brand span { color: var(--accent); }
+    .nav a { color: var(--slate); text-decoration: none; margin-left: 20px; font-size: 15px; }
+    .nav a:hover { color: var(--ink); }
+
+    /* Hero */
+    .hero { padding: 72px 0 48px; }
+    .eyebrow { display: inline-block; background: var(--soft); border: 1px solid var(--line); color: var(--slate); font-size: 13px; padding: 5px 12px; border-radius: 999px; margin-bottom: 20px; }
+    h1 { font-size: 44px; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 20px; }
+    .lead { font-size: 19px; color: var(--slate); max-width: 640px; margin: 0 0 28px; }
+    .cta-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .btn { display: inline-block; background: var(--accent); color: #fff; padding: 13px 24px; border-radius: var(--radius); text-decoration: none; font-weight: 600; font-size: 16px; border: none; cursor: pointer; transition: background .15s; }
+    .btn:hover { background: var(--accent-dark); }
+    .btn-ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+    .btn-ghost:hover { background: var(--soft); }
+    .hero-note { margin-top: 16px; font-size: 14px; color: var(--muted); }
+
+    /* Fairness / honesty banner */
+    .honest { background: var(--soft); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px; margin: 40px 0; display: flex; gap: 14px; align-items: flex-start; }
+    .honest .icon { font-size: 22px; line-height: 1; }
+    .honest p { margin: 0; font-size: 15px; color: var(--slate); }
+    .honest strong { color: var(--ink); }
+
+    /* Sections */
+    section { padding: 56px 0; border-top: 1px solid var(--line); }
+    h2 { font-size: 30px; letter-spacing: -0.01em; margin: 0 0 12px; }
+    .sub { color: var(--slate); margin: 0 0 32px; max-width: 620px; }
+
+    /* How it works */
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .step { background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
+    .step .n { width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 14px; margin-bottom: 14px; }
+    .step h3 { margin: 0 0 8px; font-size: 17px; }
+    .step p { margin: 0; font-size: 14px; color: var(--slate); }
+
+    /* What we check / don't */
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .card { border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
+    .card.do { background: var(--good-bg); border-color: #a7f3d0; }
+    .card.dont { background: #fff1f2; border-color: #fecdd3; }
+    .card h3 { margin: 0 0 12px; font-size: 17px; }
+    .card ul { margin: 0; padding-left: 18px; }
+    .card li { font-size: 14px; margin-bottom: 8px; color: var(--slate); }
+    .card.do li { color: var(--good-ink); }
+    .card.dont li { color: #9f1239; }
+
+    /* Pricing */
+    .price-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .price { border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
+    .price .name { font-weight: 700; font-size: 16px; }
+    .price .amt { font-size: 26px; font-weight: 700; margin: 6px 0; letter-spacing: -0.01em; }
+    .price .amt small { font-size: 14px; font-weight: 500; color: var(--muted); }
+    .price .desc { font-size: 14px; color: var(--slate); margin: 0; }
+    .price .badge { display: inline-block; background: var(--accent); color: #fff; font-size: 11px; padding: 2px 8px; border-radius: 999px; margin-left: 6px; vertical-align: middle; }
+    .price-blocked { opacity: 0.55; }
+    .price-note { margin-top: 16px; font-size: 13px; color: var(--muted); }
+
+    /* Form */
+    .form-card { background: var(--soft); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; }
+    label { display: block; font-size: 14px; font-weight: 600; margin: 16px 0 6px; }
+    input, select, textarea { width: 100%; padding: 11px 13px; border: 1px solid var(--line); border-radius: 8px; font-size: 15px; font-family: inherit; background: #fff; color: var(--ink); }
+    input:focus, select:focus, textarea:focus { outline: 2px solid var(--accent); outline-offset: 0; border-color: var(--accent); }
+    .attest { display: flex; gap: 10px; align-items: flex-start; background: #fff; border: 1px solid var(--line); padding: 12px; border-radius: 8px; margin-top: 8px; }
+    .attest input { width: auto; margin-top: 3px; }
+    .attest label { margin: 0; font-weight: 500; font-size: 14px; color: var(--slate); }
+    .form-actions { margin-top: 22px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+    .form-note { font-size: 13px; color: var(--muted); }
+    #form-status { margin-top: 14px; padding: 12px 14px; border-radius: 8px; font-size: 14px; display: none; }
+    #form-status.ok { display: block; background: var(--good-bg); color: var(--good-ink); border: 1px solid #a7f3d0; }
+    #form-status.warn { display: block; background: var(--warn-bg); color: var(--warn-ink); border: 1px solid #fcd34d; }
+
+    /* FAQ */
+    .faq dt { font-weight: 700; margin-top: 22px; font-size: 16px; }
+    .faq dd { margin: 8px 0 0; color: var(--slate); font-size: 15px; }
+
+    /* Footer */
+    footer { background: var(--soft); border-top: 1px solid var(--line); padding: 40px 0; margin-top: 56px; font-size: 14px; color: var(--slate); }
+    footer .cols { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 24px; }
+    footer h4 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 10px; }
+    footer a { color: var(--slate); text-decoration: none; display: block; margin-bottom: 6px; }
+    footer a:hover { color: var(--ink); }
+    .legal-line { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+
+    /* Disclaimer block */
+    .disclaimer { background: var(--soft); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; font-size: 13px; color: var(--slate); }
+    .disclaimer strong { color: var(--ink); }
+
+    /* Responsive */
+    @media (max-width: 720px) {
+      h1 { font-size: 32px; }
+      .hero { padding: 48px 0 32px; }
+      .steps, .grid-2, .price-grid { grid-template-columns: 1fr; }
+      footer .cols { grid-template-columns: 1fr; }
+      .nav a { margin-left: 12px; font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="brand">House<span>Check</span></div>
+    <nav>
+      <a href="#how">How it works</a>
+      <a href="#check">What we check</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#start">Get started</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<div class="hero wrap">
+  <span class="eyebrow">Madrid · Pilot</span>
+  <h1>Check a Madrid rental listing before you pay the deposit.</h1>
+  <p class="lead">
+    Moving to Madrid from abroad? HouseCheck collects independent evidence and risk indicators about a rental listing — address, photos, landlord questions — and gives you a structured report to help you decide with less uncertainty.
+  </p>
+  <div class="cta-row">
+    <a href="#start" class="btn">Start a listing check</a>
+    <a href="#how" class="btn btn-ghost">How it works</a>
+  </div>
+  <p class="hero-note">HouseCheck provides evidence and risk indicators. It is <strong>not</strong> a guarantee that any rental is safe, and it is not a real estate agency.</p>
+</div>
+
+<!-- HONESTY / FAIRNESS BANNER -->
+<div class="wrap">
+  <div class="honest">
+    <span class="icon">🤝</span>
+    <p><strong>No pressure, no urgency tricks.</strong> If your deposit deadline is too close for a report to land in time, we will tell you that honestly rather than take your money. Scammers rely on panic; we won't add to it.</p>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<section id="how" class="wrap">
+  <h2>How it works</h2>
+  <p class="sub">A simple, manual process. Nothing is automated yet — a real person reviews every request.</p>
+  <div class="steps">
+    <div class="step">
+      <div class="n">1</div>
+      <h3>Submit the listing</h3>
+      <p>Share the listing URL, the address, and what you've been told. It works with Idealista, Facebook, WhatsApp, Milanuncios, or any source.</p>
+    </div>
+    <div class="step">
+      <div class="n">2</div>
+      <h3>We collect evidence</h3>
+      <p>A local verifier checks what can be checked — address, exterior, listing/reality match, standard questions — with permission-first access only.</p>
+    </div>
+    <div class="step">
+      <div class="n">3</div>
+      <h3>You get a report</h3>
+      <p>A structured report: what was checked, what could not be checked, risk indicators, evidence, and suggested follow-up questions.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT WE CHECK / DON'T -->
+<section id="check" class="wrap">
+  <h2>What HouseCheck is — and isn't</h2>
+  <p class="sub">We want to be precise about the boundaries, so you know exactly what you're paying for.</p>
+  <div class="grid-2">
+    <div class="card do">
+      <h3>✓ What we do</h3>
+      <ul>
+        <li>Check the address exists and the exterior matches the listing</li>
+        <li>Compare listing photos to what's actually there</li>
+        <li>Ask standard landlord/agent authority questions</li>
+        <li>Flag suspicious payment requests and inconsistencies</li>
+        <li>Deliver a private, structured report with a confidence level</li>
+        <li>List what we <em>could not</em> check, clearly</li>
+      </ul>
+    </div>
+    <div class="card dont">
+      <h3>✗ What we don't do</h3>
+      <ul>
+        <li>Guarantee any rental is safe or the landlord is legitimate</li>
+        <li>Negotiate rent, leases, or deposits</li>
+        <li>Hold or transfer deposits</li>
+        <li>Give legal advice</li>
+        <li>Act as a real estate broker</li>
+        <li>Enter a home without explicit permission</li>
+        <li>Publicly label anyone a scammer</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="wrap">
+  <h2>Pricing <span style="font-size:16px;color:var(--muted);font-weight:500;">(pilot estimates)</span></h2>
+  <p class="sub">These are pilot price ranges, not final. In-person packages are available only once safety and insurance checks are complete.</p>
+  <div class="price-grid">
+    <div class="price">
+      <div class="name">Basic listing review</div>
+      <div class="amt">€29–€49</div>
+      <p class="desc">Digital-only. Listing consistency, price sanity, payment red flags, standard questions. Target: under 4 hours.</p>
+    </div>
+    <div class="price">
+      <div class="name">Exterior / address check</div>
+      <div class="amt">€59–€99</div>
+      <p class="desc">A local verifier confirms the address and exterior. Daylight only. Target: next day.</p>
+    </div>
+    <div class="price price-blocked">
+      <div class="name">Viewing attendance <span class="badge">pending</span></div>
+      <div class="amt">€99–€179</div>
+      <p class="desc">Attend a viewing with permission. Available once the safety protocol and insurance are signed off.</p>
+    </div>
+    <div class="price price-blocked">
+      <div class="name">Full verification report <span class="badge">pending</span></div>
+      <div class="amt">€149–€249</div>
+      <p class="desc">Combined basic + exterior + viewing. Available after the in-person gate is cleared.</p>
+    </div>
+  </div>
+  <p class="price-note">All prices are estimates for the pilot and may change. Payment is handled securely before work begins; refunds are governed by our policy if we cannot deliver.</p>
+</section>
+
+<!-- START / FORM -->
+<section id="start" class="wrap">
+  <h2>Start a listing check</h2>
+  <p class="sub">Tell us about the listing. This form collects the details we need — no payment yet (we're in pilot mode).</p>
+  <form class="form-card" id="check-form" novalidate>
+    <label for="f-name">Your name</label>
+    <input type="text" id="f-name" name="name" required placeholder="Your full name">
+
+    <label for="f-email">Email <span style="color:var(--muted);font-weight:400;">(we'll confirm before any work starts)</span></label>
+    <input type="email" id="f-email" name="email" required placeholder="you@example.com">
+
+    <label for="f-phone">Phone <span style="color:var(--muted);font-weight:400;">(optional)</span></label>
+    <input type="tel" id="f-phone" name="phone" placeholder="+34 ...">
+
+    <label for="f-url">Listing URL <span style="color:var(--muted);font-weight:400;">(or "screenshots" if deleted)</span></label>
+    <input type="url" id="f-url" name="listing_url" required placeholder="https://idealista.com/...">
+
+    <label for="f-address">Claimed address</label>
+    <input type="text" id="f-address" name="claimed_address" required placeholder="Calle ..., Madrid">
+
+    <label for="f-package">What do you want checked?</label>
+    <select id="f-package" name="package">
+      <option value="basic">Basic listing review (digital, fastest)</option>
+      <option value="exterior">Exterior / address check</option>
+      <option value="viewing">Viewing attendance (pending safety gate)</option>
+      <option value="premium">Full report (pending safety gate)</option>
+    </select>
+
+    <label for="f-notes">Anything we should know? <span style="color:var(--muted);font-weight:400;">(optional)</span></label>
+    <textarea id="f-notes" name="notes" rows="3" placeholder="Price quoted, deposit requested, anything that feels off..."></textarea>
+
+    <div class="attest">
+      <input type="checkbox" id="f-attest" name="attest" required>
+      <label for="f-attest">I confirm I have a genuine rental interest in this listing and the information I've provided is accurate to the best of my knowledge.</label>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="btn">Send request</button>
+      <span class="form-note">No payment now. We review every request manually.</span>
+    </div>
+    <div id="form-status" role="status" aria-live="polite"></div>
+  </form>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="wrap">
+  <h2>Questions</h2>
+  <dl class="faq">
+    <dt>Does HouseCheck guarantee the rental is safe?</dt>
+    <dd>No. HouseCheck collects evidence and risk indicators to help you decide with less uncertainty. It does not guarantee that any rental, landlord, or contract is legitimate or risk-free.</dd>
+
+    <dt>Why not just ask a friend in Madrid to drive past?</dt>
+    <dd>You can, and if you trust a friend who is free right now, you should. HouseCheck is for when you want an independent, structured report you can keep — with a clear confidence level and a record of what could and couldn't be checked — rather than a quick favour.</dd>
+
+    <dt>Can you stop me from being scammed?</dt>
+    <dd>We can't promise that. What we can do is surface red flags and unresolved concerns early, so you can ask better questions or walk away before paying a deposit. If a report won't be ready before your deadline, we'll say so rather than take your money.</dd>
+
+    <dt>Is this an official inspection or a real estate agency?</dt>
+    <dd>No. HouseCheck is an independent evidence service. It is not an official inspection, not a government service, and not a real estate agency. We don't negotiate, handle deposits, or recommend specific properties.</dd>
+
+    <dt>What if my deposit deadline is today?</dt>
+    <dd>Be careful — urgency is the most common scam tactic. If we can't deliver even a basic review in time to help, we'd rather you pause and verify independently than pay us under pressure. You can always reach out and we'll be honest about timing.</dd>
+  </dl>
+</section>
+
+<!-- DISCLAIMER -->
+<section class="wrap">
+  <div class="disclaimer">
+    <strong>Important:</strong> HouseCheck provides practical verification based on available evidence, risk indicators, and unresolved concerns. A HouseCheck report does not guarantee that a rental listing, landlord, agent, contract, payment request, or rental agreement is legitimate, legally valid, or risk-free. HouseCheck does not provide legal advice. Always use secure payment methods, review contracts carefully, and avoid sending deposits under pressure.
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap cols">
+    <div>
+      <h4>HouseCheck</h4>
+      <p style="margin:0 0 8px;">Independent rental listing checks for people moving to Madrid.</p>
+      <p style="margin:0;color:var(--muted);font-size:13px;">Pilot · Madrid only · Manual operations</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="mailto:hello@housecheck.example">hello@housecheck.example</a>
+      <a href="#faq">FAQ</a>
+      <a href="#start">Start a check</a>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <a href="#">Privacy & data retention</a>
+      <a href="#">Refund policy</a>
+      <a href="#">Terms</a>
+    </div>
+  </div>
+  <div class="wrap legal-line">
+    © 2026 HouseCheck. This is a pilot service. Not a guarantee. Not a real estate agency. Not legal advice.
+    <!-- Entity address placeholder: to be filled before payment is enabled (LGDCU/DSA). -->
+  </div>
+</footer>
+
+<script>
+  // Minimal, dependency-free intake handler.
+  // Phase 0: validates + stores locally (no backend yet). Wire to a form endpoint / Supabase in Phase 1.
+  (function () {
+    var form = document.getElementById('check-form');
+    var status = document.getElementById('form-status');
+    if (!form) return;
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!form.checkValidity()) {
+        status.className = 'warn';
+        status.textContent = 'Please complete the required fields (name, email, listing URL, and the confirmation checkbox).';
+        return;
+      }
+
+      var data = {};
+      Array.prototype.forEach.call(form.elements, function (el) {
+        if (el.name) data[el.name] = el.type === 'checkbox' ? el.checked : el.value;
+      });
+      data.submitted_at = new Date().toISOString();
+
+      // Anti-abuse: one active request per address (client-side guard; enforced server-side in Phase 1).
+      try {
+        var key = 'hc_last_address';
+        var last = localStorage.getItem(key);
+        var addr = (data.claimed_address || '').trim().toLowerCase();
+        if (last && last === addr) {
+          status.className = 'warn';
+          status.textContent = 'We already have an active request for this address. If the situation has changed, email us directly.';
+          return;
+        }
+        localStorage.setItem(key, addr);
+      } catch (err) { /* localStorage may be blocked; ignore */ }
+
+      // Phase 0: store the request locally so it isn't lost.
+      try {
+        var queue = JSON.parse(localStorage.getItem('hc_requests') || '[]');
+        queue.push(data);
+        localStorage.setItem('hc_requests', JSON.stringify(queue));
+      } catch (err) { /* ignore */ }
+
+      status.className = 'ok';
+      status.textContent = 'Request received. This is a manual pilot — we will email you within a few hours to confirm details before any work starts. No payment has been taken.';
+      form.reset();
+    });
+  })();
+</script>
+
+</body>
+</html>
