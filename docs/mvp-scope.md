@@ -111,6 +111,22 @@ Validation metrics:
 - Exterior/address verification delivered next day when dry-run evidence supports that SLA
 - less than 20% refund/dispute rate during pilot
 
+## Pilot kill-criteria (DRAFT — awaiting Alessandro acceptance, R029)
+
+> Success metrics tell us when to build. Kill-criteria tell us when to **stop**.
+> These are proposed thresholds; Alessandro must accept or modify and commit in `docs/decision-log.md`.
+
+Stop the pilot and reassess if **any** of these occur:
+
+- Refund/dispute rate exceeds **40%** across the first 10 paid reports (twice the acceptable ceiling).
+- Fewer than **3 of 20** interviewed target users indicate willingness to pay (below ~15%).
+- Average verifier cost per job exceeds **70%** of the price charged for two consecutive pilots (structurally negative margin).
+- No paid pilot can be completed within **3x** the target SLA (e.g., Basic > 12h) after two attempts (SLA is unrealistic).
+- Stripe (or processor) places a hold/reserve that freezes operations for more than **7 days**.
+- A safety incident or a near-miss during a field visit (R009/R015) before the backup-admin gate (R024) is resolved.
+
+These thresholds are deliberately conservative for a first pilot. They exist to prevent sunk-cost drift, not to abandon prematurely.
+
 ## Pricing hypotheses
 
 These are hypotheses to test, not final prices:
