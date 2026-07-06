@@ -2,6 +2,15 @@
 
 Use the project subagents in `.claude/agents/`.
 
+## Choosing the model / runtime
+
+The roles (Problem Finder, Problem Solver, Decision Judge, and the Codex prompts) are runtime-neutral: you can run them in Claude Code, Codex, or GLM per session — useful when Claude tokens run out.
+
+- Claude Code: override the default `model: sonnet` per session with `claude --model <model>` or `/model <model>` inside the REPL.
+- Codex / GLM: feed the role file in `.claude/agents/` or `prompts/codex/` as system context, then state the task.
+
+See `docs/agent-routing.md` for exact commands and the fallback order.
+
 ## Main workflow
 
 For major decisions, run the adversarial loop:
@@ -61,3 +70,13 @@ Avoid:
 - Convert every serious risk into a doc update or GitHub issue.
 - Keep Madrid as the first market.
 - Protect users, verifiers, landlords, and the company.
+
+## graphify
+
+This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+
+Rules:
+- For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
+- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
+- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
+- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).

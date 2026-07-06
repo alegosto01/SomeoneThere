@@ -30,6 +30,7 @@ venv/
 *.db
 reports/generated/
 exports/
+agent-runs/
 
 # Secrets
 secrets.*

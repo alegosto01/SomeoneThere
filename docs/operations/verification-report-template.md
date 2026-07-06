@@ -13,6 +13,14 @@
 - Start time:
 - End time:
 
+## Required language rules
+
+- Use observed facts and risk indicators only.
+- Do not call any person a scammer, fraudster, criminal, or dishonest.
+- Pseudonymize landlord/agent identity in the customer report, for example "Person A, claiming to be the landlord."
+- State what could not be checked as clearly as what was checked.
+- Do not give legal advice, rental recommendations, or safety guarantees.
+
 ## Summary
 
 Final recommendation:
@@ -25,7 +33,7 @@ Final recommendation:
 Short summary:
 
 ```text
-Write 3-5 sentences explaining what was checked, what matched, what did not match, and whether the user should proceed carefully.
+Write 3-5 sentences explaining what was checked, what matched, what did not match, the main risk indicators, and unresolved concerns. Use cautious wording.
 ```
 
 ## Address and building check
@@ -52,7 +60,8 @@ Only complete if the verifier entered the property or joined a viewing.
 
 ## Landlord / agent interaction
 
-- Person met/spoken with:
+- Person met/spoken with in customer report: Person A / Person B / Not applicable
+- Real name/contact stored internally for QA: Yes / No / Not collected
 - Role claimed: landlord / agent / tenant / unknown
 - Questions asked:
 - Answers received:
@@ -74,6 +83,12 @@ Only complete if the verifier entered the property or joined a viewing.
 
 ## Evidence attached
 
+Evidence provenance statement:
+
+```text
+Evidence in this report was collected by the assigned verifier during the check. HouseCheck reviews the evidence for consistency, but pilot evidence is not independently verified as untampered. Metadata such as location or timestamp can support context but should not be treated as proof on its own.
+```
+
 - Exterior photo 1:
 - Exterior video:
 - Entrance photo:
@@ -89,5 +104,4 @@ Explain what the user should do next. Avoid legal guarantees. Be clear about unc
 
 ## Disclaimer
 
-HouseCheck provides practical verification based on available evidence. This report does not guarantee that a rental agreement is legally valid or risk-free. Users should still use secure payment methods, review contracts carefully, and avoid sending deposits under pressure.
-
+HouseCheck provides practical verification based on available evidence, risk indicators, and unresolved concerns. This report does not guarantee that a rental listing, landlord, agent, contract, payment request, or rental agreement is legitimate, legally valid, or risk-free. HouseCheck does not provide legal advice. Users should still use secure payment methods, review contracts carefully, ask landlord/agent authority questions, and avoid sending deposits under pressure.

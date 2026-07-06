@@ -62,6 +62,7 @@ Important files:
 - `docs/decision-log.md` — product decision history
 - `docs/mvp-scope.md` — current MVP scope
 - `docs/agent-operating-system.md` — how the agent system works
+- `docs/agent-routing.md` — choose the model / runtime (Claude, Codex, GLM) per session
 
 ## MVP scope
 

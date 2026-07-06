@@ -45,6 +45,8 @@ HouseCheck checks:
 - basic landlord/agent authority questions
 - obvious scam indicators
 
+Target pilot SLA: under 4 hours after payment and complete intake, only after a timed dry run proves this is realistic.
+
 ### 2. Exterior/address verification
 
 Verifier checks:
@@ -54,7 +56,11 @@ Verifier checks:
 - entrance/building signs where legal and appropriate
 - geotagged timestamped evidence if possible
 
+Target pilot SLA: next day after payment and complete intake, only after a timed dry run proves this is realistic.
+
 ### 3. Permission-first viewing attendance
+
+Blocked until `docs/operations/verifier-safety-sop.md` exists, a field-visit insurance quote is reviewed, and the safety gate is recorded in `docs/decision-log.md`.
 
 Only when access is legitimately arranged.
 
@@ -101,7 +107,8 @@ Validation metrics:
 - at least 30% of interviewed target users say they would pay
 - at least 5 users pay before the product is automated
 - average gross margin per verification is positive
-- average report delivery time under 24 hours for simple checks
+- Basic listing risk review delivered under 4 hours when dry-run evidence supports that SLA
+- Exterior/address verification delivered next day when dry-run evidence supports that SLA
 - less than 20% refund/dispute rate during pilot
 
 ## Pricing hypotheses

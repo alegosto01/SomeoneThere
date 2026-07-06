@@ -75,6 +75,17 @@ Codex should be used for:
 
 Codex should not make strategic legal/business decisions alone.
 
+## Runtime choice (which model runs each role)
+
+The roles above are **runtime-neutral** plain-text instructions. You can run each one in Claude Code, Codex, or GLM depending on which you have available — useful when you are out of Claude tokens.
+
+- Choose the runtime per session; there is no persistent setting to maintain.
+- Claude Code reads `.claude/agents/*.md` natively as subagents; override the model with `--model` or `/model`.
+- Codex and GLM: feed the role file as system context, then state the task.
+- Do **not** edit the `model:` field in `.claude/agents/*.md` to a non-Claude value.
+
+Full commands and the fallback order when Claude is unavailable: see `docs/agent-routing.md`.
+
 ## Standard loop
 
 Use this loop for important product decisions:

@@ -1,0 +1,372 @@
+{
+  ".agents/skills/caveman-compress/scripts/__init__.py": {
+    "mtime": 1783340299.2550137,
+    "ast_hash": "4bfea67395a7ba04f363df51355d1ef8",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-compress/scripts/__main__.py": {
+    "mtime": 1783340299.255298,
+    "ast_hash": "746aff14c3a098a28fe9d01d54f174a9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-compress/scripts/benchmark.py": {
+    "mtime": 1783340299.255298,
+    "ast_hash": "b4a8fd8070777a15f1f183d7c9992dcd",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-compress/scripts/cli.py": {
+    "mtime": 1783340299.255298,
+    "ast_hash": "993604200cad4bb12bdb2efcdb45fcf5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-compress/scripts/compress.py": {
+    "mtime": 1783340299.255298,
+    "ast_hash": "3ba8e48116e0a534d997f40e2da7f241",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-compress/scripts/detect.py": {
+    "mtime": 1783340299.255298,
+    "ast_hash": "b0fe8099be4fae2bade0de8253c950f1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-compress/scripts/validate.py": {
+    "mtime": 1783340299.255298,
+    "ast_hash": "b4f283bc53e5d352fb0120827fd4fafa",
+    "semantic_hash": ""
+  },
+  ".claude/settings.json": {
+    "mtime": 1783351199.9539952,
+    "ast_hash": "e51077b6a7f1f67afc748f1a32a1557d",
+    "semantic_hash": ""
+  },
+  ".codex/hooks.json": {
+    "mtime": 1783351207.102166,
+    "ast_hash": "d9d23bbb6d108d7bbb7779e8d646f2d3",
+    "semantic_hash": ""
+  },
+  "scripts/adversarial-loop.sh": {
+    "mtime": 1783347749.639135,
+    "ast_hash": "11b11d4fd63f35f35c52948f605390a1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/cavecrew/README.md": {
+    "mtime": 1783340299.254347,
+    "ast_hash": "d24b6cd745e2fe7136a236e063717376",
+    "semantic_hash": ""
+  },
+  ".agents/skills/cavecrew/SKILL.md": {
+    "mtime": 1783340299.2546084,
+    "ast_hash": "f184873cd9c507fa872cc86fd36722e3",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-commit/README.md": {
+    "mtime": 1783340299.2546084,
+    "ast_hash": "15f57347c5b5449b79fdf24fdab21f31",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-commit/SKILL.md": {
+    "mtime": 1783340299.25479,
+    "ast_hash": "1262c2156cd81379fc011d538728079d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-compress/README.md": {
+    "mtime": 1783340299.25479,
+    "ast_hash": "3bda4de7432953bceb7f230da97f2c12",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-compress/SECURITY.md": {
+    "mtime": 1783340299.2550137,
+    "ast_hash": "ab7d04be07bb9b8e851fb2758040432b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-compress/SKILL.md": {
+    "mtime": 1783340299.2550137,
+    "ast_hash": "7f0c9f11595a612a536954c6be767910",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-help/README.md": {
+    "mtime": 1783340299.255298,
+    "ast_hash": "9c9cf8de78df2a8831c57d6bc88d942b",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-help/SKILL.md": {
+    "mtime": 1783340299.2561307,
+    "ast_hash": "5dae4d1aebe90b61b0024f037a991bbf",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-review/README.md": {
+    "mtime": 1783340299.2561307,
+    "ast_hash": "ae3bdc81125037690fc50504e2917c83",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-review/SKILL.md": {
+    "mtime": 1783340299.256384,
+    "ast_hash": "fbb47ffb83198a1ed37a453417e691e2",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-stats/README.md": {
+    "mtime": 1783340299.256384,
+    "ast_hash": "ad1001beaabf7ab16a0113b2efc8b720",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman-stats/SKILL.md": {
+    "mtime": 1783340299.2566116,
+    "ast_hash": "5c195635a9349369df34699f8d3b3445",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman/README.md": {
+    "mtime": 1783340299.2566116,
+    "ast_hash": "72a5c06aa99126d55573e87721c37ab4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/caveman/SKILL.md": {
+    "mtime": 1783340299.2567773,
+    "ast_hash": "893def771b2c8653b3ee9ea781d6d614",
+    "semantic_hash": ""
+  },
+  ".agents/skills/check-live-runs/SKILL.md": {
+    "mtime": 1783340299.2567773,
+    "ast_hash": "53cbddb7a0374e67be255b1b13683d99",
+    "semantic_hash": ""
+  },
+  ".agents/skills/giant-model-results/SKILL.md": {
+    "mtime": 1783340299.2567773,
+    "ast_hash": "9cfce7e591e152a77f49ce873d6c88f3",
+    "semantic_hash": ""
+  },
+  ".agents/skills/ponytail/SKILL.md": {
+    "mtime": 1783340299.2567773,
+    "ast_hash": "224375c5c1d0d8cae88802b39900458c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/telegram-policy/SKILL.md": {
+    "mtime": 1783340299.2567773,
+    "ast_hash": "cc1bac6ebd4e91a63c7fe7f68912a08c",
+    "semantic_hash": ""
+  },
+  ".claude/agents/decision-judge.md": {
+    "mtime": 1783340299.2573068,
+    "ast_hash": "50924dc1bf77a66de1b799f2aa0a4886",
+    "semantic_hash": ""
+  },
+  ".claude/agents/problem-finder.md": {
+    "mtime": 1783340299.2573917,
+    "ast_hash": "888e4df9ee20ad121025f970cc7fa2fe",
+    "semantic_hash": ""
+  },
+  ".claude/agents/problem-solver.md": {
+    "mtime": 1783340299.2573917,
+    "ast_hash": "3ba5bc067a67fba93fc088881ae42388",
+    "semantic_hash": ""
+  },
+  ".github/ISSUE_TEMPLATE/feature.md": {
+    "mtime": 1783340299.257646,
+    "ast_hash": "06b3cbda1fe864a17f269d396fce1412",
+    "semantic_hash": ""
+  },
+  ".github/ISSUE_TEMPLATE/market-research.md": {
+    "mtime": 1783340299.257646,
+    "ast_hash": "e2e1b2e60ed54b359e7b176d406a9d20",
+    "semantic_hash": ""
+  },
+  ".github/ISSUE_TEMPLATE/mvp-task.md": {
+    "mtime": 1783340299.257748,
+    "ast_hash": "380bd95a625a350eb5329b7ecd5bdc73",
+    "semantic_hash": ""
+  },
+  ".github/ISSUE_TEMPLATE/risk.md": {
+    "mtime": 1783340299.257797,
+    "ast_hash": "b5a401e2b8afd583edbcee6248e43ac9",
+    "semantic_hash": ""
+  },
+  ".github/ISSUE_TEMPLATE/validation-experiment.md": {
+    "mtime": 1783340299.2578533,
+    "ast_hash": "f76d701c1e51fc98ae27f9af1a44ef7f",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1783351207.1017942,
+    "ast_hash": "1102b216020dd761720772afc4d42b72",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1783351199.9538033,
+    "ast_hash": "815402090d4582468026dd3a9819ffcb",
+    "semantic_hash": ""
+  },
+  "HOUSECHECK_AGENT_SETUP_GUIDE.md": {
+    "mtime": 1783340299.2587934,
+    "ast_hash": "bcea93c883d810ece90cf7340f3b4a48",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1783345209.1349854,
+    "ast_hash": "03be990cf0c3f612296d2cd16d27a91f",
+    "semantic_hash": ""
+  },
+  "backlog/phase-1-issues.md": {
+    "mtime": 1783340299.2589939,
+    "ast_hash": "c25f18f28d49a177761cbde014e8b9ee",
+    "semantic_hash": ""
+  },
+  "docs/agent-operating-system.md": {
+    "mtime": 1783345181.1624165,
+    "ast_hash": "c6d0331f86e7284ceae859ca1deb6cf3",
+    "semantic_hash": ""
+  },
+  "docs/agent-routing.md": {
+    "mtime": 1783347797.1568332,
+    "ast_hash": "796032328a610ee4ae22f3018513c2db",
+    "semantic_hash": ""
+  },
+  "docs/business-model.md": {
+    "mtime": 1783350790.9257872,
+    "ast_hash": "dccb039bbe1ac25aff88153443f72d09",
+    "semantic_hash": ""
+  },
+  "docs/business/business-model.md": {
+    "mtime": 1783340299.2592258,
+    "ast_hash": "7e7c075a6bdaa2500a8e1fcd235e78d1",
+    "semantic_hash": ""
+  },
+  "docs/competitor-map.md": {
+    "mtime": 1783340299.2593064,
+    "ast_hash": "e68d43f1b16910dac31c9871bc2b82bd",
+    "semantic_hash": ""
+  },
+  "docs/decision-log.md": {
+    "mtime": 1783350790.6767921,
+    "ast_hash": "3f585a56c57e58e32b88bf078f17071f",
+    "semantic_hash": ""
+  },
+  "docs/legal-assumptions.md": {
+    "mtime": 1783340299.2593477,
+    "ast_hash": "913e959748e1ad4f6b44568727d14cf7",
+    "semantic_hash": ""
+  },
+  "docs/legal-questions-for-lawyer.md": {
+    "mtime": 1783340299.259447,
+    "ast_hash": "c544bd15e75037f627aff1cbe463457d",
+    "semantic_hash": ""
+  },
+  "docs/legal/landlord-data-lia-draft.md": {
+    "mtime": 1783350791.464776,
+    "ast_hash": "a785644e48b7904b4eed6b3596dd45e6",
+    "semantic_hash": ""
+  },
+  "docs/legal/refund-policy-draft.md": {
+    "mtime": 1783350791.3283331,
+    "ast_hash": "237ac8f37358a5ed1d4bb2501594d876",
+    "semantic_hash": ""
+  },
+  "docs/legal/risk-notes.md": {
+    "mtime": 1783340299.259447,
+    "ast_hash": "7d3c5edd1117b56cae72b5d6fde42fa1",
+    "semantic_hash": ""
+  },
+  "docs/market-research/competitor-matrix.md": {
+    "mtime": 1783340299.259447,
+    "ast_hash": "0751ffdc2d5783c046df73572c765335",
+    "semantic_hash": ""
+  },
+  "docs/market-research/research-plan.md": {
+    "mtime": 1783340299.2596521,
+    "ast_hash": "5a8d438c872eb106286e59b98c7ccf59",
+    "semantic_hash": ""
+  },
+  "docs/mvp-scope.md": {
+    "mtime": 1783350790.546795,
+    "ast_hash": "6acb2be99d583c553e00bd3a6c998cb5",
+    "semantic_hash": ""
+  },
+  "docs/operations/verification-report-template.md": {
+    "mtime": 1783350790.8027897,
+    "ast_hash": "6795d763dc3ed56541c06ac31c0dbcf2",
+    "semantic_hash": ""
+  },
+  "docs/operations/verifier-checklist.md": {
+    "mtime": 1783340299.2598505,
+    "ast_hash": "1869db867fa0e21fef8398c80978aa80",
+    "semantic_hash": ""
+  },
+  "docs/operations/verifier-safety-sop.md": {
+    "mtime": 1783350791.178782,
+    "ast_hash": "96665a3b554b03e6afeb4cbce4c1a7a4",
+    "semantic_hash": ""
+  },
+  "docs/problems.md": {
+    "mtime": 1783340299.2598505,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "docs/product-principles.md": {
+    "mtime": 1783340299.2599459,
+    "ast_hash": "c2d185227e5d1f3d82462b9a0e5f89c4",
+    "semantic_hash": ""
+  },
+  "docs/product/landing-page-outline.md": {
+    "mtime": 1783350791.0467846,
+    "ast_hash": "0a3bab13b842e20275c2e627c1488856",
+    "semantic_hash": ""
+  },
+  "docs/product/prd.md": {
+    "mtime": 1783340299.2600422,
+    "ast_hash": "05da7bcde1ab3145e5f61a1bce6ef768",
+    "semantic_hash": ""
+  },
+  "docs/product/user-stories.md": {
+    "mtime": 1783340299.2601202,
+    "ast_hash": "385504fc6f6e214ae8e84dd4190701fc",
+    "semantic_hash": ""
+  },
+  "docs/risk-register.md": {
+    "mtime": 1783350790.4187975,
+    "ast_hash": "79160139bebe569634a5b80e76ab60a2",
+    "semantic_hash": ""
+  },
+  "docs/tech/architecture.md": {
+    "mtime": 1783340299.2601686,
+    "ast_hash": "c98d9a6474ae4469331029c7283ceab7",
+    "semantic_hash": ""
+  },
+  "prompts/claude/decision-judge-run.md": {
+    "mtime": 1783340299.2602966,
+    "ast_hash": "e68407795797f83be48426e8c0b80834",
+    "semantic_hash": ""
+  },
+  "prompts/claude/full-agent-loop.md": {
+    "mtime": 1783340299.260356,
+    "ast_hash": "0468b08d546d14e8804dd72b14d92d7e",
+    "semantic_hash": ""
+  },
+  "prompts/claude/problem-finder-run.md": {
+    "mtime": 1783340299.2604096,
+    "ast_hash": "0f1af30d527f47bbe88dea93c23a5dc9",
+    "semantic_hash": ""
+  },
+  "prompts/claude/problem-solver-run.md": {
+    "mtime": 1783340299.2604096,
+    "ast_hash": "1fabe25419f0449d79340f2263f635e9",
+    "semantic_hash": ""
+  },
+  "prompts/codex/docs-update-task.md": {
+    "mtime": 1783340299.2604096,
+    "ast_hash": "d8d078978706859fc482e459716d1e5a",
+    "semantic_hash": ""
+  },
+  "prompts/codex/implementation-task.md": {
+    "mtime": 1783340299.2605517,
+    "ast_hash": "81cef6b97c2f5d25e4cb292af6085032",
+    "semantic_hash": ""
+  },
+  "prompts/codex/refactor-task.md": {
+    "mtime": 1783340299.26061,
+    "ast_hash": "da82b76ebe50a7d9f29e8b4f8c30941f",
+    "semantic_hash": ""
+  },
+  "prompts/codex/risk-review.md": {
+    "mtime": 1783340299.2606502,
+    "ast_hash": "c9f01340b9174237a307a303240965e8",
+    "semantic_hash": ""
+  }
+}
