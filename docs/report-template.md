@@ -1,7 +1,5 @@
 # Remote Viewing Visit Summary Template
 
-This operational template mirrors `docs/report-template.md`.
-
 ## Report metadata
 
 - Request ID:

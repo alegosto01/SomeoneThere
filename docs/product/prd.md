@@ -1,119 +1,99 @@
-# Product Requirements Document — HouseCheck MVP
+# Product Requirements Document - HouseCheck MVP
 
 ## Product vision
 
-HouseCheck helps people moving to Madrid avoid rental scams by sending a trusted local verifier to check a property before the user sends money or signs a contract.
+HouseCheck helps people moving to Madrid visit a rental remotely before sending a deposit.
 
 ## Problem
 
-People moving to Madrid often search for rooms or apartments remotely. They may find listings on platforms, Facebook groups, WhatsApp, or agency websites, but they cannot easily verify whether:
-
-- The property exists
-- The address is real
-- The listing photos match the property
-- The landlord or agent is legitimate
-- The neighborhood and building match expectations
-- The user is being pressured into a deposit scam
+People moving to Madrid often search for rooms or apartments remotely. They may find listings on platforms, Facebook groups, WhatsApp, or agency websites, but they cannot easily see whether the flat appears as promised before sending money.
 
 ## MVP solution
 
-A simple request-and-report workflow:
+A manual Remote Viewing Visit workflow:
 
-1. User submits a listing for verification.
-2. HouseCheck confirms scope, price, and timing.
-3. A local verifier accepts the job.
-4. The verifier visits the property/building or attends a scheduled viewing.
-5. The verifier collects evidence.
-6. User receives a structured report.
+1. Client sends a listing and viewing details.
+2. HouseCheck screens the request and confirms scope.
+3. A trusted local verifier is assigned.
+4. The verifier attends the scheduled viewing in Madrid.
+5. The client joins by WhatsApp, Google Meet, or Zoom.
+6. The verifier walks through the property with permission and compares it with the listing.
+7. The client receives a short post-visit verification report.
 
-## Core MVP features
+## Core MVP feature
 
-### User side
+### Remote Viewing Visit
+
+Goal: help the client see whether the apartment appears as promised.
+
+Includes:
+
+- Madrid-only viewing attendance
+- live video call
+- permission-first property walkthrough
+- listing match observations
+- factual questions asked during the visit
+- risk indicators observed during the visit
+- short post-visit summary
+
+## User side
 
 - Landing page explaining the service
-- Request form
-- Price estimate
-- Payment placeholder/manual payment
-- Email or WhatsApp confirmation
-- Final PDF/Notion/web report
+- Manual request form or email intake
+- WhatsApp/email coordination
+- Live video call during viewing
+- Final summary by email or shared document
 
-### Verifier side
+## Verifier side
 
 - Manual onboarding
-- Job checklist
-- Evidence upload instructions
-- Report template
-- Payout tracking
+- Safety SOP acceptance
+- Remote viewing checklist
+- Check-in process with admin
+- Summary template
 
-### Admin side
+## Admin side
 
-- List of requests
-- Request status
+- Manual request screening
 - Verifier assignment
+- Backup helper/admin coverage
 - User communication notes
-- Report review before delivery
-
-## Verification packages
-
-### Basic Check
-
-Goal: confirm that the address/building exists and the listing is plausible.
-
-Includes:
-
-- Exterior building photo/video
-- Street and entrance confirmation
-- Address match check
-- Neighborhood notes
-- Red flag summary
-
-### Viewing Check
-
-Goal: attend a scheduled property viewing on behalf of the tenant.
-
-Includes:
-
-- Live video call if allowed
-- Interior photos/videos if allowed
-- Room/apartment condition notes
-- Listing photo comparison
-- Questions asked to landlord/agent
-- Final recommendation
-
-### Premium Scam Check
-
-Goal: combine property verification with landlord/listing risk analysis.
-
-Includes:
-
-- Everything in Viewing Check
-- Landlord/agency identity checks where legally and ethically possible
-- Contract/deposit red flag checklist
-- Urgency/pressure warning signs
-- Final risk score
+- QA review before delivery
 
 ## Success metrics
 
-Early validation metrics:
+First milestone:
 
-- Landing page conversion rate
-- Number of verification requests
-- Number of paid tests
-- Average willingness to pay
-- Time from request to completed report
-- User satisfaction after report
-- Number of users who say the report changed their decision
-- Number of scams or serious red flags detected
+- 3-5 people moving to Madrid use a HouseCheck verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
+
+Support metrics:
+
+- dry-run completion time
+- viewing coordination time
+- verifier travel time
+- call quality
+- client satisfaction after visit
+- number of aborted visits
+- number of permission problems
 
 ## MVP non-goals
 
-Do not build these first unless manual demand is proven:
+Do not build these first:
 
-- Full mobile app
-- Fully automated verifier marketplace
-- Real-time map tracking
-- Complex bidding system
-- AI-based listing fraud detector
-- Landlord database
-- Full legal review product
+- Basic Digital Review as the main MVP
+- duplicate-image search
+- digital-only scam analysis
+- landlord background checks
+- ownership verification
+- AI risk scoring
+- contract review
+- price analysis as the core product
+- full mobile app
+- automated verifier marketplace
+- automated scheduling
+- direct customer-to-verifier private messaging
+- multi-city expansion
 
+## Safety boundaries
+
+The verifier must not enter without permission, secretly record, film people unnecessarily, film private documents, negotiate rent, sign anything, pay anything, collect keys, give legal advice, guarantee the property is safe, recommend whether the client should rent, or confront suspected scammers.

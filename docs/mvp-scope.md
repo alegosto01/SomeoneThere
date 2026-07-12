@@ -1,145 +1,128 @@
 # HouseCheck MVP Scope
 
+## Scope correction
+
+HouseCheck is not primarily a digital scam-analysis or listing-risk-review service.
+
+The core MVP service is a local verifier physically attending a Madrid rental viewing on behalf of a remote client. The client joins by WhatsApp, Google Meet, or Zoom video call. The verifier shows the property with permission, compares it with the online listing, and helps the client see whether the flat appears as promised.
+
 ## MVP goal
 
-Validate whether people moving to Madrid from abroad will pay for independent rental listing verification before paying a deposit.
+Validate whether people moving to Madrid from abroad will pay for a trusted local verifier to view a rental remotely by live video call before sending a deposit.
 
 ## Target users
 
-Primary:
-- international students
+- International students moving to Madrid
 - Erasmus students
-- expats
-- remote workers
-- young professionals relocating to Madrid
+- Expats and remote workers
+- Young professionals relocating to Madrid
+- Parents helping a student or young renter move
 
-Secondary:
-- parents helping students move
-- employees relocating for work
-- people moving from another Spanish city
+## Core MVP package
 
-## Core MVP promise
+### Remote Viewing Visit
 
-HouseCheck helps users reduce uncertainty before paying a deposit by collecting evidence and risk indicators about a rental listing.
+- Madrid only.
+- A trusted local verifier attends the property viewing.
+- The client joins by WhatsApp, Google Meet, or Zoom video call.
+- The verifier walks through the apartment with explicit permission.
+- The verifier compares the property with the listing.
+- The client can ask questions live.
+- The client receives a short post-visit summary.
 
-HouseCheck does not guarantee that a rental is safe.
+## Positioning
 
-## MVP services
+Primary:
 
-### 1. Basic listing risk review
+> Visit a Madrid rental remotely before sending a deposit.
 
-User submits:
-- listing URL
-- screenshots
-- landlord/agent contact details if available
-- price
-- deposit request
-- neighborhood
-- concerns
+Alternative:
 
-HouseCheck checks:
-- listing consistency
-- price sanity
-- duplicate red flags
-- suspicious payment requests
-- basic landlord/agent authority questions
-- obvious scam indicators
+> A trusted local verifier visits the flat while you join by video call.
 
-Target pilot SLA: under 4 hours after payment and complete intake, only after a timed dry run proves this is realistic.
+## What HouseCheck provides
 
-### 2. Exterior/address verification
+- A permission-first property visit
+- Live video presence at the viewing
+- Listing match observations
+- Evidence collected during the visit, where allowed
+- Scam-risk indicators observed during the viewing
+- A short verification report with confidence level and unresolved concerns
 
-Verifier checks:
-- address exists
-- building exterior matches listing
-- neighborhood context
-- entrance/building signs where legal and appropriate
-- geotagged timestamped evidence if possible
+## What HouseCheck does not provide
 
-Target pilot SLA: next day after payment and complete intake, only after a timed dry run proves this is realistic.
-
-### 3. Permission-first viewing attendance
-
-Blocked until `docs/operations/verifier-safety-sop.md` exists, a field-visit insurance quote is reviewed, and the safety gate is recorded in `docs/decision-log.md`.
-
-Only when access is legitimately arranged.
-
-Verifier can:
-- attend a viewing
-- join a live video call
-- compare listing photos to reality
-- check room/property condition at a basic visual level
-- ask standard questions
-- collect photos/videos only when allowed
-
-### 4. Verification report
-
-Report includes:
-- summary
-- what was checked
-- what could not be checked
-- evidence collected
-- risk indicators
-- confidence level
-- unresolved concerns
-- recommended next questions
-
-## Out of scope for MVP
+HouseCheck does not guarantee that a rental is safe, legally valid, or risk-free. The verifier is only the client's eyes and ears.
 
 HouseCheck will not:
+
+- enter without permission
+- secretly record
+- film people unnecessarily
+- film private documents
 - negotiate rent
-- sign contracts
+- sign anything
+- pay anything
+- collect keys
 - give legal advice
-- hold deposits
-- transfer money to landlords
-- guarantee rental safety
-- act as a real estate broker
-- certify property condition
-- publicly label landlords as scammers
-- enter homes without permission
-- store unnecessary personal documents
+- guarantee the property is safe
+- recommend whether the client should rent
+- confront suspected scammers
 
-## MVP success metrics
+## Deprioritized for MVP
 
-Validation metrics:
-- 20 user interviews
-- 10 paid pilots
-- at least 30% of interviewed target users say they would pay
-- at least 5 users pay before the product is automated
-- average gross margin per verification is positive
-- Basic listing risk review delivered under 4 hours when dry-run evidence supports that SLA
-- Exterior/address verification delivered next day when dry-run evidence supports that SLA
-- less than 20% refund/dispute rate during pilot
+These may become later add-ons, but they are not the main service:
 
-## Pilot kill-criteria (DRAFT — awaiting Alessandro acceptance, R029)
+- Basic Digital Review as the primary MVP
+- duplicate-image search
+- digital-only scam analysis
+- landlord background checks
+- ownership verification
+- AI risk scoring
+- contract review
+- price analysis as the core product
 
-> Success metrics tell us when to build. Kill-criteria tell us when to **stop**.
-> These are proposed thresholds; Alessandro must accept or modify and commit in `docs/decision-log.md`.
+## MVP order
 
-Stop the pilot and reassess if **any** of these occur:
+1. Define the Remote Viewing Visit service.
+2. Create remote-viewing checklist.
+3. Create verifier safety SOP.
+4. Name backup helper/admin.
+5. Recruit 1 trusted verifier/helper.
+6. Run 3 dry runs.
+7. Create landing page.
+8. Run 3-5 pilot visits.
+9. Build simple request software only after pilot evidence.
+10. Add payments, scheduling, and more verifiers later.
 
-- Refund/dispute rate exceeds **40%** across the first 10 paid reports (twice the acceptable ceiling).
-- Fewer than **3 of 20** interviewed target users indicate willingness to pay (below ~15%).
-- Average verifier cost per job exceeds **70%** of the price charged for two consecutive pilots (structurally negative margin).
-- No paid pilot can be completed within **3x** the target SLA (e.g., Basic > 12h) after two attempts (SLA is unrealistic).
-- Stripe (or processor) places a hold/reserve that freezes operations for more than **7 days**.
-- A safety incident or a near-miss during a field visit (R009/R015) before the backup-admin gate (R024) is resolved.
+## First pilot success metric
 
-These thresholds are deliberately conservative for a first pilot. They exist to prevent sunk-cost drift, not to abandon prematurely.
+The first milestone is not 10 digital reports.
 
-## Pricing hypotheses
+The first milestone is:
 
-These are hypotheses to test, not final prices:
+> 3-5 people moving to Madrid use a HouseCheck verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
 
-- Basic listing risk review: €29–€49
-- Exterior/address check: €59–€99
-- Viewing attendance: €99–€179
-- Full verification report: €149–€249
+## Pilot kill criteria
+
+Stop the pilot and reassess if any of these occur:
+
+- A verifier safety incident or near-miss occurs.
+- A verifier is asked to enter without permission, pay money, sign documents, collect keys, or confront someone.
+- Fewer than 2 of the first 5 qualified prospects are willing to schedule a remote viewing visit.
+- Fewer than 3 completed pilot clients say the service helped them decide whether to continue.
+- The average manual operating cost is clearly above the price users are willing to pay.
+- Legal or privacy review indicates the visit model needs material redesign before continuing.
+
+## Pricing hypothesis
+
+Test one simple price for the Remote Viewing Visit after dry runs define the real operating cost.
 
 Track:
+
 - customer willingness to pay
-- verifier cost
-- travel time
+- verifier travel time
+- viewing duration
+- admin coordination time
 - QA time
-- support time
 - refund requests
+- whether the client says the visit helped them decide whether to continue

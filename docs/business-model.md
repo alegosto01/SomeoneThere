@@ -2,60 +2,53 @@
 
 ## Value proposition
 
-HouseCheck helps people moving to Madrid from abroad reduce uncertainty about a rental listing before they pay a deposit. HouseCheck collects evidence and risk indicators; it does not guarantee a rental is safe.
+HouseCheck helps people moving to Madrid visit a rental remotely before sending a deposit. A trusted local verifier attends the viewing while the client joins by video call, compares the flat with the listing, and sends a short verification report with listing match observations, risk indicators, confidence level, and unresolved concerns.
+
+HouseCheck does not guarantee that a rental is safe. The verifier is only the client's eyes and ears.
 
 ## Customer segments
 
 - International students and Erasmus students
 - Expats and remote workers relocating to Madrid
-- Young professionals moving from another city/country
+- Young professionals moving to Madrid
 - Parents helping children find housing abroad
 
 ## Revenue model
 
-One-off per-verification fees (MVP). Marketplace matching may come later only if demand is validated.
+Start with one manual per-visit fee for the Remote Viewing Visit.
 
-The default operating posture for the MVP is seasonal, focused on the Aug-Oct Madrid intake period. HouseCheck should not assume year-round staffing or flat monthly demand until a separate off-season revenue line is validated.
+Do not make Basic Digital Review, duplicate-image search, landlord background checks, ownership verification, AI risk scoring, contract review, or price analysis the core product. These may become later add-ons only after the visit model is validated.
 
-Pricing hypotheses to test:
-- Basic listing risk review: €29–€49
-- Exterior/address check: €59–€99
-- Viewing attendance: €99–€179
-- Full verification report: €149–€249
+The default operating posture for the MVP is seasonal and manual. HouseCheck should not assume year-round staffing, automated scheduling, or multi-verifier operations until pilot evidence supports it.
 
-## Cost structure (MVP, manual)
+## Cost structure
 
-- Verifier time and travel
+- Verifier travel time
+- Verifier viewing time
+- Admin coordination
 - QA / review time
 - Customer support
-- Payment processing
-- Tooling and infrastructure (kept minimal)
+- Insurance/legal/admin overhead
+- Minimal tooling
 
 ## Key assumptions to validate
 
-- Customers are willing to pay a one-off fee high enough to cover verifier cost + margin.
-- Verifiers can be recruited and trusted in Madrid.
-- Manual operations can deliver reports fast enough to be useful.
-- Users trust HouseCheck enough to pay before the product is fully automated.
-- Peak-season demand is strong enough to justify operating, even if off-season demand is thin.
-- Organic channels can acquire users at near-zero CAC.
+- Customers are willing to pay enough for one Remote Viewing Visit to cover verifier cost and admin time.
+- A trusted verifier can attend viewings safely and reliably in Madrid.
+- Landlords/agents/current occupants will allow a third-party verifier to join with a live client video call often enough to make the service useful.
+- The short post-visit summary is enough for clients to decide whether to continue.
+- Organic relocation, student, and expat channels can produce qualified pilot users.
 
-## Acquisition channels for MVP
+## First milestone
 
-- Madrid university international offices and Erasmus/student support teams.
-- Madrid expat, Erasmus, and relocation groups where posting rules allow useful participation.
-- No paid ads in the MVP unless unit economics prove CAC can stay below gross margin.
-
-The landing page converts referred users; it is not the acquisition strategy by itself.
+3-5 people moving to Madrid use a HouseCheck verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
 
 ## Out of scope for the business model in MVP
 
 - Holding deposits
 - Lease negotiation
 - Commissions from landlords
+- Property recommendations
+- Digital-only scam reports as the main product
 - Subscription / membership
 - Multi-city expansion
-
-## Revisit when
-
-After 10 paid pilots, reassess unit economics, pricing, and whether a marketplace model is justified.

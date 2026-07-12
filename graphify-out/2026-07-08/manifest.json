@@ -415,8 +415,8 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/scripts/adversarial-loop.sh": {
-    "mtime": 1783376404.053089,
-    "ast_hash": "23d4bfb6d1a56a99e81f084559a79d0f",
+    "mtime": 1783374801.0459585,
+    "ast_hash": "cff48bcd12bd8c15e5aa1c884cd1a87f",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/HOUSECHECK_AGENT_SETUP_GUIDE.md": {
@@ -435,8 +435,8 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/README.md": {
-    "mtime": 1783463829.7520409,
-    "ast_hash": "ba6f313a7834504099454337bb317e90",
+    "mtime": 1783374801.0199585,
+    "ast_hash": "450262803fd07cd7ca9cb602d7757ef1",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/.github/ISSUE_TEMPLATE/market-research.md": {
@@ -475,8 +475,8 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/.claude/agents/problem-solver.md": {
-    "mtime": 1783376438.8828642,
-    "ast_hash": "a692d485a1c8e2e86c1b54d89127dcd5",
+    "mtime": 1783296902.9911494,
+    "ast_hash": "3ba5bc067a67fba93fc088881ae42388",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/backlog/phase-1-issues.md": {
@@ -625,8 +625,8 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/risk-register.md": {
-    "mtime": 1783464057.4940453,
-    "ast_hash": "cc4fb9d2b9fbfcf7320533da1555d772",
+    "mtime": 1783375124.4542475,
+    "ast_hash": "fda327494c669511a6669674a0de0cc1",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/agent-operating-system.md": {
@@ -640,13 +640,13 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/business-model.md": {
-    "mtime": 1783464039.8709931,
-    "ast_hash": "6427f2834714748aec0f6c1b076e6f2e",
+    "mtime": 1783374801.0229585,
+    "ast_hash": "4aa079e5b6278126f271fd7847842217",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/decision-log.md": {
-    "mtime": 1783464094.8961437,
-    "ast_hash": "05689637837bd9946c59d177ce4cef6f",
+    "mtime": 1783375143.336148,
+    "ast_hash": "46fd53eda15e66de615849188ef6073e",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/product-principles.md": {
@@ -660,8 +660,8 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/mvp-scope.md": {
-    "mtime": 1783463826.852023,
-    "ast_hash": "c82c03de94e71caf8a2b24d003cad0c8",
+    "mtime": 1783375189.9429028,
+    "ast_hash": "d5c93c6a755661d7dbaa8c7ced68089b",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/legal-assumptions.md": {
@@ -680,8 +680,8 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/business/business-model.md": {
-    "mtime": 1783464040.537995,
-    "ast_hash": "0c51fbaaf490f66eb23e5d3ed7a66d65",
+    "mtime": 1783293337.0,
+    "ast_hash": "7e7c075a6bdaa2500a8e1fcd235e78d1",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/market-research/research-plan.md": {
@@ -695,8 +695,8 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/product/prd.md": {
-    "mtime": 1783464042.1910002,
-    "ast_hash": "b0b8fadc35b511a446e736efff3ddf2a",
+    "mtime": 1783293337.0,
+    "ast_hash": "05da7bcde1ab3145e5f61a1bce6ef768",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/product/user-stories.md": {
@@ -705,8 +705,8 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/product/landing-page-outline.md": {
-    "mtime": 1783464041.4379978,
-    "ast_hash": "1f5d101e4672b1162765db98a9eabd88",
+    "mtime": 1783374801.0239584,
+    "ast_hash": "fc76f8891f4b2270225e0cf19c2512dc",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/legal/landlord-data-lia-draft.md": {
@@ -740,63 +740,23 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/operations/request-lifecycle.md": {
-    "mtime": 1783463831.349051,
-    "ast_hash": "dee22fbf6a93d316a115cd19ccc9ddea",
+    "mtime": 1783375033.6007266,
+    "ast_hash": "e7d561128abea7055a0c291a946c998b",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/operations/verifier-checklist.md": {
-    "mtime": 1783464058.5200481,
-    "ast_hash": "04a0d92175b39a745ea352b3e5ff7d87",
+    "mtime": 1783293337.0,
+    "ast_hash": "1869db867fa0e21fef8398c80978aa80",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/operations/verifier-safety-sop.md": {
-    "mtime": 1783463827.701028,
-    "ast_hash": "d310908318edc91bc8126c9cf3880351",
+    "mtime": 1783374801.0239584,
+    "ast_hash": "b8f202acae61f13063ae9705146eb891",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/operations/verification-report-template.md": {
-    "mtime": 1783464039.1339908,
-    "ast_hash": "da54c1d12ae3b3d0f3886d1d350d3ec0",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/FOUNDER_DECISIONS.md": {
-    "mtime": 1783461767.2877934,
-    "ast_hash": "a67a30d132d0c4ca925b7d8bc2662493",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/ROADMAP.md": {
-    "mtime": 1783463830.1460435,
-    "ast_hash": "804cec23689298f124699dd1137e5ce6",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/NEXT_ACTIONS.md": {
-    "mtime": 1783463830.6080463,
-    "ast_hash": "1fa97a73c3d29de1832af3d1d26f03ef",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/web/landing.html": {
-    "mtime": 1783376517.0003645,
-    "ast_hash": "00b13c99df85e6d19bcf8083b28463f8",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/report-template.md": {
-    "mtime": 1783463828.8360353,
-    "ast_hash": "9c612391286ad59b3ece362d83a4859d",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/pilot-plan.md": {
-    "mtime": 1783463828.4190326,
-    "ast_hash": "2054045daec3707d7cb78dc923fe4453",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/remote-viewing-checklist.md": {
-    "mtime": 1783463828.0440304,
-    "ast_hash": "4b3b631d744b90f14b4fdda4e7973309",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/marketing/instagram-tiktok-strategy.md": {
-    "mtime": 1783376565.0470598,
-    "ast_hash": "fb2b8d37db867dcf7a031d7cb1cb948d",
+    "mtime": 1783374801.0239584,
+    "ast_hash": "3d01d0d0ba5ea0aa1e84bf29ca3b21c0",
     "semantic_hash": ""
   }
 }

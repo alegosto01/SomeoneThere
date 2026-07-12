@@ -2,17 +2,13 @@
 
 ## Initial business model
 
-Start with a simple per-verification fee paid by the tenant.
-
-Possible packages:
+Start with a simple per-visit fee paid by the tenant for one service: Remote Viewing Visit.
 
 | Package | Description | Possible price range |
 |---|---|---:|
-| Basic Check | Exterior/address/building verification | €25-€45 |
-| Viewing Check | Attend viewing, collect evidence, report | €60-€100 |
-| Premium Scam Check | Viewing plus enhanced red flag review | €100-€150 |
+| Remote Viewing Visit | Trusted local verifier attends a Madrid rental viewing while the client joins by video call | To validate after 3 dry runs |
 
-These prices are starting hypotheses, not validated numbers.
+These prices are starting hypotheses, not validated numbers. Set the first paid pilot price only after dry runs show real travel, viewing, admin, and QA time.
 
 ## Cost structure
 
@@ -20,28 +16,18 @@ Main costs:
 
 - Verifier payout
 - Transport time
-- Customer support
+- Admin coordination
+- QA / report review
 - Failed visits / no-shows
 - Payment processing
 - Insurance/legal/admin overhead
-- Marketing/customer acquisition
 
-## Marketplace unit economics hypothesis
+## Unit economics hypothesis
 
-For each order:
-
-```text
-Customer price - verifier payout - payment fees - support cost = gross margin
-```
-
-Example to validate:
+For each visit:
 
 ```text
-€79 customer price
-- €40 verifier payout
-- €3 payment fee
-- €8 support/admin cost
-= €28 gross contribution
+Customer price - verifier payout - payment fees - admin/QA cost = gross margin
 ```
 
 ## Best first channel hypotheses
@@ -50,26 +36,23 @@ Example to validate:
 - Madrid housing Facebook groups
 - Reddit relocation threads
 - University international student offices
-- TikTok/Instagram short scam-awareness content
 - Partnerships with relocation consultants
-- SEO: “is this Madrid rental a scam?”, “verify apartment Madrid”, “room viewing Madrid”
+- Personal network referrals
 
 ## Key risks
 
 - Demand may be urgent but irregular.
-- Users may want free advice, not paid verification.
-- Verifier quality control is hard.
-- Landlords/agents may refuse recording or third-party visits.
-- Legal wording must avoid guarantees.
-- Marketplace liquidity is hard before enough demand exists.
+- Users may ask a friend instead of paying.
+- Verifier safety and quality control are hard.
+- Landlords/agents may refuse video or third-party visits.
+- Legal wording must avoid guarantees and property recommendations.
 
 ## Suggested validation path
 
-1. Landing page with clear packages.
-2. Manual intake through Typeform/Tally/Google Form.
-3. WhatsApp-based coordination.
-4. Manual payments or Stripe payment link.
-5. First 10-20 real checks.
-6. Analyze willingness to pay, operations, and repeatable demand.
-7. Only then build software.
-
+1. Recruit 1 trusted verifier/helper.
+2. Run 3 dry runs.
+3. Build a simple landing page.
+4. Coordinate manually through WhatsApp/email.
+5. Run 3-5 pilot visits.
+6. Ask whether the service helped the client decide whether to continue.
+7. Only then build software, payments, scheduling, or more verifier workflows.

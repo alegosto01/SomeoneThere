@@ -1,16 +1,16 @@
-# Graph Report - HouseCheck  (2026-07-08)
+# Graph Report - HouseCheck  (2026-07-07)
 
 ## Corpus Check
-- 85 files · ~39,650 words
+- 78 files · ~33,888 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1343 nodes · 1359 edges · 140 communities (126 shown, 14 thin omitted)
+- 1235 nodes · 1247 edges · 133 communities (119 shown, 14 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `be2d5577`
+- Built from commit: `d454b067`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -145,25 +145,18 @@
 - [[_COMMUNITY_Community 128|Community 128]]
 - [[_COMMUNITY_Community 129|Community 129]]
 - [[_COMMUNITY_Community 130|Community 130]]
-- [[_COMMUNITY_Community 133|Community 133]]
-- [[_COMMUNITY_Community 134|Community 134]]
-- [[_COMMUNITY_Community 135|Community 135]]
-- [[_COMMUNITY_Community 136|Community 136]]
-- [[_COMMUNITY_Community 137|Community 137]]
-- [[_COMMUNITY_Community 138|Community 138]]
-- [[_COMMUNITY_Community 139|Community 139]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `HouseCheck MVP Scope` - 20 edges
-2. `HouseCheck` - 15 edges
-3. `validate()` - 14 edges
-4. `validate()` - 14 edges
-5. `compress_file()` - 13 edges
-6. `HouseCheck Product Principles` - 13 edges
-7. `Product Requirements Document - HouseCheck MVP` - 13 edges
-8. `Verifier Safety SOP Draft` - 13 edges
-9. `Remote Viewing Visit Summary Template` - 12 edges
-10. `HouseCheck Business Model` - 12 edges
+1. `validate()` - 14 edges
+2. `validate()` - 14 edges
+3. `compress_file()` - 13 edges
+4. `HouseCheck Product Principles` - 13 edges
+5. `HouseCheck` - 12 edges
+6. `compress_file()` - 12 edges
+7. `HouseCheck` - 12 edges
+8. `HouseCheck agent instructions` - 11 edges
+9. `Verification Report Template` - 11 edges
+10. `HouseCheck agent instructions` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `compress_file()` --calls--> `validate()`  [EXTRACTED]
@@ -177,19 +170,19 @@
 - `main()` --calls--> `should_compress()`  [EXTRACTED]
   .agents/skills/caveman-compress/scripts/cli.py → .agents/skills/caveman-compress/scripts/detect.py
 
-## Communities (140 total, 14 thin omitted)
+## Communities (133 total, 14 thin omitted)
 
 ### Community 0 - "HOUSECHECK_AGENT_SETUP_GUIDE.md"
 Cohesion: 0.05
 Nodes (38): 0. Instructions to GLM 5.2, 10. Optional Codex GitHub workflow template, 11. Update README, 12. Validation commands, 13. Final response GLM should give Alessandro, 14. First Claude Code command Alessandro should run, 15. First Codex command Alessandro should run, 16. Important principle (+30 more)
 
 ### Community 1 - "compress.py"
-Cohesion: 0.13
+Cohesion: 0.12
 Nodes (26): main(), print_usage(), backup_dir_for(), build_compress_prompt(), build_fix_prompt(), call_claude(), compress_file(), is_sensitive_path() (+18 more)
 
 ### Community 2 - "validate.py"
 Cohesion: 0.16
-Nodes (22): benchmark_pair(), count_tokens(), main(), print_table(), Path, count_bullets(), extract_code_blocks(), extract_headings() (+14 more)
+Nodes (21): benchmark_pair(), count_tokens(), main(), print_table(), count_bullets(), extract_code_blocks(), extract_headings(), extract_inline_codes() (+13 more)
 
 ### Community 3 - "README.md"
 Cohesion: 0.09
@@ -216,8 +209,8 @@ Cohesion: 0.15
 Nodes (11): cavecrew, Example chaining, How to invoke, See also, What it does, Auto-clarity (inherited), Chaining patterns, Output contracts (+3 more)
 
 ### Community 9 - "HouseCheck MVP Scope"
-Cohesion: 0.08
-Nodes (24): 1. Basic listing risk review, 2. Exterior/address verification, 3. Permission-first viewing attendance, 4. Verification report, Core MVP package, Core MVP promise, Deprioritized for MVP, First pilot success metric (+16 more)
+Cohesion: 0.13
+Nodes (13): 1. Basic listing risk review, 2. Exterior/address verification, 3. Permission-first viewing attendance, 4. Verification report, Core MVP promise, HouseCheck MVP Scope, MVP goal, MVP services (+5 more)
 
 ### Community 10 - "HouseCheck"
 Cohesion: 0.15
@@ -280,8 +273,8 @@ Cohesion: 0.20
 Nodes (9): Implementation tasks, MVP-safe path, Problem Solver Response, Problem: <title>, Recommended changes to repo docs, Risk-by-risk mitigation plan, Rules, Summary (+1 more)
 
 ### Community 25 - "HouseCheck Business Model"
-Cohesion: 0.15
-Nodes (11): Acquisition channels for MVP, Cost structure, Cost structure (MVP, manual), Customer segments, First milestone, HouseCheck Business Model, Key assumptions to validate, Out of scope for the business model in MVP (+3 more)
+Cohesion: 0.18
+Nodes (9): Acquisition channels for MVP, Cost structure (MVP, manual), Customer segments, HouseCheck Business Model, Key assumptions to validate, Out of scope for the business model in MVP, Revenue model, Revisit when (+1 more)
 
 ### Community 26 - "Landing Page Outline"
 Cohesion: 0.20
@@ -393,11 +386,11 @@ Nodes (3): adversarial-loop.sh script, run_role(), adversarial-loop.sh script
 
 ### Community 61 - "Community 61"
 Cohesion: 0.12
-Nodes (30): bool, str, bool, Path, str, main(), print_usage(), backup_dir_for() (+22 more)
+Nodes (30): bool, Path, str, bool, str, main(), print_usage(), backup_dir_for() (+22 more)
 
 ### Community 62 - "Community 62"
-Cohesion: 0.16
-Nodes (21): str, benchmark_pair(), count_tokens(), main(), print_table(), count_bullets(), extract_code_blocks(), extract_headings() (+13 more)
+Cohesion: 0.15
+Nodes (22): Path, str, benchmark_pair(), count_tokens(), main(), print_table(), count_bullets(), extract_code_blocks() (+14 more)
 
 ### Community 63 - "Community 63"
 Cohesion: 0.10
@@ -416,12 +409,12 @@ Cohesion: 0.11
 Nodes (18): 8.1 Full loop prompt, 8.2 Problem finder run, 8.3 Problem solver run, 8.4 Decision judge run, 8. Create Claude run prompts, code:bash (mkdir -p prompts/claude), code:text (prompts/claude/full-agent-loop.md), code:`md (# Full Claude Agent Loop) (+10 more)
 
 ### Community 67 - "Community 67"
-Cohesion: 0.10
-Nodes (23): Address and building check, code:text (Write 3-5 sentences explaining what the verifier saw on the ), code:text (Evidence in this report was collected by the assigned verifi), code:text (Explain what the user should do next. Avoid legal guarantees), Confidence level, Disclaimer, Evidence attached, Evidence collected (+15 more)
+Cohesion: 0.13
+Nodes (14): Address and building check, code:text (Write 3-5 sentences explaining what was checked, what matche), code:text (Evidence in this report was collected by the assigned verifi), code:text (Explain what the user should do next. Avoid legal guarantees), Disclaimer, Evidence attached, Final notes for user, Interior / viewing check (+6 more)
 
 ### Community 68 - "Community 68"
 Cohesion: 0.13
-Nodes (17): Admin side, Basic Check, Core MVP feature, Core MVP features, MVP non-goals, MVP solution, Premium Scam Check, Problem (+9 more)
+Nodes (14): Admin side, Basic Check, Core MVP features, MVP non-goals, MVP solution, Premium Scam Check, Problem, Product Requirements Document — HouseCheck MVP (+6 more)
 
 ### Community 69 - "Community 69"
 Cohesion: 0.13
@@ -432,8 +425,8 @@ Cohesion: 0.14
 Nodes (14): 7.1 Implementation task prompt, 7.2 Risk review prompt, 7.3 Refactor task prompt, 7.4 Docs update prompt, 7. Create Codex prompts, code:bash (mkdir -p prompts/codex), code:text (prompts/codex/implementation-task.md), code:md (# Codex Implementation Task Prompt) (+6 more)
 
 ### Community 71 - "Community 71"
-Cohesion: 0.12
-Nodes (16): Agent workflow, code:text (HouseCheck/), Current status, First milestone, HouseCheck, Important files, Initial positioning, Key hypothesis (+8 more)
+Cohesion: 0.14
+Nodes (13): Agent workflow, code:text (HouseCheck/), Current status, First milestone, HouseCheck, Initial positioning, Key hypothesis, Legal assumptions (+5 more)
 
 ### Community 72 - "Community 72"
 Cohesion: 0.17
@@ -456,12 +449,12 @@ Cohesion: 0.18
 Nodes (10): code:text (experiments/current/basic_5_giant_model/apply_to_live_collec), code:bash (sed -n '300,470p' experiments/current/basic_5_giant_model/ap), code:bash (/home/ale/miniconda3/envs/vinted_scraper/bin/python experime), code:bash (/home/ale/miniconda3/envs/vinted_scraper/bin/python -m unitt), code:bash (graphify update . --force), Current Policy, Finish With Verification, Rules (+2 more)
 
 ### Community 77 - "Community 77"
-Cohesion: 0.15
-Nodes (15): Anti-abuse rules, Anti-abuse rules (intake gate), Assignment rule, code:text (submitted -> screened -> accepted -> assigned -> visit_sched), Delivery, Delivery channel, Intake - required fields, Package → SLA → Artifact mapping (+7 more)
+Cohesion: 0.18
+Nodes (10): Anti-abuse rules (intake gate), Assignment rule, code:block1 (submitted → screened → accepted → assigned → in_progress → q), Delivery channel, Intake — required fields, Package → SLA → Artifact mapping, QA gate, Request statuses (finite list) (+2 more)
 
 ### Community 78 - "Community 78"
-Cohesion: 0.14
-Nodes (13): Abort rules, Before accepting a job, Check-in cadence, During the viewing, Emergency escalation, Exterior checks, Insurance to confirm, Interior or viewing attendance (+5 more)
+Cohesion: 0.18
+Nodes (10): Abort rules, Before accepting a job, Check-in cadence, Emergency escalation, Exterior checks, Insurance to confirm, Interior or viewing attendance, Launch gate (+2 more)
 
 ### Community 79 - "Community 79"
 Cohesion: 0.18
@@ -480,8 +473,8 @@ Cohesion: 0.20
 Nodes (9): Decision Judge Review, Decision: <title>, Decisions, Features to avoid for now, Legal-review checklist, MVP-safe path, Questions for Alessandro, Summary (+1 more)
 
 ### Community 83 - "Community 83"
-Cohesion: 0.18
-Nodes (10): Founder decision queue (mandatory), Implementation tasks, MVP-safe path, Problem Solver Response, Problem: <title>, Recommended changes to repo docs, Risk-by-risk mitigation plan, Rules (+2 more)
+Cohesion: 0.20
+Nodes (9): Implementation tasks, MVP-safe path, Problem Solver Response, Problem: <title>, Recommended changes to repo docs, Risk-by-risk mitigation plan, Rules, Summary (+1 more)
 
 ### Community 84 - "Community 84"
 Cohesion: 0.20
@@ -493,11 +486,11 @@ Nodes (9): Caveman Help, code:bash (export CAVEMAN_DEFAULT_MODE=ultra), code:jso
 
 ### Community 86 - "Community 86"
 Cohesion: 0.20
-Nodes (10): Best first channel hypotheses, Business Model, code:text (Customer price - verifier payout - payment fees - admin/QA c), code:text (€79 customer price), Cost structure, Initial business model, Key risks, Marketplace unit economics hypothesis (+2 more)
+Nodes (9): Best first channel hypotheses, Business Model, code:text (Customer price - verifier payout - payment fees - support co), code:text (€79 customer price), Cost structure, Initial business model, Key risks, Marketplace unit economics hypothesis (+1 more)
 
 ### Community 87 - "Community 87"
-Cohesion: 0.17
-Nodes (11): Call to action, Hero, How it works, Landing Page Outline, MVP package, Not included, Packages, Problem (+3 more)
+Cohesion: 0.20
+Nodes (9): Call to action, Hero, How it works, Landing Page Outline, Packages, Problem, Solution, Trust message (+1 more)
 
 ### Community 88 - "Community 88"
 Cohesion: 0.22
@@ -643,36 +636,8 @@ Nodes (3): 13. Final response GLM should give Alessandro, code:`md (## HouseChec
 Cohesion: 0.67
 Nodes (3): 3. Create shared Codex instructions, code:text (AGENTS.md), code:md (# HouseCheck agent instructions)
 
-### Community 133 - "Community 133"
-Cohesion: 0.12
-Nodes (16): 1. What actually works for this audience, 2. Recommended AI tooling (best-in-class, as of 2026), 3. The realistic, low-cost automation stack (recommended for pilot), 4. Compliance & safety rules for social, 5. Account setup checklist, 6. Honest expectations, 7. What I would build next (if you approve), Analytics & listening (+8 more)
-
-### Community 134 - "Community 134"
-Cohesion: 0.14
-Nodes (13): code:text (Write 3-5 sentences explaining what the verifier saw on the ), Confidence level, Disclaimer, Evidence collected, Factual questions and answers, Listing match, Live viewing observations, Remote Viewing Visit Summary Template (+5 more)
-
-### Community 135 - "Community 135"
-Cohesion: 0.22
-Nodes (8): Dry runs, First milestone, Pilot objective, Pilot users, Remote Viewing Pilot Plan, Sequence, Success criteria, What not to validate yet
-
-### Community 136 - "Community 136"
-Cohesion: 0.22
-Nodes (8): After the visit, Arrival, Before the visit, Listing match, Permission, Questions to ask, Remote Viewing Visit Checklist, Risk indicators to note
-
-### Community 137 - "Community 137"
-Cohesion: 0.25
-Nodes (7): 🔴 BLOCKING — pilot cannot launch until decided, D4. Stripe / payment processor contingency (R028), Founder Decisions Required, How to use this file, Resolved decisions (moved to `docs/decision-log.md`), 📋 Standing items (no decision needed, just awareness), 🟡 STRATEGIC — decide before scaling, not before pilot
-
-### Community 138 - "Community 138"
-Cohesion: 0.33
-Nodes (5): HouseCheck Roadmap, Later add-ons, Later: operations and payments, Next: simple request workflow, Now: Remote Viewing Visit pilot
-
-### Community 139 - "Community 139"
-Cohesion: 0.40
-Nodes (4): Before first paid pilot, First pilot milestone, Immediate, Next Actions
-
 ## Knowledge Gaps
-- **849 isolated node(s):** `PreToolUse`, `str`, `PreToolUse`, `HouseCheck Agent Setup Guide for GLM 5.2`, `0. Instructions to GLM 5.2` (+844 more)
+- **778 isolated node(s):** `PreToolUse`, `str`, `PreToolUse`, `HouseCheck Agent Setup Guide for GLM 5.2`, `0. Instructions to GLM 5.2` (+773 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -681,15 +646,15 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `8. Create Claude run prompts` connect `Community 66` to `Community 69`?**
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
-- **Why does `validate()` connect `Community 62` to `validate.py`, `Community 61`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **Why does `5. Create Claude subagents` connect `Community 80` to `Community 69`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
+- **Why does `validate()` connect `Community 62` to `validate.py`, `Community 61`?**
+  _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **What connects `PreToolUse`, `Check if a line looks like code.`, `Check if content is valid JSON.` to the rest of the system?**
-  _873 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _802 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `HOUSECHECK_AGENT_SETUP_GUIDE.md` be split into smaller, more focused modules?**
   _Cohesion score 0.05128205128205128 - nodes in this community are weakly interconnected._
 - **Should `compress.py` be split into smaller, more focused modules?**
-  _Cohesion score 0.12643678160919541 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.12413793103448276 - nodes in this community are weakly interconnected._
 - **Should `README.md` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._

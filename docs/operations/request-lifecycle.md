@@ -1,81 +1,75 @@
-# Verification Request Lifecycle
+# Remote Viewing Request Lifecycle
 
-> Single source of truth for how a request flows from intake to delivery.
-> Reconciles `docs/mvp-scope.md`, `docs/tech/architecture.md`, and `docs/operations/verification-report-template.md` to one contract.
-> If any other doc conflicts with this one, **this one wins** for operational purposes.
+> Single source of truth for how the MVP request flows from intake to delivery.
+> If any other doc conflicts with this one, this one wins for operational purposes.
 
-## Intake — required fields
+## Intake - required fields
 
 Every request must collect:
 
 - Requester name
-- Requester email (verified — confirmation link)
-- Requester phone (optional but recommended)
-- Listing URL (or screenshots if the listing was deleted)
-- Claimed address (street, number, city, neighborhood)
-- Claimed price and deposit requested
-- Landlord/agent contact details (if available)
-- Package type: `basic` | `exterior` | `viewing` | `premium`
-- Urgency note (free text; does not change SLA)
-- **Requester attestation** (required): "I confirm I have a genuine rental interest in this listing and the information provided is accurate to the best of my knowledge."
-- Concerns / specific questions (free text)
+- Requester email
+- Requester phone
+- Listing URL or screenshots
+- Claimed address
+- Viewing date/time, if already arranged
+- Video-call preference: WhatsApp / Google Meet / Zoom
+- Landlord/agent contact details, if available
+- Concerns or specific questions
+- Requester attestation: "I confirm I have a genuine rental interest in this listing and the information provided is accurate to the best of my knowledge."
 
-## Anti-abuse rules (intake gate)
+## Anti-abuse rules
 
 Before a request is accepted:
 
-1. **Requester attestation** must be checked (genuine rental interest).
-2. **Address dedupe**: only one active request per claimed address. If a duplicate arrives, flag for manual admin review before assignment — do not auto-dispatch a second verifier to the same address.
-3. **No automatic landlord contact**: HouseCheck does not proactively contact the landlord/agent in the MVP. If the verifier interacts with anyone on-site, it is incidental and covered by the Spanish landlord notice.
-4. **Manual screening**: for the pilot (≤10 requests), the admin reviews every intake for plausibility before accepting.
+1. The requester attestation must be checked.
+2. The admin screens the request manually for plausibility.
+3. HouseCheck does not proactively contact or pressure a landlord/agent in the MVP.
+4. Only one active request per claimed address is allowed unless the admin approves an exception.
 
-## Package → SLA → Artifact mapping
+## Service mapping
 
-| Package | Type | SLA target | Artifact | Delivery channel |
-|---|---|---|---|---|
-| Basic listing review | Digital only | < 4 hours | Text report (no field photos) | Email (tracked) |
-| Exterior/address check | Field (daylight) | Next business day | Report + exterior photos | Email (tracked) |
-| Viewing attendance | Field (interior) | **BLOCKED** until SOP + insurance signed off | — | — |
-| Premium scam check | Field (interior) | **BLOCKED** until SOP + insurance signed off | — | — |
+| Package | Type | Artifact | Delivery channel |
+|---|---|---|---|
+| Remote Viewing Visit | Field visit + live video call | Short post-visit verification report | Email or shared document |
 
-## SLA clock
+Digital-only review, exterior-only checks, premium reports, AI scoring, ownership checks, and contract review are not MVP packages.
 
-- The SLA clock **starts** when the admin accepts the request (status → `accepted`), not when the user submits.
-- The clock **pauses** if waiting on the requester for missing info.
-- The clock **does not apply** to blocked packages.
+## Request statuses
 
-## Request statuses (finite list)
-
-```
-submitted → screened → accepted → assigned → in_progress → qa_review → delivered → closed
-                 ↓                                          ↓
-             rejected                                  aborted
+```text
+submitted -> screened -> accepted -> assigned -> visit_scheduled -> in_progress -> summary_drafted -> qa_review -> delivered -> closed
+                 |                                      |
+             rejected                                aborted
 ```
 
-- `submitted`: intake form received, not yet reviewed.
+- `submitted`: intake received.
 - `screened`: admin anti-abuse check passed.
-- `accepted`: admin committed to delivering; SLA clock starts.
-- `assigned`: verifier assigned (field packages) or reviewer assigned (basic).
-- `in_progress`: work underway.
-- `qa_review`: report drafted, waiting QA check (every report is QA-reviewed before delivery).
-- `delivered`: report sent to requester via tracked email; SLA clock stops.
-- `closed`: payment reconciled, retention timer started.
-- `rejected`: failed anti-abuse screen or out of scope.
-- `aborted`: verifier aborted for safety or access; partial report may still be delivered.
-
-## Assignment rule
-
-- **Basic**: assigned to a reviewer (can be remote; no field visit).
-- **Exterior/Viewing/Premium**: assigned to a verifier who has signed the safety SOP and for whom insurance is confirmed (when required).
+- `accepted`: admin agrees the request fits the MVP.
+- `assigned`: trusted verifier assigned.
+- `visit_scheduled`: viewing time and video call confirmed.
+- `in_progress`: verifier is traveling, on site, or completing the visit.
+- `summary_drafted`: post-visit summary drafted.
+- `qa_review`: summary checked before delivery.
+- `delivered`: summary sent to client.
+- `closed`: request closed and retention timer started.
+- `rejected`: failed screening or out of scope.
+- `aborted`: verifier aborted for safety, permission, or access reasons.
 
 ## QA gate
 
-- No report is delivered without a QA pass.
-- QA checks: hedged language compliance, no defamatory terms, landlord pseudonymized, evidence provenance statement present, "what could not be checked" section filled.
-- QA reviewer should not be the same person who wrote the report (round 2 Risk 3).
+No summary is delivered without a QA pass.
 
-## Delivery channel
+QA checks:
 
-- MVP: tracked email (delivery receipt or signed link).
-- The report PDF + evidence links are attached/linked.
-- Delivery timestamp is logged for chargeback defense (R014).
+- no guarantee language
+- no defamatory language
+- no legal advice
+- no recommendation whether to rent
+- permission limitations recorded
+- what could not be checked is clear
+- risk indicators and unresolved concerns are factual
+
+## Delivery
+
+The MVP delivery artifact is a short post-visit verification report. It should say what the verifier observed, what matched the listing, what did not match, what could not be checked, risk indicators, confidence level, and unresolved concerns.
