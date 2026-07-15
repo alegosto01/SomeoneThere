@@ -1,5 +1,11 @@
 # Landing Page Outline
 
+> **Related planning drafts (first drafts, easily changed):**
+> [`web-plan.md`](web-plan.md) (full web spec + intake + compliance gate),
+> [`app-plan.md`](app-plan.md) (one role-gated app: client + verifier),
+> [`wireframes.md`](wireframes.md) (low-fi wireframes + component inventory).
+> This outline is the copy base those build on.
+
 ## Hero
 
 Visit a Madrid rental remotely before sending a deposit.
