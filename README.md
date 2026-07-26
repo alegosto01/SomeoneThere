@@ -72,9 +72,12 @@ HouseCheck/
 │   ├── legal/
 │   └── tech/
 ├── backlog/
+├── web/
 └── .github/
     └── ISSUE_TEMPLATE/
 ```
+
+`web/` contains the landing page used for MVP validation (Vite + React + TypeScript, no backend). See `web/README.md`.
 
 ## Important files
 
