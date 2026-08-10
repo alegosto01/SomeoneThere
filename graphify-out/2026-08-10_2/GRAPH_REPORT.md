@@ -1,16 +1,16 @@
 # Graph Report - HouseCheck  (2026-08-10)
 
 ## Corpus Check
-- 180 files · ~191,283 words
+- 175 files · ~179,059 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 3571 nodes · 3673 edges · 329 communities (308 shown, 21 thin omitted)
+- 3491 nodes · 3598 edges · 322 communities (301 shown, 21 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5b823242`
+- Built from commit: `16529a7b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -333,13 +333,6 @@
 - [[_COMMUNITY_Community 319|Community 319]]
 - [[_COMMUNITY_Community 320|Community 320]]
 - [[_COMMUNITY_Community 321|Community 321]]
-- [[_COMMUNITY_Community 322|Community 322]]
-- [[_COMMUNITY_Community 323|Community 323]]
-- [[_COMMUNITY_Community 324|Community 324]]
-- [[_COMMUNITY_Community 325|Community 325]]
-- [[_COMMUNITY_Community 326|Community 326]]
-- [[_COMMUNITY_Community 327|Community 327]]
-- [[_COMMUNITY_Community 328|Community 328]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Skill: FNF SDK` - 21 edges
@@ -365,7 +358,7 @@
 - `main()` --calls--> `should_compress()`  [EXTRACTED]
   .agents/skills/caveman-compress/scripts/cli.py → .agents/skills/caveman-compress/scripts/detect.py
 
-## Communities (329 total, 21 thin omitted)
+## Communities (322 total, 21 thin omitted)
 
 ### Community 0 - "HOUSECHECK_AGENT_SETUP_GUIDE.md"
 Cohesion: 0.05
@@ -824,8 +817,8 @@ Cohesion: 0.67
 Nodes (3): 12. Validation commands, code:bash (find .claude -type f | sort), code:bash (npm run lint)
 
 ### Community 128 - "Community 128"
-Cohesion: 0.06
-Nodes (35): A01: Broken Access Control, A02: Cryptographic Failures, A03: Injection, A04: Insecure Design, A05: Security Misconfiguration, A06: Vulnerable Components, A07: Authentication Failures, A08: Data Integrity Failures (+27 more)
+Cohesion: 0.13
+Nodes (15): A01: Broken Access Control, A02: Cryptographic Failures, A03: Injection, A04: Insecure Design, A05: Security Misconfiguration, A06: Vulnerable Components, A07: Authentication Failures, A08: Data Integrity Failures (+7 more)
 
 ### Community 129 - "Community 129"
 Cohesion: 0.06
@@ -893,7 +886,7 @@ Nodes (23): 1. Generate bespoke AI assets — this is our biggest edge, 2. Signa
 
 ### Community 148 - "Community 148"
 Cohesion: 0.09
-Nodes (22): 10. No Secrets in React Props, 11. Cookie Security, 12. CORS Only When Needed, 1. No Global Mutable State, 3. No Hardcoded Secrets, 4. Timing-Safe Secret Comparison, 6. Handle Every Promise, 7. No `passThroughOnException()` (+14 more)
+Nodes (22): 10. No Secrets in React Props, 11. Cookie Security, 1. No Global Mutable State, 2. Cryptographic Randomness Only, 3. No Hardcoded Secrets, 4. Timing-Safe Secret Comparison, 5. Stream Large Payloads, 6. Handle Every Promise (+14 more)
 
 ### Community 149 - "Community 149"
 Cohesion: 0.10
@@ -984,8 +977,8 @@ Cohesion: 0.14
 Nodes (13): code:bash (higgsfield workflow list), code:bash (higgsfield generate workflow draw_to_video \), code:bash (higgsfield generate workflow reframe \), code:bash (higgsfield generate cost workflow draw_to_video --duration 8), code:bash (higgsfield generate get <job_id>), Cost, Create jobs, Discover workflows (+5 more)
 
 ### Community 171 - "Community 171"
-Cohesion: 0.14
-Nodes (14): Asset Classification, Auth Routes → Public Routes (access control boundary), Browser → Worker (untrusted → trusted), code:ts (// Check app.manifest.json), code:block6 (## Threat Model Summary), Detection, Output, Pitfalls (+6 more)
+Cohesion: 0.06
+Nodes (35): 1. IDOR via Predictable Resource IDs, 2. Server Function Input Manipulation, 3. Test Data Contamination (Live D1), 4. Privilege Escalation via Client State, 5. SSRF via Server Function, 6. Webhook Replay / Forgery, Anonymous Internet User, API Routes (`app/src/routes/api/**`) (+27 more)
 
 ### Community 172 - "Community 172"
 Cohesion: 0.15
@@ -1156,12 +1149,12 @@ Cohesion: 0.22
 Nodes (9): Action for HouseCheck, Confidence, Description, Evidence available now, Evidence still needed, Example user interpretation, F2. Strong emotional pain, Risks connected to this strength (+1 more)
 
 ### Community 214 - "Community 214"
-Cohesion: 0.20
-Nodes (10): 5. Fortalezas / Strengths, Action for HouseCheck, Confidence, Description, Evidence available now, Evidence still needed, Example MVP workflow, F3. Manual MVP is possible (+2 more)
+Cohesion: 0.22
+Nodes (9): Action for HouseCheck, Confidence, Description, Evidence available now, Evidence still needed, Example MVP workflow, F3. Manual MVP is possible, Risks connected to this strength (+1 more)
 
 ### Community 215 - "Community 215"
-Cohesion: 0.22
-Nodes (9): Action for HouseCheck, Confidence, Description, Evidence available now, Evidence still needed, Example positioning, F4. Madrid-first focus, Risks connected to this strength (+1 more)
+Cohesion: 0.20
+Nodes (10): 5. Fortalezas / Strengths, Action for HouseCheck, Confidence, Description, Evidence available now, Evidence still needed, Example positioning, F4. Madrid-first focus (+2 more)
 
 ### Community 216 - "Community 216"
 Cohesion: 0.22
@@ -1329,7 +1322,7 @@ Nodes (5): Anti-Patterns to Flag, Pitfalls, Security, When to Load, Worker harde
 
 ### Community 257 - "Community 257"
 Cohesion: 0.08
-Nodes (24): 0. Instructions to GLM 5.2, 11. Update README, 12. Validation commands, 13. Final response GLM should give Alessandro, 14. First Claude Code command Alessandro should run, 15. First Codex command Alessandro should run, 16. Important principle, 1. Safety rules for GLM (+16 more)
+Nodes (24): 0. Instructions to GLM 5.2, 11. Update README, 12. Validation commands, 14. First Claude Code command Alessandro should run, 15. First Codex command Alessandro should run, 16. Important principle, 1. Safety rules for GLM, 2. Expected repository structure (+16 more)
 
 ### Community 258 - "Community 258"
 Cohesion: 0.33
@@ -1384,8 +1377,8 @@ Cohesion: 0.50
 Nodes (4): 1.A Dial Inference (design read → dial values), 1.B Use-Case Presets, 1.C How the Dials Drive Output, 1. THE THREE DIALS (Core Configuration)
 
 ### Community 271 - "Community 271"
-Cohesion: 0.12
-Nodes (17): 6.2 Risk register, 6.3 Decision log, 6.4 MVP scope, 6.5 Legal assumptions, 6.6 Legal questions for lawyer, 6. Create core project docs, code:bash (mkdir -p docs), code:text (docs/risk-register.md) (+9 more)
+Cohesion: 0.10
+Nodes (21): 6.1 Agent operating system, 6.2 Risk register, 6.3 Decision log, 6.4 MVP scope, 6.5 Legal assumptions, 6.6 Legal questions for lawyer, 6. Create core project docs, code:bash (mkdir -p docs) (+13 more)
 
 ### Community 277 - "Community 277"
 Cohesion: 0.67
@@ -1408,8 +1401,8 @@ Cohesion: 0.18
 Nodes (11): 9.1 Risk issue template, 9.2 Feature issue template, 9.3 Validation experiment issue template, 9. Create GitHub issue templates, code:bash (mkdir -p .github/ISSUE_TEMPLATE), code:text (.github/ISSUE_TEMPLATE/risk.md), code:md (---), code:text (.github/ISSUE_TEMPLATE/feature.md) (+3 more)
 
 ### Community 283 - "Community 283"
-Cohesion: 0.08
-Nodes (24): A1 — Client: request status tracker, A2 — Verifier: permission gate (hard block), A3 — Verifier: live listing-match checklist, A4 — Client: report view (private), APP (one app, role-gated — see `app-plan.md`), code:block1 (┌──────────────────────────────────────────────────────────┐), code:block2 (How it works), code:block3 (┌── What's included ──────────┐  ┌── Not included ──────────) (+16 more)
+Cohesion: 0.18
+Nodes (11): code:ts (// BAD -- falls back to a default secret instead of crashing), code:block28 (## Security Audit Results), Dangerous Zero/Null/Empty Defaults, Fail-Open Patterns, Insecure Defaults Check, Output Format, Pitfalls, Precedent Rules (+3 more)
 
 ### Community 284 - "Community 284"
 Cohesion: 0.20
@@ -1540,8 +1533,8 @@ Cohesion: 0.22
 Nodes (9): Confidence, D6. Dependence on landlord/agent cooperation, Description, Evidence available now, Evidence still needed, Mitigation actions, Possible refusal reasons, Priority (+1 more)
 
 ### Community 316 - "Community 316"
-Cohesion: 0.09
-Nodes (21): 10. Experimental Timeline (Mermaid Gantt), 11. Summary and Deployment Considerations, 1. Data Assessment and Preprocessing, 2. Multimodal Feature Engineering, 3. Candidate Multimodal Architectures, 4. Pretrained Backbones and Encoders, 5. Training Strategy, 6. Evaluation Metrics and Validation (+13 more)
+Cohesion: 0.22
+Nodes (9): Client-Side State, code:ts (// FAIL -- unsanitized user content), code:ts (// FAIL -- javascript: protocol injection), code:ts (// FAIL -- no sandbox), `dangerouslySetInnerHTML`, `eval()` / `new Function()`, `href` with User Input, `<iframe>` with User Input (+1 more)
 
 ### Community 317 - "Community 317"
 Cohesion: 0.25
@@ -1552,53 +1545,25 @@ Cohesion: 0.50
 Nodes (4): 10. Optional Codex GitHub workflow template, code:bash (mkdir -p .github/workflows), code:text (.github/workflows/codex-risk-review.yml.disabled), code:yml (# Disabled template.)
 
 ### Community 319 - "Community 319"
-Cohesion: 0.15
-Nodes (12): code:text (site:facebook.com/groups "Madrid International Students"), code:text ("Join group" "About this group" "Visible" "Only members can ), code:mermaid (gantt), Deep research sui gruppi Facebook per studenti internazionali diretti a Madrid, Metodo di ricerca e filtri, Piano operativo e template di outreach, Reach stimata e criteri di priorità, Regole, limiti legali ed etici (+4 more)
-
-### Community 320 - "Community 320"
-Cohesion: 0.18
-Nodes (10): App Plan — one role-gated SomeoneThere app (first draft), Client role — flows, Concept, Data-model + state map (stack-agnostic; from `architecture.md` entities), Deliberately out of scope for this draft, ⚠ Flagged conflict — do NOT design in, resolve separately, Screen inventory, Shared shell (both roles) (+2 more)
-
-### Community 321 - "Community 321"
-Cohesion: 0.18
-Nodes (11): 1. IDOR via Predictable Resource IDs, 2. Server Function Input Manipulation, 3. Test Data Contamination (Live D1), 4. Privilege Escalation via Client State, 5. SSRF via Server Function, 6. Webhook Replay / Forgery, code:ts (// VULNERABLE), code:ts (import { z } from 'zod';) (+3 more)
-
-### Community 322 - "Community 322"
-Cohesion: 0.22
-Nodes (8): Allowed / forbidden copy (reuse of principle §7 — apply to every future edit), Compliance gate (maps `front-door-compliance-checklist.md` → where this page satisfies it), Deliberately out of scope for this draft, Information architecture (top → bottom), Intake form spec (`#start`), Scope of the web surface (MVP), Sources this is built from, Web Plan — SomeoneThere landing + intake (first draft)
-
-### Community 323 - "Community 323"
-Cohesion: 0.33
-Nodes (6): API Routes (`app/src/routes/api/**`), Entry Point Inventory, File Upload Surfaces, Page Routes (`app/src/routes/**`), Server Functions (`createServerFn`), Webhook/Callback Endpoints
-
-### Community 324 - "Community 324"
-Cohesion: 0.50
-Nodes (4): 6.1 Agent operating system, code:text (docs/agent-operating-system.md), code:md (# SomeoneThere Agent Operating System), code:block16
-
-### Community 325 - "Community 325"
-Cohesion: 0.50
-Nodes (4): Anonymous Internet User, Attacker Model, Authenticated User, What Attackers CANNOT Do
-
-### Community 326 - "Community 326"
 Cohesion: 0.67
-Nodes (3): 3. Create shared Codex instructions, code:text (AGENTS.md), code:md (# SomeoneThere agent instructions)
+Nodes (3): 13. Final response GLM should give Alessandro, code:`md (## SomeoneThere agent setup complete), code:block63
 
 ## Knowledge Gaps
-- **2285 isolated node(s):** `version`, `source`, `sourceType`, `skillPath`, `computedHash` (+2280 more)
+- **2235 isolated node(s):** `version`, `source`, `sourceType`, `skillPath`, `computedHash` (+2230 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **21 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `6. Debilidades / Weaknesses` connect `Community 285` to `Community 314`, `Community 304`, `Community 305`, `Community 311`, `Community 312`, `Community 313`, `Community 186`, `Community 315`?**
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+- **Why does `8. Amenazas / Threats` connect `Community 203` to `Community 204`, `Community 205`, `Community 206`, `Community 207`, `Community 208`, `Community 145`, `Community 209`, `Community 210`?**
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Why does `5. Fortalezas / Strengths` connect `Community 284` to `Community 297`, `Community 298`, `Community 299`, `Community 300`, `Community 301`, `Community 302`, `Community 303`, `Community 186`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **Why does `6. Debilidades / Weaknesses` connect `Community 285` to `Community 314`, `Community 304`, `Community 305`, `Community 311`, `Community 312`, `Community 313`, `Community 186`, `Community 315`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **Why does `7. Oportunidades / Opportunities` connect `Community 202` to `Community 224`, `Community 225`, `Community 239`, `Community 145`, `Community 211`, `Community 221`, `Community 222`, `Community 223`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **What connects `version`, `source`, `sourceType` to the rest of the system?**
-  _2316 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2266 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `HOUSECHECK_AGENT_SETUP_GUIDE.md` be split into smaller, more focused modules?**
   _Cohesion score 0.05128205128205128 - nodes in this community are weakly interconnected._
 - **Should `compress.py` be split into smaller, more focused modules?**

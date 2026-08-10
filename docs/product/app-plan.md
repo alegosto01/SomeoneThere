@@ -1,4 +1,4 @@
-# App Plan — one role-gated HouseCheck app (first draft)
+# App Plan — one role-gated SomeoneThere app (first draft)
 
 > **Status:** first draft, easily changed. Stack-agnostic.
 >
@@ -30,7 +30,7 @@ for the app draft to avoid overbuild.
 
 ## Shared shell (both roles)
 
-- Sign in (role is set by HouseCheck at onboarding, not self-selected).
+- Sign in (role is set by SomeoneThere at onboarding, not self-selected).
 - A single **Request** object is the spine both roles see, from different angles.
 - Notifications (status changes, assignment) — channel-agnostic (push/email).
 - Video calls are **not built in-app**: the app deep-links to WhatsApp / Google

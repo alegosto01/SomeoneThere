@@ -1,4 +1,4 @@
-# Web Plan — HouseCheck landing + intake (first draft)
+# Web Plan — SomeoneThere landing + intake (first draft)
 
 > **Status:** first draft, easily changed. Stack-agnostic on purpose.
 > Describes *what* each section, field, and state is — never *which* framework.
@@ -24,7 +24,7 @@ Viewing Visit** (Madrid only).
 
 ## Information architecture (top → bottom)
 
-1. **Header / nav** — brand "HouseCheck"; anchors: How it works · What's included · FAQ · Start.
+1. **Header / nav** — brand "SomeoneThere"; anchors: How it works · What's included · FAQ · Start.
 2. **Hero**
    - Eyebrow: `Madrid · Pilot`
    - H1: *Visit a Madrid rental remotely before sending a deposit.*
@@ -43,12 +43,12 @@ Viewing Visit** (Madrid only).
 4. **Problem** — *Moving to Madrid from another city or country is stressful. You
    may need to decide quickly, but you cannot always visit the flat yourself
    before sending money.*
-5. **Solution** — *HouseCheck sends a trusted local verifier to attend the viewing
+5. **Solution** — *SomeoneThere sends a trusted local verifier to attend the viewing
    on your behalf. You join by WhatsApp, Google Meet, or Zoom. The verifier walks
    through the apartment with permission and compares what you see with the listing.*
 6. **How it works** (`#how`, 5 steps, verbatim from the outline)
    1. Send the listing and viewing details.
-   2. HouseCheck confirms the request fits the Remote Viewing Visit scope.
+   2. SomeoneThere confirms the request fits the Remote Viewing Visit scope.
    3. A trusted local verifier attends the viewing.
    4. You join by live video call and ask questions.
    5. You receive a short verification report after the visit.
@@ -59,7 +59,7 @@ Viewing Visit** (Madrid only).
    - rent negotiation · contract review · deposit handling · legal advice ·
      ownership verification · landlord background checks · guarantee that the
      property is safe · recommendation whether the client should rent.
-9. **Trust message** — *HouseCheck does not guarantee that a rental is safe, legal,
+9. **Trust message** — *SomeoneThere does not guarantee that a rental is safe, legal,
    or scam-free. The verifier is only your eyes and ears. We provide observed facts,
    listing-match notes, risk indicators, confidence level, and unresolved concerns.*
 10. **Intake CTA + form** (`#start`) — see next section.

@@ -17,7 +17,7 @@
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│ HouseCheck        How it works · Included · FAQ · [Start] │
+│ SomeoneThere        How it works · Included · FAQ · [Start] │
 ├──────────────────────────────────────────────────────────┤
 │  MADRID · PILOT                                            │
 │                                                            │
@@ -46,7 +46,7 @@
 How it works
  ①──────②──────③──────④──────⑤
  [1] Send the listing and viewing details.
- [2] HouseCheck confirms it fits the Remote Viewing Visit scope.
+ [2] SomeoneThere confirms it fits the Remote Viewing Visit scope.
  [3] A trusted local verifier attends the viewing.
  [4] You join by live video call and ask questions.
  [5] You receive a short verification report after the visit.

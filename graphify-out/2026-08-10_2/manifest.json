@@ -410,28 +410,28 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/scripts/adversarial-loop.sh": {
-    "mtime": 1786383264.8979735,
+    "mtime": 1786383131.6133282,
     "ast_hash": "5b0d85238c277e927a7ef52e626ff8a3",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/CLAUDE.md": {
-    "mtime": 1786383264.8479738,
+    "mtime": 1786383131.6033282,
     "ast_hash": "2605d24cb408579c17a2e57fd43e4042",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/AGENTS.md": {
-    "mtime": 1786383264.8479738,
+    "mtime": 1786383131.6033282,
     "ast_hash": "da06332894db2476eec5ef057f7fd782",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/README.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "69f464b81bc0dc38281834087c2d9720",
+    "mtime": 1786383131.608328,
+    "ast_hash": "a1f3bc75e7a05094af95fa65e10d4f47",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/.github/ISSUE_TEMPLATE/market-research.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "1fb30347d3b5a5d1cb69ab122962ef48",
+    "mtime": 1786383131.605328,
+    "ast_hash": "c70df63a45248dff137b190833bc941a",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/.github/ISSUE_TEMPLATE/risk.md": {
@@ -445,28 +445,28 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/.github/ISSUE_TEMPLATE/mvp-task.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "0eff9bd871b17b4e4d298625ad391064",
+    "mtime": 1786383131.6063282,
+    "ast_hash": "2b447490482266e7a4968c05910d2052",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/.github/ISSUE_TEMPLATE/feature.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "27e6df97fe612d74740cedcf1337304f",
+    "mtime": 1786383131.608328,
+    "ast_hash": "1ee01a44684b8e94e5e13659ec951c66",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/.claude/agents/decision-judge.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "de1c80c6618bcb30b24571ae6aae373b",
+    "mtime": 1786383131.6063282,
+    "ast_hash": "920fe1be5d154dc88b7502941294bb3e",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/.claude/agents/problem-finder.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "d5b1066bbf2b2141cc282ff5d14fe6d5",
+    "mtime": 1786383131.6093283,
+    "ast_hash": "f0d1983a3f2904e218c8ba31f0199363",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/.claude/agents/problem-solver.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "1a0773b6e46ca71c43a0f2ddf5709fc7",
+    "mtime": 1786383131.6063282,
+    "ast_hash": "f87f278a64290a7b700a200258856eda",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/backlog/phase-1-issues.md": {
@@ -570,23 +570,23 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/prompts/codex/risk-review.md": {
-    "mtime": 1786383264.8979735,
-    "ast_hash": "805231824df6ecb05afaf1591bd0594d",
+    "mtime": 1786383131.6113281,
+    "ast_hash": "1dff5c927aae34021a9f8df57133cea1",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/prompts/codex/implementation-task.md": {
-    "mtime": 1786383264.8969736,
-    "ast_hash": "c70e282a39f87832d50b2eac994f986a",
+    "mtime": 1786383131.6093283,
+    "ast_hash": "140c061ae445fca1e4b46b8832abbc9f",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/prompts/codex/docs-update-task.md": {
-    "mtime": 1786383264.8969736,
-    "ast_hash": "bc9e07c722ddd3a76c0d6182d33cd88e",
+    "mtime": 1786383131.6113281,
+    "ast_hash": "1f5852ba144f57f33bb803c45bd75433",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/prompts/codex/refactor-task.md": {
-    "mtime": 1786383264.8969736,
-    "ast_hash": "a15487656438375eab102a34f8bc945d",
+    "mtime": 1786383131.6103282,
+    "ast_hash": "654803bd52431f1ebeb5df459525281b",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/prompts/claude/problem-solver-run.md": {
@@ -595,13 +595,13 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/prompts/claude/full-agent-loop.md": {
-    "mtime": 1786383264.8969736,
-    "ast_hash": "e6a9491ea9eda921977646ac637fb28b",
+    "mtime": 1786383131.6103282,
+    "ast_hash": "e2b9eae748b393be5fe80a4e6d09c4ac",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/prompts/claude/problem-finder-run.md": {
-    "mtime": 1786383264.8969736,
-    "ast_hash": "e87c7190ae549646f8ae6f543b50aee4",
+    "mtime": 1786383131.6123283,
+    "ast_hash": "6c205da3622903d0c23f409fbc87bac7",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/prompts/claude/decision-judge-run.md": {
@@ -615,53 +615,53 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/risk-register.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "df77b09de64ae5b5f0f3a4c509c3d854",
+    "mtime": 1786383131.6113281,
+    "ast_hash": "1a5318a9337a4541f1d69b2c88f0febb",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/agent-operating-system.md": {
-    "mtime": 1786383264.8489738,
+    "mtime": 1786383131.6123283,
     "ast_hash": "5995f3f6af13d8afeeda4ca76cfab4f0",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/agent-routing.md": {
-    "mtime": 1786383264.8489738,
+    "mtime": 1786383131.6143281,
     "ast_hash": "eb3a920ff7ad2f3fd0da6dc17981ea0f",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/business-model.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "8cf7317877ebb46c22698811085012e6",
+    "mtime": 1786383131.6113281,
+    "ast_hash": "0d6582d54241e8359c17c5c9c2079b7b",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/decision-log.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "ee4da3fbd5f3e3bd4b57f38df65d8c0e",
+    "mtime": 1786383131.6143281,
+    "ast_hash": "f2e140866181e6aea3daf1ad4865ddbc",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/product-principles.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "73a3c34c3faab679cf4d2fcbb8f55b45",
+    "mtime": 1786383131.6123283,
+    "ast_hash": "5002a19b4664eb1bf870412906b5621d",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/legal-questions-for-lawyer.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "6112463c9a5330f94877fe20283bbc2f",
+    "mtime": 1786383131.6123283,
+    "ast_hash": "b43729cd32ae2cfff0a8fcbae8204ca7",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/mvp-scope.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "ce7efaa24c8de6910ade1927fbe820f1",
+    "mtime": 1786383131.615328,
+    "ast_hash": "a2e52e4638de08df1af65632bcbf617c",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/legal-assumptions.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "f63f90ebbe3d687c7d478cf2698d685c",
+    "mtime": 1786383131.615328,
+    "ast_hash": "c15f6dd8f387034355cf224e686f6554",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/competitor-map.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "9759b49e9b680dff49871042b432a50d",
+    "mtime": 1786383131.6143281,
+    "ast_hash": "b86bc73f05b3f655fbbf20ca884c36d5",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/tech/architecture.md": {
@@ -675,18 +675,18 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/market-research/research-plan.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "116da228378be92f8773c4ee0ce30ab8",
+    "mtime": 1786383131.6163282,
+    "ast_hash": "cb089d4de2c376ff89e62627fc02ceb8",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/market-research/competitor-matrix.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "5f7457933bef3faaeb612d045c9b6fd8",
+    "mtime": 1786383131.6123283,
+    "ast_hash": "eeb938825bf22b09d1f08217b28e5ff5",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/product/prd.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "7c512fd0e527701147a53c83f6224e1d",
+    "mtime": 1786383131.615328,
+    "ast_hash": "b56622dd7d9a009768ee59faff83ff25",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/product/user-stories.md": {
@@ -695,12 +695,12 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/product/landing-page-outline.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "30947f766fd51f468573c2e35f2fe7c1",
+    "mtime": 1786383131.6133282,
+    "ast_hash": "1a44b1f70f496f3c3b82f0c82e5672db",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/legal/landlord-data-lia-draft.md": {
-    "mtime": 1786383264.8499737,
+    "mtime": 1786383131.615328,
     "ast_hash": "cc6a7a4bdd90716994ac1e39dd107493",
     "semantic_hash": ""
   },
@@ -710,17 +710,17 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/legal/landlord-notice-es-draft.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "359ed0438014f0df6cc9a6b5848ecd0c",
+    "mtime": 1786383131.6123283,
+    "ast_hash": "553c0fc69a27868fe737847926fdcd3d",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/legal/risk-notes.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "4af76a375984c405a160f9cf9226fccb",
+    "mtime": 1786383131.6163282,
+    "ast_hash": "443e00c4eac8ddf8e45b3ad57b0ac79a",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/legal/refund-policy-draft.md": {
-    "mtime": 1786383264.8499737,
+    "mtime": 1786383131.615328,
     "ast_hash": "1ce939f44a31221daa8ed294b6f3b179",
     "semantic_hash": ""
   },
@@ -730,8 +730,8 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/operations/request-lifecycle.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "6c36a1b5bfd70886306bef5b6f4f7228",
+    "mtime": 1786383131.615328,
+    "ast_hash": "46a254a42f2698664e8e6845b0d72f10",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/operations/verifier-checklist.md": {
@@ -740,38 +740,38 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/operations/verifier-safety-sop.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "b44088d6187869ba4c95c1bbb5deb6e8",
+    "mtime": 1786383131.6163282,
+    "ast_hash": "8209a7f8b81ff5e7c22d3fa119ce9a01",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/operations/verification-report-template.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "4184e95d1a6107c32bb2051c45c0ff2c",
+    "mtime": 1786383131.6143281,
+    "ast_hash": "3a5208d262687c97b111766679ffa53e",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/FOUNDER_DECISIONS.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "1a756465db9e68a2329a90569ba16aad",
+    "mtime": 1786383131.6033282,
+    "ast_hash": "836564ecf89f5b011bc926d346926064",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/ROADMAP.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "ec0dd91da91475f2c2494aaedf488e60",
+    "mtime": 1786383131.6043282,
+    "ast_hash": "2b68ef8718799b9d8836966064fc45be",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/NEXT_ACTIONS.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "e399e79ab448197b52d95fe728120092",
+    "mtime": 1786383131.6073282,
+    "ast_hash": "beaf9b52c791db4d9e8df28d70f424ae",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/report-template.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "1960293211d63c4fab724e878ab3e906",
+    "mtime": 1786383131.6143281,
+    "ast_hash": "da2d891050528ff80d433e6eb7c291f2",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/pilot-plan.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "8690876cfd87cf4d925d84fa3334ed2c",
+    "mtime": 1786383131.6123283,
+    "ast_hash": "789a47f08c7a34de371d5a1421c715b2",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/remote-viewing-checklist.md": {
@@ -780,8 +780,8 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/marketing/instagram-tiktok-strategy.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "83e2b30bb6b08f7e04b514902c2b6da1",
+    "mtime": 1786383131.6123283,
+    "ast_hash": "7f1e15e66e74447f054c7e5d08451669",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/skills-lock.json": {
@@ -850,8 +850,8 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/web/package.json": {
-    "mtime": 1786383264.8989737,
-    "ast_hash": "b3affad180ec12b12755647cb2a1c2eb",
+    "mtime": 1786383131.6123283,
+    "ast_hash": "59c1087d8660858ff9605da5129af565",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/web/vite.config.ts": {
@@ -870,18 +870,18 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/web/src/config.ts": {
-    "mtime": 1786383264.8989737,
-    "ast_hash": "dc176435dd741ea4f4b89d28a7cf226e",
+    "mtime": 1786383131.6113281,
+    "ast_hash": "b68dd9469d2354248b5d32584c4cd544",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/web/src/content.ts": {
-    "mtime": 1786383264.8989737,
-    "ast_hash": "d59a0d3030b0c78635395128f4ecdcf9",
+    "mtime": 1786383131.6133282,
+    "ast_hash": "b2d4fd9c73d17882f3ad6daa806fae6f",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/web/src/components/Sections.tsx": {
-    "mtime": 1786383264.8989737,
-    "ast_hash": "7bc18edbe1ce35523ff09198fc0455cc",
+    "mtime": 1786383131.6133282,
+    "ast_hash": "8490d1c833b4c1d9e0d7cd1e75fe87a4",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/web/src/components/Faq.tsx": {
@@ -890,13 +890,13 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/arcads_alternatives.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "5c0c9dc30318a5ed647ee5adea9c6b7c",
+    "mtime": 1786383131.6043282,
+    "ast_hash": "b444565ffdc45bd2ceb00460a3b86755",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/gander_wegolook_deep_research.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "32ac7fe642ad9d83b3c6501be4ca58d4",
+    "mtime": 1786383131.605328,
+    "ast_hash": "1db41d292feb7fdd733d22102106b699",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-product-photoshoot/SKILL.md": {
@@ -1215,68 +1215,43 @@
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/web/README.md": {
-    "mtime": 1786383264.8979735,
-    "ast_hash": "b7a077c9454d2bd72734e478e9ef666e",
+    "mtime": 1786383131.6103282,
+    "ast_hash": "7f6540bdb3b30eecf49182f763120617",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/web/index.html": {
-    "mtime": 1786383264.8979735,
-    "ast_hash": "cf861bebb48367ab57f02d4b7d2dbf90",
+    "mtime": 1786383131.6113281,
+    "ast_hash": "9d3f8ffb15a17dc81b2197047bffc29c",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/ideas.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "c59e68094c346249f633fbebcce9a8c3",
+    "mtime": 1786383131.6123283,
+    "ast_hash": "7dddda5518185412e42ba234849621fe",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/docs/product/legacy-landing.html": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "883c77201b516c49707a9e7e6e36fec6",
+    "mtime": 1786383131.615328,
+    "ast_hash": "6acfe28f93168111a8d33a6a3112fe77",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/web/public/favicon.svg": {
-    "mtime": 1786383264.8989737,
-    "ast_hash": "bc7ee5e6b75cdc59e2b847942cfd3191",
+    "mtime": 1786383131.6103282,
+    "ast_hash": "217cac219e2113bba8fc947a67eef47d",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/someonethere_evidence_problem.md": {
-    "mtime": 1786383264.8979735,
-    "ast_hash": "5b2ed066a571df59d5fa39b50cc03201",
+    "mtime": 1786383131.6063282,
+    "ast_hash": "43bd22fd4f370f2c01e4d9c5db615c87",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/someonethere-dafo-analysis-detailed.md": {
-    "mtime": 1786383264.8979735,
-    "ast_hash": "b2990e3ec7e502a75e38b14d8e23ce56",
+    "mtime": 1786383131.608328,
+    "ast_hash": "d158582b5f71fc83fe3c8b19e4d6c578",
     "semantic_hash": ""
   },
   "/home/ale/Desktop/HouseCheck/SOMEONETHERE_AGENT_SETUP_GUIDE.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "443ad4c1be8a1d47e3479c58d317a1d7",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/facebook_and_other_spam_approaches.md": {
-    "mtime": 1786383264.736974,
-    "ast_hash": "77016af40688cc8ec3b984c953a7255b",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/DLModels_deep_research.md": {
-    "mtime": 1786383264.732974,
-    "ast_hash": "ba85cb8b76ff3d88a1043bc233e7125a",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/product/app-plan.md": {
-    "mtime": 1786383270.4519577,
-    "ast_hash": "d33b1d11a6bfaed1fb1ad838d9e19706",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/product/web-plan.md": {
-    "mtime": 1786383270.4509578,
-    "ast_hash": "7a038bdda7ade500f4d3001cfda0e3f8",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/product/wireframes.md": {
-    "mtime": 1786383270.4519577,
-    "ast_hash": "76f072893bcd86d1a00ec48bb57bb9a1",
+    "mtime": 1786383131.6043282,
+    "ast_hash": "306474506fea73dd0131b76993ec78e2",
     "semantic_hash": ""
   }
 }
