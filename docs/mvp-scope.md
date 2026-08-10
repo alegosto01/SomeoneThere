@@ -1,8 +1,8 @@
-# HouseCheck MVP Scope
+# SomeoneThere MVP Scope
 
 ## Scope correction
 
-HouseCheck is not primarily a digital scam-analysis or listing-risk-review service.
+SomeoneThere is not primarily a digital scam-analysis or listing-risk-review service.
 
 The core MVP service is a local verifier physically attending a Madrid rental viewing on behalf of a remote client. The client joins by WhatsApp, Google Meet, or Zoom video call. The verifier shows the property with permission, compares it with the online listing, and helps the client see whether the flat appears as promised.
 
@@ -40,7 +40,7 @@ Alternative:
 
 > A trusted local verifier visits the flat while you join by video call.
 
-## What HouseCheck provides
+## What SomeoneThere provides
 
 - A permission-first property visit
 - Live video presence at the viewing
@@ -49,11 +49,11 @@ Alternative:
 - Scam-risk indicators observed during the viewing
 - A short verification report with confidence level and unresolved concerns
 
-## What HouseCheck does not provide
+## What SomeoneThere does not provide
 
-HouseCheck does not guarantee that a rental is safe, legally valid, or risk-free. The verifier is only the client's eyes and ears.
+SomeoneThere does not guarantee that a rental is safe, legally valid, or risk-free. The verifier is only the client's eyes and ears.
 
-HouseCheck will not:
+SomeoneThere will not:
 
 - enter without permission
 - secretly record
@@ -100,7 +100,7 @@ The first milestone is not 10 digital reports.
 
 The first milestone is:
 
-> 3-5 people moving to Madrid use a HouseCheck verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
+> 3-5 people moving to Madrid use a SomeoneThere verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
 
 ## Pilot kill criteria
 

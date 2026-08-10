@@ -21,7 +21,7 @@ _All blocking items from Round 2 (D1, D2, D3) were resolved on 2026-07-08 — se
 ## 🟡 STRATEGIC — decide before scaling, not before pilot
 
 ### D4. Stripe / payment processor contingency (R028)
-**Why it matters:** HouseCheck is in a fraud-adjacent vertical (rentals). Stripe may hold reserves or freeze the account before chargeback history exists.
+**Why it matters:** SomeoneThere is in a fraud-adjacent vertical (rentals). Stripe may hold reserves or freeze the account before chargeback history exists.
 **Options:**
 - **A) I'll contact Stripe support pre-launch** with the use case (I'll draft what to send).
 - **B) Use SEPA bank transfer first** — slower, manual, but no processor-risk freeze.

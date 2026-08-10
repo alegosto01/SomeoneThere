@@ -1,10 +1,10 @@
-# HouseCheck Legal Assumptions
+# SomeoneThere Legal Assumptions
 
 This document contains working assumptions, not legal advice.
 
 ## Core assumption
 
-HouseCheck should position itself as a factual evidence and risk-indicator service, not as:
+SomeoneThere should position itself as a factual evidence and risk-indicator service, not as:
 - a real estate agency
 - a legal advisor
 - an official inspection company
@@ -35,7 +35,7 @@ MVP policy:
 
 ## Broker risk
 
-HouseCheck should avoid:
+SomeoneThere should avoid:
 - recommending a specific property
 - negotiating lease terms
 - collecting deposits
@@ -43,7 +43,7 @@ HouseCheck should avoid:
 - receiving commission from landlords
 - presenting itself as an agency
 
-HouseCheck can focus on:
+SomeoneThere can focus on:
 - factual verification
 - evidence collection
 - risk indicators
@@ -51,14 +51,14 @@ HouseCheck can focus on:
 
 ## Liability risk
 
-HouseCheck must not say:
+SomeoneThere must not say:
 - this property is safe
 - this landlord is legitimate
 - this rental is guaranteed
 - you should sign
 - you should pay
 
-HouseCheck can say:
+SomeoneThere can say:
 - based on the evidence collected, these are the observed indicators
 - these items could not be verified
 - these red flags remain unresolved

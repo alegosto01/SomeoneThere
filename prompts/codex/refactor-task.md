@@ -1,6 +1,6 @@
 # Codex Refactor Task Prompt
 
-You are refactoring HouseCheck.
+You are refactoring SomeoneThere.
 
 Read `AGENTS.md` first.
 

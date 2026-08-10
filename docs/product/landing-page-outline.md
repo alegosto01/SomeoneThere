@@ -18,12 +18,12 @@ Moving to Madrid from another city or country is stressful. You may need to deci
 
 ## Solution
 
-HouseCheck sends a trusted local verifier to attend the viewing on your behalf. You join by WhatsApp, Google Meet, or Zoom. The verifier walks through the apartment with permission and compares what you see with the listing.
+SomeoneThere sends a trusted local verifier to attend the viewing on your behalf. You join by WhatsApp, Google Meet, or Zoom. The verifier walks through the apartment with permission and compares what you see with the listing.
 
 ## How it works
 
 1. Send the listing and viewing details.
-2. HouseCheck confirms the request fits the Remote Viewing Visit scope.
+2. SomeoneThere confirms the request fits the Remote Viewing Visit scope.
 3. A trusted local verifier attends the viewing.
 4. You join by live video call and ask questions.
 5. You receive a short verification report after the visit.
@@ -53,7 +53,7 @@ Remote Viewing Visit:
 
 ## Trust message
 
-HouseCheck does not guarantee that a rental is safe, legal, or scam-free. The verifier is only your eyes and ears. We provide observed facts, listing match notes, risk indicators, confidence level, and unresolved concerns.
+SomeoneThere does not guarantee that a rental is safe, legal, or scam-free. The verifier is only your eyes and ears. We provide observed facts, listing match notes, risk indicators, confidence level, and unresolved concerns.
 
 ## Call to action
 

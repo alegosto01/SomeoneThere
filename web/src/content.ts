@@ -78,7 +78,7 @@ export const checklistNote =
 
 export const independentPerspective = {
   title: 'Why not just ask the landlord?',
-  body: 'A landlord or agent can show the property, but they control the visit. A HouseCheck verifier attends on your behalf, follows your questions, and helps compare what is shown with the listing.',
+  body: 'A landlord or agent can show the property, but they control the visit. A SomeoneThere verifier attends on your behalf, follows your questions, and helps compare what is shown with the listing.',
   note: 'Most landlords and agents in Madrid are straightforward to deal with. The point is not suspicion — it is having someone in the room whose only job is to look at the flat for you.',
 };
 
@@ -101,15 +101,15 @@ export const safetyNote =
 
 export const pilot = {
   title: 'Looking for a rental in Madrid?',
-  body: 'HouseCheck is currently preparing a limited number of pilot remote visits in Madrid. Share the listing and viewing details to see whether we can help.',
+  body: 'SomeoneThere is currently preparing a limited number of pilot remote visits in Madrid. Share the listing and viewing details to see whether we can help.',
   note: 'Pricing, availability, and scheduling are still being worked out during the pilot. We will tell you honestly if we cannot help with your listing.',
 };
 
 export const faq = [
   {
-    question: 'Does HouseCheck guarantee that a rental is legitimate?',
+    question: 'Does SomeoneThere guarantee that a rental is legitimate?',
     answer:
-      'No. HouseCheck reports observations from a property visit and notes what could not be checked. It does not verify ownership, confirm that a landlord or agent is who they say they are, or guarantee that a rental is safe, legal, or free of fraud.',
+      'No. SomeoneThere reports observations from a property visit and notes what could not be checked. It does not verify ownership, confirm that a landlord or agent is who they say they are, or guarantee that a rental is safe, legal, or free of fraud.',
   },
   {
     question: 'Does the landlord or agent need to approve the visit?',
@@ -132,14 +132,14 @@ export const faq = [
       'No. The verifier asks factual questions on your behalf — what is included, who signs, what is requested upfront, when the flat is free — but does not negotiate rent or terms, sign anything, or hand over money.',
   },
   {
-    question: 'Does HouseCheck review the rental contract?',
+    question: 'Does SomeoneThere review the rental contract?',
     answer:
-      'No. HouseCheck does not review contracts and does not give legal advice. For contract or legal questions, speak to a qualified lawyer.',
+      'No. SomeoneThere does not review contracts and does not give legal advice. For contract or legal questions, speak to a qualified lawyer.',
   },
   {
     question: 'Which areas are covered?',
     answer:
-      'Madrid only. HouseCheck is starting in one city so visits stay practical and the verifier knows the area.',
+      'Madrid only. SomeoneThere is starting in one city so visits stay practical and the verifier knows the area.',
   },
   {
     question: 'What happens after the visit?',
@@ -151,5 +151,5 @@ export const faq = [
 export const footer = {
   tagline: 'Madrid-first remote rental viewing service.',
   disclaimer:
-    'HouseCheck provides observational information from a property visit. It is not a real estate agency, legal service, certified inspection, or guarantee against fraud.',
+    'SomeoneThere provides observational information from a property visit. It is not a real estate agency, legal service, certified inspection, or guarantee against fraud.',
 };

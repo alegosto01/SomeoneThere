@@ -64,7 +64,7 @@ Questions:
 
 - Do they appear commercially successful?
 - What does their verification process include?
-- Do they verify external listings? Usually no — this is the HouseCheck gap.
+- Do they verify external listings? Usually no — this is the SomeoneThere gap.
 - Are users satisfied with the trust layer?
 - What complaints appear repeatedly?
 
@@ -85,7 +85,7 @@ Questions:
 
 - Do they help users check properties before arrival?
 - Are they expensive full-service alternatives?
-- Can HouseCheck be cheaper, faster, and more focused?
+- Can SomeoneThere be cheaper, faster, and more focused?
 
 ## Evidence sources
 
@@ -123,7 +123,7 @@ Signs of growth:
 Signs of decline:
 Rental verification relevance:
 Pricing:
-Lessons for HouseCheck:
+Lessons for SomeoneThere:
 Confidence level:
 Sources:
 ```

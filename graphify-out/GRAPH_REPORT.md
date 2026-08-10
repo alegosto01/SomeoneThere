@@ -1,16 +1,16 @@
-# Graph Report - HouseCheck  (2026-07-26)
+# Graph Report - HouseCheck  (2026-08-10)
 
 ## Corpus Check
 - 175 files · ~179,059 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 3034 nodes · 3035 edges · 281 communities (260 shown, 21 thin omitted)
+- 3491 nodes · 3598 edges · 322 communities (301 shown, 21 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2dfef8b7`
+- Built from commit: `16529a7b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -292,6 +292,47 @@
 - [[_COMMUNITY_Community 277|Community 277]]
 - [[_COMMUNITY_Community 278|Community 278]]
 - [[_COMMUNITY_Community 279|Community 279]]
+- [[_COMMUNITY_Community 281|Community 281]]
+- [[_COMMUNITY_Community 282|Community 282]]
+- [[_COMMUNITY_Community 283|Community 283]]
+- [[_COMMUNITY_Community 284|Community 284]]
+- [[_COMMUNITY_Community 285|Community 285]]
+- [[_COMMUNITY_Community 286|Community 286]]
+- [[_COMMUNITY_Community 287|Community 287]]
+- [[_COMMUNITY_Community 288|Community 288]]
+- [[_COMMUNITY_Community 289|Community 289]]
+- [[_COMMUNITY_Community 290|Community 290]]
+- [[_COMMUNITY_Community 291|Community 291]]
+- [[_COMMUNITY_Community 292|Community 292]]
+- [[_COMMUNITY_Community 293|Community 293]]
+- [[_COMMUNITY_Community 294|Community 294]]
+- [[_COMMUNITY_Community 295|Community 295]]
+- [[_COMMUNITY_Community 296|Community 296]]
+- [[_COMMUNITY_Community 297|Community 297]]
+- [[_COMMUNITY_Community 298|Community 298]]
+- [[_COMMUNITY_Community 299|Community 299]]
+- [[_COMMUNITY_Community 300|Community 300]]
+- [[_COMMUNITY_Community 301|Community 301]]
+- [[_COMMUNITY_Community 302|Community 302]]
+- [[_COMMUNITY_Community 303|Community 303]]
+- [[_COMMUNITY_Community 304|Community 304]]
+- [[_COMMUNITY_Community 305|Community 305]]
+- [[_COMMUNITY_Community 306|Community 306]]
+- [[_COMMUNITY_Community 307|Community 307]]
+- [[_COMMUNITY_Community 308|Community 308]]
+- [[_COMMUNITY_Community 309|Community 309]]
+- [[_COMMUNITY_Community 310|Community 310]]
+- [[_COMMUNITY_Community 311|Community 311]]
+- [[_COMMUNITY_Community 312|Community 312]]
+- [[_COMMUNITY_Community 313|Community 313]]
+- [[_COMMUNITY_Community 314|Community 314]]
+- [[_COMMUNITY_Community 315|Community 315]]
+- [[_COMMUNITY_Community 316|Community 316]]
+- [[_COMMUNITY_Community 317|Community 317]]
+- [[_COMMUNITY_Community 318|Community 318]]
+- [[_COMMUNITY_Community 319|Community 319]]
+- [[_COMMUNITY_Community 320|Community 320]]
+- [[_COMMUNITY_Community 321|Community 321]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Skill: FNF SDK` - 21 edges
@@ -300,8 +341,8 @@
 4. `tasteskill: Anti-Slop Frontend Skill` - 16 edges
 5. `Higgsfield Video Explainer` - 16 edges
 6. `GAME CREATION SYSTEM` - 16 edges
-7. `HouseCheck` - 15 edges
-8. `Appendix B - Canonical Sources (read these before reinventing)` - 15 edges
+7. `Appendix B - Canonical Sources (read these before reinventing)` - 15 edges
+8. `HouseCheck` - 15 edges
 9. `validate()` - 14 edges
 10. `Product Photoshoot` - 14 edges
 
@@ -317,7 +358,7 @@
 - `main()` --calls--> `should_compress()`  [EXTRACTED]
   .agents/skills/caveman-compress/scripts/cli.py → .agents/skills/caveman-compress/scripts/detect.py
 
-## Communities (281 total, 21 thin omitted)
+## Communities (322 total, 21 thin omitted)
 
 ### Community 0 - "HOUSECHECK_AGENT_SETUP_GUIDE.md"
 Cohesion: 0.05
@@ -356,8 +397,8 @@ Cohesion: 0.15
 Nodes (11): cavecrew, Example chaining, How to invoke, See also, What it does, Auto-clarity (inherited), Chaining patterns, Output contracts (+3 more)
 
 ### Community 9 - "HouseCheck MVP Scope"
-Cohesion: 0.08
-Nodes (24): 1. Basic listing risk review, 2. Exterior/address verification, 3. Permission-first viewing attendance, 4. Verification report, Core MVP package, Core MVP promise, Deprioritized for MVP, First pilot success metric (+16 more)
+Cohesion: 0.09
+Nodes (27): 1. Basic listing risk review, 2. Exterior/address verification, 3. Permission-first viewing attendance, 4. Verification report, Core MVP package, Core MVP promise, Deprioritized for MVP, First pilot success metric (+19 more)
 
 ### Community 10 - "HouseCheck"
 Cohesion: 0.15
@@ -376,16 +417,16 @@ Cohesion: 0.17
 Nodes (10): caveman, Example output, How to invoke, See also, What it does, Auto-Clarity, Boundaries, Intensity (+2 more)
 
 ### Community 14 - "HouseCheck Agent Operating System"
-Cohesion: 0.14
-Nodes (12): Agent roles, code:text (1. Ask Claude Code:), Codex, Decision Judge, Definition of done for an agent task, Do not automate these decisions fully, Goal, HouseCheck Agent Operating System (+4 more)
+Cohesion: 0.19
+Nodes (13): Agent roles, code:text (1. Ask Claude Code:), Codex, Decision Judge, Definition of done for an agent task, Do not automate these decisions fully, Goal, HouseCheck Agent Operating System (+5 more)
 
 ### Community 15 - "Verification Report Template"
 Cohesion: 0.17
 Nodes (11): Address and building check, Disclaimer, Evidence attached, Final notes for user, Interior / viewing check, Landlord / agent interaction, Red flag checklist, Report metadata (+3 more)
 
 ### Community 16 - "HouseCheck Product Principles"
-Cohesion: 0.14
-Nodes (12): 10. Lawyer review for serious legal questions, 11. Fairness to vulnerable users (DRAFT — awaiting Alessandro acceptance, R030), 1. Evidence, not guarantees, 2. Permission-first, 3. Manual before automated, 4. Madrid-first, 5. Smallest useful step, 6. Make risks explicit (+4 more)
+Cohesion: 0.24
+Nodes (13): 10. Lawyer review for serious legal questions, 11. Fairness to vulnerable users (DRAFT — awaiting Alessandro acceptance, R030), 1. Evidence, not guarantees, 2. Permission-first, 3. Manual before automated, 4. Madrid-first, 5. Smallest useful step, 6. Make risks explicit (+5 more)
 
 ### Community 17 - "caveman-commit"
 Cohesion: 0.18
@@ -396,8 +437,8 @@ Cohesion: 0.18
 Nodes (9): caveman-review, Example output, How to invoke, See also, What it does, Auto-Clarity, Boundaries, Examples (+1 more)
 
 ### Community 19 - "HouseCheck Agent Routing"
-Cohesion: 0.12
-Nodes (14): 1. The roles and their source files, 2. How to choose, per session, 3.1 Claude Code, 3.2 Codex CLI, 3.3 GLM (or any other LLM runtime), 3. Run commands, 4. Automated loop (Finder → Solver → Judge in one run), 5. Recommended fallback order when Claude tokens run out (+6 more)
+Cohesion: 0.16
+Nodes (15): 1. The roles and their source files, 2. How to choose, per session, 3.1 Claude Code, 3.2 Codex CLI, 3.3 GLM (or any other LLM runtime), 3. Run commands, 4. Automated loop (Finder → Solver → Judge in one run), 5. Recommended fallback order when Claude tokens run out (+7 more)
 
 ### Community 20 - "Market Research Plan"
 Cohesion: 0.18
@@ -420,8 +461,8 @@ Cohesion: 0.20
 Nodes (9): Implementation tasks, MVP-safe path, Problem Solver Response, Problem: <title>, Recommended changes to repo docs, Risk-by-risk mitigation plan, Rules, Summary (+1 more)
 
 ### Community 25 - "HouseCheck Business Model"
-Cohesion: 0.15
-Nodes (11): Acquisition channels for MVP, Cost structure, Cost structure (MVP, manual), Customer segments, First milestone, HouseCheck Business Model, Key assumptions to validate, Out of scope for the business model in MVP (+3 more)
+Cohesion: 0.22
+Nodes (12): Acquisition channels for MVP, Cost structure, Cost structure (MVP, manual), Customer segments, First milestone, HouseCheck Business Model, Key assumptions to validate, Out of scope for the business model in MVP (+4 more)
 
 ### Community 26 - "Landing Page Outline"
 Cohesion: 0.20
@@ -452,8 +493,8 @@ Cohesion: 0.25
 Nodes (7): Best first channel hypotheses, Business Model, Cost structure, Initial business model, Key risks, Marketplace unit economics hypothesis, Suggested validation path
 
 ### Community 33 - "HouseCheck Legal Assumptions"
-Cohesion: 0.22
-Nodes (7): Broker risk, Core assumption, HouseCheck Legal Assumptions, Liability risk, Permission-first access, Photos and videos, Required lawyer review
+Cohesion: 0.33
+Nodes (8): Broker risk, Core assumption, HouseCheck Legal Assumptions, Liability risk, Permission-first access, Photos and videos, Required lawyer review, SomeoneThere Legal Assumptions
 
 ### Community 34 - "caveman-stats"
 Cohesion: 0.29
@@ -488,8 +529,8 @@ Cohesion: 0.33
 Nodes (5): Current Policy, Finish With Verification, Rules, Telegram Policy, Workflow
 
 ### Community 42 - "HouseCheck Competitor Map"
-Cohesion: 0.29
-Nodes (5): Competitors, HouseCheck Competitor Map, HouseCheck positioning, Revisit when, Why this matters
+Cohesion: 0.31
+Nodes (7): Competitors, HouseCheck Competitor Map, HouseCheck positioning, Revisit when, SomeoneThere Competitor Map, SomeoneThere positioning, Why this matters
 
 ### Community 43 - "market-research.md"
 Cohesion: 0.33
@@ -560,8 +601,8 @@ Cohesion: 0.10
 Nodes (23): Address and building check, code:text (Write 3-5 sentences explaining what the verifier saw on the ), code:text (Evidence in this report was collected by the assigned verifi), code:text (Explain what the user should do next. Avoid legal guarantees), Confidence level, Disclaimer, Evidence attached, Evidence collected (+15 more)
 
 ### Community 68 - "Community 68"
-Cohesion: 0.13
-Nodes (17): Admin side, Basic Check, Core MVP feature, Core MVP features, MVP non-goals, MVP solution, Premium Scam Check, Problem (+9 more)
+Cohesion: 0.18
+Nodes (18): Admin side, Basic Check, Core MVP feature, Core MVP features, MVP non-goals, MVP solution, Premium Scam Check, Problem (+10 more)
 
 ### Community 69 - "Community 69"
 Cohesion: 0.09
@@ -572,12 +613,12 @@ Cohesion: 0.14
 Nodes (14): 7.1 Implementation task prompt, 7.2 Risk review prompt, 7.3 Refactor task prompt, 7.4 Docs update prompt, 7. Create Codex prompts, code:bash (mkdir -p prompts/codex), code:text (prompts/codex/implementation-task.md), code:md (# Codex Implementation Task Prompt) (+6 more)
 
 ### Community 71 - "Community 71"
-Cohesion: 0.12
-Nodes (16): Agent workflow, code:text (HouseCheck/), Current status, First milestone, HouseCheck, Important files, Initial positioning, Key hypothesis (+8 more)
+Cohesion: 0.16
+Nodes (17): Agent workflow, code:text (SomeoneThere/), Current status, First milestone, HouseCheck, Important files, Initial positioning, Key hypothesis (+9 more)
 
 ### Community 72 - "Community 72"
-Cohesion: 0.17
-Nodes (11): Before implementing any feature, Core product principle, Engineering preferences, graphify, graphify (reference), HouseCheck agent instructions, MANDATORY: Graphify First Rule, MVP boundaries (+3 more)
+Cohesion: 0.28
+Nodes (12): Before implementing any feature, Core product principle, Engineering preferences, graphify, graphify (reference), HouseCheck agent instructions, MANDATORY: Graphify First Rule, MVP boundaries (+4 more)
 
 ### Community 73 - "Community 73"
 Cohesion: 0.17
@@ -680,8 +721,8 @@ Cohesion: 0.25
 Nodes (7): caveman-stats, code:block1 (/caveman-stats), code:block2 (Session: 47 turns), Example output, How to invoke, See also, What it does
 
 ### Community 98 - "Community 98"
-Cohesion: 0.25
-Nodes (7): Choosing the model / runtime, Development philosophy, graphify, HouseCheck Claude instructions, Main workflow, Product language, Project summary
+Cohesion: 0.39
+Nodes (8): Choosing the model / runtime, Development philosophy, graphify, HouseCheck Claude instructions, Main workflow, Product language, Project summary, SomeoneThere Claude instructions
 
 ### Community 99 - "Community 99"
 Cohesion: 0.25
@@ -776,16 +817,16 @@ Cohesion: 0.67
 Nodes (3): 12. Validation commands, code:bash (find .claude -type f | sort), code:bash (npm run lint)
 
 ### Community 128 - "Community 128"
-Cohesion: 0.06
-Nodes (35): A01: Broken Access Control, A02: Cryptographic Failures, A03: Injection, A04: Insecure Design, A05: Security Misconfiguration, A06: Vulnerable Components, A07: Authentication Failures, A08: Data Integrity Failures (+27 more)
+Cohesion: 0.13
+Nodes (15): A01: Broken Access Control, A02: Cryptographic Failures, A03: Injection, A04: Insecure Design, A05: Security Misconfiguration, A06: Vulnerable Components, A07: Authentication Failures, A08: Data Integrity Failures (+7 more)
 
 ### Community 129 - "Community 129"
 Cohesion: 0.06
 Nodes (33): Bootstrap, Checkpoints and recovery, code:bash (curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/c), code:bash (higgsfield generate create gemini_omni \), code:json ([), code:bash (higgsfield generate create explainer_video \), code:bash (--subtitles '{"font":"patrick"}'), code:bash (higgsfield model get nano_banana_2) (+25 more)
 
 ### Community 133 - "Community 133"
-Cohesion: 0.12
-Nodes (16): 1. What actually works for this audience, 2. Recommended AI tooling (best-in-class, as of 2026), 3. The realistic, low-cost automation stack (recommended for pilot), 4. Compliance & safety rules for social, 5. Account setup checklist, 6. Honest expectations, 7. What I would build next (if you approve), Analytics & listening (+8 more)
+Cohesion: 0.16
+Nodes (17): 1. What actually works for this audience, 2. Recommended AI tooling (best-in-class, as of 2026), 3. The realistic, low-cost automation stack (recommended for pilot), 4. Compliance & safety rules for social, 5. Account setup checklist, 6. Honest expectations, 7. What I would build next (if you approve), Analytics & listening (+9 more)
 
 ### Community 134 - "Community 134"
 Cohesion: 0.14
@@ -804,8 +845,8 @@ Cohesion: 0.25
 Nodes (7): 🔴 BLOCKING — pilot cannot launch until decided, D4. Stripe / payment processor contingency (R028), Founder Decisions Required, How to use this file, Resolved decisions (moved to `docs/decision-log.md`), 📋 Standing items (no decision needed, just awareness), 🟡 STRATEGIC — decide before scaling, not before pilot
 
 ### Community 138 - "Community 138"
-Cohesion: 0.33
-Nodes (5): HouseCheck Roadmap, Later add-ons, Later: operations and payments, Next: simple request workflow, Now: Remote Viewing Visit pilot
+Cohesion: 0.48
+Nodes (6): HouseCheck Roadmap, Later add-ons, Later: operations and payments, Next: simple request workflow, Now: Remote Viewing Visit pilot, SomeoneThere Roadmap
 
 ### Community 139 - "Community 139"
 Cohesion: 0.40
@@ -845,7 +886,7 @@ Nodes (23): 1. Generate bespoke AI assets — this is our biggest edge, 2. Signa
 
 ### Community 148 - "Community 148"
 Cohesion: 0.09
-Nodes (22): 10. No Secrets in React Props, 11. Cookie Security, 12. CORS Only When Needed, 1. No Global Mutable State, 3. No Hardcoded Secrets, 4. Timing-Safe Secret Comparison, 6. Handle Every Promise, 7. No `passThroughOnException()` (+14 more)
+Nodes (22): 10. No Secrets in React Props, 11. Cookie Security, 1. No Global Mutable State, 2. Cryptographic Randomness Only, 3. No Hardcoded Secrets, 4. Timing-Safe Secret Comparison, 5. Stream Large Payloads, 6. Handle Every Promise (+14 more)
 
 ### Community 149 - "Community 149"
 Cohesion: 0.10
@@ -864,8 +905,8 @@ Cohesion: 0.11
 Nodes (18): 1. Auth — the `/api/user` proxy + login/logout, 2. Create the SDK clients (server-side), 3. Submit (with the confirmation gate) → poll → read the URL, 4. Render the result, 5. React wiring (fnf-react hooks), 6. Media upload — binary never goes through JSON, 7. Server functions + bindings, 8. The Quanta components you'll actually use (+10 more)
 
 ### Community 153 - "Community 153"
-Cohesion: 0.11
-Nodes (18): Analisi comparativa di WeGoLook e Gander per HouseCheck, Analisi prodotto dettagliata, code:mermaid (flowchart LR), code:mermaid (flowchart LR), code:mermaid (gantt), DAFO comparativo, Esperimenti e KPI, Esperimenti, KPI e piano di rollout a sei mesi (+10 more)
+Cohesion: 0.13
+Nodes (20): Analisi comparativa di WeGoLook e Gander per HouseCheck, Analisi comparativa di WeGoLook e Gander per SomeoneThere, Analisi prodotto dettagliata, code:mermaid (flowchart LR), code:mermaid (flowchart LR), code:mermaid (gantt), DAFO comparativo, Esperimenti e KPI (+12 more)
 
 ### Community 154 - "Community 154"
 Cohesion: 0.11
@@ -936,8 +977,8 @@ Cohesion: 0.14
 Nodes (13): code:bash (higgsfield workflow list), code:bash (higgsfield generate workflow draw_to_video \), code:bash (higgsfield generate workflow reframe \), code:bash (higgsfield generate cost workflow draw_to_video --duration 8), code:bash (higgsfield generate get <job_id>), Cost, Create jobs, Discover workflows (+5 more)
 
 ### Community 171 - "Community 171"
-Cohesion: 0.14
-Nodes (14): Asset Classification, Auth Routes → Public Routes (access control boundary), Browser → Worker (untrusted → trusted), code:ts (// Check app.manifest.json), code:block6 (## Threat Model Summary), Detection, Output, Pitfalls (+6 more)
+Cohesion: 0.06
+Nodes (35): 1. IDOR via Predictable Resource IDs, 2. Server Function Input Manipulation, 3. Test Data Contamination (Live D1), 4. Privilege Escalation via Client State, 5. SSRF via Server Function, 6. Webhook Replay / Forgery, Anonymous Internet User, API Routes (`app/src/routes/api/**`) (+27 more)
 
 ### Community 172 - "Community 172"
 Cohesion: 0.15
@@ -996,8 +1037,8 @@ Cohesion: 0.18
 Nodes (10): 1. Typography, 2. Color, 3. Hero discipline (hard rules), 4. Layout rules (page-wide), 5. Copy rules, 6. Motion rules, 7. Interactive states & forms, 8. Images & icons (+2 more)
 
 ### Community 186 - "Community 186"
-Cohesion: 0.18
-Nodes (11): 1. IDOR via Predictable Resource IDs, 2. Server Function Input Manipulation, 3. Test Data Contamination (Live D1), 4. Privilege Escalation via Client State, 5. SSRF via Server Function, 6. Webhook Replay / Forgery, code:ts (// VULNERABLE), code:ts (import { z } from 'zod';) (+3 more)
+Cohesion: 0.08
+Nodes (25): 10. Strategic conclusions, 11. Decisions based on the DAFO, 12. Open questions, 13. Next validation steps, 14. When DAFO v1 is complete, 15. Update history, 16. Final practical takeaway, 1. Purpose of this document (+17 more)
 
 ### Community 187 - "Community 187"
 Cohesion: 0.18
@@ -1016,8 +1057,8 @@ Cohesion: 0.20
 Nodes (9): Bottom line, Demand exists because Madrid keeps attracting newcomers who cannot inspect in person, Evidence Base for HouseCheck in Madrid, Madrid’s market pressure makes rushed decisions more likely, Scam evidence is real, but the strongest proof is the repeated warning pattern, The amount of money at risk before move-in is already large enough to justify a verifier, The deeper pain point is remote renting under weak trust, The downside is not only losing a deposit (+1 more)
 
 ### Community 191 - "Community 191"
-Cohesion: 0.20
-Nodes (10): 5. Fortalezas / Strengths, Action for HouseCheck, Confidence, Description, Evidence available now, Evidence still needed, Example use case, F5. Bring-your-own-listing model (+2 more)
+Cohesion: 0.22
+Nodes (9): Action for HouseCheck, Confidence, Description, Evidence available now, Evidence still needed, Example use case, F5. Bring-your-own-listing model, Risks connected to this strength (+1 more)
 
 ### Community 192 - "Community 192"
 Cohesion: 0.20
@@ -1112,8 +1153,8 @@ Cohesion: 0.22
 Nodes (9): Action for HouseCheck, Confidence, Description, Evidence available now, Evidence still needed, Example MVP workflow, F3. Manual MVP is possible, Risks connected to this strength (+1 more)
 
 ### Community 215 - "Community 215"
-Cohesion: 0.22
-Nodes (9): Action for HouseCheck, Confidence, Description, Evidence available now, Evidence still needed, Example positioning, F4. Madrid-first focus, Risks connected to this strength (+1 more)
+Cohesion: 0.20
+Nodes (10): 5. Fortalezas / Strengths, Action for HouseCheck, Confidence, Description, Evidence available now, Evidence still needed, Example positioning, F4. Madrid-first focus (+2 more)
 
 ### Community 216 - "Community 216"
 Cohesion: 0.22
@@ -1236,8 +1277,8 @@ Cohesion: 0.29
 Nodes (6): Audit, code:block20 (┌─────────────────────────┬────────┬────────────────────────), Fix-and-Recheck Loop, Output Format, SEO, When to Run
 
 ### Community 246 - "Community 246"
-Cohesion: 0.29
-Nodes (6): Alternative gratuite a Arcads per pubblicizzare HouseCheck, Come imposterei i primi annunci per HouseCheck, Cosa fa Arcads e cosa significa davvero gratis, I repository migliori che ho trovato, Quale sceglierei per HouseCheck, Verdetto finale
+Cohesion: 0.27
+Nodes (9): Alternative gratuite a Arcads per pubblicizzare HouseCheck, Alternative gratuite a Arcads per pubblicizzare SomeoneThere, Come imposterei i primi annunci per HouseCheck, Come imposterei i primi annunci per SomeoneThere, Cosa fa Arcads e cosa significa davvero gratis, I repository migliori che ho trovato, Quale sceglierei per HouseCheck, Quale sceglierei per SomeoneThere (+1 more)
 
 ### Community 247 - "Community 247"
 Cohesion: 0.29
@@ -1256,8 +1297,8 @@ Cohesion: 0.29
 Nodes (7): 6.A Hardware Acceleration, 6.B Reduced Motion (mandatory), 6.C Dark Mode (mandatory for any consumer-facing page), 6.D Core Web Vitals Targets, 6.E DOM Cost, 6.F Z-Index Restraint, 6. PERFORMANCE & ACCESSIBILITY GUARDRAILS
 
 ### Community 251 - "Community 251"
-Cohesion: 0.29
-Nodes (6): code:bash (cd web), Deploy on Vercel, HouseCheck website, Run it, Still placeholder / undecided, Update the links
+Cohesion: 0.39
+Nodes (7): code:bash (cd web), Deploy on Vercel, HouseCheck website, Run it, SomeoneThere website, Still placeholder / undecided, Update the links
 
 ### Community 252 - "Community 252"
 Cohesion: 0.33
@@ -1280,8 +1321,8 @@ Cohesion: 0.33
 Nodes (5): Anti-Patterns to Flag, Pitfalls, Security, When to Load, Worker hardening
 
 ### Community 257 - "Community 257"
-Cohesion: 0.33
-Nodes (6): API Routes (`app/src/routes/api/**`), Entry Point Inventory, File Upload Surfaces, Page Routes (`app/src/routes/**`), Server Functions (`createServerFn`), Webhook/Callback Endpoints
+Cohesion: 0.08
+Nodes (24): 0. Instructions to GLM 5.2, 11. Update README, 12. Validation commands, 14. First Claude Code command Alessandro should run, 15. First Codex command Alessandro should run, 16. Important principle, 1. Safety rules for GLM, 2. Expected repository structure (+16 more)
 
 ### Community 258 - "Community 258"
 Cohesion: 0.33
@@ -1329,36 +1370,200 @@ Nodes (3): main(), distance from point p to segment ab, seg_dist()
 
 ### Community 269 - "Community 269"
 Cohesion: 0.50
-Nodes (3): B2B verification service for rental platforms, HouseCheck Ideas, Incentives for property owners
+Nodes (4): B2B verification service for rental platforms, HouseCheck Ideas, Incentives for property owners, SomeoneThere Ideas
 
 ### Community 270 - "Community 270"
 Cohesion: 0.50
 Nodes (4): 1.A Dial Inference (design read → dial values), 1.B Use-Case Presets, 1.C How the Dials Drive Output, 1. THE THREE DIALS (Core Configuration)
 
 ### Community 271 - "Community 271"
-Cohesion: 0.50
-Nodes (4): Anonymous Internet User, Attacker Model, Authenticated User, What Attackers CANNOT Do
+Cohesion: 0.10
+Nodes (21): 6.1 Agent operating system, 6.2 Risk register, 6.3 Decision log, 6.4 MVP scope, 6.5 Legal assumptions, 6.6 Legal questions for lawyer, 6. Create core project docs, code:bash (mkdir -p docs) (+13 more)
 
 ### Community 277 - "Community 277"
 Cohesion: 0.67
 Nodes (3): 4. Create Claude project memory, code:text (CLAUDE.md), code:md (# HouseCheck Claude instructions)
 
+### Community 278 - "Community 278"
+Cohesion: 0.11
+Nodes (18): 8.1 Full loop prompt, 8.2 Problem finder run, 8.3 Problem solver run, 8.4 Decision judge run, 8. Create Claude run prompts, code:bash (mkdir -p prompts/claude), code:text (prompts/claude/full-agent-loop.md), code:`md (# Full Claude Agent Loop) (+10 more)
+
+### Community 279 - "Community 279"
+Cohesion: 0.14
+Nodes (14): 7.1 Implementation task prompt, 7.2 Risk review prompt, 7.3 Refactor task prompt, 7.4 Docs update prompt, 7. Create Codex prompts, code:bash (mkdir -p prompts/codex), code:text (prompts/codex/implementation-task.md), code:md (# Codex Implementation Task Prompt) (+6 more)
+
+### Community 281 - "Community 281"
+Cohesion: 0.18
+Nodes (11): 5.1 Problem Finder, 5.2 Problem Solver, 5.3 Decision Judge, 5. Create Claude subagents, code:md (---), code:text (.claude/agents/decision-judge.md), code:md (---), code:bash (mkdir -p .claude/agents) (+3 more)
+
+### Community 282 - "Community 282"
+Cohesion: 0.18
+Nodes (11): 9.1 Risk issue template, 9.2 Feature issue template, 9.3 Validation experiment issue template, 9. Create GitHub issue templates, code:bash (mkdir -p .github/ISSUE_TEMPLATE), code:text (.github/ISSUE_TEMPLATE/risk.md), code:md (---), code:text (.github/ISSUE_TEMPLATE/feature.md) (+3 more)
+
+### Community 283 - "Community 283"
+Cohesion: 0.18
+Nodes (11): code:ts (// BAD -- falls back to a default secret instead of crashing), code:block28 (## Security Audit Results), Dangerous Zero/Null/Empty Defaults, Fail-Open Patterns, Insecure Defaults Check, Output Format, Pitfalls, Precedent Rules (+3 more)
+
+### Community 284 - "Community 284"
+Cohesion: 0.20
+Nodes (10): 5. Fortalezas / Strengths, Action for SomeoneThere, Confidence, Description, Evidence available now, Evidence still needed, Example MVP workflow, F3. Manual MVP is possible (+2 more)
+
+### Community 285 - "Community 285"
+Cohesion: 0.20
+Nodes (10): 6. Debilidades / Weaknesses, Confidence, D1. Operational complexity, Description, Evidence available now, Evidence still needed, Example failure scenario, Mitigation actions (+2 more)
+
+### Community 286 - "Community 286"
+Cohesion: 0.20
+Nodes (9): Bottom line, Demand exists because Madrid keeps attracting newcomers who cannot inspect in person, Evidence Base for SomeoneThere in Madrid, Madrid’s market pressure makes rushed decisions more likely, Scam evidence is real, but the strongest proof is the repeated warning pattern, The amount of money at risk before move-in is already large enough to justify a verifier, The deeper pain point is remote renting under weak trust, The downside is not only losing a deposit (+1 more)
+
+### Community 287 - "Community 287"
+Cohesion: 0.22
+Nodes (9): 7. Oportunidades / Opportunities, Action, Confidence, Description, Evidence available now, Evidence still needed, O8. Potential to become a trusted rental decision layer, Risks (+1 more)
+
+### Community 288 - "Community 288"
+Cohesion: 0.22
+Nodes (9): 8. Amenazas / Threats, A6. Trust barrier for a new brand, Confidence, Description, Evidence available now, Evidence still needed, Mitigation actions, Strategic response (+1 more)
+
+### Community 289 - "Community 289"
+Cohesion: 0.22
+Nodes (9): A1. Users may ask friends for free, Confidence, Description, Evidence available now, Evidence still needed, Example user behavior, Mitigation actions, Strategic response (+1 more)
+
+### Community 290 - "Community 290"
+Cohesion: 0.22
+Nodes (9): A2. Landlords or agents may refuse video calls, Confidence, Description, Evidence available now, Evidence still needed, Example refusal, Mitigation actions, Strategic response (+1 more)
+
+### Community 291 - "Community 291"
+Cohesion: 0.22
+Nodes (9): A3. Low willingness to pay, Confidence, Description, Evidence available now, Evidence still needed, Example problem, Mitigation actions, Strategic response (+1 more)
+
+### Community 292 - "Community 292"
+Cohesion: 0.22
+Nodes (9): A4. Existing platforms or agencies could copy the idea, Confidence, Description, Evidence available now, Evidence still needed, Mitigation actions, Possible competitors, Strategic response (+1 more)
+
+### Community 293 - "Community 293"
+Cohesion: 0.22
+Nodes (9): A5. Legal, privacy, and liability issues, Confidence, Description, Evidence available now, Evidence still needed, Example issue, Mitigation actions, Strategic response (+1 more)
+
+### Community 294 - "Community 294"
+Cohesion: 0.22
+Nodes (9): A7. Operational failures can damage reputation, Confidence, Description, Evidence available now, Evidence still needed, Mitigation actions, Possible failures, Strategic response (+1 more)
+
+### Community 295 - "Community 295"
+Cohesion: 0.22
+Nodes (9): A8. Seasonality and demand concentration, Confidence, Description, Evidence available now, Evidence still needed, Example pattern, Mitigation actions, Strategic response (+1 more)
+
+### Community 296 - "Community 296"
+Cohesion: 0.22
+Nodes (9): Action, Confidence, Description, Evidence available now, Evidence still needed, Example future model, O6. Future expansion to other cities, Risks (+1 more)
+
+### Community 297 - "Community 297"
+Cohesion: 0.22
+Nodes (9): Action for SomeoneThere, Confidence, Description, Evidence available now, Evidence still needed, Example user interpretation, F1. Simple value proposition, Risks connected to this strength (+1 more)
+
+### Community 298 - "Community 298"
+Cohesion: 0.22
+Nodes (9): Action for SomeoneThere, Confidence, Description, Evidence available now, Evidence still needed, Example user interpretation, F2. Strong emotional pain, Risks connected to this strength (+1 more)
+
+### Community 299 - "Community 299"
+Cohesion: 0.22
+Nodes (9): Action for SomeoneThere, Confidence, Description, Evidence available now, Evidence still needed, Example positioning, F4. Madrid-first focus, Risks connected to this strength (+1 more)
+
+### Community 300 - "Community 300"
+Cohesion: 0.22
+Nodes (9): Action for SomeoneThere, Confidence, Description, Evidence available now, Evidence still needed, Example use case, F5. Bring-your-own-listing model, Risks connected to this strength (+1 more)
+
+### Community 301 - "Community 301"
+Cohesion: 0.22
+Nodes (9): Action for SomeoneThere, Confidence, Description, Evidence available now, Evidence still needed, Example user interpretation, F6. More neutral than landlord-provided video call, Risks connected to this strength (+1 more)
+
+### Community 302 - "Community 302"
+Cohesion: 0.22
+Nodes (9): Action for SomeoneThere, Confidence, Description, Evidence available now, Evidence still needed, Example acquisition channels, F7. Clear initial target users, Risks connected to this strength (+1 more)
+
+### Community 303 - "Community 303"
+Cohesion: 0.22
+Nodes (9): Action for SomeoneThere, Confidence, Description, Evidence available now, Evidence still needed, Example value, F8. Can create strong post-visit evidence, Risks connected to this strength (+1 more)
+
+### Community 304 - "Community 304"
+Cohesion: 0.22
+Nodes (9): Confidence, D7. Video quality may vary, Description, Evidence available now, Evidence still needed, Example problem, Mitigation actions, Priority (+1 more)
+
+### Community 305 - "Community 305"
+Cohesion: 0.22
+Nodes (9): Confidence, D8. Service quality depends on the verifier, Description, Evidence available now, Evidence still needed, Example quality issue, Mitigation actions, Priority (+1 more)
+
+### Community 306 - "Community 306"
+Cohesion: 0.22
+Nodes (9): Confidence, Description, Evidence available now, Evidence still needed, Example use case, How to test, O1. International students and Erasmus, Strategic value (+1 more)
+
+### Community 307 - "Community 307"
+Cohesion: 0.22
+Nodes (9): Confidence, Description, Evidence available now, Evidence still needed, Example use case, How to test, O2. Expats and remote workers, Strategic value (+1 more)
+
+### Community 308 - "Community 308"
+Cohesion: 0.22
+Nodes (9): Confidence, Description, Evidence available now, Evidence still needed, Example use case, How to test, O3. Parents may pay for peace of mind, Strategic value (+1 more)
+
+### Community 309 - "Community 309"
+Cohesion: 0.22
+Nodes (9): Confidence, Description, Evidence available now, Evidence still needed, Example use case, How to test, O4. Rental scam fear is emotionally powerful, Strategic value (+1 more)
+
+### Community 310 - "Community 310"
+Cohesion: 0.22
+Nodes (9): Confidence, Description, Evidence available now, Evidence still needed, Example user interpretation, How to test, O5. Gap between DIY and relocation agency, Strategic value (+1 more)
+
+### Community 311 - "Community 311"
+Cohesion: 0.22
+Nodes (9): Confidence, D2. Verifier trust must be earned, Description, Evidence available now, Evidence still needed, Example trust problem, Mitigation actions, Priority (+1 more)
+
+### Community 312 - "Community 312"
+Cohesion: 0.22
+Nodes (9): Confidence, D3. Verifier safety risk, Description, Evidence available now, Evidence still needed, Mitigation actions, Possible safety risks, Priority (+1 more)
+
+### Community 313 - "Community 313"
+Cohesion: 0.22
+Nodes (9): Confidence, D4. Privacy and consent issues, Description, Evidence available now, Evidence still needed, Example privacy issue, Mitigation actions, Priority (+1 more)
+
+### Community 314 - "Community 314"
+Cohesion: 0.22
+Nodes (9): Confidence, D5. Low scalability at the start, Description, Evidence available now, Evidence still needed, Example scaling problem, Mitigation actions, Priority (+1 more)
+
+### Community 315 - "Community 315"
+Cohesion: 0.22
+Nodes (9): Confidence, D6. Dependence on landlord/agent cooperation, Description, Evidence available now, Evidence still needed, Mitigation actions, Possible refusal reasons, Priority (+1 more)
+
+### Community 316 - "Community 316"
+Cohesion: 0.22
+Nodes (9): Client-Side State, code:ts (// FAIL -- unsanitized user content), code:ts (// FAIL -- javascript: protocol injection), code:ts (// FAIL -- no sandbox), `dangerouslySetInnerHTML`, `eval()` / `new Function()`, `href` with User Input, `<iframe>` with User Input (+1 more)
+
+### Community 317 - "Community 317"
+Cohesion: 0.25
+Nodes (8): Confidence, Description, Evidence available now, Evidence still needed, How to test, O7. Partnerships with student and relocation communities, Strategic value, Why it matters
+
+### Community 318 - "Community 318"
+Cohesion: 0.50
+Nodes (4): 10. Optional Codex GitHub workflow template, code:bash (mkdir -p .github/workflows), code:text (.github/workflows/codex-risk-review.yml.disabled), code:yml (# Disabled template.)
+
+### Community 319 - "Community 319"
+Cohesion: 0.67
+Nodes (3): 13. Final response GLM should give Alessandro, code:`md (## SomeoneThere agent setup complete), code:block63
+
 ## Knowledge Gaps
-- **1964 isolated node(s):** `version`, `source`, `sourceType`, `skillPath`, `computedHash` (+1959 more)
+- **2235 isolated node(s):** `version`, `source`, `sourceType`, `skillPath`, `computedHash` (+2230 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **21 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `5. Fortalezas / Strengths` connect `Community 191` to `Community 145`, `Community 212`, `Community 213`, `Community 214`, `Community 215`, `Community 216`, `Community 217`, `Community 218`?**
+- **Why does `6. Debilidades / Weaknesses` connect `Community 285` to `Community 314`, `Community 304`, `Community 305`, `Community 311`, `Community 312`, `Community 313`, `Community 186`, `Community 315`?**
   _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **Why does `8. Amenazas / Threats` connect `Community 203` to `Community 204`, `Community 205`, `Community 206`, `Community 207`, `Community 208`, `Community 145`, `Community 209`, `Community 210`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
-- **Why does `6. Debilidades / Weaknesses` connect `Community 192` to `Community 226`, `Community 227`, `Community 228`, `Community 229`, `Community 230`, `Community 145`, `Community 219`, `Community 220`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+- **Why does `5. Fortalezas / Strengths` connect `Community 284` to `Community 297`, `Community 298`, `Community 299`, `Community 300`, `Community 301`, `Community 302`, `Community 303`, `Community 186`?**
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **What connects `version`, `source`, `sourceType` to the rest of the system?**
-  _1995 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2266 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `HOUSECHECK_AGENT_SETUP_GUIDE.md` be split into smaller, more focused modules?**
   _Cohesion score 0.05128205128205128 - nodes in this community are weakly interconnected._
 - **Should `compress.py` be split into smaller, more focused modules?**

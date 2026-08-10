@@ -1,14 +1,14 @@
-# HouseCheck Competitor Map
+# SomeoneThere Competitor Map
 
 ## Why this matters
 
-HouseCheck's differentiation is **bring-your-own-listing verification**: the user submits a listing from any source (Idealista, Facebook, WhatsApp, Milanuncios, agency sites) and gets independent evidence and risk indicators.
+SomeoneThere's differentiation is **bring-your-own-listing verification**: the user submits a listing from any source (Idealista, Facebook, WhatsApp, Milanuncios, agency sites) and gets independent evidence and risk indicators.
 
 Most competitors verify only listings inside their own marketplace.
 
 ## Competitors
 
-| Competitor | Type | What they do | Gap for HouseCheck |
+| Competitor | Type | What they do | Gap for SomeoneThere |
 |---|---|---|---|
 | Spotahome | Verified-listing marketplace | Marketplace with photos/videos of their own listings | Only verifies internal listings; no external listing checks |
 | HousingAnywhere | Booking marketplace | Marketplace with booking protection | Does not verify external listings |
@@ -19,9 +19,9 @@ Most competitors verify only listings inside their own marketplace.
 | Housetective | Property checking | Property checking service | Smaller brand; possible differentiation on Madrid focus and report quality |
 | Viewber / WeGoLook | Property viewing/inspection services | Send someone to view/inspect | Often US/UK-focused; opportunity in Madrid-first localized service |
 | ProxyPics | Exterior/photos service | Real-estate photo capture | Limited to photos, not full risk report |
-| Relocation agencies | Concierge relocation | Full relocation services | Expensive; HouseCheck is a lighter one-off check |
+| Relocation agencies | Concierge relocation | Full relocation services | Expensive; SomeoneThere is a lighter one-off check |
 
-## HouseCheck positioning
+## SomeoneThere positioning
 
 - Madrid-first, localized, fast.
 - Bring-your-own-listing: works with any source.

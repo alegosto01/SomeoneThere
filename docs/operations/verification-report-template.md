@@ -97,4 +97,4 @@ Selected confidence level:
 
 ## Disclaimer
 
-HouseCheck provides a practical verification report based on a permission-first property visit, live viewing observations, evidence collected where allowed, risk indicators, and unresolved concerns. This report does not guarantee that a rental listing, landlord, agent, contract, payment request, or rental agreement is legitimate, legally valid, or risk-free. HouseCheck does not provide legal advice or recommend whether the client should rent.
+SomeoneThere provides a practical verification report based on a permission-first property visit, live viewing observations, evidence collected where allowed, risk indicators, and unresolved concerns. This report does not guarantee that a rental listing, landlord, agent, contract, payment request, or rental agreement is legitimate, legally valid, or risk-free. SomeoneThere does not provide legal advice or recommend whether the client should rent.

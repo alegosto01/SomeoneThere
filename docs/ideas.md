@@ -1,4 +1,4 @@
-# HouseCheck Ideas
+# SomeoneThere Ideas
 
 This file stores product and business ideas for later exploration. Entries are hypotheses, not approved roadmap items or product decisions.
 
@@ -6,7 +6,7 @@ This file stores product and business ideas for later exploration. Entries are h
 
 **Added:** 2026-07-12
 
-HouseCheck could serve companies as well as individual renters. For example, a rental-listing platform such as Idealista could use HouseCheck to offer local verification, evidence collection, and structured verification reports for selected listings or users.
+SomeoneThere could serve companies as well as individual renters. For example, a rental-listing platform such as Idealista could use SomeoneThere to offer local verification, evidence collection, and structured verification reports for selected listings or users.
 
 Possible customers or partners include:
 
@@ -16,11 +16,11 @@ Possible customers or partners include:
 - Employers helping staff relocate
 - Property managers or agencies seeking independent evidence collection
 
-This could make HouseCheck both B2C and B2B. The Madrid-first, manually operated B2C service can remain the initial way to validate demand and operations before building integrations or platform-specific workflows.
+This could make SomeoneThere both B2C and B2B. The Madrid-first, manually operated B2C service can remain the initial way to validate demand and operations before building integrations or platform-specific workflows.
 
 ### Incentives for property owners
 
-HouseCheck could give property owners a reason to cooperate with verification. An owner who permits a visit and provides the requested evidence may make their listing more credible to remote renters, reduce repetitive questions and unsuccessful viewings, and reach international tenants more easily.
+SomeoneThere could give property owners a reason to cooperate with verification. An owner who permits a visit and provides the requested evidence may make their listing more credible to remote renters, reduce repetitive questions and unsuccessful viewings, and reach international tenants more easily.
 
 Possible incentives include:
 
@@ -31,13 +31,13 @@ Possible incentives include:
 - A discounted or platform-funded first verification
 - Better listing guidance based on missing or inconsistent evidence
 
-Owner participation, cooperation, or payment must never automatically produce a positive result. Reports should clearly state who paid, what was checked, what could not be checked, the confidence level, and any unresolved concerns. HouseCheck would need to protect its independence and prevent owners from using a report as a misleading endorsement.
+Owner participation, cooperation, or payment must never automatically produce a positive result. Reports should clearly state who paid, what was checked, what could not be checked, the confidence level, and any unresolved concerns. SomeoneThere would need to protect its independence and prevent owners from using a report as a misleading endorsement.
 
 Questions to validate:
 
 - Which companies experience this problem strongly enough to pay for verification?
 - Would they buy reports, refer users, bundle the service, or integrate it into their platform?
-- Can HouseCheck remain independent if a listing platform or property company pays for the report?
+- Can SomeoneThere remain independent if a listing platform or property company pays for the report?
 - Which incentive would make legitimate owners cooperate without attracting attempts to buy credibility?
 - Who owns the report and evidence, and who may access it?
 - What privacy, liability, brokerage, and conflict-of-interest risks would the model create?

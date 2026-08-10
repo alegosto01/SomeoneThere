@@ -12,7 +12,7 @@ Company / segment / question:
 
 ## Why this matters
 
-Explain how this helps validate HouseCheck.
+Explain how this helps validate SomeoneThere.
 
 ## Questions to answer
 
@@ -23,7 +23,7 @@ Explain how this helps validate HouseCheck.
 - What evidence of adoption exists?
 - What are users saying in reviews/forums?
 - What are the signs of growth or decline?
-- What can HouseCheck learn?
+- What can SomeoneThere learn?
 
 ## Sources
 
@@ -31,5 +31,5 @@ Add links and notes.
 
 ## Conclusion
 
-Summarize what this means for HouseCheck.
+Summarize what this means for SomeoneThere.
 

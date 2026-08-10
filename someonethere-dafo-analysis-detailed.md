@@ -1,15 +1,15 @@
-# HouseCheck Detailed DAFO Analysis
+# SomeoneThere Detailed DAFO Analysis
 
 **Version:** v0.2  
 **Date:** 2026-07-12  
-**Project:** HouseCheck  
+**Project:** SomeoneThere  
 **Scope:** Madrid-first remote apartment viewing service  
 
 ---
 
 ## 1. Purpose of this document
 
-This document presents a detailed DAFO analysis for HouseCheck.
+This document presents a detailed DAFO analysis for SomeoneThere.
 
 DAFO is the Spanish version of SWOT:
 
@@ -18,9 +18,9 @@ DAFO is the Spanish version of SWOT:
 - **Fortalezas** = Strengths
 - **Oportunidades** = Opportunities
 
-The purpose of this DAFO is not only to describe the project, but to help decide what HouseCheck should test next.
+The purpose of this DAFO is not only to describe the project, but to help decide what SomeoneThere should test next.
 
-For HouseCheck, the DAFO should answer four practical questions:
+For SomeoneThere, the DAFO should answer four practical questions:
 
 1. **Why could this product work?**
 2. **Why could this product fail?**
@@ -33,7 +33,7 @@ This document should be treated as a living strategy document. It should be upda
 
 ## 2. Product definition
 
-HouseCheck is a Madrid-first remote apartment viewing service.
+SomeoneThere is a Madrid-first remote apartment viewing service.
 
 The core product is simple:
 
@@ -41,7 +41,7 @@ The core product is simple:
 
 The main use case is a person who finds a room or apartment online but cannot visit it in person before deciding whether to continue, pay a deposit, or travel to Madrid.
 
-HouseCheck is especially relevant for:
+SomeoneThere is especially relevant for:
 
 - Erasmus students
 - international students
@@ -51,11 +51,11 @@ HouseCheck is especially relevant for:
 - parents helping their child move abroad
 - people moving to Madrid from another city or country
 
-HouseCheck should be positioned as:
+SomeoneThere should be positioned as:
 
 > “Your trusted local eyes in Madrid before you pay a deposit.”
 
-HouseCheck is **not**:
+SomeoneThere is **not**:
 
 - a real estate agency
 - a legal advisor
@@ -110,7 +110,7 @@ The service reduces uncertainty, but it cannot remove all risk.
 
 # 5. Fortalezas / Strengths
 
-Strengths are internal advantages of HouseCheck. These are things the project can use to compete, validate faster, or create value for users.
+Strengths are internal advantages of SomeoneThere. These are things the project can use to compete, validate faster, or create value for users.
 
 ---
 
@@ -118,11 +118,11 @@ Strengths are internal advantages of HouseCheck. These are things the project ca
 
 ### Description
 
-HouseCheck is easy to understand because the service can be explained in one sentence:
+SomeoneThere is easy to understand because the service can be explained in one sentence:
 
 > “Someone in Madrid visits the apartment for you while you join by video call.”
 
-The user does not need to understand a complicated technology, legal process, or marketplace. The service solves a clear problem: the user cannot be physically present, so HouseCheck provides trusted local presence.
+The user does not need to understand a complicated technology, legal process, or marketplace. The service solves a clear problem: the user cannot be physically present, so SomeoneThere provides trusted local presence.
 
 ### Why it matters
 
@@ -135,7 +135,7 @@ A simple value proposition is very important for an early-stage product. If peop
 - test willingness to pay
 - avoid confusion about what the product does
 
-For HouseCheck, this is a major strength because the product is concrete. The user immediately understands what they are paying for: someone physically goes to the property.
+For SomeoneThere, this is a major strength because the product is concrete. The user immediately understands what they are paying for: someone physically goes to the property.
 
 ### Example user interpretation
 
@@ -153,7 +153,7 @@ At this stage, this strength is mainly based on the clarity of the product conce
 
 ### Evidence still needed
 
-HouseCheck should validate this strength by asking users:
+SomeoneThere should validate this strength by asking users:
 
 - Can you explain the idea back to me in one sentence?
 - Is it immediately clear what the service does?
@@ -162,7 +162,7 @@ HouseCheck should validate this strength by asking users:
 
 ### Risks connected to this strength
 
-The idea is simple, but it can become confusing if HouseCheck tries to add too many services too early, such as:
+The idea is simple, but it can become confusing if SomeoneThere tries to add too many services too early, such as:
 
 - digital scam reports
 - contract reviews
@@ -173,7 +173,7 @@ The idea is simple, but it can become confusing if HouseCheck tries to add too m
 
 Adding these too early could make the product harder to explain.
 
-### Action for HouseCheck
+### Action for SomeoneThere
 
 Keep the MVP message simple:
 
@@ -206,7 +206,7 @@ The pain is not only financial. It is also emotional:
 
 Products are easier to sell when they solve urgent and emotional problems. Housing is one of the most stressful parts of relocation. A user may not pay for a “nice-to-have” service, but they may pay to avoid a high-stress mistake.
 
-If the perceived risk is high, users may see HouseCheck as insurance-like reassurance, even if HouseCheck is not legally an insurance product.
+If the perceived risk is high, users may see SomeoneThere as insurance-like reassurance, even if SomeoneThere is not legally an insurance product.
 
 ### Example user interpretation
 
@@ -224,7 +224,7 @@ The emotional pain is logically strong because rental deposits and relocation de
 
 ### Evidence still needed
 
-HouseCheck should validate this with survey and interviews:
+SomeoneThere should validate this with survey and interviews:
 
 - How worried are people about paying before seeing a property?
 - Have they heard about rental scams?
@@ -234,7 +234,7 @@ HouseCheck should validate this with survey and interviews:
 
 ### Risks connected to this strength
 
-The communication must not feel manipulative. If HouseCheck exaggerates the scam risk too much, users may feel the company is trying to scare them.
+The communication must not feel manipulative. If SomeoneThere exaggerates the scam risk too much, users may feel the company is trying to scare them.
 
 The tone should be:
 
@@ -244,7 +244,7 @@ The tone should be:
 - protective
 - not alarmist
 
-### Action for HouseCheck
+### Action for SomeoneThere
 
 Use neutral risk framing in the survey and landing page.
 
@@ -266,7 +266,7 @@ Avoid exaggerated wording:
 
 ### Description
 
-HouseCheck can be tested manually without building a full app.
+SomeoneThere can be tested manually without building a full app.
 
 The first version can use:
 
@@ -283,7 +283,7 @@ This makes the first test cheap and fast.
 
 ### Why it matters
 
-Many founders make the mistake of building software before proving demand. HouseCheck does not need software to test the core assumption.
+Many founders make the mistake of building software before proving demand. SomeoneThere does not need software to test the core assumption.
 
 The most important assumption is not technical. It is behavioral:
 
@@ -294,7 +294,7 @@ That can be tested manually.
 ### Example MVP workflow
 
 1. User submits a listing and contact details.
-2. HouseCheck confirms the viewing time.
+2. SomeoneThere confirms the viewing time.
 3. Verifier attends the viewing.
 4. Verifier starts a live video call.
 5. Client asks questions during the visit.
@@ -320,7 +320,7 @@ Dry runs should test:
 
 ### Risks connected to this strength
 
-Manual MVPs can become chaotic if there is no structure. HouseCheck still needs basic operational documents:
+Manual MVPs can become chaotic if there is no structure. SomeoneThere still needs basic operational documents:
 
 - remote viewing checklist
 - verifier safety SOP
@@ -328,7 +328,7 @@ Manual MVPs can become chaotic if there is no structure. HouseCheck still needs 
 - visit summary template
 - client request form
 
-### Action for HouseCheck
+### Action for SomeoneThere
 
 Do not build the app yet. First create the operational documents and run 3 dry runs.
 
@@ -342,7 +342,7 @@ Do not build the app yet. First create the operational documents and run 3 dry r
 
 ### Description
 
-HouseCheck is focused on Madrid first, instead of trying to launch in multiple cities.
+SomeoneThere is focused on Madrid first, instead of trying to launch in multiple cities.
 
 This is a strength because the service is operationally local. A local focus makes it easier to understand neighborhoods, logistics, demand, and local rental behavior.
 
@@ -367,7 +367,7 @@ Instead of saying:
 
 > “We verify apartments anywhere.”
 
-HouseCheck can say:
+SomeoneThere can say:
 
 > “We help people moving to Madrid visit apartments remotely before paying a deposit.”
 
@@ -379,7 +379,7 @@ The product is currently designed around Madrid and the founder is focused on th
 
 ### Evidence still needed
 
-HouseCheck should test whether Madrid has enough demand from:
+SomeoneThere should test whether Madrid has enough demand from:
 
 - Erasmus students
 - international students
@@ -392,7 +392,7 @@ HouseCheck should test whether Madrid has enough demand from:
 
 The Madrid focus becomes a weakness if the market is too small or if people in Madrid already have enough alternatives.
 
-### Action for HouseCheck
+### Action for SomeoneThere
 
 Keep all early messaging Madrid-specific. Do not talk about Barcelona, Lisbon, Milan, or other cities until Madrid is validated.
 
@@ -406,15 +406,15 @@ Keep all early messaging Madrid-specific. Do not talk about Barcelona, Lisbon, M
 
 ### Description
 
-HouseCheck lets users submit a listing they found anywhere, such as Idealista, Facebook, WhatsApp groups, agency websites, or other platforms.
+SomeoneThere lets users submit a listing they found anywhere, such as Idealista, Facebook, WhatsApp groups, agency websites, or other platforms.
 
 This is different from platforms that only verify or manage their own listings.
 
 ### Why it matters
 
-Many people already search on popular platforms. They may not want to switch to a new housing marketplace. HouseCheck can fit into their existing behavior.
+Many people already search on popular platforms. They may not want to switch to a new housing marketplace. SomeoneThere can fit into their existing behavior.
 
-Instead of asking users to search only inside HouseCheck, the service supports the user’s current process:
+Instead of asking users to search only inside SomeoneThere, the service supports the user’s current process:
 
 > “Found a listing? Send it to us and we help you check it remotely.”
 
@@ -422,7 +422,7 @@ This can make adoption easier.
 
 ### Example use case
 
-A student finds a room on Idealista but is still in Italy. The landlord wants a deposit soon. The student sends the listing to HouseCheck and asks for a remote visit before deciding.
+A student finds a room on Idealista but is still in Italy. The landlord wants a deposit soon. The student sends the listing to SomeoneThere and asks for a remote visit before deciding.
 
 ### Evidence available now
 
@@ -430,7 +430,7 @@ Competitor comparison suggests that many verified housing platforms focus on the
 
 ### Evidence still needed
 
-HouseCheck should ask users:
+SomeoneThere should ask users:
 
 - Where do you usually search for rooms or apartments?
 - Would you prefer using a verified platform only, or checking a listing you found yourself?
@@ -440,7 +440,7 @@ HouseCheck should ask users:
 
 Bring-your-own-listing can create operational complexity because every listing is different. Some listings may be fake, unavailable, or impossible to visit.
 
-### Action for HouseCheck
+### Action for SomeoneThere
 
 Create a clear request form asking for:
 
@@ -462,13 +462,13 @@ Create a clear request form asking for:
 
 ### Description
 
-A landlord or agent can provide a video call, but they control what is shown. HouseCheck offers a more independent perspective because the verifier attends on behalf of the client.
+A landlord or agent can provide a video call, but they control what is shown. SomeoneThere offers a more independent perspective because the verifier attends on behalf of the client.
 
 The verifier is not there to sell the apartment. The verifier is there to show the property and help the client compare it with the listing.
 
 ### Why it matters
 
-Neutrality can be one of HouseCheck’s strongest trust advantages.
+Neutrality can be one of SomeoneThere’s strongest trust advantages.
 
 A landlord video call may still be useful, but the client may wonder:
 
@@ -499,9 +499,9 @@ Survey/interview questions:
 
 ### Risks connected to this strength
 
-HouseCheck must avoid overclaiming neutrality. The verifier is not a certified inspector or legal authority. The correct wording is “independent local verifier,” not “officially certified inspector” unless certification exists.
+SomeoneThere must avoid overclaiming neutrality. The verifier is not a certified inspector or legal authority. The correct wording is “independent local verifier,” not “officially certified inspector” unless certification exists.
 
-### Action for HouseCheck
+### Action for SomeoneThere
 
 Use positioning like:
 
@@ -521,7 +521,7 @@ Avoid saying:
 
 ### Description
 
-HouseCheck has identifiable early target users:
+SomeoneThere has identifiable early target users:
 
 - Erasmus students
 - international students
@@ -534,7 +534,7 @@ These people are likely to experience the problem because they may need to choos
 
 ### Why it matters
 
-A clear target audience makes market validation easier. HouseCheck can distribute surveys and run interviews in specific communities instead of speaking to everyone.
+A clear target audience makes market validation easier. SomeoneThere can distribute surveys and run interviews in specific communities instead of speaking to everyone.
 
 ### Example acquisition channels
 
@@ -566,7 +566,7 @@ The survey should identify which segment has:
 
 Different segments may have different budgets. Students may need the service but pay less. Parents and professionals may pay more but be harder to reach.
 
-### Action for HouseCheck
+### Action for SomeoneThere
 
 Segment all survey answers by profile. Do not analyze all responses as one group only.
 
@@ -580,7 +580,7 @@ Segment all survey answers by profile. Do not analyze all responses as one group
 
 ### Description
 
-After a remote visit, HouseCheck can provide the client with a structured summary of what was seen.
+After a remote visit, SomeoneThere can provide the client with a structured summary of what was seen.
 
 This may include:
 
@@ -596,7 +596,7 @@ This may include:
 
 ### Why it matters
 
-A structured post-visit summary makes the service feel more professional and valuable. It also differentiates HouseCheck from simply asking a random friend.
+A structured post-visit summary makes the service feel more professional and valuable. It also differentiates SomeoneThere from simply asking a random friend.
 
 ### Example value
 
@@ -604,7 +604,7 @@ A friend might say:
 
 > “Looks okay.”
 
-HouseCheck can say:
+SomeoneThere can say:
 
 > “The room matches the listing photos, but the kitchen is smaller than expected, the bathroom is shared with three people, and the landlord did not clearly answer whether bills are included.”
 
@@ -620,7 +620,7 @@ Pilots should test whether users value a written summary or only the live video 
 
 Reports can create liability if they sound like legal guarantees or official inspections.
 
-### Action for HouseCheck
+### Action for SomeoneThere
 
 Create a neutral summary template with disclaimers. Use words like “observed,” “appeared,” and “reported by the landlord/agent.” Avoid definitive legal conclusions.
 
@@ -632,7 +632,7 @@ Create a neutral summary template with disclaimers. Use words like “observed,�
 
 # 6. Debilidades / Weaknesses
 
-Weaknesses are internal limitations or risks that HouseCheck must control. They do not mean the idea is bad, but they must be managed before launch.
+Weaknesses are internal limitations or risks that SomeoneThere must control. They do not mean the idea is bad, but they must be managed before launch.
 
 ---
 
@@ -640,7 +640,7 @@ Weaknesses are internal limitations or risks that HouseCheck must control. They 
 
 ### Description
 
-HouseCheck is not only a website or form. It is a physical service. A person must travel to the property, arrive on time, meet the person showing the apartment, start a video call, follow a checklist, communicate with the client, and complete the visit safely.
+SomeoneThere is not only a website or form. It is a physical service. A person must travel to the property, arrive on time, meet the person showing the apartment, start a video call, follow a checklist, communicate with the client, and complete the visit safely.
 
 ### Why it matters
 
@@ -679,7 +679,7 @@ Dry runs should measure:
 
 ### Mitigation actions
 
-HouseCheck should create:
+SomeoneThere should create:
 
 - pre-visit confirmation process
 - backup contact
@@ -719,7 +719,7 @@ A user may ask:
 
 Trust is central to the product. If users do not trust the verifier, they will not pay.
 
-This is especially important because HouseCheck asks users to rely on someone they do not know for a housing decision.
+This is especially important because SomeoneThere asks users to rely on someone they do not know for a housing decision.
 
 ### Example trust problem
 
@@ -743,7 +743,7 @@ Survey and interviews should ask:
 
 ### Mitigation actions
 
-At the beginning, HouseCheck should:
+At the beginning, SomeoneThere should:
 
 - use only trusted verifiers
 - show the verifier name and profile
@@ -773,7 +773,7 @@ This creates personal safety risk.
 
 ### Why it matters
 
-HouseCheck cannot operate responsibly without basic safety procedures. Even if the probability of a dangerous situation is low, the impact could be high.
+SomeoneThere cannot operate responsibly without basic safety procedures. Even if the probability of a dangerous situation is low, the impact could be high.
 
 ### Possible safety risks
 
@@ -828,7 +828,7 @@ The service involves live video inside private spaces. The video may show person
 
 Privacy mistakes could create legal, reputational, and ethical problems.
 
-Even if the client wants to see everything, HouseCheck must respect people living in or showing the property.
+Even if the client wants to see everything, SomeoneThere must respect people living in or showing the property.
 
 ### Example privacy issue
 
@@ -840,11 +840,11 @@ This risk is inherent in the service design.
 
 ### Evidence still needed
 
-HouseCheck needs legal/privacy review before storing photos, recording videos, or scaling operations.
+SomeoneThere needs legal/privacy review before storing photos, recording videos, or scaling operations.
 
 ### Mitigation actions
 
-HouseCheck should:
+SomeoneThere should:
 
 - ask permission before video calling inside the property
 - avoid recording by default
@@ -872,7 +872,7 @@ The service depends on humans physically going to viewings. This makes the first
 
 ### Why it matters
 
-If demand grows, HouseCheck will need more verifiers, scheduling systems, quality control, safety procedures, and possibly insurance or legal support.
+If demand grows, SomeoneThere will need more verifiers, scheduling systems, quality control, safety procedures, and possibly insurance or legal support.
 
 ### Example scaling problem
 
@@ -916,7 +916,7 @@ Do not scale too early. Start with:
 
 ### Description
 
-HouseCheck can only work if the landlord, agent, or person showing the property allows a third-party visit and live video call.
+SomeoneThere can only work if the landlord, agent, or person showing the property allows a third-party visit and live video call.
 
 ### Why it matters
 
@@ -1023,7 +1023,7 @@ Different verifiers may notice different things, communicate differently, or fol
 
 ### Why it matters
 
-The user experience must be consistent. If one verifier is excellent and another is careless, HouseCheck’s reputation suffers.
+The user experience must be consistent. If one verifier is excellent and another is careless, SomeoneThere’s reputation suffers.
 
 ### Example quality issue
 
@@ -1039,7 +1039,7 @@ Dry runs and pilots should evaluate verifier performance.
 
 ### Mitigation actions
 
-HouseCheck should create:
+SomeoneThere should create:
 
 - checklist
 - training guide
@@ -1061,7 +1061,7 @@ HouseCheck should create:
 
 # 7. Oportunidades / Opportunities
 
-Opportunities are external market conditions that HouseCheck can use to grow or validate demand.
+Opportunities are external market conditions that SomeoneThere can use to grow or validate demand.
 
 ---
 
@@ -1112,7 +1112,7 @@ Distribute the survey in:
 
 ### Strategic value
 
-If this segment responds strongly, HouseCheck can start with a very focused niche:
+If this segment responds strongly, SomeoneThere can start with a very focused niche:
 
 > “Remote apartment visits for Erasmus and international students moving to Madrid.”
 
@@ -1142,7 +1142,7 @@ The problem is plausible for relocation.
 
 ### Evidence still needed
 
-HouseCheck should test:
+SomeoneThere should test:
 
 - whether professionals are willing to pay more
 - whether they prefer relocation agencies
@@ -1180,7 +1180,7 @@ Parents may care strongly about safety, legitimacy, and housing conditions. They
 
 ### Example use case
 
-A parent in Italy helps their child move to Madrid for Erasmus. They are uncomfortable sending a deposit for a room nobody has seen. They pay HouseCheck to attend the viewing and show the room live.
+A parent in Italy helps their child move to Madrid for Erasmus. They are uncomfortable sending a deposit for a room nobody has seen. They pay SomeoneThere to attend the viewing and show the room live.
 
 ### Evidence available now
 
@@ -1220,7 +1220,7 @@ Even people who have never been scammed may know someone who had a bad experienc
 
 A product that reduces a high-cost fear can be valuable even if used only once.
 
-HouseCheck does not need daily usage. It can be a one-time service at a critical moment.
+SomeoneThere does not need daily usage. It can be a one-time service at a critical moment.
 
 ### Example use case
 
@@ -1271,7 +1271,7 @@ Users can:
 - travel to Madrid
 - take the risk
 
-HouseCheck can sit between informal help and expensive relocation services.
+SomeoneThere can sit between informal help and expensive relocation services.
 
 ### Why it matters
 
@@ -1310,7 +1310,7 @@ Include alternatives in the survey:
 
 ### Strategic value
 
-This positioning can help HouseCheck avoid competing directly with full-service relocation agencies.
+This positioning can help SomeoneThere avoid competing directly with full-service relocation agencies.
 
 ### Confidence
 
@@ -1322,7 +1322,7 @@ This positioning can help HouseCheck avoid competing directly with full-service 
 
 ### Description
 
-If the Madrid model works, HouseCheck could eventually expand to other cities with similar remote renting problems.
+If the Madrid model works, SomeoneThere could eventually expand to other cities with similar remote renting problems.
 
 Possible future cities include:
 
@@ -1340,7 +1340,7 @@ A successful Madrid pilot could become a repeatable city-by-city model.
 
 ### Example future model
 
-HouseCheck could eventually become a network of trusted local verifiers for international renters moving to major European cities.
+SomeoneThere could eventually become a network of trusted local verifiers for international renters moving to major European cities.
 
 ### Evidence available now
 
@@ -1368,7 +1368,7 @@ Do not build for multiple cities yet. Only keep expansion as a long-term possibi
 
 ### Description
 
-HouseCheck could reach users through organizations and communities that already support people moving to Madrid.
+SomeoneThere could reach users through organizations and communities that already support people moving to Madrid.
 
 Potential partners include:
 
@@ -1385,7 +1385,7 @@ Potential partners include:
 
 Trust and distribution are hard for new services. Partnerships can help with both.
 
-If a student association recommends HouseCheck, users may trust the service faster.
+If a student association recommends SomeoneThere, users may trust the service faster.
 
 ### Evidence available now
 
@@ -1393,7 +1393,7 @@ Partnerships are a logical channel, but none are validated yet.
 
 ### Evidence still needed
 
-HouseCheck should test whether community admins or student groups are willing to share the survey or pilot.
+SomeoneThere should test whether community admins or student groups are willing to share the survey or pilot.
 
 ### How to test
 
@@ -1417,7 +1417,7 @@ Partnerships could lower acquisition cost and increase trust.
 
 ### Description
 
-In the long term, HouseCheck could become more than a one-off viewing service. It could become a trusted layer that helps remote renters make safer housing decisions.
+In the long term, SomeoneThere could become more than a one-off viewing service. It could become a trusted layer that helps remote renters make safer housing decisions.
 
 Future services could include:
 
@@ -1432,7 +1432,7 @@ Future services could include:
 
 ### Why it matters
 
-If users trust HouseCheck at the decision point before paying a deposit, the product may expand into adjacent services.
+If users trust SomeoneThere at the decision point before paying a deposit, the product may expand into adjacent services.
 
 ### Evidence available now
 
@@ -1440,7 +1440,7 @@ This is a future strategic possibility, not an MVP requirement.
 
 ### Evidence still needed
 
-HouseCheck must first validate the core behavior:
+SomeoneThere must first validate the core behavior:
 
 > Will users pay for a remote viewing visit?
 
@@ -1472,7 +1472,7 @@ The biggest competitor may not be another startup. It may be a friend, classmate
 
 ### Why it matters
 
-If a user already knows someone in Madrid, they may ask that person to visit for free instead of paying HouseCheck.
+If a user already knows someone in Madrid, they may ask that person to visit for free instead of paying SomeoneThere.
 
 This can reduce the size of the paying market.
 
@@ -1496,7 +1496,7 @@ Then analyze willingness to pay separately for users who answer “No.”
 
 ### Mitigation actions
 
-HouseCheck should not only position itself as “someone local.” It should position itself as:
+SomeoneThere should not only position itself as “someone local.” It should position itself as:
 
 - neutral
 - structured
@@ -1508,7 +1508,7 @@ HouseCheck should not only position itself as “someone local.” It should pos
 
 ### Strategic response
 
-HouseCheck should focus especially on people who:
+SomeoneThere should focus especially on people who:
 
 - do not know anyone in Madrid
 - do not want to bother friends
@@ -1531,7 +1531,7 @@ Some landlords or agents may not allow a third party to attend the viewing or ma
 
 This could directly block service delivery.
 
-If refusal is common, HouseCheck may have to reposition or modify the workflow.
+If refusal is common, SomeoneThere may have to reposition or modify the workflow.
 
 ### Example refusal
 
@@ -1567,10 +1567,10 @@ Also offer a no-recording policy by default.
 
 ### Strategic response
 
-If refusal is high, HouseCheck may need to:
+If refusal is high, SomeoneThere may need to:
 
 - focus on listings where video attendance is allowed
-- have clients ask permission before booking HouseCheck
+- have clients ask permission before booking SomeoneThere
 - create landlord-friendly explanation pages
 - avoid recording entirely
 
@@ -1611,7 +1611,7 @@ This is a major uncertainty.
 
 ### Evidence still needed
 
-HouseCheck should collect exact willingness-to-pay answers:
+SomeoneThere should collect exact willingness-to-pay answers:
 
 > “Considering that a deposit can be several hundred euros, how much would you pay to have the property visited by a trusted person before making a decision?”
 
@@ -1635,7 +1635,7 @@ Analyze willingness to pay by segment:
 
 ### Strategic response
 
-If students cannot pay enough, HouseCheck may need to target parents or professionals first.
+If students cannot pay enough, SomeoneThere may need to target parents or professionals first.
 
 ### Confidence
 
@@ -1669,11 +1669,11 @@ Similar models exist in other markets or adjacent categories.
 
 ### Evidence still needed
 
-HouseCheck should continue monitoring competitors, especially in Spain and Madrid.
+SomeoneThere should continue monitoring competitors, especially in Spain and Madrid.
 
 ### Mitigation actions
 
-HouseCheck should compete through:
+SomeoneThere should compete through:
 
 - local focus
 - speed
@@ -1699,11 +1699,11 @@ Do not try to beat big platforms with broad features. Win with a narrow, highly 
 
 ### Description
 
-HouseCheck may face legal and liability questions related to privacy, filming, advice, property access, and user decisions.
+SomeoneThere may face legal and liability questions related to privacy, filming, advice, property access, and user decisions.
 
 ### Why it matters
 
-If a user pays a deposit after a HouseCheck visit and something goes wrong, they may blame HouseCheck even if the service did not guarantee safety.
+If a user pays a deposit after a SomeoneThere visit and something goes wrong, they may blame SomeoneThere even if the service did not guarantee safety.
 
 ### Example issue
 
@@ -1719,7 +1719,7 @@ A legal review is needed before scaling, storing detailed reports, recording vid
 
 ### Mitigation actions
 
-HouseCheck should:
+SomeoneThere should:
 
 - use clear disclaimers
 - avoid legal advice
@@ -1750,7 +1750,7 @@ Not as:
 
 ### Description
 
-HouseCheck is new. People may not trust a new service with something as important as housing.
+SomeoneThere is new. People may not trust a new service with something as important as housing.
 
 ### Why it matters
 
@@ -1758,7 +1758,7 @@ The brand must overcome skepticism quickly.
 
 Potential users may ask:
 
-- Is HouseCheck legitimate?
+- Is SomeoneThere legitimate?
 - Who is behind it?
 - Is this another scam?
 - Why should I trust this verifier?
@@ -1770,11 +1770,11 @@ This is common for new trust-based services.
 
 ### Evidence still needed
 
-Interviews should ask what would make users trust HouseCheck.
+Interviews should ask what would make users trust SomeoneThere.
 
 ### Mitigation actions
 
-HouseCheck can build trust with:
+SomeoneThere can build trust with:
 
 - founder story
 - transparent process
@@ -1800,7 +1800,7 @@ The first users may come from warm communities and referrals rather than cold ad
 
 ### Description
 
-Because HouseCheck is a service business, execution quality directly affects reputation.
+Because SomeoneThere is a service business, execution quality directly affects reputation.
 
 ### Why it matters
 
@@ -1879,7 +1879,7 @@ Track when survey respondents are moving and when they need housing.
 
 ### Mitigation actions
 
-HouseCheck can reduce seasonality by serving multiple segments:
+SomeoneThere can reduce seasonality by serving multiple segments:
 
 - students
 - professionals
@@ -1940,11 +1940,11 @@ This table should be updated as research progresses.
 
 # 10. Strategic conclusions
 
-Based on this DAFO, HouseCheck should continue with a very focused and manual validation strategy.
+Based on this DAFO, SomeoneThere should continue with a very focused and manual validation strategy.
 
 ## Main conclusion 1: The product should stay simple
 
-The strongest version of HouseCheck is not a broad anti-scam platform. It is:
+The strongest version of SomeoneThere is not a broad anti-scam platform. It is:
 
 > A trusted local verifier visits the property while the client joins by video call.
 
@@ -1952,9 +1952,9 @@ This message is simple, concrete, and easy to test.
 
 ## Main conclusion 2: The biggest competitor is probably “asking a friend”
 
-HouseCheck should not only compare itself to platforms and agencies. The real substitute for many users may be a friend or acquaintance in Madrid.
+SomeoneThere should not only compare itself to platforms and agencies. The real substitute for many users may be a friend or acquaintance in Madrid.
 
-HouseCheck must therefore communicate why it is better or more convenient than asking a friend:
+SomeoneThere must therefore communicate why it is better or more convenient than asking a friend:
 
 - structured checklist
 - neutral perspective
@@ -1981,11 +1981,11 @@ People may like the idea but still not pay enough. The survey and pilots must te
 
 The most important question is:
 
-> Can HouseCheck charge enough to cover travel, time, coordination, risk, and still feel affordable?
+> Can SomeoneThere charge enough to cover travel, time, coordination, risk, and still feel affordable?
 
 ## Main conclusion 5: Legal, privacy, and safety must be handled early
 
-Even for pilots, HouseCheck should have clear rules:
+Even for pilots, SomeoneThere should have clear rules:
 
 - no entering without permission
 - no secret recording
@@ -2043,7 +2043,7 @@ These questions should guide the next phase of validation.
 
 7. How often would visits fail because of cancellations, refusals, or bad video quality?
 
-8. Should HouseCheck focus on urgent viewings or scheduled visits with 24–48 hours notice?
+8. Should SomeoneThere focus on urgent viewings or scheduled visits with 24–48 hours notice?
 
 9. Is the strongest message “avoid scams,” “avoid bad surprises,” or “visit remotely before paying”?
 
@@ -2083,7 +2083,7 @@ Ask about:
 - current alternatives
 - trust requirements
 - willingness to pay
-- reaction to HouseCheck
+- reaction to SomeoneThere
 
 ## Step 3: Create operational documents
 
@@ -2166,7 +2166,7 @@ After surveys, interviews, and dry runs, create DAFO v2.
 
 # 16. Final practical takeaway
 
-The current DAFO suggests that HouseCheck is worth testing, but not yet worth building as full software.
+The current DAFO suggests that SomeoneThere is worth testing, but not yet worth building as full software.
 
 The strongest reason to continue is:
 

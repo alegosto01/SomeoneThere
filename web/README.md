@@ -1,6 +1,6 @@
-# HouseCheck website
+# SomeoneThere website
 
-Single-page landing site for validating the HouseCheck MVP: a trusted local verifier attends a Madrid rental viewing while the client joins by live video call.
+Single-page landing site for validating the SomeoneThere MVP: a trusted local verifier attends a Madrid rental viewing while the client joins by live video call.
 
 The page explains the service, what the verifier looks at, where the service stops, and links to an external pilot request form. It is a marketing page only — there is **no backend, database, account system, payment, analytics, or tracking**, and it stores nothing in the browser.
 
@@ -25,7 +25,7 @@ All external links live in [src/config.ts](src/config.ts):
 | Constant | Current placeholder | Replace with |
 | --- | --- | --- |
 | `pilotFormUrl` | `https://forms.gle/REPLACE_ME` | The real pilot request form (Google Forms, Tally, etc.) |
-| `contactEmail` | `hello@housecheck.example` | The real contact inbox |
+| `contactEmail` | `hello@someonethere.example` | The real contact inbox |
 | `whatsappUrl` | `https://wa.me/REPLACE_ME` | `https://wa.me/<number in international format>` |
 | `privacyUrl` | `#privacy-placeholder` | Privacy notice URL |
 | `termsUrl` | `#terms-placeholder` | Terms URL |

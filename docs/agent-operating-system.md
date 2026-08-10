@@ -1,10 +1,10 @@
-# HouseCheck Agent Operating System
+# SomeoneThere Agent Operating System
 
-This document explains how AI agents should work on HouseCheck.
+This document explains how AI agents should work on SomeoneThere.
 
 ## Goal
 
-HouseCheck uses a controlled adversarial workflow:
+SomeoneThere uses a controlled adversarial workflow:
 
 1. A critic finds problems.
 2. A solver proposes mitigations.
@@ -123,7 +123,7 @@ Human approval is required for:
 - deposit handling
 - guarantees or insurance
 - expansion outside Madrid
-- anything that might make HouseCheck a real estate broker
+- anything that might make SomeoneThere a real estate broker
 
 ## Definition of done for an agent task
 

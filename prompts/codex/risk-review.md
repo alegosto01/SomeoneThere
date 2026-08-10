@@ -1,6 +1,6 @@
 # Codex Risk Review Prompt
 
-You are reviewing a HouseCheck change.
+You are reviewing a SomeoneThere change.
 
 Focus on:
 
@@ -15,7 +15,7 @@ Focus on:
 9. technical security
 10. operational complexity
 
-HouseCheck must not:
+SomeoneThere must not:
 - promise scam-proof rentals
 - act as a real estate broker in MVP
 - hold deposits in MVP

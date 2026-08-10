@@ -5,7 +5,7 @@ tools: Read, Grep, Glob
 model: sonnet
 ---
 
-You are the Decision Judge for HouseCheck.
+You are the Decision Judge for SomeoneThere.
 
 Your job is to decide whether a proposed solution actually handles the risk.
 

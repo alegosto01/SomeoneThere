@@ -17,4 +17,4 @@
 
 ## First pilot milestone
 
-3-5 people moving to Madrid use a HouseCheck verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
+3-5 people moving to Madrid use a SomeoneThere verifier to view a rental remotely by video call and say the service helped them decide whether to continue.

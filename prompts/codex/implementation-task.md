@@ -1,6 +1,6 @@
 # Codex Implementation Task Prompt
 
-You are working on HouseCheck.
+You are working on SomeoneThere.
 
 Read `AGENTS.md`, `CLAUDE.md`, and relevant files in `docs/` before making changes.
 
@@ -14,7 +14,7 @@ Implement the smallest useful version of the requested feature.
 - Do not introduce unnecessary dependencies.
 - Do not commit secrets.
 - Do not change product/legal positioning without updating docs.
-- Do not add features that imply HouseCheck guarantees rental safety.
+- Do not add features that imply SomeoneThere guarantees rental safety.
 - Do not add deposit handling.
 - Do not add lease negotiation features.
 - Do not add public landlord scam labels.

@@ -116,7 +116,7 @@ export function ChecklistSection() {
   return (
     <section id="what-we-check" aria-labelledby="what-we-check-title">
       <div className="wrap">
-        <h2 id="what-we-check-title">What HouseCheck checks</h2>
+        <h2 id="what-we-check-title">What SomeoneThere checks</h2>
         <p className="section-intro">
           The verifier follows a structured checklist during the viewing, plus any questions you add
           beforehand.
@@ -153,7 +153,7 @@ export function SafetySection() {
   return (
     <section id="boundaries" aria-labelledby="boundaries-title">
       <div className="wrap">
-        <h2 id="boundaries-title">Where HouseCheck stops</h2>
+        <h2 id="boundaries-title">Where SomeoneThere stops</h2>
         <p className="section-intro">
           These limits are part of the service, not fine print. They protect you, the verifier, and
           the people who live in or manage the property.

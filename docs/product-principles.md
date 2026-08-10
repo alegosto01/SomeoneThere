@@ -1,8 +1,8 @@
-# HouseCheck Product Principles
+# SomeoneThere Product Principles
 
 ## 1. Evidence, not guarantees
 
-HouseCheck collects evidence and surfaces risk indicators. It never promises a rental is safe, scam-proof, or guaranteed.
+SomeoneThere collects evidence and surfaces risk indicators. It never promises a rental is safe, scam-proof, or guaranteed.
 
 ## 2. Permission-first
 
@@ -46,7 +46,7 @@ Never claim legal certainty. Refer serious questions to `docs/legal-questions-fo
 
 > Proposed by the Round 2 adversarial process. Alessandro must accept, modify, or reject.
 
-The target user is often frightened, in a hurry, and under financial pressure — the same emotional state scammers exploit. HouseCheck must not mirror that pressure to sell:
+The target user is often frightened, in a hurry, and under financial pressure — the same emotional state scammers exploit. SomeoneThere must not mirror that pressure to sell:
 
 - **No urgency cues** ("act now," "limited spots") that echo scam tactics.
 - **No dark patterns** that push a stressed user to pay before they understand what a report is and is not.

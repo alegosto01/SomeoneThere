@@ -10,11 +10,11 @@ Use this matrix to separate three different types of competitors:
 
 ## Working conclusion
 
-The strongest opportunity for HouseCheck is not to compete directly with full rental marketplaces. The gap is a Madrid-focused, independent, one-off, bring-your-own-listing verification service.
+The strongest opportunity for SomeoneThere is not to compete directly with full rental marketplaces. The gap is a Madrid-focused, independent, one-off, bring-your-own-listing verification service.
 
 ## Competitor table
 
-| Company | Category | Geography | What they do | Relevance to HouseCheck | Research status |
+| Company | Category | Geography | What they do | Relevance to SomeoneThere | Research status |
 |---|---|---:|---|---|---|
 | Housetective | Direct / similar concept | Netherlands | Property viewing and rental verification support | Very relevant: close business model in Europe | Needs detailed validation |
 | Gander Tour | Direct / remote tour | New York City | Remote apartment tours / local viewing support | Very relevant: city-specific model | Needs detailed validation |
@@ -54,5 +54,5 @@ For each company, collect:
 - Signs of growth, decline, pivot, acquisition, or shutdown
 - Whether the property verification/viewing use case appears frequent or niche
 - Pricing and unit economics
-- What HouseCheck can learn from it
+- What SomeoneThere can learn from it
 

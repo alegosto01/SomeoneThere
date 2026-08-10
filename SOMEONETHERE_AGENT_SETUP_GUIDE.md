@@ -1,9 +1,9 @@
-# HouseCheck Agent Setup Guide for GLM 5.2
+# SomeoneThere Agent Setup Guide for GLM 5.2
 
 **Purpose:** Use this guide as the instruction file for a GLM 5.2 coding agent.  
-**Goal:** Configure the HouseCheck GitHub repository so Claude Code and Codex can help develop the project through a structured adversarial agent workflow.
+**Goal:** Configure the SomeoneThere GitHub repository so Claude Code and Codex can help develop the project through a structured adversarial agent workflow.
 
-HouseCheck is a Madrid-first rental verification service for international students, expats, remote workers, and tenants moving from abroad. Users submit a rental listing before paying a deposit. A local verifier may check the address, attend a viewing with permission, compare the listing to reality, collect photos/videos where allowed, and produce a verification report.
+SomeoneThere is a Madrid-first rental verification service for international students, expats, remote workers, and tenants moving from abroad. Users submit a rental listing before paying a deposit. A local verifier may check the address, attend a viewing with permission, compare the listing to reality, collect photos/videos where allowed, and produce a verification report.
 
 ---
 
@@ -11,7 +11,7 @@ HouseCheck is a Madrid-first rental verification service for international stude
 
 You are the setup agent.
 
-Your task is to prepare the HouseCheck repository for a multi-agent workflow using:
+Your task is to prepare the SomeoneThere repository for a multi-agent workflow using:
 
 - **Claude Code** for the adversarial project-analysis loop:
   - `problem-finder`
@@ -40,7 +40,7 @@ Before modifying anything:
 6. Do not install new dependencies unless explicitly asked.
 7. Do not enable paid API workflows automatically.
 8. Do not claim legal certainty.
-9. Do not make HouseCheck sound like a real estate broker, legal advisor, or official inspection company.
+9. Do not make SomeoneThere sound like a real estate broker, legal advisor, or official inspection company.
 10. Prefer docs and planning artifacts before building code.
 
 If a file already exists:
@@ -55,7 +55,7 @@ If a file already exists:
 Create or update the repository so it contains:
 
 ```text
-HouseCheck/
+SomeoneThere/
   AGENTS.md
   CLAUDE.md
   README.md
@@ -113,15 +113,15 @@ AGENTS.md
 Use this content:
 
 ```md
-# HouseCheck agent instructions
+# SomeoneThere agent instructions
 
-HouseCheck is a Madrid-first rental verification service for international students, expats, remote workers, and tenants moving to Madrid from abroad.
+SomeoneThere is a Madrid-first rental verification service for international students, expats, remote workers, and tenants moving to Madrid from abroad.
 
 The service allows a user to submit a rental listing before paying a deposit. A local verifier may check the address, attend a viewing with permission, compare the listing to reality, collect photos/videos where legally allowed, and produce a verification report.
 
 ## Core product principle
 
-HouseCheck does **not** promise that a rental is safe. It provides evidence, risk indicators, and a structured verification report.
+SomeoneThere does **not** promise that a rental is safe. It provides evidence, risk indicators, and a structured verification report.
 
 Use this language:
 - verification report
@@ -181,7 +181,7 @@ Treat these as assumptions, not legal conclusions:
 - Sensitive documents should not be collected unless strictly necessary.
 - Verifiers must never enter private property without explicit permission.
 - Verifiers should not confront suspected scammers.
-- HouseCheck should avoid lease negotiation, deposit handling, or property recommendation in the MVP.
+- SomeoneThere should avoid lease negotiation, deposit handling, or property recommendation in the MVP.
 - Important Spanish legal, privacy, employment, and brokerage questions require review by a qualified Spanish lawyer.
 
 ## Engineering preferences
@@ -218,7 +218,7 @@ Check:
 6. How could a scammer abuse it?
 7. What happens if the verifier makes a mistake?
 8. Does it increase liability?
-9. Does it make HouseCheck look like a real estate broker?
+9. Does it make SomeoneThere look like a real estate broker?
 10. Does it require lawyer review?
 
 ## Testing and review
@@ -246,7 +246,7 @@ CLAUDE.md
 Use this content:
 
 ```md
-# HouseCheck Claude instructions
+# SomeoneThere Claude instructions
 
 Use the project subagents in `.claude/agents/`.
 
@@ -262,9 +262,9 @@ For major decisions, run the adversarial loop:
 
 ## Project summary
 
-HouseCheck is a Madrid-first rental verification service for people moving from abroad.
+SomeoneThere is a Madrid-first rental verification service for people moving from abroad.
 
-Users submit a rental listing before paying a deposit. HouseCheck collects evidence and risk indicators through:
+Users submit a rental listing before paying a deposit. SomeoneThere collects evidence and risk indicators through:
 - address checks
 - listing/reality comparison
 - exterior checks
@@ -273,7 +273,7 @@ Users submit a rental listing before paying a deposit. HouseCheck collects evide
 - landlord/agent authority questions
 - structured verification report
 
-HouseCheck must not present itself as:
+SomeoneThere must not present itself as:
 - a real estate agency
 - a legal advisor
 - an official inspection company
@@ -334,14 +334,14 @@ Use this content:
 ```md
 ---
 name: problem-finder
-description: Finds legal, technical, financial, operational, marketplace, fraud, UX, trust, privacy, and scalability problems in the HouseCheck project. Use before major product decisions, before implementation, and before launches.
+description: Finds legal, technical, financial, operational, marketplace, fraud, UX, trust, privacy, and scalability problems in the SomeoneThere project. Use before major product decisions, before implementation, and before launches.
 tools: Read, Grep, Glob
 model: sonnet
 ---
 
-You are the Problem Finder for HouseCheck.
+You are the Problem Finder for SomeoneThere.
 
-HouseCheck is a Madrid-first rental verification service for international students, expats, remote workers, and tenants moving from abroad. Users submit a rental listing before paying a deposit. A local verifier may check the address, attend a viewing with permission, compare the listing to reality, collect photos/videos where allowed, and produce a verification report.
+SomeoneThere is a Madrid-first rental verification service for international students, expats, remote workers, and tenants moving from abroad. Users submit a rental listing before paying a deposit. A local verifier may check the address, attend a viewing with permission, compare the listing to reality, collect photos/videos where allowed, and produce a verification report.
 
 Your job is to find problems, not to fix them.
 
@@ -361,7 +361,7 @@ Look for risks related to:
 - employment vs contractor classification
 - platform liability
 - consumer protection
-- whether HouseCheck could be interpreted as real estate brokerage
+- whether SomeoneThere could be interpreted as real estate brokerage
 - liability if a scam is missed
 - misleading advertising
 - refund obligations
@@ -497,16 +497,16 @@ Use this content:
 ```md
 ---
 name: problem-solver
-description: Takes problems found by the problem-finder and proposes practical solutions, mitigations, product changes, technical tasks, legal safeguards, and MVP scope decisions for HouseCheck.
+description: Takes problems found by the problem-finder and proposes practical solutions, mitigations, product changes, technical tasks, legal safeguards, and MVP scope decisions for SomeoneThere.
 tools: Read, Grep, Glob, Edit, Write
 model: sonnet
 ---
 
-You are the Problem Solver for HouseCheck.
+You are the Problem Solver for SomeoneThere.
 
 Your job is to take risks, weaknesses, objections, and open questions and convert them into practical mitigations.
 
-HouseCheck is a Madrid-first rental verification service for people moving from abroad. The product helps users verify a rental listing before paying a deposit by collecting evidence and risk indicators.
+SomeoneThere is a Madrid-first rental verification service for people moving from abroad. The product helps users verify a rental listing before paying a deposit by collecting evidence and risk indicators.
 
 You must reduce risk without overbuilding.
 
@@ -560,7 +560,7 @@ Update or create relevant docs:
 
 ## MVP-safe path
 
-State what HouseCheck should build first, what to delay, and what to avoid.
+State what SomeoneThere should build first, what to delay, and what to avoid.
 
 ## Implementation tasks
 
@@ -591,7 +591,7 @@ tools: Read, Grep, Glob
 model: sonnet
 ---
 
-You are the Decision Judge for HouseCheck.
+You are the Decision Judge for SomeoneThere.
 
 Your job is to decide whether a proposed solution actually handles the risk.
 
@@ -658,13 +658,13 @@ docs/agent-operating-system.md
 Use this content:
 
 ```md
-# HouseCheck Agent Operating System
+# SomeoneThere Agent Operating System
 
-This document explains how AI agents should work on HouseCheck.
+This document explains how AI agents should work on SomeoneThere.
 
 ## Goal
 
-HouseCheck uses a controlled adversarial workflow:
+SomeoneThere uses a controlled adversarial workflow:
 
 1. A critic finds problems.
 2. A solver proposes mitigations.
@@ -772,7 +772,7 @@ Human approval is required for:
 - deposit handling
 - guarantees or insurance
 - expansion outside Madrid
-- anything that might make HouseCheck a real estate broker
+- anything that might make SomeoneThere a real estate broker
 
 ## Definition of done for an agent task
 
@@ -796,7 +796,7 @@ docs/risk-register.md
 Use this content:
 
 ```md
-# HouseCheck Risk Register
+# SomeoneThere Risk Register
 
 This document tracks legal, technical, financial, operational, marketplace, trust, and product risks.
 
@@ -804,12 +804,12 @@ This document tracks legal, technical, financial, operational, marketplace, trus
 |---|---|---|---|---|---|---|---|
 | R001 | Service could be interpreted as real estate brokerage | Legal | Critical | Medium | Avoid negotiation, lease advice, deposit handling, and property recommendations. Provide factual verification only. Get Spanish legal review. | Open | Alessandro |
 | R002 | Verifier enters property without valid permission | Legal / Safety | Critical | Low | Permission-first policy. Written confirmation before interior visit. Exterior-only fallback. | Open | Alessandro |
-| R003 | User believes HouseCheck guarantees a scam-free rental | Liability | High | High | Use evidence/risk-indicator language. No guarantee wording. Strong terms and report disclaimers. | Open | Alessandro |
+| R003 | User believes SomeoneThere guarantees a scam-free rental | Liability | High | High | Use evidence/risk-indicator language. No guarantee wording. Strong terms and report disclaimers. | Open | Alessandro |
 | R004 | Verifier colludes with scammer | Trust | High | Medium | ID verification, random audits, geotagged evidence, reviewer QA, no direct deposit handling. | Open | Alessandro |
 | R005 | Unit economics do not work | Financial | High | Medium | Test manual paid pilots before building marketplace. Track CAC, verifier cost, support time, refund rate. | Open | Alessandro |
 | R006 | GDPR/privacy violation through photos, videos, or documents | Legal / Privacy | Critical | Medium | Minimize data collection. Define retention. Avoid sensitive docs in MVP. Get legal review. | Open | Alessandro |
 | R007 | Landlord refuses access or photos | Operations | Medium | High | Offer exterior-only and live-call alternatives. Make report show access limitations clearly. | Open | Alessandro |
-| R008 | Scammer uses HouseCheck to appear legitimate | Fraud | High | Medium | Never provide public badges in MVP. Reports are private to customer. QA review required. | Open | Alessandro |
+| R008 | Scammer uses SomeoneThere to appear legitimate | Fraud | High | Medium | Never provide public badges in MVP. Reports are private to customer. QA review required. | Open | Alessandro |
 | R009 | Verifier safety incident | Safety | Critical | Low | Safety protocol, no confrontation, location sharing, no high-risk visits, emergency process. | Open | Alessandro |
 | R010 | Low willingness to pay | Market | High | Medium | Run paid pilots before building marketplace. Test price points. | Open | Alessandro |
 ```
@@ -825,7 +825,7 @@ docs/decision-log.md
 Use this content:
 
 ```md
-# HouseCheck Decision Log
+# SomeoneThere Decision Log
 
 | Date | Decision | Reason | Risks | Revisit when |
 |---|---|---|---|---|
@@ -847,7 +847,7 @@ docs/mvp-scope.md
 Use this content:
 
 ```md
-# HouseCheck MVP Scope
+# SomeoneThere MVP Scope
 
 ## MVP goal
 
@@ -869,9 +869,9 @@ Secondary:
 
 ## Core MVP promise
 
-HouseCheck helps users reduce uncertainty before paying a deposit by collecting evidence and risk indicators about a rental listing.
+SomeoneThere helps users reduce uncertainty before paying a deposit by collecting evidence and risk indicators about a rental listing.
 
-HouseCheck does not guarantee that a rental is safe.
+SomeoneThere does not guarantee that a rental is safe.
 
 ## MVP services
 
@@ -886,7 +886,7 @@ User submits:
 - neighborhood
 - concerns
 
-HouseCheck checks:
+SomeoneThere checks:
 - listing consistency
 - price sanity
 - duplicate red flags
@@ -929,7 +929,7 @@ Report includes:
 
 ## Out of scope for MVP
 
-HouseCheck will not:
+SomeoneThere will not:
 - negotiate rent
 - sign contracts
 - give legal advice
@@ -982,13 +982,13 @@ docs/legal-assumptions.md
 Use this content:
 
 ```md
-# HouseCheck Legal Assumptions
+# SomeoneThere Legal Assumptions
 
 This document contains working assumptions, not legal advice.
 
 ## Core assumption
 
-HouseCheck should position itself as a factual evidence and risk-indicator service, not as:
+SomeoneThere should position itself as a factual evidence and risk-indicator service, not as:
 - a real estate agency
 - a legal advisor
 - an official inspection company
@@ -1019,7 +1019,7 @@ MVP policy:
 
 ## Broker risk
 
-HouseCheck should avoid:
+SomeoneThere should avoid:
 - recommending a specific property
 - negotiating lease terms
 - collecting deposits
@@ -1027,7 +1027,7 @@ HouseCheck should avoid:
 - receiving commission from landlords
 - presenting itself as an agency
 
-HouseCheck can focus on:
+SomeoneThere can focus on:
 - factual verification
 - evidence collection
 - risk indicators
@@ -1035,14 +1035,14 @@ HouseCheck can focus on:
 
 ## Liability risk
 
-HouseCheck must not say:
+SomeoneThere must not say:
 - this property is safe
 - this landlord is legitimate
 - this rental is guaranteed
 - you should sign
 - you should pay
 
-HouseCheck can say:
+SomeoneThere can say:
 - based on the evidence collected, these are the observed indicators
 - these items could not be verified
 - these red flags remain unresolved
@@ -1077,22 +1077,22 @@ Use this content:
 ```md
 # Legal Questions for Spanish Lawyer
 
-This is a checklist for legal review before launching HouseCheck in Madrid.
+This is a checklist for legal review before launching SomeoneThere in Madrid.
 
 ## Business model
 
-1. Can HouseCheck provide rental listing verification without being classified as a real estate agency?
-2. Which activities would make HouseCheck a real estate broker/intermediary?
-3. Can HouseCheck contact landlords or agents on behalf of users?
-4. Can HouseCheck attend viewings on behalf of users?
-5. Can HouseCheck ask landlords standard factual questions?
-6. Can HouseCheck provide a risk score or confidence level?
+1. Can SomeoneThere provide rental listing verification without being classified as a real estate agency?
+2. Which activities would make SomeoneThere a real estate broker/intermediary?
+3. Can SomeoneThere contact landlords or agents on behalf of users?
+4. Can SomeoneThere attend viewings on behalf of users?
+5. Can SomeoneThere ask landlords standard factual questions?
+6. Can SomeoneThere provide a risk score or confidence level?
 7. What disclaimers are required?
 
 ## Property access
 
 8. Who can legally grant permission for a verifier to enter a property?
-9. What proof of permission should HouseCheck collect?
+9. What proof of permission should SomeoneThere collect?
 10. Can the verifier take photos/videos inside if the landlord/agent allows it?
 11. What if a current tenant is living there?
 12. What if housemates or personal belongings appear in photos?
@@ -1101,7 +1101,7 @@ This is a checklist for legal review before launching HouseCheck in Madrid.
 
 13. What is the lawful basis for processing user/listing/verifier data?
 14. What data should not be collected?
-15. How long can HouseCheck store photos/videos?
+15. How long can SomeoneThere store photos/videos?
 16. What consent forms are needed?
 17. What data deletion process is required?
 18. Are geotagged photos sensitive personal data?
@@ -1111,19 +1111,19 @@ This is a checklist for legal review before launching HouseCheck in Madrid.
 
 20. Should verifiers be employees, freelancers, or contractors?
 21. What contract is needed with verifiers?
-22. What safety obligations does HouseCheck have?
+22. What safety obligations does SomeoneThere have?
 23. What background checks are legally allowed?
 24. What insurance is recommended?
 
 ## Liability and consumer protection
 
-25. What happens if HouseCheck misses a scam?
+25. What happens if SomeoneThere misses a scam?
 26. What limits of liability are enforceable?
 27. What refund policy is required?
 28. What wording should be avoided in marketing?
-29. Can HouseCheck say “verified”?
-30. Can HouseCheck say “anti-scam”?
-31. Can HouseCheck provide “recommendations” or only factual observations?
+29. Can SomeoneThere say “verified”?
+30. Can SomeoneThere say “anti-scam”?
+31. Can SomeoneThere provide “recommendations” or only factual observations?
 ```
 
 ---
@@ -1149,7 +1149,7 @@ Use this content:
 ```md
 # Codex Implementation Task Prompt
 
-You are working on HouseCheck.
+You are working on SomeoneThere.
 
 Read `AGENTS.md`, `CLAUDE.md`, and relevant files in `docs/` before making changes.
 
@@ -1163,7 +1163,7 @@ Implement the smallest useful version of the requested feature.
 - Do not introduce unnecessary dependencies.
 - Do not commit secrets.
 - Do not change product/legal positioning without updating docs.
-- Do not add features that imply HouseCheck guarantees rental safety.
+- Do not add features that imply SomeoneThere guarantees rental safety.
 - Do not add deposit handling.
 - Do not add lease negotiation features.
 - Do not add public landlord scam labels.
@@ -1195,7 +1195,7 @@ Use this content:
 ```md
 # Codex Risk Review Prompt
 
-You are reviewing a HouseCheck change.
+You are reviewing a SomeoneThere change.
 
 Focus on:
 
@@ -1210,7 +1210,7 @@ Focus on:
 9. technical security
 10. operational complexity
 
-HouseCheck must not:
+SomeoneThere must not:
 - promise scam-proof rentals
 - act as a real estate broker in MVP
 - hold deposits in MVP
@@ -1250,7 +1250,7 @@ Use this content:
 ```md
 # Codex Refactor Task Prompt
 
-You are refactoring HouseCheck.
+You are refactoring SomeoneThere.
 
 Read `AGENTS.md` first.
 
@@ -1282,7 +1282,7 @@ Use this content:
 ```md
 # Codex Docs Update Task Prompt
 
-You are updating HouseCheck documentation.
+You are updating SomeoneThere documentation.
 
 Read:
 - `AGENTS.md`
@@ -1331,7 +1331,7 @@ Use this content:
 Use this prompt in Claude Code from the repo root:
 
 ```text
-Use the problem-finder subagent to perform a complete adversarial review of HouseCheck. Focus on legal, technical, financial, operational, privacy, trust, safety, product, and marketplace risks.
+Use the problem-finder subagent to perform a complete adversarial review of SomeoneThere. Focus on legal, technical, financial, operational, privacy, trust, safety, product, and marketplace risks.
 
 Then use the problem-solver subagent to propose MVP-safe mitigations and update:
 - docs/risk-register.md
@@ -1367,7 +1367,7 @@ Use this content:
 # Problem Finder Run
 
 ```text
-Use the problem-finder subagent to analyze the current HouseCheck repository. Focus on legal, technical, financial, operational, trust, safety, privacy, product, marketplace, and fraud risks. Produce a ranked report. Do not edit files.
+Use the problem-finder subagent to analyze the current SomeoneThere repository. Focus on legal, technical, financial, operational, trust, safety, privacy, product, marketplace, and fraud risks. Produce a ranked report. Do not edit files.
 ```
 ````
 
@@ -1510,7 +1510,7 @@ Use this content:
 ```md
 ---
 name: Feature
-about: Define a product or technical feature for HouseCheck
+about: Define a product or technical feature for SomeoneThere
 title: "[Feature] "
 labels: feature
 assignees: ''
@@ -1692,13 +1692,13 @@ If it exists, add a section called “Agent workflow”.
 Suggested content:
 
 ```md
-# HouseCheck
+# SomeoneThere
 
-HouseCheck is a Madrid-first rental verification service for people moving from abroad.
+SomeoneThere is a Madrid-first rental verification service for people moving from abroad.
 
-Users submit a rental listing before paying a deposit. HouseCheck collects evidence and risk indicators through listing review, address verification, permission-first viewing attendance, and a structured verification report.
+Users submit a rental listing before paying a deposit. SomeoneThere collects evidence and risk indicators through listing review, address verification, permission-first viewing attendance, and a structured verification report.
 
-HouseCheck does not guarantee that a rental is safe.
+SomeoneThere does not guarantee that a rental is safe.
 
 ## Agent workflow
 
@@ -1763,7 +1763,7 @@ Only run commands that exist in `package.json`.
 When finished, respond with:
 
 ````md
-## HouseCheck agent setup complete
+## SomeoneThere agent setup complete
 
 I created/updated:
 
@@ -1790,7 +1790,7 @@ Next recommended step:
 Run this in Claude Code from the repository root:
 
 ```text
-Use the problem-finder subagent to perform a complete adversarial review of HouseCheck. Then use the problem-solver subagent to propose MVP-safe mitigations and update docs. Then use the decision-judge subagent to decide what should block MVP. Do not implement code yet.
+Use the problem-finder subagent to perform a complete adversarial review of SomeoneThere. Then use the problem-solver subagent to propose MVP-safe mitigations and update docs. Then use the decision-judge subagent to decide what should block MVP. Do not implement code yet.
 ```
 
 Then use Codex for the first implementation task only after the risks and MVP scope are updated.
@@ -1803,7 +1803,7 @@ Then use Codex for the first implementation task only after the risks and MVP sc
 After GLM completes setup, Alessandro should open Claude Code in the repo root and run:
 
 ```text
-Use the problem-finder subagent to perform a complete adversarial review of HouseCheck. Focus on legal, technical, financial, operational, trust, safety, privacy, product, marketplace, and fraud risks. Do not edit files.
+Use the problem-finder subagent to perform a complete adversarial review of SomeoneThere. Focus on legal, technical, financial, operational, trust, safety, privacy, product, marketplace, and fraud risks. Do not edit files.
 ```
 
 Then run:
@@ -1827,7 +1827,7 @@ After Claude has updated docs, ask Codex:
 ```text
 Read AGENTS.md, CLAUDE.md, docs/risk-register.md, docs/decision-log.md, and docs/mvp-scope.md.
 
-Propose the smallest technical MVP architecture for HouseCheck. Do not implement code yet. Create a short plan with:
+Propose the smallest technical MVP architecture for SomeoneThere. Do not implement code yet. Create a short plan with:
 1. pages
 2. data models
 3. admin workflow
@@ -1851,4 +1851,4 @@ The purpose is to force every idea through:
 problem → mitigation → judgment → human decision → small implementation
 ```
 
-That is how HouseCheck becomes stronger without becoming chaotic.
+That is how SomeoneThere becomes stronger without becoming chaotic.

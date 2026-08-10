@@ -4,7 +4,7 @@ This is a draft for Spanish GDPR lawyer review. It does not establish legal cert
 
 ## Processing purpose
 
-HouseCheck may receive landlord or agent names, phone numbers, messages, claimed roles, and behavior notes when a customer submits a listing or when a verifier attends a permission-first check.
+SomeoneThere may receive landlord or agent names, phone numbers, messages, claimed roles, and behavior notes when a customer submits a listing or when a verifier attends a permission-first check.
 
 The purpose is to produce a private verification report for the customer, perform QA, answer disputes, and reduce scam-risk indicators before the customer sends money.
 
@@ -14,14 +14,14 @@ The proposed lawful basis for internal processing is legitimate interest under G
 
 ## Necessity test
 
-HouseCheck should collect the minimum identity data needed to:
+SomeoneThere should collect the minimum identity data needed to:
 
 - Describe who claimed authority over the listing.
 - Record landlord/agent authority questions and answers.
 - QA the verifier report.
 - Handle disputes or fraud complaints.
 
-HouseCheck should not build a landlord database in the MVP.
+SomeoneThere should not build a landlord database in the MVP.
 
 ## Balancing safeguards
 
@@ -35,7 +35,7 @@ HouseCheck should not build a landlord database in the MVP.
 ## Open lawyer questions
 
 - Is legitimate interest valid for this processing?
-- Must HouseCheck notify the landlord/agent directly?
+- Must SomeoneThere notify the landlord/agent directly?
 - What retention period is defensible for internal identity data?
 - Can the customer report include any landlord/agent contact detail, or only pseudonyms?
 - Does processing change if the landlord/agent is a professional company rather than an individual?

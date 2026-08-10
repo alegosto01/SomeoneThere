@@ -2,11 +2,11 @@
 
 ## Pilot objective
 
-Prove whether people moving to Madrid will use a HouseCheck verifier to view a rental remotely by video call before sending a deposit.
+Prove whether people moving to Madrid will use a SomeoneThere verifier to view a rental remotely by video call before sending a deposit.
 
 ## First milestone
 
-3-5 people moving to Madrid use a HouseCheck verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
+3-5 people moving to Madrid use a SomeoneThere verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
 
 ## Sequence
 
@@ -56,7 +56,7 @@ Do not run paid ads until the manual offer converts at least a few qualified pro
 - 3-5 completed Remote Viewing Visits.
 - At least 3 clients say the service helped them decide whether to continue.
 - No verifier safety incident or near-miss.
-- No visit requires HouseCheck to negotiate, pay, sign, collect keys, or give legal advice.
+- No visit requires SomeoneThere to negotiate, pay, sign, collect keys, or give legal advice.
 - Manual operating time is clear enough to set a realistic price.
 
 ## What not to validate yet

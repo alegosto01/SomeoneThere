@@ -24,7 +24,7 @@ Before a request is accepted:
 
 1. The requester attestation must be checked.
 2. The admin screens the request manually for plausibility.
-3. HouseCheck does not proactively contact or pressure a landlord/agent in the MVP.
+3. SomeoneThere does not proactively contact or pressure a landlord/agent in the MVP.
 4. Only one active request per claimed address is allowed unless the admin approves an exception.
 
 ## Service mapping

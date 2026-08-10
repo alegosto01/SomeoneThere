@@ -1,6 +1,6 @@
 ---
 name: Feature
-about: Define a product or technical feature for HouseCheck
+about: Define a product or technical feature for SomeoneThere
 title: "[Feature] "
 labels: feature
 assignees: ''

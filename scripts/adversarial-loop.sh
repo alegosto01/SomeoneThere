@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# HouseCheck adversarial loop: Problem Finder → Problem Solver → Decision Judge
+# SomeoneThere adversarial loop: Problem Finder → Problem Solver → Decision Judge
 #
 # Runs the three roles headlessly in sequence, piping each output into the next,
 # and saves all artifacts under agent-runs/<timestamp>/.
@@ -74,13 +74,13 @@ STAMP="$(date +%Y%m%d-%H%M%S)"
 RUN_DIR="agent-runs/$STAMP"
 mkdir -p "$RUN_DIR"
 
-FOCUS="${TOPIC:-the whole HouseCheck project (legal, technical, financial, operational, trust, safety, privacy, product, marketplace, fraud, UX, competition)}"
+FOCUS="${TOPIC:-the whole SomeoneThere project (legal, technical, financial, operational, trust, safety, privacy, product, marketplace, fraud, UX, competition)}"
 EDIT_MODE="read-only: PROPOSE doc updates as fenced diff blocks in your output; do NOT edit files"
 if [ "$APPLY" -eq 1 ]; then
   EDIT_MODE="apply mode: you MAY edit docs/risk-register.md, docs/decision-log.md, docs/mvp-scope.md, docs/legal-assumptions.md, docs/legal-questions-for-lawyer.md directly. You MUST also refresh FOUNDER_DECISIONS.md (repo root) so any decision needing Alessandro is surfaced there."
   fi
 
-echo "▶ HouseCheck adversarial loop"
+echo "▶ SomeoneThere adversarial loop"
 echo "  runtime: $RUNTIME"
 echo "  mode:    $EDIT_MODE"
 echo "  topic:   $FOCUS"

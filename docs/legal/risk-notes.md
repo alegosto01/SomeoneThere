@@ -8,7 +8,7 @@ This is not legal advice. This file lists issues to review before launch.
 - Recording consent for video calls and property recordings.
 - Avoiding defamation when reporting scam suspicion.
 - Avoiding legal guarantees about property legitimacy.
-- Clear disclaimers that HouseCheck provides evidence-based practical checks, not legal certification.
+- Clear disclaimers that SomeoneThere provides evidence-based practical checks, not legal certification.
 - Verifier safety and liability.
 - Whether verifiers are contractors, employees, or platform users.
 - Insurance needs for field visits.
@@ -34,5 +34,5 @@ Avoid:
 
 ## MVP disclaimer draft
 
-HouseCheck helps users collect practical evidence about a rental listing through local checks. HouseCheck does not guarantee that a listing, landlord, agent, contract, or payment request is legitimate. Users remain responsible for reviewing contracts, using secure payment methods, and obtaining legal advice where needed.
+SomeoneThere helps users collect practical evidence about a rental listing through local checks. SomeoneThere does not guarantee that a listing, landlord, agent, contract, or payment request is legitimate. Users remain responsible for reviewing contracts, using secure payment methods, and obtaining legal advice where needed.
 

@@ -1,4 +1,4 @@
-# HouseCheck Claude instructions
+# SomeoneThere Claude instructions
 
 Use the project subagents in `.claude/agents/`.
 
@@ -23,9 +23,9 @@ For major decisions, run the adversarial loop:
 
 ## Project summary
 
-HouseCheck is a Madrid-first rental verification service for people moving from abroad.
+SomeoneThere is a Madrid-first rental verification service for people moving from abroad.
 
-Users submit a rental listing before paying a deposit. HouseCheck collects evidence and risk indicators through:
+Users submit a rental listing before paying a deposit. SomeoneThere collects evidence and risk indicators through:
 - address checks
 - listing/reality comparison
 - exterior checks
@@ -34,7 +34,7 @@ Users submit a rental listing before paying a deposit. HouseCheck collects evide
 - landlord/agent authority questions
 - structured verification report
 
-HouseCheck must not present itself as:
+SomeoneThere must not present itself as:
 - a real estate agency
 - a legal advisor
 - an official inspection company

@@ -1,10 +1,10 @@
-# HouseCheck Business Model
+# SomeoneThere Business Model
 
 ## Value proposition
 
-HouseCheck helps people moving to Madrid visit a rental remotely before sending a deposit. A trusted local verifier attends the viewing while the client joins by video call, compares the flat with the listing, and sends a short verification report with listing match observations, risk indicators, confidence level, and unresolved concerns.
+SomeoneThere helps people moving to Madrid visit a rental remotely before sending a deposit. A trusted local verifier attends the viewing while the client joins by video call, compares the flat with the listing, and sends a short verification report with listing match observations, risk indicators, confidence level, and unresolved concerns.
 
-HouseCheck does not guarantee that a rental is safe. The verifier is only the client's eyes and ears.
+SomeoneThere does not guarantee that a rental is safe. The verifier is only the client's eyes and ears.
 
 ## Customer segments
 
@@ -19,7 +19,7 @@ Start with one manual per-visit fee for the Remote Viewing Visit.
 
 Do not make Basic Digital Review, duplicate-image search, landlord background checks, ownership verification, AI risk scoring, contract review, or price analysis the core product. These may become later add-ons only after the visit model is validated.
 
-The default operating posture for the MVP is seasonal and manual. HouseCheck should not assume year-round staffing, automated scheduling, or multi-verifier operations until pilot evidence supports it.
+The default operating posture for the MVP is seasonal and manual. SomeoneThere should not assume year-round staffing, automated scheduling, or multi-verifier operations until pilot evidence supports it.
 
 ## Cost structure
 
@@ -41,7 +41,7 @@ The default operating posture for the MVP is seasonal and manual. HouseCheck sho
 
 ## First milestone
 
-3-5 people moving to Madrid use a HouseCheck verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
+3-5 people moving to Madrid use a SomeoneThere verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
 
 ## Out of scope for the business model in MVP
 

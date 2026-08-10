@@ -1,12 +1,12 @@
-# HouseCheck agent instructions
+# SomeoneThere agent instructions
 
-HouseCheck is a Madrid-first rental verification service for international students, expats, remote workers, and tenants moving to Madrid from abroad.
+SomeoneThere is a Madrid-first rental verification service for international students, expats, remote workers, and tenants moving to Madrid from abroad.
 
 The service allows a user to submit a rental listing before paying a deposit. A local verifier may check the address, attend a viewing with permission, compare the listing to reality, collect photos/videos where legally allowed, and produce a verification report.
 
 ## Core product principle
 
-HouseCheck does **not** promise that a rental is safe. It provides evidence, risk indicators, and a structured verification report.
+SomeoneThere does **not** promise that a rental is safe. It provides evidence, risk indicators, and a structured verification report.
 
 Use this language:
 - verification report
@@ -66,7 +66,7 @@ Treat these as assumptions, not legal conclusions:
 - Sensitive documents should not be collected unless strictly necessary.
 - Verifiers must never enter private property without explicit permission.
 - Verifiers should not confront suspected scammers.
-- HouseCheck should avoid lease negotiation, deposit handling, or property recommendation in the MVP.
+- SomeoneThere should avoid lease negotiation, deposit handling, or property recommendation in the MVP.
 - Important Spanish legal, privacy, employment, and brokerage questions require review by a qualified Spanish lawyer.
 
 ## Engineering preferences
@@ -103,7 +103,7 @@ Check:
 6. How could a scammer abuse it?
 7. What happens if the verifier makes a mistake?
 8. Does it increase liability?
-9. Does it make HouseCheck look like a real estate broker?
+9. Does it make SomeoneThere look like a real estate broker?
 10. Does it require lawyer review?
 
 ## Testing and review

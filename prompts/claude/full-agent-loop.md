@@ -3,7 +3,7 @@
 Use this prompt in Claude Code from the repo root:
 
 ```text
-Use the problem-finder subagent to perform a complete adversarial review of HouseCheck. Focus on legal, technical, financial, operational, trust, safety, privacy, product, and marketplace risks.
+Use the problem-finder subagent to perform a complete adversarial review of SomeoneThere. Focus on legal, technical, financial, operational, trust, safety, privacy, product, and marketplace risks.
 
 Then use the problem-solver subagent to propose MVP-safe mitigations and update:
 - docs/risk-register.md

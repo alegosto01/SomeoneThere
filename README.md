@@ -1,10 +1,10 @@
-# HouseCheck
+# SomeoneThere
 
-HouseCheck helps people moving to Madrid visit a rental remotely before sending a deposit.
+SomeoneThere helps people moving to Madrid visit a rental remotely before sending a deposit.
 
 The core service is simple: a trusted local verifier attends a property viewing, the client joins by WhatsApp, Google Meet, or Zoom video call, and the verifier shows the flat with permission while comparing it with the online listing. After the visit, the client receives a short verification report with listing match observations, risk indicators, confidence level, and unresolved concerns.
 
-HouseCheck does not guarantee that a rental is safe. The verifier is only the client's eyes and ears.
+SomeoneThere does not guarantee that a rental is safe. The verifier is only the client's eyes and ears.
 
 ## Target users
 
@@ -57,12 +57,12 @@ The verifier must not:
 
 ## First milestone
 
-3-5 people moving to Madrid use a HouseCheck verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
+3-5 people moving to Madrid use a SomeoneThere verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
 
 ## Repository structure
 
 ```text
-HouseCheck/
+SomeoneThere/
 ├── README.md
 ├── docs/
 │   ├── market-research/

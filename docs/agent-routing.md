@@ -1,8 +1,8 @@
-# HouseCheck Agent Routing
+# SomeoneThere Agent Routing
 
 This document explains how to **choose the model / agent at the start of each work session**.
 
-The HouseCheck roles (Problem Finder, Problem Solver, Decision Judge, and the Codex implementation/review prompts) are written as plain-text instructions. They are **runtime-neutral**: the same prompt body runs in Claude Code, the Codex CLI, or a GLM session. You pick the runtime each time based on what you have available.
+The SomeoneThere roles (Problem Finder, Problem Solver, Decision Judge, and the Codex implementation/review prompts) are written as plain-text instructions. They are **runtime-neutral**: the same prompt body runs in Claude Code, the Codex CLI, or a GLM session. You pick the runtime each time based on what you have available.
 
 > Why this matters: if you are out of Claude tokens, you can keep working by routing the same roles to Codex or GLM. Nothing in the role definitions is Claude-specific except the YAML frontmatter in `.claude/agents/*.md`, which other runtimes simply ignore.
 
@@ -67,7 +67,7 @@ Codex does not read the `.claude/agents/` folder, so feed it the role file direc
 ```bash
 # Analysis role (read-only)
 codex exec "$(cat .claude/agents/problem-finder.md)" \
-  "Review the current HouseCheck repository and produce the report defined above."
+  "Review the current SomeoneThere repository and produce the report defined above."
 
 # Implementation (codex prompt)
 codex exec "$(cat prompts/codex/implementation-task.md)" \
@@ -127,7 +127,7 @@ The default is **read-only** so the adversarial analysis cannot change docs with
 
 ## 6. Notes and guardrails
 
-- The runtime choice is **operational**, not strategic. It does not change HouseCheck's product, legal, or safety positioning.
+- The runtime choice is **operational**, not strategic. It does not change SomeoneThere's product, legal, or safety positioning.
 - Whichever runtime you use, the role's rules still apply: no legal certainty, no guarantees, Madrid-first, update `docs/risk-register.md` and `docs/decision-log.md` when relevant.
 - Do **not** edit the `model:` field in `.claude/agents/*.md` to a non-Claude value (e.g. `codex`, `glm`). Claude Code cannot resolve those values; other runtimes ignore the field anyway, so it would only break Claude Code without helping anyone. To change Claude's model, use `--model` or `/model` as shown above.
 - If a role's behavior differs noticeably between runtimes, record it in `docs/decision-log.md` so the team knows which runtime produced which output.

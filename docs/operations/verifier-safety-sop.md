@@ -14,7 +14,7 @@ Remote Viewing Visits are blocked until:
 
 - A backup helper/admin is named with coverage hours.
 - The verifier has accepted this SOP in writing.
-- HouseCheck has reviewed field-visit insurance, including civil liability and accident coverage.
+- SomeoneThere has reviewed field-visit insurance, including civil liability and accident coverage.
 - The landlord, agent, or current occupant has given explicit permission for entry.
 - The verifier has completed at least one dry run.
 
@@ -91,7 +91,7 @@ An aborted visit can still produce a short summary describing what happened, wha
 
 ## Insurance to confirm
 
-Before paid visits, HouseCheck must confirm:
+Before paid visits, SomeoneThere must confirm:
 
 - Civil liability coverage for field verification activity.
 - Accident coverage for verifier travel and site presence.

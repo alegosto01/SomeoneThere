@@ -1,4 +1,4 @@
-# HouseCheck Risk Register
+# SomeoneThere Risk Register
 
 This document tracks legal, technical, financial, operational, marketplace, trust, and product risks.
 
@@ -6,12 +6,12 @@ This document tracks legal, technical, financial, operational, marketplace, trus
 |---|---|---|---|---|---|---|---|
 | R001 | Service could be interpreted as real estate brokerage | Legal | Critical | Medium | Avoid negotiation, lease advice, deposit handling, and property recommendations. Provide factual verification only. Get Spanish legal review. | Open | Alessandro |
 | R002 | Verifier enters property without valid permission | Legal / Safety | Critical | Low | Permission-first policy. Written confirmation before interior visit. Exterior-only fallback. | Open | Alessandro |
-| R003 | User believes HouseCheck guarantees a scam-free rental | Liability | High | High | Use evidence/risk-indicator language. No guarantee wording. Strong terms and report disclaimers. | Open | Alessandro |
+| R003 | User believes SomeoneThere guarantees a scam-free rental | Liability | High | High | Use evidence/risk-indicator language. No guarantee wording. Strong terms and report disclaimers. | Open | Alessandro |
 | R004 | Verifier colludes with scammer | Trust | High | Medium | ID verification, random audits, geotagged evidence, reviewer QA, no direct deposit handling. | Open | Alessandro |
 | R005 | Unit economics do not work | Financial | High | Medium | Test manual paid pilots before building marketplace. Track CAC, verifier cost, support time, refund rate. | Open | Alessandro |
 | R006 | GDPR/privacy violation through photos, videos, or documents | Legal / Privacy | Critical | Medium | Minimize data collection. Define retention. Avoid sensitive docs in MVP. Get legal review. | Open | Alessandro |
 | R007 | Landlord, agent, or occupant refuses third-party viewing access or video | Operations | Medium | High | Confirm permission before the visit, do not secretly record, and make the summary show access limitations clearly. Abort or reschedule if permission is unclear. | Open | Alessandro |
-| R008 | Scammer uses HouseCheck to appear legitimate | Fraud | High | Medium | Never provide public badges in MVP. Reports are private to customer. QA review required. | Open | Alessandro |
+| R008 | Scammer uses SomeoneThere to appear legitimate | Fraud | High | Medium | Never provide public badges in MVP. Reports are private to customer. QA review required. | Open | Alessandro |
 | R009 | Verifier safety incident | Safety | Critical | Low | Safety protocol, no confrontation, location sharing, no high-risk visits, emergency process. | Open | Alessandro |
 | R010 | Low willingness to pay | Market | High | Medium | Run paid pilots before building marketplace. Test price points. | Open | Alessandro |
 | R011 | Defamation suit from naming a landlord as a scammer in a report | Legal | Critical | Medium | Pseudonymize landlord/agent in the deliverable; use observed-fact language only; QA review every report; lawyer sign-off before first paid report. | Open | Alessandro |

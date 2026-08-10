@@ -1,8 +1,8 @@
-# Product Requirements Document - HouseCheck MVP
+# Product Requirements Document - SomeoneThere MVP
 
 ## Product vision
 
-HouseCheck helps people moving to Madrid visit a rental remotely before sending a deposit.
+SomeoneThere helps people moving to Madrid visit a rental remotely before sending a deposit.
 
 ## Problem
 
@@ -13,7 +13,7 @@ People moving to Madrid often search for rooms or apartments remotely. They may 
 A manual Remote Viewing Visit workflow:
 
 1. Client sends a listing and viewing details.
-2. HouseCheck screens the request and confirms scope.
+2. SomeoneThere screens the request and confirms scope.
 3. A trusted local verifier is assigned.
 4. The verifier attends the scheduled viewing in Madrid.
 5. The client joins by WhatsApp, Google Meet, or Zoom.
@@ -64,7 +64,7 @@ Includes:
 
 First milestone:
 
-- 3-5 people moving to Madrid use a HouseCheck verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
+- 3-5 people moving to Madrid use a SomeoneThere verifier to view a rental remotely by video call and say the service helped them decide whether to continue.
 
 Support metrics:
 

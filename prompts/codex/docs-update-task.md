@@ -1,6 +1,6 @@
 # Codex Docs Update Task Prompt
 
-You are updating HouseCheck documentation.
+You are updating SomeoneThere documentation.
 
 Read:
 - `AGENTS.md`

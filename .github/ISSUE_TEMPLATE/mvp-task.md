@@ -1,6 +1,6 @@
 ---
 name: MVP task
-about: Build or define part of the HouseCheck MVP
+about: Build or define part of the SomeoneThere MVP
 title: "MVP: "
 labels: mvp
 assignees: ''

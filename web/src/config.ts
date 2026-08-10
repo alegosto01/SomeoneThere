@@ -4,7 +4,7 @@
  */
 export const config = {
   pilotFormUrl: 'https://forms.gle/REPLACE_ME',
-  contactEmail: 'hello@housecheck.example',
+  contactEmail: 'hello@someonethere.example',
   whatsappUrl: 'https://wa.me/REPLACE_ME',
   privacyUrl: '#privacy-placeholder',
   termsUrl: '#terms-placeholder',

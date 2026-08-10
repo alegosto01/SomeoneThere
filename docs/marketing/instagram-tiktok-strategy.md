@@ -1,8 +1,8 @@
-# Instagram & TikTok Strategy for HouseCheck
+# Instagram & TikTok Strategy for SomeoneThere
 
 > Research + implementation plan for AI-assisted, partly-automated social media.
 > Audience: international students / Erasmus / expats moving to Madrid.
-> Principle: **helpful content first, promotion second.** HouseCheck's wedge is trust; spammy automation destroys trust.
+> Principle: **helpful content first, promotion second.** SomeoneThere's wedge is trust; spammy automation destroys trust.
 
 ---
 
@@ -24,7 +24,7 @@ Madrid-bound students/expats don't follow "rental scam" accounts — they follow
 ### Content generation
 | Tool | Use | Why | Cost |
 |---|---|---|---|
-| **Claude / GPT-4** | Scripts, captions, carousel text | Best long-form reasoning; follow HouseCheck language rules (no guarantees) | ~$20/mo |
+| **Claude / GPT-4** | Scripts, captions, carousel text | Best long-form reasoning; follow SomeoneThere language rules (no guarantees) | ~$20/mo |
 | **ElevenLabs** | Voiceover (TTS) for faceless videos | Natural Spanish + English voices; consistent brand voice | ~$5–22/mo |
 | **HeyGen / Synthesia** | AI avatar presenter | Good for "explainer" style without showing your face | ~$30–90/mo |
 
@@ -55,7 +55,7 @@ Madrid-bound students/expats don't follow "rental scam" accounts — they follow
 
 ## 3. The realistic, low-cost automation stack (recommended for pilot)
 
-**Don't over-automate.** For the pilot (first 1–3 months), run a **semi-automated loop** that still has a human approve every post. HouseCheck's whole wedge is trust — AI-generated slop will kill it.
+**Don't over-automate.** For the pilot (first 1–3 months), run a **semi-automated loop** that still has a human approve every post. SomeoneThere's whole wedge is trust — AI-generated slop will kill it.
 
 ### Stack (≈$50–80/mo total)
 1. **Content generation:** Claude/GPT for scripts (house rules: hedged language, no guarantees).
@@ -77,7 +77,7 @@ Madrid-bound students/expats don't follow "rental scam" accounts — they follow
 
 ## 4. Compliance & safety rules for social
 
-HouseCheck's product principles apply to marketing too:
+SomeoneThere's product principles apply to marketing too:
 - **No "guaranteed safe," "scam-proof," "verified," "legally verified," "certified."** Use "evidence and risk indicators."
 - **No urgency cues** that mirror scam tactics ("act now!"). The fairness principle (R030) governs here.
 - **Anonymise** any real listing/landlord in examples. Never show a real address or name.
@@ -89,7 +89,7 @@ HouseCheck's product principles apply to marketing too:
 ## 5. Account setup checklist
 
 ### Instagram
-- [ ] Username: `@housecheck.madrid` (or `@housecheck_es`).
+- [ ] Username: `@someonethere.madrid` (or `@someonethere_es`).
 - [ ] Bio: one line of value ("Rental listing checks for Madrid · Evidence, not guarantees") + link to landing page.
 - [ ] Link-in-bio: use the landing page URL (`web/landing.html` once hosted).
 - [ ] Business account (for insights + ManyChat).
