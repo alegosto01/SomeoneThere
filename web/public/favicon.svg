@@ -1,20 +1,6 @@
-<!-- Placeholder favicon: SomeoneThere mark (roof + check). Replace with the final brand asset. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="SomeoneThere">
-  <rect width="32" height="32" rx="7" fill="#1e5f74" />
-  <path
-    d="M7 15.5 16 8l9 7.5"
-    fill="none"
-    stroke="#faf7f2"
-    stroke-width="2.2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
-  <path
-    d="M11.5 18.5 15 22l6.5-7"
-    fill="none"
-    stroke="#faf7f2"
-    stroke-width="2.6"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-  />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#050706"/>
+  <path d="M18 10h28a6 6 0 0 1 6 6v26a6 6 0 0 1-6 6H35l-9 8v-8h-8a6 6 0 0 1-6-6V16a6 6 0 0 1 6-6Z" fill="none" stroke="#f7fff2" stroke-width="3"/>
+  <circle cx="32" cy="26" r="6" fill="#8cff00"/>
+  <path d="M23 42c0-5 4-9 9-9s9 4 9 9" fill="none" stroke="#8cff00" stroke-width="4" stroke-linecap="round"/>
 </svg>

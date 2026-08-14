@@ -1,43 +1,29 @@
 import { useState } from 'react';
-import { faq } from '../content';
+import { faqs } from '../content';
 
 export function Faq() {
-  // Only one answer open at a time; null means all collapsed.
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [open, setOpen] = useState<number | null>(null);
 
   return (
-    <section id="faq" className="band" aria-labelledby="faq-title">
-      <div className="wrap narrow">
-        <h2 id="faq-title">Questions</h2>
-        <ul className="faq plain-list">
-          {faq.map((item, index) => {
-            const isOpen = openIndex === index;
-            const panelId = `faq-panel-${index}`;
-            const buttonId = `faq-button-${index}`;
+    <section className="light-section faq-section" id="faq">
+      <div className="shell faq-shell">
+        <div className="section-heading centered" data-reveal>
+          <h2>Frequently asked <span className="green">questions</span></h2>
+          <p>Everything you need to know about the live viewing experience.</p>
+        </div>
+        <div className="faq-list" data-reveal>
+          {faqs.map((item, index) => {
+            const isOpen = open === index;
             return (
-              <li key={item.question}>
-                <h3>
-                  <button
-                    type="button"
-                    id={buttonId}
-                    className="faq-question"
-                    aria-expanded={isOpen}
-                    aria-controls={panelId}
-                    onClick={() => setOpenIndex(isOpen ? null : index)}
-                  >
-                    <span>{item.question}</span>
-                    <span className="faq-icon" aria-hidden="true">
-                      {isOpen ? '−' : '+'}
-                    </span>
-                  </button>
-                </h3>
-                <div id={panelId} role="region" aria-labelledby={buttonId} hidden={!isOpen}>
-                  <p className="faq-answer">{item.answer}</p>
-                </div>
-              </li>
+              <article className={`faq-item ${isOpen ? 'open' : ''}`} key={item.q}>
+                <button type="button" onClick={() => setOpen(isOpen ? null : index)} aria-expanded={isOpen}>
+                  <span>{item.q}</span><b>{isOpen ? '−' : '+'}</b>
+                </button>
+                <div className="faq-answer"><p>{item.a}</p></div>
+              </article>
             );
           })}
-        </ul>
+        </div>
       </div>
     </section>
   );
