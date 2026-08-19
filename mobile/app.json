@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "SomeoneThere",
+    "slug": "someonethere",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "someonethere",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.someonethere.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": ["CAMERA", "READ_MEDIA_IMAGES", "POST_NOTIFICATIONS"],
+      "blockedPermissions": ["ACCESS_FINE_LOCATION", "RECORD_AUDIO"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.someonethere.app",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "SomeoneThere uses the camera so a verifier can capture property photos during a viewing, only where permission has been given.",
+        "NSPhotoLibraryUsageDescription": "SomeoneThere uses your photo library to attach permitted property photos to a visit report."
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-localization",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "SomeoneThere attaches permitted property photos to your visit report.",
+          "cameraPermission": "SomeoneThere lets a verifier capture property photos where permission has been given."
+        }
+      ],
+      [
+        "expo-notifications",
+        { "color": "#0F5132" }
+      ]
+    ],
+    "experiments": { "typedRoutes": true },
+    "extra": {
+      "eas": { "projectId": "00000000-0000-0000-0000-000000000000" }
+    }
+  }
+}

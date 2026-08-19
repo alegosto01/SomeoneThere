@@ -1,0 +1,41 @@
+project_id = "someonethere"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 15
+
+[studio]
+enabled = true
+port = 54323
+
+[auth]
+enabled = true
+site_url = "someonethere://"
+additional_redirect_urls = ["someonethere://auth/callback"]
+jwt_expiry = 3600
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+enable_confirmations = false
+
+[auth.external.google]
+enabled = false
+client_id = ""
+secret = ""
+redirect_uri = "someonethere://auth/callback"
+
+[storage]
+enabled = true
+file_size_limit = "20MiB"
+
+# The webhook must run unauthenticated — Stripe cannot present a Supabase JWT.
+[functions.stripe-webhook]
+verify_jwt = false
