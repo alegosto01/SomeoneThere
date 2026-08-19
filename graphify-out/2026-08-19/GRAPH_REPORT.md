@@ -1,11 +1,11 @@
 # Graph Report - HouseCheck  (2026-08-19)
 
 ## Corpus Check
-- 297 files · ~250,823 words
+- 298 files · ~251,238 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 3331 nodes · 3807 edges · 741 communities (284 shown, 457 thin omitted)
+- 3328 nodes · 3809 edges · 739 communities (287 shown, 452 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
@@ -657,6 +657,8 @@
 - [[_COMMUNITY_codetext (Write 3-5 sentences explaining what the verifier saw on the )|code:text (Write 3-5 sentences explaining what the verifier saw on the )]]
 - [[_COMMUNITY_HouseCheck Risk Register|HouseCheck Risk Register]]
 - [[_COMMUNITY_codemermaid (gantt)|code:mermaid (gantt)]]
+- [[_COMMUNITY_13. Next validation steps|13. Next validation steps]]
+- [[_COMMUNITY_index.ts|index.ts]]
 - [[_COMMUNITY_codetext (SomeoneThere)|code:text (SomeoneThere/)]]
 - [[_COMMUNITY_HouseCheck|HouseCheck]]
 - [[_COMMUNITY_Initial positioning|Initial positioning]]
@@ -665,7 +667,6 @@
 - [[_COMMUNITY_MVP principle|MVP principle]]
 - [[_COMMUNITY_Risks|Risks]]
 - [[_COMMUNITY_skillPath|skillPath]]
-- [[_COMMUNITY_source|source]]
 - [[_COMMUNITY_sourceType|sourceType]]
 - [[_COMMUNITY_computedHash|computedHash]]
 - [[_COMMUNITY_skillPath|skillPath]]
@@ -673,15 +674,12 @@
 - [[_COMMUNITY_sourceType|sourceType]]
 - [[_COMMUNITY_skillPath|skillPath]]
 - [[_COMMUNITY_source|source]]
-- [[_COMMUNITY_computedHash|computedHash]]
 - [[_COMMUNITY_skillPath|skillPath]]
 - [[_COMMUNITY_sourceType|sourceType]]
 - [[_COMMUNITY_computedHash|computedHash]]
-- [[_COMMUNITY_sourceType|sourceType]]
 - [[_COMMUNITY_computedHash|computedHash]]
 - [[_COMMUNITY_source|source]]
 - [[_COMMUNITY_computedHash|computedHash]]
-- [[_COMMUNITY_skillPath|skillPath]]
 - [[_COMMUNITY_source|source]]
 - [[_COMMUNITY_sourceType|sourceType]]
 - [[_COMMUNITY_skills|skills]]
@@ -740,11 +738,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (741 total, 457 thin omitted)
+## Communities (739 total, 452 thin omitted)
 
 ### Community 0 - "HOUSECHECK_AGENT_SETUP_GUIDE.md"
-Cohesion: 0.05
-Nodes (78): VisitCardProps, AuthState, fetchPaymentForVisit(), fetchVerifierEarnings(), fetchVerifierProfile(), requestAccountDeletion(), updateProfile(), updateVerifierProfile() (+70 more)
+Cohesion: 0.06
+Nodes (75): VisitCardProps, AuthState, fetchPaymentForVisit(), requestAccountDeletion(), updateProfile(), updateVerifierProfile(), addReportMedia(), fetchCustomerReports() (+67 more)
 
 ### Community 1 - "compress.py"
 Cohesion: 0.09
@@ -943,28 +941,28 @@ Cohesion: 0.07
 Nodes (28): Anti-Patterns, App shell, Button Rules, Code layouts (preferred starting points), Component Priority, Core Imports, Current Spacing And Token Rules, Data & Charts (LOW — dashboards only) (+20 more)
 
 ### Community 64 - "Community 64"
-Cohesion: 0.08
-Nodes (40): styles, styles, ReportDisclaimer(), styles, ObservationRow(), RATING_SYMBOL, RATING_TONE, styles (+32 more)
+Cohesion: 0.09
+Nodes (35): styles, styles, ObservationRow(), RATING_SYMBOL, RATING_TONE, styles, styles, ButtonProps (+27 more)
 
 ### Community 65 - "Community 65"
 Cohesion: 0.03
 Nodes (60): 10. Step 2 — Viewing details, 11. Step 3 — Customer priorities, 13. Step 5 — Review and payment, 14. Visit status model, 15. Visit detail screen, 16. Verifier profile card, 17. Pre-visit screen, 18. Live call MVP (+52 more)
 
 ### Community 66 - "Community 66"
-Cohesion: 0.06
-Nodes (39): AuthLayout(), CustomerLayout(), CustomerProfile(), styles, ConfirmationScreen(), styles, PaymentScreen(), Phase (+31 more)
+Cohesion: 0.09
+Nodes (29): AuthLayout(), CustomerLayout(), CustomerProfile(), styles, ConfirmationScreen(), styles, Index(), queryClient (+21 more)
 
 ### Community 67 - "Community 67"
 Cohesion: 0.15
 Nodes (12): Confidence level, Disclaimer, Evidence collected, Factual questions and answers, Listing match, Live viewing observations, Remote Viewing Visit Summary Template, Report metadata (+4 more)
 
 ### Community 68 - "Community 68"
-Cohesion: 0.11
-Nodes (39): CustomerHome(), styles, PreVisitScreen(), styles, styles, Tab, VisitsScreen(), styles (+31 more)
+Cohesion: 0.09
+Nodes (53): CustomerHome(), styles, PreVisitScreen(), styles, ReportsScreen(), styles, RequestViewingStep(), styles (+45 more)
 
 ### Community 69 - "Community 69"
 Cohesion: 0.08
-Nodes (38): RATINGS, styles, VerifierChecklistScreen(), MATCHES, SOURCES, styles, VerifierReportScreen(), styles (+30 more)
+Nodes (39): RATINGS, styles, VerifierChecklistScreen(), MATCHES, SOURCES, styles, VerifierReportScreen(), styles (+31 more)
 
 ### Community 70 - "Community 70"
 Cohesion: 0.05
@@ -976,23 +974,23 @@ Nodes (7): Anti-abuse rules, Delivery, Intake - required fields, QA gate, Remote
 
 ### Community 78 - "Community 78"
 Cohesion: 0.12
-Nodes (22): styles, styles, RequestPreferencesStep(), RequestPrioritiesStep(), RequestPropertyStep(), RequestReviewStep(), styles, RequestViewingStep() (+14 more)
+Nodes (19): RequestPreferencesStep(), RequestPrioritiesStep(), RequestPropertyStep(), RequestReviewStep(), styles, styles, Notice(), ReportDisclaimer() (+11 more)
 
 ### Community 79 - "Community 79"
 Cohesion: 0.06
 Nodes (34): dependencies, date-fns, date-fns-tz, expo, expo-constants, expo-image-manipulator, expo-image-picker, expo-linking (+26 more)
 
 ### Community 80 - "Community 80"
-Cohesion: 0.12
-Nodes (25): MATCH_TONE, ReportDetailScreen(), styles, ReportsScreen(), styles, styles, styles, VisitDetailScreen() (+17 more)
+Cohesion: 0.11
+Nodes (22): MATCH_TONE, ReportDetailScreen(), styles, PaymentScreen(), Phase, styles, styles, VerifierEarningsScreen() (+14 more)
 
 ### Community 81 - "Community 81"
 Cohesion: 0.09
-Nodes (24): PRIORITY_KEYS, completeOAuthSession(), mapAuthError(), signIn(), signInWithGoogle(), signUp(), validProperty, emailSchema (+16 more)
+Nodes (26): PRIORITY_KEYS, PriorityKey, completeOAuthSession(), mapAuthError(), signIn(), signInWithGoogle(), signUp(), RequestDraftStore (+18 more)
 
 ### Community 82 - "Community 82"
-Cohesion: 0.08
-Nodes (25): 10. Strategic conclusions, 11. Decisions based on the DAFO, 12. Open questions, 13. Next validation steps, 14. When DAFO v1 is complete, 15. Update history, 16. Final practical takeaway, 1. Purpose of this document (+17 more)
+Cohesion: 0.17
+Nodes (11): 11. Decisions based on the DAFO, 12. Open questions, 14. When DAFO v1 is complete, 15. Update history, 16. Final practical takeaway, 1. Purpose of this document, 2. Product definition, 3. Research status (+3 more)
 
 ### Community 83 - "Community 83"
 Cohesion: 0.12
@@ -1063,8 +1061,8 @@ Cohesion: 0.22
 Nodes (9): Dangerous Zero/Null/Empty Defaults, Fail-Open Patterns, Insecure Defaults Check, Output Format, Pitfalls, Precedent Rules, The 5 Rationalizations to Reject, Web audit (+1 more)
 
 ### Community 115 - "Community 115"
-Cohesion: 0.22
-Nodes (9): 7. Oportunidades / Opportunities, Action, Confidence, Description, Evidence available now, Evidence still needed, O8. Potential to become a trusted rental decision layer, Risks (+1 more)
+Cohesion: 0.25
+Nodes (8): Action, Confidence, Description, Evidence available now, Evidence still needed, O8. Potential to become a trusted rental decision layer, Risks, Why it matters
 
 ### Community 116 - "Community 116"
 Cohesion: 0.22
@@ -1591,8 +1589,8 @@ Cohesion: 0.25
 Nodes (8): 56. Future features to keep architecture ready for, Agency accounts, AI-assisted comparison, Automatic listing extraction, Bundles, In-app video, Owner Guided / Self Capture, Verifier levels
 
 ### Community 294 - "Community 294"
-Cohesion: 0.25
-Nodes (8): Confidence, Description, Evidence available now, Evidence still needed, How to test, O7. Partnerships with student and relocation communities, Strategic value, Why it matters
+Cohesion: 0.22
+Nodes (9): 7. Oportunidades / Opportunities, Confidence, Description, Evidence available now, Evidence still needed, How to test, O7. Partnerships with student and relocation communities, Strategic value (+1 more)
 
 ### Community 295 - "Community 295"
 Cohesion: 0.25
@@ -1698,28 +1696,40 @@ Nodes (3): 68. Seed/demo data, Customer, Verifier
 Cohesion: 0.67
 Nodes (3): projectId, extra, eas
 
+### Community 429 - "code:bash (higgsfield product-photoshoot create \)"
+Cohesion: 0.23
+Nodes (7): styles, styles, SecondaryButton(), TextButton(), Input(), InputProps, fieldErrors()
+
 ### Community 430 - "code:bash (higgsfield product-photoshoot create \)"
 Cohesion: 0.67
 Nodes (3): splash, backgroundColor, resizeMode
 
+### Community 587 - "code:bash (curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/c)"
+Cohesion: 0.29
+Nodes (7): 10. Strategic conclusions, Main conclusion 1: The product should stay simple, Main conclusion 2: The biggest competitor is probably “asking a friend”, Main conclusion 3: Trust is the central challenge, Main conclusion 4: Willingness to pay is the key business-model test, Main conclusion 5: Legal, privacy, and safety must be handled early, Main conclusion 6: Do not build software yet
+
+### Community 682 - "13. Next validation steps"
+Cohesion: 0.29
+Nodes (7): 13. Next validation steps, Step 1: Launch the Google Form survey, Step 2: Interview 10 target users, Step 3: Create operational documents, Step 4: Run 3 dry runs, Step 5: Update DAFO to v0.3, Step 6: Run 3–5 paid pilots
+
 ## Knowledge Gaps
-- **2316 isolated node(s):** `name`, `slug`, `version`, `orientation`, `scheme` (+2311 more)
+- **2311 isolated node(s):** `name`, `slug`, `version`, `orientation`, `scheme` (+2306 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **457 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **452 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `5. Fortalezas / Strengths` connect `Community 103` to `Community 257`, `Community 139`, `Community 145`, `Community 82`, `Community 246`, `Community 153`, `Community 190`, `Community 191`?**
+- **Why does `7. Oportunidades / Opportunities` connect `Community 294` to `Community 137`, `Community 271`, `Community 82`, `Community 115`, `Community 278`, `Community 279`, `Community 281`, `Community 282`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
-- **Why does `7. Oportunidades / Opportunities` connect `Community 115` to `Community 294`, `Community 137`, `Community 271`, `Community 82`, `Community 278`, `Community 279`, `Community 281`, `Community 282`?**
+- **Why does `5. Fortalezas / Strengths` connect `Community 103` to `Community 257`, `Community 139`, `Community 145`, `Community 82`, `Community 246`, `Community 153`, `Community 190`, `Community 191`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Why does `6. Debilidades / Weaknesses` connect `Community 104` to `Community 288`, `Community 289`, `Community 265`, `Community 267`, `Community 82`, `Community 284`, `Community 285`, `Community 287`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `Caveman compress scripts.  This package provides tools to compress natural langu`, `Split YAML frontmatter from body. Returns (frontmatter, body).      Memory files`, `Resolve the out-of-tree backup directory for a given source file.      Backups m` to the rest of the system?**
-  _2335 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2330 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `HOUSECHECK_AGENT_SETUP_GUIDE.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.05284831846259437 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05518925518925519 - nodes in this community are weakly interconnected._
 - **Should `compress.py` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
 - **Should `README.md` be split into smaller, more focused modules?**

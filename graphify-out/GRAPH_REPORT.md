@@ -1,16 +1,16 @@
 # Graph Report - HouseCheck  (2026-08-19)
 
 ## Corpus Check
-- 298 files · ~251,238 words
+- 301 files · ~253,771 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 3328 nodes · 3809 edges · 739 communities (287 shown, 452 thin omitted)
+- 3330 nodes · 3789 edges · 738 communities (289 shown, 449 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `73e8ab50`
+- Built from commit: `4903c400`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -308,6 +308,7 @@
 - [[_COMMUNITY_Community 307|Community 307]]
 - [[_COMMUNITY_Community 308|Community 308]]
 - [[_COMMUNITY_Community 309|Community 309]]
+- [[_COMMUNITY_Community 310|Community 310]]
 - [[_COMMUNITY_Community 311|Community 311]]
 - [[_COMMUNITY_Community 312|Community 312]]
 - [[_COMMUNITY_Community 313|Community 313]]
@@ -659,6 +660,9 @@
 - [[_COMMUNITY_codemermaid (gantt)|code:mermaid (gantt)]]
 - [[_COMMUNITY_13. Next validation steps|13. Next validation steps]]
 - [[_COMMUNITY_index.ts|index.ts]]
+- [[_COMMUNITY_session-storage.ts|session-storage.ts]]
+- [[_COMMUNITY_README|README.md]]
+- [[_COMMUNITY_eslint.config.js|eslint.config.js]]
 - [[_COMMUNITY_codetext (SomeoneThere)|code:text (SomeoneThere/)]]
 - [[_COMMUNITY_HouseCheck|HouseCheck]]
 - [[_COMMUNITY_Initial positioning|Initial positioning]]
@@ -666,17 +670,13 @@
 - [[_COMMUNITY_Legal assumptions|Legal assumptions]]
 - [[_COMMUNITY_MVP principle|MVP principle]]
 - [[_COMMUNITY_Risks|Risks]]
-- [[_COMMUNITY_skillPath|skillPath]]
 - [[_COMMUNITY_sourceType|sourceType]]
 - [[_COMMUNITY_computedHash|computedHash]]
 - [[_COMMUNITY_skillPath|skillPath]]
-- [[_COMMUNITY_source|source]]
 - [[_COMMUNITY_sourceType|sourceType]]
 - [[_COMMUNITY_skillPath|skillPath]]
 - [[_COMMUNITY_source|source]]
 - [[_COMMUNITY_skillPath|skillPath]]
-- [[_COMMUNITY_sourceType|sourceType]]
-- [[_COMMUNITY_computedHash|computedHash]]
 - [[_COMMUNITY_computedHash|computedHash]]
 - [[_COMMUNITY_source|source]]
 - [[_COMMUNITY_computedHash|computedHash]]
@@ -738,11 +738,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (739 total, 452 thin omitted)
+## Communities (738 total, 449 thin omitted)
 
 ### Community 0 - "HOUSECHECK_AGENT_SETUP_GUIDE.md"
-Cohesion: 0.06
-Nodes (75): VisitCardProps, AuthState, fetchPaymentForVisit(), requestAccountDeletion(), updateProfile(), updateVerifierProfile(), addReportMedia(), fetchCustomerReports() (+67 more)
+Cohesion: 0.15
+Nodes (22): fetchPaymentForVisit(), fetchVerifierEarnings(), requestAccountDeletion(), updateProfile(), updateVerifierProfile(), cancelVisit(), checkIn(), checkOut() (+14 more)
 
 ### Community 1 - "compress.py"
 Cohesion: 0.09
@@ -941,28 +941,28 @@ Cohesion: 0.07
 Nodes (28): Anti-Patterns, App shell, Button Rules, Code layouts (preferred starting points), Component Priority, Core Imports, Current Spacing And Token Rules, Data & Charts (LOW — dashboards only) (+20 more)
 
 ### Community 64 - "Community 64"
-Cohesion: 0.09
-Nodes (35): styles, styles, ObservationRow(), RATING_SYMBOL, RATING_TONE, styles, styles, ButtonProps (+27 more)
+Cohesion: 0.08
+Nodes (39): styles, styles, styles, ObservationRow(), RATING_SYMBOL, RATING_TONE, styles, styles (+31 more)
 
 ### Community 65 - "Community 65"
 Cohesion: 0.03
 Nodes (60): 10. Step 2 — Viewing details, 11. Step 3 — Customer priorities, 13. Step 5 — Review and payment, 14. Visit status model, 15. Visit detail screen, 16. Verifier profile card, 17. Pre-visit screen, 18. Live call MVP (+52 more)
 
 ### Community 66 - "Community 66"
-Cohesion: 0.09
-Nodes (29): AuthLayout(), CustomerLayout(), CustomerProfile(), styles, ConfirmationScreen(), styles, Index(), queryClient (+21 more)
+Cohesion: 0.08
+Nodes (30): AuthLayout(), CustomerLayout(), CustomerProfile(), styles, ConfirmationScreen(), styles, styles, Index() (+22 more)
 
 ### Community 67 - "Community 67"
 Cohesion: 0.15
 Nodes (12): Confidence level, Disclaimer, Evidence collected, Factual questions and answers, Listing match, Live viewing observations, Remote Viewing Visit Summary Template, Report metadata (+4 more)
 
 ### Community 68 - "Community 68"
-Cohesion: 0.09
-Nodes (53): CustomerHome(), styles, PreVisitScreen(), styles, ReportsScreen(), styles, RequestViewingStep(), styles (+45 more)
+Cohesion: 0.10
+Nodes (43): CustomerHome(), styles, PreVisitScreen(), styles, ReportsScreen(), styles, styles, Tab (+35 more)
 
 ### Community 69 - "Community 69"
-Cohesion: 0.08
-Nodes (39): RATINGS, styles, VerifierChecklistScreen(), MATCHES, SOURCES, styles, VerifierReportScreen(), styles (+31 more)
+Cohesion: 0.10
+Nodes (32): RATINGS, styles, VerifierChecklistScreen(), MATCHES, SOURCES, styles, VerifierReportScreen(), styles (+24 more)
 
 ### Community 70 - "Community 70"
 Cohesion: 0.05
@@ -973,24 +973,24 @@ Cohesion: 0.25
 Nodes (7): Anti-abuse rules, Delivery, Intake - required fields, QA gate, Remote Viewing Request Lifecycle, Request statuses, Service mapping
 
 ### Community 78 - "Community 78"
-Cohesion: 0.12
-Nodes (19): RequestPreferencesStep(), RequestPrioritiesStep(), RequestPropertyStep(), RequestReviewStep(), styles, styles, Notice(), ReportDisclaimer() (+11 more)
+Cohesion: 0.09
+Nodes (23): styles, styles, RequestPreferencesStep(), RequestPrioritiesStep(), RequestPropertyStep(), RequestReviewStep(), styles, RequestViewingStep() (+15 more)
 
 ### Community 79 - "Community 79"
 Cohesion: 0.06
-Nodes (34): dependencies, date-fns, date-fns-tz, expo, expo-constants, expo-image-manipulator, expo-image-picker, expo-linking (+26 more)
+Nodes (31): dependencies, date-fns, date-fns-tz, expo, expo-constants, expo-image-manipulator, expo-image-picker, expo-linking (+23 more)
 
 ### Community 80 - "Community 80"
-Cohesion: 0.11
-Nodes (22): MATCH_TONE, ReportDetailScreen(), styles, PaymentScreen(), Phase, styles, styles, VerifierEarningsScreen() (+14 more)
+Cohesion: 0.15
+Nodes (15): MATCH_TONE, ReportDetailScreen(), styles, Avatar(), styles, VerifierCard(), reportKeys, useReport() (+7 more)
 
 ### Community 81 - "Community 81"
 Cohesion: 0.09
-Nodes (26): PRIORITY_KEYS, PriorityKey, completeOAuthSession(), mapAuthError(), signIn(), signInWithGoogle(), signUp(), RequestDraftStore (+18 more)
+Nodes (24): PRIORITY_KEYS, completeOAuthSession(), mapAuthError(), signIn(), signInWithGoogle(), signUp(), validProperty, emailSchema (+16 more)
 
 ### Community 82 - "Community 82"
-Cohesion: 0.17
-Nodes (11): 11. Decisions based on the DAFO, 12. Open questions, 14. When DAFO v1 is complete, 15. Update history, 16. Final practical takeaway, 1. Purpose of this document, 2. Product definition, 3. Research status (+3 more)
+Cohesion: 0.08
+Nodes (25): 10. Strategic conclusions, 11. Decisions based on the DAFO, 12. Open questions, 13. Next validation steps, 14. When DAFO v1 is complete, 15. Update history, 16. Final practical takeaway, 1. Purpose of this document (+17 more)
 
 ### Community 83 - "Community 83"
 Cohesion: 0.12
@@ -1061,8 +1061,8 @@ Cohesion: 0.22
 Nodes (9): Dangerous Zero/Null/Empty Defaults, Fail-Open Patterns, Insecure Defaults Check, Output Format, Pitfalls, Precedent Rules, The 5 Rationalizations to Reject, Web audit (+1 more)
 
 ### Community 115 - "Community 115"
-Cohesion: 0.25
-Nodes (8): Action, Confidence, Description, Evidence available now, Evidence still needed, O8. Potential to become a trusted rental decision layer, Risks, Why it matters
+Cohesion: 0.22
+Nodes (9): 7. Oportunidades / Opportunities, Action, Confidence, Description, Evidence available now, Evidence still needed, O8. Potential to become a trusted rental decision layer, Risks (+1 more)
 
 ### Community 116 - "Community 116"
 Cohesion: 0.22
@@ -1573,15 +1573,15 @@ Cohesion: 0.22
 Nodes (9): Confidence, D6. Dependence on landlord/agent cooperation, Description, Evidence available now, Evidence still needed, Mitigation actions, Possible refusal reasons, Priority (+1 more)
 
 ### Community 290 - "Community 290"
-Cohesion: 0.22
-Nodes (9): devDependencies, eslint, eslint-config-expo, jest, jest-expo, @testing-library/react-native, @types/jest, @types/react (+1 more)
+Cohesion: 0.20
+Nodes (10): devDependencies, eslint, eslint-config-expo, jest, jest-expo, react-test-renderer, @testing-library/react-native, @types/jest (+2 more)
 
 ### Community 291 - "Community 291"
-Cohesion: 0.22
-Nodes (9): Commands, Docs, Environment variables, Layout, Setup, SomeoneThere — mobile app, Stack, Two rules worth knowing before you change anything (+1 more)
+Cohesion: 0.20
+Nodes (10): Commands, Docs, Environment variables, Generated database types, Layout, Setup, SomeoneThere — mobile app, Stack (+2 more)
 
 ### Community 292 - "Community 292"
-Cohesion: 0.25
+Cohesion: 0.17
 Nodes (7): Demo data, Guards beyond the policies, SomeoneThere mobile — database and security model, Storage, Tables, Who can see what, Workflow RPCs
 
 ### Community 293 - "Community 293"
@@ -1589,8 +1589,8 @@ Cohesion: 0.25
 Nodes (8): 56. Future features to keep architecture ready for, Agency accounts, AI-assisted comparison, Automatic listing extraction, Bundles, In-app video, Owner Guided / Self Capture, Verifier levels
 
 ### Community 294 - "Community 294"
-Cohesion: 0.22
-Nodes (9): 7. Oportunidades / Opportunities, Confidence, Description, Evidence available now, Evidence still needed, How to test, O7. Partnerships with student and relocation communities, Strategic value (+1 more)
+Cohesion: 0.25
+Nodes (8): Confidence, Description, Evidence available now, Evidence still needed, How to test, O7. Partnerships with student and relocation communities, Strategic value, Why it matters
 
 ### Community 295 - "Community 295"
 Cohesion: 0.25
@@ -1605,8 +1605,8 @@ Cohesion: 0.29
 Nodes (7): 1. IDOR via Predictable Resource IDs, 2. Server Function Input Manipulation, 3. Test Data Contamination (Live D1), 4. Privilege Escalation via Client State, 5. SSRF via Server Function, 6. Webhook Replay / Forgery, Common Threat Patterns for the Stack
 
 ### Community 298 - "Community 298"
-Cohesion: 0.29
-Nodes (7): Before uploading, Build, Configuration, Environment per profile, Play Store data safety, SomeoneThere mobile — Android release, Submit
+Cohesion: 0.22
+Nodes (8): Before uploading, Build, Configuration, Environment per profile, Icons and splash, Play Store data safety, SomeoneThere mobile — Android release, Submit
 
 ### Community 299 - "Community 299"
 Cohesion: 0.29
@@ -1652,6 +1652,10 @@ Nodes (6): ios, NSCameraUsageDescription, NSPhotoLibraryUsageDescription, bundle
 Cohesion: 0.40
 Nodes (5): _cut_axis(), _edge_energy(), _hcut_cyclic(), Repair the axis-0 wrap junction with a hard minimal-error cut: the seam     is c, Min-cost horizontal path through D (h,w), one row per column, step ±1,     const
 
+### Community 310 - "Community 310"
+Cohesion: 0.14
+Nodes (19): PaymentScreen(), Phase, styles, VisitDetailScreen(), styles, VerifierEarningsScreen(), Timeline(), useCancelVisit() (+11 more)
+
 ### Community 311 - "Community 311"
 Cohesion: 0.40
 Nodes (5): 12. Step 4 — Viewing preferences and privacy, Live call, Photos, Privacy message, Recording
@@ -1696,40 +1700,48 @@ Nodes (3): 68. Seed/demo data, Customer, Verifier
 Cohesion: 0.67
 Nodes (3): projectId, extra, eas
 
+### Community 416 - "code:bash (curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/c)"
+Cohesion: 0.16
+Nodes (20): AuthState, CancellationReason, MediaType, PaymentStatus, UserRole, VISIT_STATUSES, VisitEventType, VisitStatus (+12 more)
+
 ### Community 429 - "code:bash (higgsfield product-photoshoot create \)"
-Cohesion: 0.23
-Nodes (7): styles, styles, SecondaryButton(), TextButton(), Input(), InputProps, fieldErrors()
+Cohesion: 0.19
+Nodes (16): addReportMedia(), fetchCustomerReports(), fetchReport(), fetchReportByVisit(), normaliseReport(), replaceDifferences(), replaceQuestions(), replaceUncheckedAreas() (+8 more)
 
 ### Community 430 - "code:bash (higgsfield product-photoshoot create \)"
 Cohesion: 0.67
 Nodes (3): splash, backgroundColor, resizeMode
 
 ### Community 587 - "code:bash (curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/c)"
-Cohesion: 0.29
-Nodes (7): 10. Strategic conclusions, Main conclusion 1: The product should stay simple, Main conclusion 2: The biggest competitor is probably “asking a friend”, Main conclusion 3: Trust is the central challenge, Main conclusion 4: Willingness to pay is the key business-model test, Main conclusion 5: Legal, privacy, and safety must be handled early, Main conclusion 6: Do not build software yet
+Cohesion: 0.24
+Nodes (11): VisitCardProps, PriorityKey, CreateVisitInput, EMPTY, RequestDraft, RequestDraftStore, LiveCallProvider, PropertyContactType (+3 more)
 
 ### Community 682 - "13. Next validation steps"
-Cohesion: 0.29
-Nodes (7): 13. Next validation steps, Step 1: Launch the Google Form survey, Step 2: Interview 10 target users, Step 3: Create operational documents, Step 4: Run 3 dry runs, Step 5: Update DAFO to v0.3, Step 6: Run 3–5 paid pilots
+Cohesion: 0.21
+Nodes (9): ChecklistStore, ObservationDraft, QuestionDraft, ReportDraft, AnswerSource, ListingMatch, ObservationRating, ReportObservation (+1 more)
+
+### Community 684 - "session-storage.ts"
+Cohesion: 0.53
+Nodes (4): chunkKey(), clearChunks(), readChunkCount(), secureSessionStorage
 
 ## Knowledge Gaps
-- **2311 isolated node(s):** `name`, `slug`, `version`, `orientation`, `scheme` (+2306 more)
+- **2310 isolated node(s):** `name`, `slug`, `version`, `orientation`, `scheme` (+2305 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **452 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **449 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `7. Oportunidades / Opportunities` connect `Community 294` to `Community 137`, `Community 271`, `Community 82`, `Community 115`, `Community 278`, `Community 279`, `Community 281`, `Community 282`?**
+- **Why does `7. Oportunidades / Opportunities` connect `Community 115` to `Community 294`, `Community 137`, `Community 271`, `Community 82`, `Community 278`, `Community 279`, `Community 281`, `Community 282`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Why does `5. Fortalezas / Strengths` connect `Community 103` to `Community 257`, `Community 139`, `Community 145`, `Community 82`, `Community 246`, `Community 153`, `Community 190`, `Community 191`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **Why does `6. Debilidades / Weaknesses` connect `Community 104` to `Community 288`, `Community 289`, `Community 265`, `Community 267`, `Community 82`, `Community 284`, `Community 285`, `Community 287`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `Caveman compress scripts.  This package provides tools to compress natural langu`, `Split YAML frontmatter from body. Returns (frontmatter, body).      Memory files`, `Resolve the out-of-tree backup directory for a given source file.      Backups m` to the rest of the system?**
-  _2330 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2329 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `HOUSECHECK_AGENT_SETUP_GUIDE.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.05518925518925519 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1452991452991453 - nodes in this community are weakly interconnected._
 - **Should `compress.py` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
 - **Should `README.md` be split into smaller, more focused modules?**

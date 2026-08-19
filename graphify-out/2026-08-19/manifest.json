@@ -940,8 +940,8 @@
     "semantic_hash": ""
   },
   "mobile/app/(customer)/profile.tsx": {
-    "mtime": 1787134878.944695,
-    "ast_hash": "dcb8a2afb293f699d85384b9e4cf7889",
+    "mtime": 1787135569.972838,
+    "ast_hash": "757ea879fc59926cb161d2fa2e4faad6",
     "semantic_hash": ""
   },
   "mobile/app/(customer)/report/[id].tsx": {
@@ -1240,8 +1240,8 @@
     "semantic_hash": ""
   },
   "mobile/src/features/profile/api.ts": {
-    "mtime": 1787134729.72491,
-    "ast_hash": "0ed4929891b517c4d38c84c998e6a924",
+    "mtime": 1787135556.828882,
+    "ast_hash": "ad571b200b8217efa7154bdaafc350c7",
     "semantic_hash": ""
   },
   "mobile/src/features/reports/api.ts": {
@@ -1275,13 +1275,13 @@
     "semantic_hash": ""
   },
   "mobile/src/i18n/locales/en.json": {
-    "mtime": 1787135498.5835652,
-    "ast_hash": "6d3b000f2e1e2c98bae2745fe5057dcd",
+    "mtime": 1787135556.8335426,
+    "ast_hash": "fe6279533585817d539626be7e8f4812",
     "semantic_hash": ""
   },
   "mobile/src/i18n/locales/es.json": {
-    "mtime": 1787135498.5857818,
-    "ast_hash": "8cc36b804c908e5c72b2602716c3aa2b",
+    "mtime": 1787135556.834222,
+    "ast_hash": "53a60b88b66e3135adf05d037bb34ad8",
     "semantic_hash": ""
   },
   "mobile/src/lib/analytics/index.ts": {
@@ -1507,6 +1507,11 @@
   "mobile/README.md": {
     "mtime": 1787135358.5742035,
     "ast_hash": "eddb048269b4d06282f8f794f7cad2ed",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/functions/delete-account/index.ts": {
+    "mtime": 1787135556.813166,
+    "ast_hash": "1358a07b5eb2b310e3b41bab140972fe",
     "semantic_hash": ""
   }
 }
