@@ -37,3 +37,6 @@ secrets.*
 *.pem
 *.key
 
+
+# Editor / client logs
+*.log

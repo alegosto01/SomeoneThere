@@ -6,6 +6,21 @@ The core service is simple: a trusted local verifier attends a property viewing,
 
 SomeoneThere does not guarantee that a rental is safe. The verifier is only the client's eyes and ears.
 
+## Repository layout
+
+| Path | What lives there |
+| --- | --- |
+| `mobile/` | The SomeoneThere mobile app (React Native + Expo, Android first) |
+| `web/` | The marketing site |
+| `docs/` | Product, legal, operations, tech and market-research notes |
+| `docs/product/mobile-app-spec.md` | Build specification the mobile app implements |
+| `docs/mobile/` | Mobile architecture, database, setup and release docs |
+| `docs/research/` | Long-form research write-ups |
+| `prompts/`, `.claude/`, `.agents/` | Agent roles and routing |
+| `backlog/`, `agent-runs/` | Working notes and past adversarial-loop runs |
+
+See [mobile/README.md](mobile/README.md) to run the app.
+
 ## Target users
 
 - International students moving to Madrid
