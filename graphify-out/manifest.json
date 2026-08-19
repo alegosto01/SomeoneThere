@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   "scripts/adversarial-loop.sh": {
-    "mtime": 1783347749.639135,
-    "ast_hash": "11b11d4fd63f35f35c52948f605390a1",
+    "mtime": 1787133167.3266687,
+    "ast_hash": "b3453a813e2f521e43f19aaedda1ad61",
     "semantic_hash": ""
   },
   ".agents/skills/cavecrew/README.md": {
@@ -145,33 +145,33 @@
     "semantic_hash": ""
   },
   ".claude/agents/decision-judge.md": {
-    "mtime": 1783340299.2573068,
-    "ast_hash": "50924dc1bf77a66de1b799f2aa0a4886",
+    "mtime": 1787133167.295658,
+    "ast_hash": "920fe1be5d154dc88b7502941294bb3e",
     "semantic_hash": ""
   },
   ".claude/agents/problem-finder.md": {
-    "mtime": 1783340299.2573917,
-    "ast_hash": "888e4df9ee20ad121025f970cc7fa2fe",
+    "mtime": 1787133167.296394,
+    "ast_hash": "f0d1983a3f2904e218c8ba31f0199363",
     "semantic_hash": ""
   },
   ".claude/agents/problem-solver.md": {
-    "mtime": 1783340299.2573917,
-    "ast_hash": "3ba5bc067a67fba93fc088881ae42388",
+    "mtime": 1787133167.296451,
+    "ast_hash": "f87f278a64290a7b700a200258856eda",
     "semantic_hash": ""
   },
   ".github/ISSUE_TEMPLATE/feature.md": {
-    "mtime": 1783340299.257646,
-    "ast_hash": "06b3cbda1fe864a17f269d396fce1412",
+    "mtime": 1787133167.2965095,
+    "ast_hash": "1ee01a44684b8e94e5e13659ec951c66",
     "semantic_hash": ""
   },
   ".github/ISSUE_TEMPLATE/market-research.md": {
-    "mtime": 1783340299.257646,
-    "ast_hash": "e2e1b2e60ed54b359e7b176d406a9d20",
+    "mtime": 1787133167.2965398,
+    "ast_hash": "c70df63a45248dff137b190833bc941a",
     "semantic_hash": ""
   },
   ".github/ISSUE_TEMPLATE/mvp-task.md": {
-    "mtime": 1783340299.257748,
-    "ast_hash": "380bd95a625a350eb5329b7ecd5bdc73",
+    "mtime": 1787133167.2965674,
+    "ast_hash": "2b447490482266e7a4968c05910d2052",
     "semantic_hash": ""
   },
   ".github/ISSUE_TEMPLATE/risk.md": {
@@ -185,18 +185,18 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1783351207.1017942,
-    "ast_hash": "1102b216020dd761720772afc4d42b72",
+    "mtime": 1787133167.2966328,
+    "ast_hash": "bed9e5de36d8a1700f07e3b20fb45580",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1783351199.9538033,
-    "ast_hash": "815402090d4582468026dd3a9819ffcb",
+    "mtime": 1787133167.296681,
+    "ast_hash": "1457fb41df24970bf0d2bceb13ad042a",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1783345209.1349854,
-    "ast_hash": "03be990cf0c3f612296d2cd16d27a91f",
+    "mtime": 1787135525.645997,
+    "ast_hash": "aebfa7e64b196e507c5ba10a45515fa1",
     "semantic_hash": ""
   },
   "backlog/phase-1-issues.md": {
@@ -205,88 +205,88 @@
     "semantic_hash": ""
   },
   "docs/agent-operating-system.md": {
-    "mtime": 1783345181.1624165,
-    "ast_hash": "c6d0331f86e7284ceae859ca1deb6cf3",
+    "mtime": 1787133167.2971177,
+    "ast_hash": "1768e4999d804ecd8633418ebc497d74",
     "semantic_hash": ""
   },
   "docs/agent-routing.md": {
-    "mtime": 1783347797.1568332,
-    "ast_hash": "796032328a610ee4ae22f3018513c2db",
+    "mtime": 1787133167.297171,
+    "ast_hash": "4a448e0021e69bfb0a6b0fb04aa694ec",
     "semantic_hash": ""
   },
   "docs/business-model.md": {
-    "mtime": 1783350790.9257872,
-    "ast_hash": "dccb039bbe1ac25aff88153443f72d09",
+    "mtime": 1787133167.2972143,
+    "ast_hash": "0d6582d54241e8359c17c5c9c2079b7b",
     "semantic_hash": ""
   },
   "docs/business/business-model.md": {
-    "mtime": 1783340299.2592258,
-    "ast_hash": "7e7c075a6bdaa2500a8e1fcd235e78d1",
+    "mtime": 1784111246.349353,
+    "ast_hash": "0c51fbaaf490f66eb23e5d3ed7a66d65",
     "semantic_hash": ""
   },
   "docs/competitor-map.md": {
-    "mtime": 1783340299.2593064,
-    "ast_hash": "e68d43f1b16910dac31c9871bc2b82bd",
+    "mtime": 1787133167.2972531,
+    "ast_hash": "b86bc73f05b3f655fbbf20ca884c36d5",
     "semantic_hash": ""
   },
   "docs/decision-log.md": {
-    "mtime": 1783350790.6767921,
-    "ast_hash": "3f585a56c57e58e32b88bf078f17071f",
+    "mtime": 1787133167.2973018,
+    "ast_hash": "638e0dbec0f9ea7b93126a0109e70100",
     "semantic_hash": ""
   },
   "docs/legal-assumptions.md": {
-    "mtime": 1783340299.2593477,
-    "ast_hash": "913e959748e1ad4f6b44568727d14cf7",
+    "mtime": 1787133167.2973719,
+    "ast_hash": "c15f6dd8f387034355cf224e686f6554",
     "semantic_hash": ""
   },
   "docs/legal-questions-for-lawyer.md": {
-    "mtime": 1783340299.259447,
-    "ast_hash": "c544bd15e75037f627aff1cbe463457d",
+    "mtime": 1787133167.297406,
+    "ast_hash": "b43729cd32ae2cfff0a8fcbae8204ca7",
     "semantic_hash": ""
   },
   "docs/legal/landlord-data-lia-draft.md": {
-    "mtime": 1783350791.464776,
-    "ast_hash": "a785644e48b7904b4eed6b3596dd45e6",
+    "mtime": 1787133167.297447,
+    "ast_hash": "b8e497675aa635f9df63a7e3ee04a9d1",
     "semantic_hash": ""
   },
   "docs/legal/refund-policy-draft.md": {
-    "mtime": 1783350791.3283331,
-    "ast_hash": "237ac8f37358a5ed1d4bb2501594d876",
+    "mtime": 1787133167.297522,
+    "ast_hash": "5527eedb1cc19d4e8bda63c5a661b66a",
     "semantic_hash": ""
   },
   "docs/legal/risk-notes.md": {
-    "mtime": 1783340299.259447,
-    "ast_hash": "7d3c5edd1117b56cae72b5d6fde42fa1",
+    "mtime": 1787133167.2975535,
+    "ast_hash": "443e00c4eac8ddf8e45b3ad57b0ac79a",
     "semantic_hash": ""
   },
   "docs/market-research/competitor-matrix.md": {
-    "mtime": 1783340299.259447,
-    "ast_hash": "0751ffdc2d5783c046df73572c765335",
+    "mtime": 1787133167.2976046,
+    "ast_hash": "eeb938825bf22b09d1f08217b28e5ff5",
     "semantic_hash": ""
   },
   "docs/market-research/research-plan.md": {
-    "mtime": 1783340299.2596521,
-    "ast_hash": "5a8d438c872eb106286e59b98c7ccf59",
+    "mtime": 1787133167.2976525,
+    "ast_hash": "cb089d4de2c376ff89e62627fc02ceb8",
     "semantic_hash": ""
   },
   "docs/mvp-scope.md": {
-    "mtime": 1783350790.546795,
-    "ast_hash": "6acb2be99d583c553e00bd3a6c998cb5",
+    "mtime": 1787133167.2977586,
+    "ast_hash": "a2e52e4638de08df1af65632bcbf617c",
     "semantic_hash": ""
   },
   "docs/operations/verification-report-template.md": {
-    "mtime": 1783350790.8027897,
-    "ast_hash": "6795d763dc3ed56541c06ac31c0dbcf2",
+    "mtime": 1787133167.2978384,
+    "ast_hash": "3a5208d262687c97b111766679ffa53e",
     "semantic_hash": ""
   },
   "docs/operations/verifier-checklist.md": {
-    "mtime": 1783340299.2598505,
-    "ast_hash": "1869db867fa0e21fef8398c80978aa80",
+    "mtime": 1784111246.3500767,
+    "ast_hash": "04a0d92175b39a745ea352b3e5ff7d87",
     "semantic_hash": ""
   },
   "docs/operations/verifier-safety-sop.md": {
-    "mtime": 1783350791.178782,
-    "ast_hash": "96665a3b554b03e6afeb4cbce4c1a7a4",
+    "mtime": 1787133167.2978787,
+    "ast_hash": "8209a7f8b81ff5e7c22d3fa119ce9a01",
     "semantic_hash": ""
   },
   "docs/problems.md": {
@@ -295,18 +295,18 @@
     "semantic_hash": ""
   },
   "docs/product-principles.md": {
-    "mtime": 1783340299.2599459,
-    "ast_hash": "c2d185227e5d1f3d82462b9a0e5f89c4",
+    "mtime": 1787133167.2979476,
+    "ast_hash": "5002a19b4664eb1bf870412906b5621d",
     "semantic_hash": ""
   },
   "docs/product/landing-page-outline.md": {
-    "mtime": 1783350791.0467846,
-    "ast_hash": "0a3bab13b842e20275c2e627c1488856",
+    "mtime": 1787133167.298666,
+    "ast_hash": "4ab68dc23a2d3d08059029553ab652ae",
     "semantic_hash": ""
   },
   "docs/product/prd.md": {
-    "mtime": 1783340299.2600422,
-    "ast_hash": "05da7bcde1ab3145e5f61a1bce6ef768",
+    "mtime": 1787133167.2988186,
+    "ast_hash": "b56622dd7d9a009768ee59faff83ff25",
     "semantic_hash": ""
   },
   "docs/product/user-stories.md": {
@@ -315,8 +315,8 @@
     "semantic_hash": ""
   },
   "docs/risk-register.md": {
-    "mtime": 1783350790.4187975,
-    "ast_hash": "79160139bebe569634a5b80e76ab60a2",
+    "mtime": 1787133167.2990003,
+    "ast_hash": "8974334aaa9e74554131a8d84e927715",
     "semantic_hash": ""
   },
   "docs/tech/architecture.md": {
@@ -330,13 +330,13 @@
     "semantic_hash": ""
   },
   "prompts/claude/full-agent-loop.md": {
-    "mtime": 1783340299.260356,
-    "ast_hash": "0468b08d546d14e8804dd72b14d92d7e",
+    "mtime": 1787133167.3263903,
+    "ast_hash": "e2b9eae748b393be5fe80a4e6d09c4ac",
     "semantic_hash": ""
   },
   "prompts/claude/problem-finder-run.md": {
-    "mtime": 1783340299.2604096,
-    "ast_hash": "0f1af30d527f47bbe88dea93c23a5dc9",
+    "mtime": 1787133167.3263903,
+    "ast_hash": "6c205da3622903d0c23f409fbc87bac7",
     "semantic_hash": ""
   },
   "prompts/claude/problem-solver-run.md": {
@@ -345,938 +345,1173 @@
     "semantic_hash": ""
   },
   "prompts/codex/docs-update-task.md": {
-    "mtime": 1783340299.2604096,
-    "ast_hash": "d8d078978706859fc482e459716d1e5a",
+    "mtime": 1787133167.326481,
+    "ast_hash": "1f5852ba144f57f33bb803c45bd75433",
     "semantic_hash": ""
   },
   "prompts/codex/implementation-task.md": {
-    "mtime": 1783340299.2605517,
-    "ast_hash": "81cef6b97c2f5d25e4cb292af6085032",
+    "mtime": 1787133167.3265219,
+    "ast_hash": "140c061ae445fca1e4b46b8832abbc9f",
     "semantic_hash": ""
   },
   "prompts/codex/refactor-task.md": {
-    "mtime": 1783340299.26061,
-    "ast_hash": "da82b76ebe50a7d9f29e8b4f8c30941f",
+    "mtime": 1787133167.3265567,
+    "ast_hash": "654803bd52431f1ebeb5df459525281b",
     "semantic_hash": ""
   },
   "prompts/codex/risk-review.md": {
-    "mtime": 1783340299.2606502,
-    "ast_hash": "c9f01340b9174237a307a303240965e8",
+    "mtime": 1787133167.3265924,
+    "ast_hash": "1dff5c927aae34021a9f8df57133cea1",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.claude/settings.json": {
-    "mtime": 1783374801.0189586,
-    "ast_hash": "598cb075410bcd95220ac90bbb60344a",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-compress/scripts/detect.py": {
-    "mtime": 1783295162.9186583,
-    "ast_hash": "951a4593947c23cb9bfe8d99dc245b16",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-compress/scripts/compress.py": {
-    "mtime": 1783295162.9176583,
-    "ast_hash": "1ad5157c3585b77dd4e547dd4a98bdf9",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-compress/scripts/validate.py": {
-    "mtime": 1783295162.9186583,
-    "ast_hash": "5d3394df7677d1ee08f0b69bb767b38c",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-compress/scripts/cli.py": {
-    "mtime": 1783295162.9176583,
-    "ast_hash": "9ed03f4b75aae3f25ea0d9c15dbf6894",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-compress/scripts/__main__.py": {
-    "mtime": 1783295162.9176583,
-    "ast_hash": "5bd0e02db4907bf4e435e5d770256fef",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-compress/scripts/benchmark.py": {
-    "mtime": 1783295162.9176583,
-    "ast_hash": "07500037c8606fc9ab1832f55a5ff346",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-compress/scripts/__init__.py": {
-    "mtime": 1783295162.9176583,
-    "ast_hash": "d6acae7e188357d1bc1258ce02a29811",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.codex/hooks.json": {
-    "mtime": 1783374801.0189586,
-    "ast_hash": "2f17abb1225b440bdb95a997462bb50f",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/scripts/adversarial-loop.sh": {
-    "mtime": 1786383264.8979735,
-    "ast_hash": "5b0d85238c277e927a7ef52e626ff8a3",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/CLAUDE.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "2605d24cb408579c17a2e57fd43e4042",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/AGENTS.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "da06332894db2476eec5ef057f7fd782",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/README.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "69f464b81bc0dc38281834087c2d9720",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.github/ISSUE_TEMPLATE/market-research.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "1fb30347d3b5a5d1cb69ab122962ef48",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.github/ISSUE_TEMPLATE/risk.md": {
-    "mtime": 1783296903.0571492,
-    "ast_hash": "b5a401e2b8afd583edbcee6248e43ac9",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.github/ISSUE_TEMPLATE/validation-experiment.md": {
-    "mtime": 1783296903.062149,
-    "ast_hash": "f76d701c1e51fc98ae27f9af1a44ef7f",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.github/ISSUE_TEMPLATE/mvp-task.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "0eff9bd871b17b4e4d298625ad391064",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.github/ISSUE_TEMPLATE/feature.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "27e6df97fe612d74740cedcf1337304f",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.claude/agents/decision-judge.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "de1c80c6618bcb30b24571ae6aae373b",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.claude/agents/problem-finder.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "d5b1066bbf2b2141cc282ff5d14fe6d5",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.claude/agents/problem-solver.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "1a0773b6e46ca71c43a0f2ddf5709fc7",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/backlog/phase-1-issues.md": {
-    "mtime": 1783293337.0,
-    "ast_hash": "c25f18f28d49a177761cbde014e8b9ee",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman/SKILL.md": {
-    "mtime": 1783295162.9156585,
-    "ast_hash": "0a65cf5c142df7f3c99a2e6bfdfb8e48",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman/README.md": {
-    "mtime": 1783295162.9156585,
-    "ast_hash": "3358f5119f61b24f5fa65a25de7b866b",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-stats/SKILL.md": {
-    "mtime": 1783295162.9206583,
-    "ast_hash": "e9966f688641209792719474f241a6ef",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-stats/README.md": {
-    "mtime": 1783295162.9206583,
-    "ast_hash": "866dc96f332b4e2bc1f80fec878fea52",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/check-live-runs/SKILL.md": {
-    "mtime": 1783295162.9136584,
-    "ast_hash": "53cbddb7a0374e67be255b1b13683d99",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/giant-model-results/SKILL.md": {
-    "mtime": 1783295162.9136584,
-    "ast_hash": "9cfce7e591e152a77f49ce873d6c88f3",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-compress/SKILL.md": {
-    "mtime": 1783295162.9196584,
-    "ast_hash": "5cfd6ee9993c9e72da6404a9841d82fd",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-compress/SECURITY.md": {
-    "mtime": 1783295162.9196584,
-    "ast_hash": "b2caed82d9d4a58c0530f7e741851224",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-compress/README.md": {
-    "mtime": 1783295162.9196584,
-    "ast_hash": "78d3757502badfab9db0e38724d336b3",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-review/SKILL.md": {
-    "mtime": 1783295162.9206583,
-    "ast_hash": "0e038c50a6bfdc9b8a307e6316c07236",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-review/README.md": {
-    "mtime": 1783295162.9206583,
-    "ast_hash": "9777a26704850f1e091ab072f02fa10f",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/telegram-policy/SKILL.md": {
-    "mtime": 1783295162.9146583,
-    "ast_hash": "cc1bac6ebd4e91a63c7fe7f68912a08c",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-commit/SKILL.md": {
-    "mtime": 1783295162.9166584,
-    "ast_hash": "e00f68129a6f77783860a980074f97f7",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-commit/README.md": {
-    "mtime": 1783295162.9166584,
-    "ast_hash": "2fe1d98cadbd2709a34ee3c77795a143",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-help/SKILL.md": {
-    "mtime": 1783295162.9196584,
-    "ast_hash": "0f7aa6d0d0ae831d099d13894d833d14",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/caveman-help/README.md": {
-    "mtime": 1783295162.9196584,
-    "ast_hash": "f49266e99b58d33c1d40b7bf0a644ec3",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/ponytail/SKILL.md": {
-    "mtime": 1783295162.9216583,
-    "ast_hash": "224375c5c1d0d8cae88802b39900458c",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/cavecrew/SKILL.md": {
-    "mtime": 1783295162.9146583,
-    "ast_hash": "6ea8150438c6392a5ee0afef0a735ad4",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/cavecrew/README.md": {
-    "mtime": 1783295162.9146583,
-    "ast_hash": "8b7ca548bd36b6db39006bac6cd54759",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/prompts/codex/risk-review.md": {
-    "mtime": 1786383264.8979735,
-    "ast_hash": "805231824df6ecb05afaf1591bd0594d",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/prompts/codex/implementation-task.md": {
-    "mtime": 1786383264.8969736,
-    "ast_hash": "c70e282a39f87832d50b2eac994f986a",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/prompts/codex/docs-update-task.md": {
-    "mtime": 1786383264.8969736,
-    "ast_hash": "bc9e07c722ddd3a76c0d6182d33cd88e",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/prompts/codex/refactor-task.md": {
-    "mtime": 1786383264.8969736,
-    "ast_hash": "a15487656438375eab102a34f8bc945d",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/prompts/claude/problem-solver-run.md": {
-    "mtime": 1783296903.0511491,
-    "ast_hash": "1fabe25419f0449d79340f2263f635e9",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/prompts/claude/full-agent-loop.md": {
-    "mtime": 1786383264.8969736,
-    "ast_hash": "e6a9491ea9eda921977646ac637fb28b",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/prompts/claude/problem-finder-run.md": {
-    "mtime": 1786383264.8969736,
-    "ast_hash": "e87c7190ae549646f8ae6f543b50aee4",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/prompts/claude/decision-judge-run.md": {
-    "mtime": 1783296903.055149,
-    "ast_hash": "e68407795797f83be48426e8c0b80834",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/problems.md": {
-    "mtime": 1783294738.5821805,
-    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/risk-register.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "df77b09de64ae5b5f0f3a4c509c3d854",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/agent-operating-system.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "5995f3f6af13d8afeeda4ca76cfab4f0",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/agent-routing.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "eb3a920ff7ad2f3fd0da6dc17981ea0f",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/business-model.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "8cf7317877ebb46c22698811085012e6",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/decision-log.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "ee4da3fbd5f3e3bd4b57f38df65d8c0e",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/product-principles.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "73a3c34c3faab679cf4d2fcbb8f55b45",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/legal-questions-for-lawyer.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "6112463c9a5330f94877fe20283bbc2f",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/mvp-scope.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "ce7efaa24c8de6910ade1927fbe820f1",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/legal-assumptions.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "f63f90ebbe3d687c7d478cf2698d685c",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/competitor-map.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "9759b49e9b680dff49871042b432a50d",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/tech/architecture.md": {
-    "mtime": 1783293337.0,
-    "ast_hash": "c98d9a6474ae4469331029c7283ceab7",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/business/business-model.md": {
-    "mtime": 1783464040.537995,
-    "ast_hash": "0c51fbaaf490f66eb23e5d3ed7a66d65",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/market-research/research-plan.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "116da228378be92f8773c4ee0ce30ab8",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/market-research/competitor-matrix.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "5f7457933bef3faaeb612d045c9b6fd8",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/product/prd.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "7c512fd0e527701147a53c83f6224e1d",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/product/user-stories.md": {
-    "mtime": 1783293337.0,
-    "ast_hash": "385504fc6f6e214ae8e84dd4190701fc",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/product/landing-page-outline.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "30947f766fd51f468573c2e35f2fe7c1",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/legal/landlord-data-lia-draft.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "cc6a7a4bdd90716994ac1e39dd107493",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/legal/front-door-compliance-checklist.md": {
-    "mtime": 1783375051.9726298,
+  "docs/legal/front-door-compliance-checklist.md": {
+    "mtime": 1783423730.3203511,
     "ast_hash": "c86dd9b94b6e6e5c34f264b2df13f4e4",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/docs/legal/landlord-notice-es-draft.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "359ed0438014f0df6cc9a6b5848ecd0c",
+  "docs/legal/landlord-notice-es-draft.md": {
+    "mtime": 1787133167.2974904,
+    "ast_hash": "553c0fc69a27868fe737847926fdcd3d",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/docs/legal/risk-notes.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "4af76a375984c405a160f9cf9226fccb",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/legal/refund-policy-draft.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "1ce939f44a31221daa8ed294b6f3b179",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/legal/data-retention-schedule.md": {
-    "mtime": 1783375071.4715269,
+  "docs/legal/data-retention-schedule.md": {
+    "mtime": 1783423730.3202772,
     "ast_hash": "87e590b49af7e1e1683a40a312b81117",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/docs/operations/request-lifecycle.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "6c36a1b5bfd70886306bef5b6f4f7228",
+  "docs/operations/request-lifecycle.md": {
+    "mtime": 1787133167.2977998,
+    "ast_hash": "46a254a42f2698664e8e6845b0d72f10",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/docs/operations/verifier-checklist.md": {
-    "mtime": 1783464058.5200481,
-    "ast_hash": "04a0d92175b39a745ea352b3e5ff7d87",
+  "FOUNDER_DECISIONS.md": {
+    "mtime": 1787133167.2967248,
+    "ast_hash": "836564ecf89f5b011bc926d346926064",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/docs/operations/verifier-safety-sop.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "b44088d6187869ba4c95c1bbb5deb6e8",
+  "ROADMAP.md": {
+    "mtime": 1787133167.2968395,
+    "ast_hash": "2b68ef8718799b9d8836966064fc45be",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/docs/operations/verification-report-template.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "4184e95d1a6107c32bb2051c45c0ff2c",
+  "NEXT_ACTIONS.md": {
+    "mtime": 1787133167.2967637,
+    "ast_hash": "beaf9b52c791db4d9e8df28d70f424ae",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/FOUNDER_DECISIONS.md": {
-    "mtime": 1786383264.8479738,
-    "ast_hash": "1a756465db9e68a2329a90569ba16aad",
+  "docs/report-template.md": {
+    "mtime": 1787133167.2989273,
+    "ast_hash": "da2d891050528ff80d433e6eb7c291f2",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/ROADMAP.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "ec0dd91da91475f2c2494aaedf488e60",
+  "docs/pilot-plan.md": {
+    "mtime": 1787133167.2979136,
+    "ast_hash": "789a47f08c7a34de371d5a1421c715b2",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/NEXT_ACTIONS.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "e399e79ab448197b52d95fe728120092",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/report-template.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "1960293211d63c4fab724e878ab3e906",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/pilot-plan.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "8690876cfd87cf4d925d84fa3334ed2c",
-    "semantic_hash": ""
-  },
-  "/home/ale/Desktop/HouseCheck/docs/remote-viewing-checklist.md": {
-    "mtime": 1783463828.0440304,
+  "docs/remote-viewing-checklist.md": {
+    "mtime": 1784111246.3504848,
     "ast_hash": "4b3b631d744b90f14b4fdda4e7973309",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/docs/marketing/instagram-tiktok-strategy.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "83e2b30bb6b08f7e04b514902c2b6da1",
+  "docs/marketing/instagram-tiktok-strategy.md": {
+    "mtime": 1787133167.297716,
+    "ast_hash": "7f1e15e66e74447f054c7e5d08451669",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/skills-lock.json": {
-    "mtime": 1785055438.3411381,
+  "skills-lock.json": {
+    "mtime": 1785161048.641408,
     "ast_hash": "b03f26d1b0e4ab829628766c35ac24bb",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/scripts/proc_rig_dragon.py": {
-    "mtime": 1785055438.155139,
-    "ast_hash": "2983cefdc598c4b2031bc748c23f42ff",
+  ".agents/skills/higgsfield-game-generation/scripts/proc_rig_dragon.py": {
+    "mtime": 1785161048.5067952,
+    "ast_hash": "637895ff0f531bf4905497a3cfde44b6",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/scripts/glb_patch.py": {
-    "mtime": 1785055438.155139,
-    "ast_hash": "4dc638da7026854415f6705a9e57ebcd",
+  ".agents/skills/higgsfield-game-generation/scripts/glb_patch.py": {
+    "mtime": 1785161048.5056052,
+    "ast_hash": "2b0f5b103e6988d6b3728c113161a38b",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/scripts/proc_weights.py": {
-    "mtime": 1785055438.155139,
-    "ast_hash": "49ed7320f0fdbb32a6b02506fcec7e04",
+  ".agents/skills/higgsfield-game-generation/scripts/proc_weights.py": {
+    "mtime": 1785161048.5070746,
+    "ast_hash": "53d0e58784496cfb0708241d939fcc17",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/scripts/seamless.py": {
-    "mtime": 1785055438.155139,
-    "ast_hash": "74ea1b97ceb8fe74f73cd4ddd2cce26f",
+  ".agents/skills/higgsfield-game-generation/scripts/seamless.py": {
+    "mtime": 1785161048.5077994,
+    "ast_hash": "c44eee93e0a68f95f2c840c23699a236",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/scripts/fbx2glb.py": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "9b74e6f61b689dbf9ef9edef9d83050b",
+  ".agents/skills/higgsfield-game-generation/scripts/fbx2glb.py": {
+    "mtime": 1785161048.5043702,
+    "ast_hash": "62208e1e0cd622172eb1ab6dfe138623",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/scripts/proc_anim_dragon.py": {
-    "mtime": 1785055438.155139,
-    "ast_hash": "20cfe0ce804d14ed0d92af427bf34fc0",
+  ".agents/skills/higgsfield-game-generation/scripts/proc_anim_dragon.py": {
+    "mtime": 1785161048.5064511,
+    "ast_hash": "833722062cf268cf7014d90d0ea552cd",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/scripts/glb_merge_anims.py": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "1efd1d56d4741abd47ad14b2fa1a1f17",
+  ".agents/skills/higgsfield-game-generation/scripts/glb_merge_anims.py": {
+    "mtime": 1785161048.505388,
+    "ast_hash": "64a570a59cffcacb160d8ebdc2b59f02",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/scripts/merge_anim_glbs.py": {
-    "mtime": 1785055438.155139,
-    "ast_hash": "6d2c504c14ca5dc77a1529856f9a0c06",
+  ".agents/skills/higgsfield-game-generation/scripts/merge_anim_glbs.py": {
+    "mtime": 1785161048.505815,
+    "ast_hash": "dd786d9b023e46c9d6281f2ed01d9559",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/scripts/pipeline.py": {
-    "mtime": 1785055438.155139,
-    "ast_hash": "4341851560203c8d184d63ccd4a25fc5",
+  ".agents/skills/higgsfield-game-generation/scripts/pipeline.py": {
+    "mtime": 1785161048.5061269,
+    "ast_hash": "aa728d382b902e55ccd6486e8bcf8f52",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/scripts/glb_inspect.py": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "ce07202779b187106ebbd6afb005cbee",
+  ".agents/skills/higgsfield-game-generation/scripts/glb_inspect.py": {
+    "mtime": 1785161048.5049736,
+    "ast_hash": "5c1dad2384edf6c0107c3f866872ac56",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/scripts/rig_transfer.py": {
-    "mtime": 1785055438.155139,
-    "ast_hash": "5fc843cfd33ce7d43a0ca38c034540a6",
+  ".agents/skills/higgsfield-game-generation/scripts/rig_transfer.py": {
+    "mtime": 1785161048.5074627,
+    "ast_hash": "8169f8e80fc6f9cf2363b5d9e9979f2e",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/web/tsconfig.json": {
-    "mtime": 1785083341.6249812,
-    "ast_hash": "ded0e25d5329bdc53be3b25518409ef8",
+  "web/tsconfig.json": {
+    "mtime": 1787133167.3284035,
+    "ast_hash": "19f815b7c772241cf08203a024daa654",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/web/package.json": {
-    "mtime": 1786383264.8989737,
-    "ast_hash": "b3affad180ec12b12755647cb2a1c2eb",
+  "web/package.json": {
+    "mtime": 1787133167.3274708,
+    "ast_hash": "de29b51abf0bcbf38c0e1713b982e3bd",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/web/vite.config.ts": {
-    "mtime": 1785083342.6529758,
+  "web/vite.config.ts": {
+    "mtime": 1785161048.648127,
     "ast_hash": "eb98c53348e57a55028f415914969a6b",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/web/src/main.tsx": {
-    "mtime": 1785083430.2565267,
-    "ast_hash": "42ff8ad5abf70135b10b6d5692d138b0",
+  "web/src/main.tsx": {
+    "mtime": 1787133167.3283,
+    "ast_hash": "78f6ae29e80bdd78c15a8fa968de234f",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/web/src/App.tsx": {
-    "mtime": 1785083429.0155332,
-    "ast_hash": "cafcd5e580c3cd12ea66e17f7aa253a5",
+  "web/src/App.tsx": {
+    "mtime": 1787133167.3280828,
+    "ast_hash": "d9c4e06693c370e4de8ed4a181c40da9",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/web/src/config.ts": {
-    "mtime": 1786383264.8989737,
-    "ast_hash": "dc176435dd741ea4f4b89d28a7cf226e",
+  "web/src/config.ts": {
+    "mtime": 1787133167.3282354,
+    "ast_hash": "fd5e0d52b4eecd3cdfd0f9f2763b1043",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/web/src/content.ts": {
-    "mtime": 1786383264.8989737,
-    "ast_hash": "d59a0d3030b0c78635395128f4ecdcf9",
+  "web/src/content.ts": {
+    "mtime": 1787133167.3282716,
+    "ast_hash": "5ac0662f447bd20b169420c9517dbe85",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/web/src/components/Sections.tsx": {
-    "mtime": 1786383264.8989737,
-    "ast_hash": "7bc18edbe1ce35523ff09198fc0455cc",
+  "web/src/components/Faq.tsx": {
+    "mtime": 1787133167.328149,
+    "ast_hash": "07bd769589b8ed51a502e43960c212f2",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/web/src/components/Faq.tsx": {
-    "mtime": 1785083423.1005635,
-    "ast_hash": "7263e467390fac35901a52ad861997ef",
+  ".agents/skills/higgsfield-product-photoshoot/SKILL.md": {
+    "mtime": 1785161048.512202,
+    "ast_hash": "63270b7359dc80469ee6c8c9b9432464",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/arcads_alternatives.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "5c0c9dc30318a5ed647ee5adea9c6b7c",
+  ".agents/skills/higgsfield-websites/SKILL.md": {
+    "mtime": 1785161048.5150163,
+    "ast_hash": "41e0539fbd092d403dfa9335d4d3f43c",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/gander_wegolook_deep_research.md": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "32ac7fe642ad9d83b3c6501be4ca58d4",
+  ".agents/skills/higgsfield-websites/references/wow-catalog.md": {
+    "mtime": 1785161048.536187,
+    "ast_hash": "a25e6f83da29c874e7be12c4a69ef0b0",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-product-photoshoot/SKILL.md": {
-    "mtime": 1785055438.2171388,
-    "ast_hash": "4039076bb0d8b61369710bb0c6d1e03f",
+  ".agents/skills/higgsfield-websites/references/scroll-scrub-asset-video.md": {
+    "mtime": 1785161048.530807,
+    "ast_hash": "73a4891b8b3550ebd9bd72ce6dd02cdc",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/SKILL.md": {
-    "mtime": 1785055438.3241382,
-    "ast_hash": "47973968ae42ef1986120ed255f595d8",
+  ".agents/skills/higgsfield-websites/references/app-flow.md": {
+    "mtime": 1785161048.5175245,
+    "ast_hash": "1a40974d37d347073df8d6e5a28b26e2",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/wow-catalog.md": {
-    "mtime": 1785055438.3271382,
-    "ast_hash": "0560848e262c438a03d9dc596dd5925e",
+  ".agents/skills/higgsfield-websites/references/website-flow.md": {
+    "mtime": 1785161048.533807,
+    "ast_hash": "af3d066374cfca05c30da7b69fd00668",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/scroll-scrub-asset-video.md": {
-    "mtime": 1785055438.3271382,
-    "ast_hash": "2fa3a4de0fff77afff7a638b13556342",
+  ".agents/skills/higgsfield-websites/references/runtime-and-infra.md": {
+    "mtime": 1785161048.5305135,
+    "ast_hash": "c1520fe45251ff362d2b30935fe253db",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/app-flow.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "a387012310be9dcc83d112e261d57967",
+  ".agents/skills/higgsfield-websites/references/app-layouts.md": {
+    "mtime": 1785161048.519161,
+    "ast_hash": "91c8e26c50eeee6126ece0ce09effc49",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/website-flow.md": {
-    "mtime": 1785055438.3271382,
-    "ast_hash": "3555c6b3ce3a428dcfc26e4f62725d3c",
+  ".agents/skills/higgsfield-websites/references/scroll-scrub-asset-react.md": {
+    "mtime": 1785161048.530807,
+    "ast_hash": "054a66f1b87da092f823c3a8b10dfffb",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/runtime-and-infra.md": {
-    "mtime": 1785055438.3271382,
-    "ast_hash": "f7ca30827cd5608677c5ee591988df49",
+  ".agents/skills/higgsfield-websites/references/contest.md": {
+    "mtime": 1785161048.5218072,
+    "ast_hash": "02f9b0dfd6fd2b605e008f17558e2fe0",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/app-layouts.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "734df192dda8069b8a8a70de1e60ee08",
+  ".agents/skills/higgsfield-websites/references/wow-maker.md": {
+    "mtime": 1785161048.5373068,
+    "ast_hash": "78d0482c95e1602b4f8331828a2e3d6e",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/scroll-scrub-asset-react.md": {
-    "mtime": 1785055438.3271382,
-    "ast_hash": "432a2e8d07fb745228725eab8e694d8a",
+  ".agents/skills/higgsfield-websites/references/quanta-design.md": {
+    "mtime": 1785161048.5290048,
+    "ast_hash": "e65bc804787826887e1c238ecd96bd1d",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/contest.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "5512c502cc7621f4b98e5cda847cbba0",
+  ".agents/skills/higgsfield-websites/references/reference-boards.md": {
+    "mtime": 1785161048.5294607,
+    "ast_hash": "95737c547aeb74a32a63ca75c5be7da2",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/wow-maker.md": {
-    "mtime": 1785055438.3271382,
-    "ast_hash": "bbf69efc29986b0a496ccd227a7d0473",
+  ".agents/skills/higgsfield-websites/references/auth.md": {
+    "mtime": 1785161048.5213993,
+    "ast_hash": "4293b940ebdd166fbebdc062604bb5b9",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/quanta-design.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "76db868f1a3abcae05ea1082935c65b9",
+  ".agents/skills/higgsfield-websites/references/fnf-sdk.md": {
+    "mtime": 1785161048.5271528,
+    "ast_hash": "4d3bdceca776dd9489875d90208497b5",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/reference-boards.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "ef02f76f0a3c47e4bc2bd280b75d7e6b",
+  ".agents/skills/higgsfield-websites/references/app-quickstart.md": {
+    "mtime": 1785161048.519955,
+    "ast_hash": "a21bd7a009c27f23b907b9e584def66a",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/auth.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "a8802c9d2480b70b61b8db15a20124ce",
+  ".agents/skills/higgsfield-websites/references/image-to-code.md": {
+    "mtime": 1785161048.5279086,
+    "ast_hash": "dc1a64ab9101b978fed97b6d2f159c2b",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/fnf-sdk.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "1c4b5ea593e87d6d6df8faed92f185d8",
+  ".agents/skills/higgsfield-websites/references/asset-system.md": {
+    "mtime": 1785161048.5207322,
+    "ast_hash": "0b3ee66922d734de467bd07338be46d9",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/app-quickstart.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "122ccbfd8105626a91ce9f6bf62b58d3",
+  ".agents/skills/higgsfield-websites/references/containers.md": {
+    "mtime": 1785161048.5218072,
+    "ast_hash": "67681b944c22d493cb4c35a18b0db8ea",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/image-to-code.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "a4d597852011b5283fecca0a49af8abc",
+  ".agents/skills/higgsfield-websites/references/security.md": {
+    "mtime": 1785161048.5318072,
+    "ast_hash": "415627f8b1c46f341897f83f03155943",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/asset-system.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "c039683e35d5ef98a0c671ef4686122e",
+  ".agents/skills/higgsfield-websites/references/fnf-react.md": {
+    "mtime": 1785161048.5262446,
+    "ast_hash": "df21ab0721af3da25d9a30bcb7d66790",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/containers.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "20c6aaf2e72584fcaf7bdb12a46fa8f7",
+  ".agents/skills/higgsfield-websites/references/scroll-scrub-asset-css.md": {
+    "mtime": 1785161048.5305135,
+    "ast_hash": "f7c81c7d3467e65ec84b0fb90a9ff736",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/security.md": {
-    "mtime": 1785055438.3271382,
-    "ast_hash": "b9953720bd59f9d1a3ae9e23704920ca",
+  ".agents/skills/higgsfield-websites/references/scroll-scrub.md": {
+    "mtime": 1785161048.530807,
+    "ast_hash": "089e5721c5272098a2da56cc3d66818f",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/fnf-react.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "c3fe909533a2cba4ac69fd05464af3d0",
+  ".agents/skills/higgsfield-websites/references/seo.md": {
+    "mtime": 1785161048.532807,
+    "ast_hash": "ac5bd9363498b74db6c02f571c940b29",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/scroll-scrub-asset-css.md": {
-    "mtime": 1785055438.3271382,
-    "ast_hash": "faf36964f3c2a5b489b4bd27390e8d29",
+  ".agents/skills/higgsfield-websites/references/review-rubric.md": {
+    "mtime": 1785161048.5299883,
+    "ast_hash": "fd1e12c0445d3b7eff77a50d9fe2f9f5",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/scroll-scrub.md": {
-    "mtime": 1785055438.3271382,
-    "ast_hash": "49164616a41c5e9318d4b43e1e384ada",
+  ".agents/skills/higgsfield-websites/references/design-recipe.md": {
+    "mtime": 1785161048.5239727,
+    "ast_hash": "0694b804c6985c403886dbd2ab4a7ad4",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/seo.md": {
-    "mtime": 1785055438.3271382,
-    "ast_hash": "5d456e758c6d85f05b16e782fd696d0b",
+  ".agents/skills/higgsfield-websites/references/app-cover.md": {
+    "mtime": 1785161048.5163732,
+    "ast_hash": "ac9e17879b76455364ff85826ecfb568",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/review-rubric.md": {
-    "mtime": 1785055438.3271382,
-    "ast_hash": "4bd70f8312e428a98968eae3af65904b",
+  ".agents/skills/higgsfield-websites/references/cover-animator.md": {
+    "mtime": 1785161048.5228071,
+    "ast_hash": "065fd7ad8e8b208167b349a1ae176a27",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/design-recipe.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "e9b7b0da3b326de7bd1624fe94085207",
+  ".agents/skills/higgsfield-websites/references/design-taste-frontend.md": {
+    "mtime": 1785161048.5248072,
+    "ast_hash": "3143fa8453f9c4ece81286fcb22ab52b",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/app-cover.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "a6347d7a2fe06885749c9d8a2fba555c",
+  ".agents/skills/higgsfield-video-explainer/SKILL.md": {
+    "mtime": 1785161048.5143845,
+    "ast_hash": "cc63aa9780db7cbd62ed18f18e6bbce6",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/cover-animator.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "bebde395d1476f104bfdd66e61b0223a",
+  ".agents/skills/higgsfield-video-explainer/references/prompts.md": {
+    "mtime": 1785161048.5150163,
+    "ast_hash": "c7864108f2e0dc821f15d2133dbedd93",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-websites/references/design-taste-frontend.md": {
-    "mtime": 1785055438.3261383,
-    "ast_hash": "0804f48feff175c06b0e4ee314fc24fc",
+  ".agents/skills/higgsfield-marketplace-cards/SKILL.md": {
+    "mtime": 1785161048.512202,
+    "ast_hash": "7c2fd67a95e336c9966ef0964cd1e14b",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-video-explainer/SKILL.md": {
-    "mtime": 1785055438.2471385,
-    "ast_hash": "00f75e7e824d1287baf68aad35cc3a9f",
+  ".agents/skills/higgsfield-generate/SKILL.md": {
+    "mtime": 1785161048.508117,
+    "ast_hash": "63ee639d4f0401962edf45e03eb2b10a",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-video-explainer/references/prompts.md": {
-    "mtime": 1785055438.2471385,
-    "ast_hash": "71fe0847375e9a59659d14feee8d3b64",
+  ".agents/skills/higgsfield-generate/references/media-inputs.md": {
+    "mtime": 1785161048.5104165,
+    "ast_hash": "4e5942244b35b32723e8c812ee601f13",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-marketplace-cards/SKILL.md": {
-    "mtime": 1785055438.2071388,
-    "ast_hash": "614679403556b4ff3516d6346ecb1c85",
+  ".agents/skills/higgsfield-generate/references/marketing-brand-kits.md": {
+    "mtime": 1785161048.509406,
+    "ast_hash": "69077ef8159fac252b581a1497913d63",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/SKILL.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "8354a73a5c022019d609b6d191fef807",
+  ".agents/skills/higgsfield-generate/references/prompt-engineering.md": {
+    "mtime": 1785161048.5113323,
+    "ast_hash": "2d1e7fee20a2e3857e28b250e075c5a7",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/references/media-inputs.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "a9df11d2dfcdce0d925a458a4d0f2fa1",
+  ".agents/skills/higgsfield-generate/references/marketing-dtc-ads.md": {
+    "mtime": 1785161048.5097842,
+    "ast_hash": "d9436ecb80ec0ae2303afe99aefeef70",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/references/marketing-brand-kits.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "670ae2efa73f271d3dede7ef6c47b619",
+  ".agents/skills/higgsfield-generate/references/workflows.md": {
+    "mtime": 1785161048.511896,
+    "ast_hash": "bdc7446404b4b92c62835e821c8a3c1e",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/references/prompt-engineering.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "8f21a17759942c1af72b515ee4ff9c68",
+  ".agents/skills/higgsfield-generate/references/marketing-avatars.md": {
+    "mtime": 1785161048.509406,
+    "ast_hash": "c04d894a747b3fbcafe2fafa8b20d580",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/references/marketing-dtc-ads.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "b1f720106c08bf8c3103189e5d8ce1c4",
+  ".agents/skills/higgsfield-generate/references/model-catalog.md": {
+    "mtime": 1785161048.5110414,
+    "ast_hash": "6db4e5d1f961dd64cbefd789b2888ae6",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/references/workflows.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "ccad5b197de2eea4cad9c062746d17a7",
+  ".agents/skills/higgsfield-generate/references/marketing-modes.md": {
+    "mtime": 1785161048.509944,
+    "ast_hash": "abf36d2f19f04b3cbf076316c504cd95",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/references/marketing-avatars.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "d64d5a06d0d971be6f9d2d0435be4814",
+  ".agents/skills/higgsfield-generate/references/marketing-products.md": {
+    "mtime": 1785161048.5100675,
+    "ast_hash": "baadf1e32447838079e69e0d1300bd90",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/references/model-catalog.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "215530b53d994c44400ea12b0be4f2a1",
+  ".agents/skills/higgsfield-generate/references/marketing-setup-items.md": {
+    "mtime": 1785161048.510209,
+    "ast_hash": "bbd795c198a6f73a82ab71b3f90a6221",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/references/marketing-modes.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "190969bd7dcceb231fbf3705ff8e73e2",
+  ".agents/skills/higgsfield-generate/references/marketing-ad-references.md": {
+    "mtime": 1785161048.5090911,
+    "ast_hash": "e3c810934041bb239a8ca20c8b59842a",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/references/marketing-products.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "97ad6484938c000b48340a0fd0c1c51c",
+  ".agents/skills/higgsfield-generate/references/troubleshooting.md": {
+    "mtime": 1785161048.5116625,
+    "ast_hash": "907e8a5ae621b2697213a151c9c15d79",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/references/marketing-setup-items.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "8df83af29f6bd8d9787295dc537c7f48",
+  ".agents/skills/higgsfield-game-generation/SKILL.md": {
+    "mtime": 1785161048.496807,
+    "ast_hash": "2cb08dcb53d98c77a5a3b0874e4c37dd",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/references/marketing-ad-references.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "bb015dddb1774decb3e4310b8e01b4fc",
+  ".agents/skills/higgsfield-game-generation/references/meshy-api.md": {
+    "mtime": 1785161048.5021386,
+    "ast_hash": "7bb7effe10b6baded7742c36bd22f1e4",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-generate/references/troubleshooting.md": {
-    "mtime": 1785055438.195139,
-    "ast_hash": "dc26c9aa67ad9052927bada07fb2a668",
+  ".agents/skills/higgsfield-game-generation/references/logic-reference.md": {
+    "mtime": 1785161048.501711,
+    "ast_hash": "8b771bfaaaaf57e975a1113db113b928",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/SKILL.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "89ab7138d0bea05729eeb6b74a45049e",
+  ".agents/skills/higgsfield-game-generation/references/game-design-system.md": {
+    "mtime": 1785161048.5011425,
+    "ast_hash": "7736b3977c1aab753f9118f47b928dd4",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/meshy-api.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "450b9b00b760c305e87349ff387f5875",
+  ".agents/skills/higgsfield-game-generation/references/3d-animation.md": {
+    "mtime": 1785161048.5001152,
+    "ast_hash": "b48b7a78dc79d77f7ded4a1dc59496c1",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/logic-reference.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "f890d1b4ac171cf073dc93d8f2b31321",
+  ".agents/skills/higgsfield-game-generation/references/build-game.md": {
+    "mtime": 1785161048.5005023,
+    "ast_hash": "dad26642518edaddb00906914cb15786",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/game-design-system.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "22a5618ceb3b09375da5fe38f32023f9",
+  ".agents/skills/higgsfield-game-generation/references/client-reference.md": {
+    "mtime": 1785161048.5007672,
+    "ast_hash": "3fb11188f5d7c6f12bd3ae80b112b28c",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/3d-animation.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "4d3b98886dfdb890f76c877905a08f1a",
+  ".agents/skills/higgsfield-game-generation/references/textures.md": {
+    "mtime": 1785161048.5043702,
+    "ast_hash": "a0c89013694f0fff4774d85b41c5779d",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/build-game.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "00771958bee5de74a035000940a304b0",
+  ".agents/skills/higgsfield-game-generation/references/2d-animation.md": {
+    "mtime": 1785161048.4988072,
+    "ast_hash": "04e3fe4ebc43929c82e6ebf66d45319a",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/client-reference.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "3d45ac0c77f46fd2065a48a633d3d3c0",
+  ".agents/skills/higgsfield-game-generation/references/kernel-reference.md": {
+    "mtime": 1785161048.5011425,
+    "ast_hash": "cdbb7c890340db42d10afeee81956ef0",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/textures.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "c2d63bc7a928649572772a2e4e39e21e",
+  ".agents/skills/higgsfield-game-generation/references/procedural-animation.md": {
+    "mtime": 1785161048.5032651,
+    "ast_hash": "4a575df73ee7859073b93098ee349586",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/2d-animation.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "1dbdd44999c977018010fd2ca98734bc",
+  ".agents/skills/higgsfield-game-generation/references/audio.md": {
+    "mtime": 1785161048.5001152,
+    "ast_hash": "9d7491e372b6fbf536527e1055b66312",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/kernel-reference.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "d717e5e7cca66f599c0cb8737c304cc0",
+  ".agents/skills/higgsfield-game-generation/references/meshy-input-rules.md": {
+    "mtime": 1785161048.5021386,
+    "ast_hash": "7d910770a73ff06330491cde0297778e",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/procedural-animation.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "8c4d70516549ac0fe814dcef4da31ba5",
+  ".agents/skills/higgsfield-game-generation/references/stylization.md": {
+    "mtime": 1785161048.5039184,
+    "ast_hash": "2bda244f9fa2caeafce452bf6f7c1e4c",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/audio.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "47d9201b21989d64daf8c8e54c928616",
+  ".agents/skills/higgsfield-game-generation/references/multiplayer.md": {
+    "mtime": 1785161048.5029178,
+    "ast_hash": "dc1c9684f300a3fff75d914a9ddd298e",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/meshy-input-rules.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "e0e5d089c79a1146b1de717076e1ac3b",
+  ".agents/skills/higgsfield-soul-id/SKILL.md": {
+    "mtime": 1785161048.5133293,
+    "ast_hash": "359f07e0a4d944c5d42b319911bcbd52",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/stylization.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "8f2ba56d880b4b4286e2034657703e0f",
+  ".agents/skills/higgsfield-soul-id/references/photo-guide.md": {
+    "mtime": 1785161048.51392,
+    "ast_hash": "d09550e8661694196080752a032f3e74",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-game-generation/references/multiplayer.md": {
-    "mtime": 1785055438.154139,
-    "ast_hash": "d72ef06d7ae672ac9e060318d3ea54c2",
+  ".agents/skills/higgsfield-soul-id/references/troubleshooting.md": {
+    "mtime": 1785161048.51392,
+    "ast_hash": "a387a5d5e563716827637a67877fae1a",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-soul-id/SKILL.md": {
-    "mtime": 1785055438.2341387,
-    "ast_hash": "5a00a84c697d7d3a8939e84a4717b54c",
+  "web/README.md": {
+    "mtime": 1787133167.3270931,
+    "ast_hash": "7f6540bdb3b30eecf49182f763120617",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-soul-id/references/photo-guide.md": {
-    "mtime": 1785055438.2341387,
-    "ast_hash": "c296c7055f7e9f653328528f6e20b268",
+  "web/index.html": {
+    "mtime": 1787133167.327132,
+    "ast_hash": "d1c5da300f4104dcd09de1a630f1bfd3",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/.agents/skills/higgsfield-soul-id/references/troubleshooting.md": {
-    "mtime": 1785055438.2341387,
-    "ast_hash": "7ab3d7b9777e47762b91fed5f6b8bde4",
+  "docs/ideas.md": {
+    "mtime": 1787133167.2973387,
+    "ast_hash": "7dddda5518185412e42ba234849621fe",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/web/README.md": {
-    "mtime": 1786383264.8979735,
-    "ast_hash": "b7a077c9454d2bd72734e478e9ef666e",
+  "docs/product/legacy-landing.html": {
+    "mtime": 1787133167.2987757,
+    "ast_hash": "6acfe28f93168111a8d33a6a3112fe77",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/web/index.html": {
-    "mtime": 1786383264.8979735,
-    "ast_hash": "cf861bebb48367ab57f02d4b7d2dbf90",
+  "web/public/favicon.svg": {
+    "mtime": 1787133167.3275108,
+    "ast_hash": "bee40fa46c3ecdde9352b960d70eb807",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/docs/ideas.md": {
-    "mtime": 1786383264.8499737,
-    "ast_hash": "c59e68094c346249f633fbebcce9a8c3",
+  "docs/product/app-plan.md": {
+    "mtime": 1787133167.2980106,
+    "ast_hash": "5d25e05167324c29797f14d15d6a212f",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/docs/product/legacy-landing.html": {
-    "mtime": 1786383264.8509738,
-    "ast_hash": "883c77201b516c49707a9e7e6e36fec6",
+  "docs/product/web-plan.md": {
+    "mtime": 1787133167.2988718,
+    "ast_hash": "79418e141e56abbe7b76bd6d2d30e281",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/web/public/favicon.svg": {
-    "mtime": 1786383264.8989737,
-    "ast_hash": "bc7ee5e6b75cdc59e2b847942cfd3191",
+  "docs/product/wireframes.md": {
+    "mtime": 1787133167.2989273,
+    "ast_hash": "16e6b977efa7d320b28c9d4ef2d521f3",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/someonethere_evidence_problem.md": {
-    "mtime": 1786383264.8979735,
-    "ast_hash": "5b2ed066a571df59d5fa39b50cc03201",
+  ".claude/settings.local.json": {
+    "mtime": 1784112372.6753182,
+    "ast_hash": "7292939018979d5ea63a561dc196e5fa",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/someonethere-dafo-analysis-detailed.md": {
-    "mtime": 1786383264.8979735,
-    "ast_hash": "b2990e3ec7e502a75e38b14d8e23ce56",
+  "web/src/components/Brand.tsx": {
+    "mtime": 1787133167.328116,
+    "ast_hash": "cff3d32e656c8cee8e93c173efbe5432",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/SOMEONETHERE_AGENT_SETUP_GUIDE.md": {
-    "mtime": 1786383264.8489738,
-    "ast_hash": "443ad4c1be8a1d47e3479c58d317a1d7",
+  "web/src/components/Icons.tsx": {
+    "mtime": 1787133167.3281744,
+    "ast_hash": "40c6ff912f84ea067b194d14c683e3e7",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/facebook_and_other_spam_approaches.md": {
-    "mtime": 1786383264.736974,
-    "ast_hash": "77016af40688cc8ec3b984c953a7255b",
+  "web/src/components/PhoneScene.tsx": {
+    "mtime": 1787133167.3281984,
+    "ast_hash": "68f1513baeede1425f9b0a22f6f6dfee",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/DLModels_deep_research.md": {
-    "mtime": 1786383264.732974,
-    "ast_hash": "ba85cb8b76ff3d88a1043bc233e7125a",
+  "web/public/madrid-gran-via.png": {
+    "mtime": 1787133167.3278532,
+    "ast_hash": "443704305621c1ee1eb05fe593a2a7ae",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/docs/product/app-plan.md": {
-    "mtime": 1786383270.4519577,
-    "ast_hash": "d33b1d11a6bfaed1fb1ad838d9e19706",
+  "web/public/phone-view.png": {
+    "mtime": 1787133167.3280036,
+    "ast_hash": "2c7ba5d81e8bee8b0f2071d9550c1f4e",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/docs/product/web-plan.md": {
-    "mtime": 1786383270.4509578,
-    "ast_hash": "7a038bdda7ade500f4d3001cfda0e3f8",
+  "mobile/app.json": {
+    "mtime": 1787133396.1640859,
+    "ast_hash": "693d18e5fa5e1a2d83697b7058f3f7c4",
     "semantic_hash": ""
   },
-  "/home/ale/Desktop/HouseCheck/docs/product/wireframes.md": {
-    "mtime": 1786383270.4519577,
-    "ast_hash": "76f072893bcd86d1a00ec48bb57bb9a1",
+  "mobile/app/(auth)/_layout.tsx": {
+    "mtime": 1787134779.7888434,
+    "ast_hash": "b72600702513432c92af28f280fe2097",
+    "semantic_hash": ""
+  },
+  "mobile/app/(auth)/login.tsx": {
+    "mtime": 1787135485.7705202,
+    "ast_hash": "4bf4cbed5f594af35ef944ea0ae5e901",
+    "semantic_hash": ""
+  },
+  "mobile/app/(auth)/register.tsx": {
+    "mtime": 1787135485.770588,
+    "ast_hash": "482cbc0bfc7a165bf1ba28f0c802c33c",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/_layout.tsx": {
+    "mtime": 1787134826.7767756,
+    "ast_hash": "ba7577d2c10339a931c105f721f38234",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/home.tsx": {
+    "mtime": 1787134826.7777755,
+    "ast_hash": "f9b6f571d4201f2a7b7d9fcf113b7a8e",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/previsit/[id].tsx": {
+    "mtime": 1787135024.038336,
+    "ast_hash": "3340dc9b1a6ec3ccb49502ae7d8011b0",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/profile.tsx": {
+    "mtime": 1787135569.972838,
+    "ast_hash": "757ea879fc59926cb161d2fa2e4faad6",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/report/[id].tsx": {
+    "mtime": 1787135050.3577373,
+    "ast_hash": "1810ed80edd92d0074a68eac4c79b636",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/reports.tsx": {
+    "mtime": 1787134850.24374,
+    "ast_hash": "166129eb1c7ade29abde8bc71873f2d9",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/request/_layout.tsx": {
+    "mtime": 1787134895.113669,
+    "ast_hash": "4c67731eb4a78c001b304f015353745f",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/request/confirmation.tsx": {
+    "mtime": 1787134982.0505214,
+    "ast_hash": "ea530c49d411b02869e57c7c22cae700",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/request/payment.tsx": {
+    "mtime": 1787134982.0485213,
+    "ast_hash": "cffee1b08557caddf8687b3e25d1ed7f",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/request/preferences.tsx": {
+    "mtime": 1787134937.5235984,
+    "ast_hash": "2f750f1ee04b8a4d280ef2a8f4b41345",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/request/priorities.tsx": {
+    "mtime": 1787134937.5205984,
+    "ast_hash": "3a1b4094af78ab77a88daae0c7ef0081",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/request/property.tsx": {
+    "mtime": 1787134895.114669,
+    "ast_hash": "2922abc707206a10dc301618ac1b3c62",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/request/review.tsx": {
+    "mtime": 1787134959.8015602,
+    "ast_hash": "c9fc022fb76add408b3bac5821928404",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/request/viewing.tsx": {
+    "mtime": 1787134919.2896292,
+    "ast_hash": "2529bb54e4c624c2e816f638bb4ae296",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/settings/_layout.tsx": {
+    "mtime": 1787134878.946695,
+    "ast_hash": "ff95dd662dc3cd367ddf38c9515a6e60",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/settings/how-it-works.tsx": {
+    "mtime": 1787134878.948695,
+    "ast_hash": "c8f5f6ff8a22a66b01a8c728b1cfafe2",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/settings/legal.tsx": {
+    "mtime": 1787134878.9496949,
+    "ast_hash": "a5039395092c14d7bd9685b3a103fb7f",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/visit/[id].tsx": {
+    "mtime": 1787135024.037336,
+    "ast_hash": "c8a97025230225341d8126fe01a539d4",
+    "semantic_hash": ""
+  },
+  "mobile/app/(customer)/visits.tsx": {
+    "mtime": 1787135518.0126238,
+    "ast_hash": "083789e3edc2e7de909f4f6ad84b090a",
+    "semantic_hash": ""
+  },
+  "mobile/app/(verifier)/_layout.tsx": {
+    "mtime": 1787135200.7248285,
+    "ast_hash": "83c562312d449261018d0797eaa94f41",
+    "semantic_hash": ""
+  },
+  "mobile/app/(verifier)/checklist/[id].tsx": {
+    "mtime": 1787135498.5643487,
+    "ast_hash": "29a955b7d595e912b1588c705caef18e",
+    "semantic_hash": ""
+  },
+  "mobile/app/(verifier)/earnings.tsx": {
+    "mtime": 1787135188.5259552,
+    "ast_hash": "c373025ca944ec3462e8fffd39ad1a2b",
+    "semantic_hash": ""
+  },
+  "mobile/app/(verifier)/jobs.tsx": {
+    "mtime": 1787135076.2521713,
+    "ast_hash": "a7be07b755659a6cbc5ee6299da1bb41",
+    "semantic_hash": ""
+  },
+  "mobile/app/(verifier)/profile.tsx": {
+    "mtime": 1787135188.527955,
+    "ast_hash": "5238c6181fb46ed6cfac7ec5c7e6f08e",
+    "semantic_hash": ""
+  },
+  "mobile/app/(verifier)/report-submitted.tsx": {
+    "mtime": 1787135200.7117357,
+    "ast_hash": "98b2e94e7e77d98fc2e629ea1371c438",
+    "semantic_hash": ""
+  },
+  "mobile/app/(verifier)/report/[id].tsx": {
+    "mtime": 1787135200.7246592,
+    "ast_hash": "77dfb8ea0edaea962bac8c942927d8a1",
+    "semantic_hash": ""
+  },
+  "mobile/app/(verifier)/visit/[id].tsx": {
+    "mtime": 1787135099.4971428,
+    "ast_hash": "673a1c83e2c0ca9bbd4d88de3fc83908",
+    "semantic_hash": ""
+  },
+  "mobile/app/(verifier)/visits.tsx": {
+    "mtime": 1787135076.2551713,
+    "ast_hash": "d9ab3c697e71b5203c2ea56b559fc0b2",
+    "semantic_hash": ""
+  },
+  "mobile/app/_layout.tsx": {
+    "mtime": 1787134992.7018578,
+    "ast_hash": "992e01e7ccfcb302c18b005c124d2eb1",
+    "semantic_hash": ""
+  },
+  "mobile/app/index.tsx": {
+    "mtime": 1787134779.7878432,
+    "ast_hash": "c336aabd52ea9f3b1bcb70b34246cccd",
+    "semantic_hash": ""
+  },
+  "mobile/babel.config.js": {
+    "mtime": 1787133382.1308746,
+    "ast_hash": "0e62fbe6375c2e9aa5ea9afff01fb243",
+    "semantic_hash": ""
+  },
+  "mobile/eas.json": {
+    "mtime": 1787133396.1650858,
+    "ast_hash": "0f99adcb01e091c5d35aa838424bfd0c",
+    "semantic_hash": ""
+  },
+  "mobile/jest.config.js": {
+    "mtime": 1787133382.1318746,
+    "ast_hash": "3d131669a2a29efb61703151449f50a0",
+    "semantic_hash": ""
+  },
+  "mobile/jest.setup.js": {
+    "mtime": 1787133382.1338747,
+    "ast_hash": "2f49338bb52705df1fddfb730aebda7e",
+    "semantic_hash": ""
+  },
+  "mobile/package.json": {
+    "mtime": 1787134919.287138,
+    "ast_hash": "d7cd4979564db258d48527edb335b887",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/Disclaimer.tsx": {
+    "mtime": 1787134556.6630876,
+    "ast_hash": "1a42c52b89ef4222f7a6a1bd9690ba27",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ObservationRow.tsx": {
+    "mtime": 1787134539.6781452,
+    "ast_hash": "35e0952bf7837da7f190343fffe3e2bb",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/PermissionSummary.tsx": {
+    "mtime": 1787134556.6620877,
+    "ast_hash": "e64e983d256de83500bb105fc1508232",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/VerifierCard.tsx": {
+    "mtime": 1787134539.6761,
+    "ast_hash": "a1ce9dba0ea66d5aed302ac0da9964e1",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/VisitCard.tsx": {
+    "mtime": 1787134539.6751,
+    "ast_hash": "c483670982a4b93abd4e3e163ca5e213",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/WizardProgress.tsx": {
+    "mtime": 1787134539.679139,
+    "ast_hash": "a0a5dbc55f323f8b30a0d37d045e658c",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/Avatar.tsx": {
+    "mtime": 1787134454.4181452,
+    "ast_hash": "94f305f0dc5b582d6e59bd06f443a224",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/Button.tsx": {
+    "mtime": 1787134434.4111516,
+    "ast_hash": "217cf9b16ce618f0c82332bcfc7fafc1",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/Card.tsx": {
+    "mtime": 1787134434.4131515,
+    "ast_hash": "a5ebc5e0515fe90fc98040b55343a270",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/Choice.tsx": {
+    "mtime": 1787134481.0071342,
+    "ast_hash": "6edfa361f239ae4dc1b9b0586bd6b93f",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/Input.tsx": {
+    "mtime": 1787134481.0061343,
+    "ast_hash": "a84d6285db1f03d898ee8409037451d5",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/Screen.tsx": {
+    "mtime": 1787134509.4671192,
+    "ast_hash": "500141c88272c9f57759074aaa557f2d",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/SectionHeader.tsx": {
+    "mtime": 1787134481.0081344,
+    "ast_hash": "143df360da5cc172b40dcc97ddef79e3",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/Sheet.tsx": {
+    "mtime": 1787134509.4661193,
+    "ast_hash": "688e5440b234657572c0e65eb4232b45",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/States.tsx": {
+    "mtime": 1787134509.4641194,
+    "ast_hash": "c6221ac35c1765cb6fe8ea33da86e003",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/StatusBadge.tsx": {
+    "mtime": 1787134454.4151454,
+    "ast_hash": "e00fb3ebf588d83ee7bef1cbadd0adc0",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/Text.tsx": {
+    "mtime": 1787134434.4091516,
+    "ast_hash": "aafb6404cda04061e1798b3306d1f390",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/Timeline.tsx": {
+    "mtime": 1787134454.4161453,
+    "ast_hash": "29df19bc84e029b2df6061868bc9c864",
+    "semantic_hash": ""
+  },
+  "mobile/src/components/ui/index.ts": {
+    "mtime": 1787134509.4681194,
+    "ast_hash": "88e7ef1fa706413d71745dc7cba3efe2",
+    "semantic_hash": ""
+  },
+  "mobile/src/constants/config.ts": {
+    "mtime": 1787133455.7769108,
+    "ast_hash": "41d32ffd1ac7433d9e1f9da9e631f9f7",
+    "semantic_hash": ""
+  },
+  "mobile/src/constants/observations.ts": {
+    "mtime": 1787133455.7749107,
+    "ast_hash": "6a5a6a41ba5c69e5541427658c1e9feb",
+    "semantic_hash": ""
+  },
+  "mobile/src/constants/priorities.ts": {
+    "mtime": 1787133455.7729106,
+    "ast_hash": "0b09e69f786985385df5e9bce6f5ba81",
+    "semantic_hash": ""
+  },
+  "mobile/src/constants/theme.ts": {
+    "mtime": 1787133455.7709105,
+    "ast_hash": "ffb6bc3ee5e08967cd2b3d6331dbcc79",
+    "semantic_hash": ""
+  },
+  "mobile/src/features/__tests__/checklist-draft.test.ts": {
+    "mtime": 1787135335.5405405,
+    "ast_hash": "ab47a808d99b92709c232a1b0214cb76",
+    "semantic_hash": ""
+  },
+  "mobile/src/features/__tests__/i18n-parity.test.ts": {
+    "mtime": 1787135335.5385404,
+    "ast_hash": "5bcf0a6d5a41adc657cfc4312212c11b",
+    "semantic_hash": ""
+  },
+  "mobile/src/features/auth/AuthProvider.tsx": {
+    "mtime": 1787134627.5240257,
+    "ast_hash": "e27b22971f79f013ac4a4bf31b147e3e",
+    "semantic_hash": ""
+  },
+  "mobile/src/features/auth/api.ts": {
+    "mtime": 1787134627.5250258,
+    "ast_hash": "2e2ff3b7f430f20a617afb783f9d9788",
+    "semantic_hash": ""
+  },
+  "mobile/src/features/payments/api.ts": {
+    "mtime": 1787134712.4329314,
+    "ast_hash": "936705bc83cd2b7ae45c21bd4e1fbac4",
+    "semantic_hash": ""
+  },
+  "mobile/src/features/profile/api.ts": {
+    "mtime": 1787135556.828882,
+    "ast_hash": "ad571b200b8217efa7154bdaafc350c7",
+    "semantic_hash": ""
+  },
+  "mobile/src/features/reports/api.ts": {
+    "mtime": 1787134692.9888546,
+    "ast_hash": "a563a66ed090d83bf2d696939eb6a902",
+    "semantic_hash": ""
+  },
+  "mobile/src/features/reports/queries.ts": {
+    "mtime": 1787134712.4319315,
+    "ast_hash": "ccde586da5d9a2147012ac1bd8c9c1bd",
+    "semantic_hash": ""
+  },
+  "mobile/src/features/verifier/sync.ts": {
+    "mtime": 1787134762.0268676,
+    "ast_hash": "45a77b23b17b110340af708f46af2816",
+    "semantic_hash": ""
+  },
+  "mobile/src/features/visits/api.ts": {
+    "mtime": 1787134652.4480002,
+    "ast_hash": "503d4c1de3dc5db32474f554108101ae",
+    "semantic_hash": ""
+  },
+  "mobile/src/features/visits/queries.ts": {
+    "mtime": 1787134682.3219674,
+    "ast_hash": "f1ff8b7d52cf7c17df6f6b9fc1cbf43d",
+    "semantic_hash": ""
+  },
+  "mobile/src/i18n/index.ts": {
+    "mtime": 1787134319.1801507,
+    "ast_hash": "b3a0a58afa56ad485ac41047a852134e",
+    "semantic_hash": ""
+  },
+  "mobile/src/i18n/locales/en.json": {
+    "mtime": 1787135556.8335426,
+    "ast_hash": "fe6279533585817d539626be7e8f4812",
+    "semantic_hash": ""
+  },
+  "mobile/src/i18n/locales/es.json": {
+    "mtime": 1787135556.834222,
+    "ast_hash": "53a60b88b66e3135adf05d037bb34ad8",
+    "semantic_hash": ""
+  },
+  "mobile/src/lib/analytics/index.ts": {
+    "mtime": 1787134574.5800736,
+    "ast_hash": "ea76e08488321c7dc332223f660fa4e8",
+    "semantic_hash": ""
+  },
+  "mobile/src/lib/live-call/index.ts": {
+    "mtime": 1787134606.339046,
+    "ast_hash": "738fdb53875ce09bf587e14507749ae9",
+    "semantic_hash": ""
+  },
+  "mobile/src/lib/monitoring/index.ts": {
+    "mtime": 1787134595.809917,
+    "ast_hash": "cf4b1c1a7c1440bb2c68b2c42cbf3537",
+    "semantic_hash": ""
+  },
+  "mobile/src/lib/notifications/index.ts": {
+    "mtime": 1787134595.8110557,
+    "ast_hash": "c95766de33b999fbd9f50f38414ea706",
+    "semantic_hash": ""
+  },
+  "mobile/src/lib/stripe/index.ts": {
+    "mtime": 1787134606.341046,
+    "ast_hash": "e33d43c37f9bad1b99233a891a880021",
+    "semantic_hash": ""
+  },
+  "mobile/src/lib/supabase/client.ts": {
+    "mtime": 1787133574.5292454,
+    "ast_hash": "27256d47d359b19372b67554ccac42b1",
+    "semantic_hash": ""
+  },
+  "mobile/src/lib/supabase/database.types.ts": {
+    "mtime": 1787133574.5321393,
+    "ast_hash": "580376de2a4cc63cb49931980d1a2270",
+    "semantic_hash": ""
+  },
+  "mobile/src/lib/supabase/storage.ts": {
+    "mtime": 1787133574.5331926,
+    "ast_hash": "d600e3b012eb5b78084d1bd40eef76d3",
+    "semantic_hash": ""
+  },
+  "mobile/src/store/checklist-draft.ts": {
+    "mtime": 1787134762.0248675,
+    "ast_hash": "9f28ea09abab3fc052f3e193debff59f",
+    "semantic_hash": ""
+  },
+  "mobile/src/store/request-draft.ts": {
+    "mtime": 1787134729.72591,
+    "ast_hash": "28f88e196a87e7e4a055ad4980965bfd",
+    "semantic_hash": ""
+  },
+  "mobile/src/types/domain.ts": {
+    "mtime": 1787133425.2335021,
+    "ast_hash": "4d04ade6b841a4c674f08f99af6add6a",
+    "semantic_hash": ""
+  },
+  "mobile/src/types/index.ts": {
+    "mtime": 1787133425.2355022,
+    "ast_hash": "94a9cfb02ccbafc4835091fab48f4d82",
+    "semantic_hash": ""
+  },
+  "mobile/src/types/models.ts": {
+    "mtime": 1787133425.2345023,
+    "ast_hash": "f88694932b636afe187fa371e55a5706",
+    "semantic_hash": ""
+  },
+  "mobile/src/utils/__tests__/format.test.ts": {
+    "mtime": 1787135311.476356,
+    "ast_hash": "db93af634415f0f28671594f1d7e4616",
+    "semantic_hash": ""
+  },
+  "mobile/src/utils/__tests__/permissions.test.ts": {
+    "mtime": 1787135232.8591745,
+    "ast_hash": "8c4d41739b7e803e8603e297bdbdcaa0",
+    "semantic_hash": ""
+  },
+  "mobile/src/utils/__tests__/validation.test.ts": {
+    "mtime": 1787135280.693385,
+    "ast_hash": "d006290e80d58a5681a6719acf1ea306",
+    "semantic_hash": ""
+  },
+  "mobile/src/utils/__tests__/visit-status.test.ts": {
+    "mtime": 1787135232.8571746,
+    "ast_hash": "b6fba492bac3f343149f34ee9d3632c7",
+    "semantic_hash": ""
+  },
+  "mobile/src/utils/datetime.ts": {
+    "mtime": 1787133511.456584,
+    "ast_hash": "81e94191a4d628e9132789822c833907",
+    "semantic_hash": ""
+  },
+  "mobile/src/utils/form-errors.ts": {
+    "mtime": 1787135485.7704387,
+    "ast_hash": "e9cf3201df44333a73357399f4dcb634",
+    "semantic_hash": ""
+  },
+  "mobile/src/utils/format.ts": {
+    "mtime": 1787133529.3287816,
+    "ast_hash": "778af373c9a7aa1d6cfe4ece417c8dca",
+    "semantic_hash": ""
+  },
+  "mobile/src/utils/permissions.ts": {
+    "mtime": 1787133481.7352357,
+    "ast_hash": "4f5b03bedc0cede7cf3b6c058344d626",
+    "semantic_hash": ""
+  },
+  "mobile/src/utils/validation.ts": {
+    "mtime": 1787133550.0670009,
+    "ast_hash": "b5537a6990ad361409c8cef74c624e93",
+    "semantic_hash": ""
+  },
+  "mobile/src/utils/visit-status.ts": {
+    "mtime": 1787133481.7332356,
+    "ast_hash": "8b38710683b56f6d0f20cd3e2f77df69",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/functions/create-payment-intent/index.ts": {
+    "mtime": 1787133741.8575668,
+    "ast_hash": "53fc1e0ea187f9e754f2a110967eb128",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/functions/notify/index.ts": {
+    "mtime": 1787134167.0330327,
+    "ast_hash": "d24ad736a961615a8df937b8ad0e861f",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/functions/stripe-webhook/index.ts": {
+    "mtime": 1787133741.8605669,
+    "ast_hash": "21428c9332cef20c1399e9e552658709",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/migrations/0001_schema.sql": {
+    "mtime": 1787133611.1115844,
+    "ast_hash": "87060d86bdde5240459eab11f3bbc480",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/migrations/0002_rls.sql": {
+    "mtime": 1787133648.4799001,
+    "ast_hash": "750ef3060b6fb96a7d2e2d69d1e379c3",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/migrations/0003_workflow_functions.sql": {
+    "mtime": 1787133677.6601264,
+    "ast_hash": "f379640bde4a8291a57562351d0e6a93",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/migrations/0004_storage.sql": {
+    "mtime": 1787133677.6611264,
+    "ast_hash": "6185b301fe2ae5d651e77143b94bf9c2",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/seed.sql": {
+    "mtime": 1787133711.4393675,
+    "ast_hash": "3d3d01a64857722abf28e6852fe548d0",
+    "semantic_hash": ""
+  },
+  "mobile/tsconfig.json": {
+    "mtime": 1787133382.1298745,
+    "ast_hash": "a7c4d0d2386ef11ea723e99744ed34e0",
+    "semantic_hash": ""
+  },
+  "docs/agent-setup-guide.md": {
+    "mtime": 1787133167.29698,
+    "ast_hash": "306474506fea73dd0131b76993ec78e2",
+    "semantic_hash": ""
+  },
+  "docs/mobile/architecture.md": {
+    "mtime": 1787135406.6905315,
+    "ast_hash": "0273b37e699a35b2383c2391eae25f74",
+    "semantic_hash": ""
+  },
+  "docs/mobile/database.md": {
+    "mtime": 1787135406.6915314,
+    "ast_hash": "b58ddb22f4eff846d2190da1581cdd66",
+    "semantic_hash": ""
+  },
+  "docs/mobile/release-android.md": {
+    "mtime": 1787135442.2539377,
+    "ast_hash": "55fb654fa3562c5a93ef46cb601a5ce6",
+    "semantic_hash": ""
+  },
+  "docs/mobile/setup.md": {
+    "mtime": 1787135442.2520602,
+    "ast_hash": "2d961fc549a424d50c7bb7190251c954",
+    "semantic_hash": ""
+  },
+  "docs/product/mobile-app-spec.md": {
+    "mtime": 1787133248.0184803,
+    "ast_hash": "6f678dee2e29d7975beebf8fb77de10f",
+    "semantic_hash": ""
+  },
+  "docs/research/arcads-alternatives.md": {
+    "mtime": 1787133167.2970676,
+    "ast_hash": "b444565ffdc45bd2ceb00460a3b86755",
+    "semantic_hash": ""
+  },
+  "docs/research/dafo-analysis.md": {
+    "mtime": 1787133167.3268666,
+    "ast_hash": "d158582b5f71fc83fe3c8b19e4d6c578",
+    "semantic_hash": ""
+  },
+  "docs/research/dl-models-deep-research.md": {
+    "mtime": 1785161048.7720594,
+    "ast_hash": "b051d26a215cf6188b964cf4277436a3",
+    "semantic_hash": ""
+  },
+  "docs/research/evidence-problem.md": {
+    "mtime": 1787133167.3269923,
+    "ast_hash": "43bd22fd4f370f2c01e4d9c5db615c87",
+    "semantic_hash": ""
+  },
+  "docs/research/gander-wegolook-deep-research.md": {
+    "mtime": 1787133167.2991607,
+    "ast_hash": "1db41d292feb7fdd733d22102106b699",
+    "semantic_hash": ""
+  },
+  "docs/research/spam-approaches.md": {
+    "mtime": 1785161048.774416,
+    "ast_hash": "a2c4bb6a6da5a3734a084308422b475f",
+    "semantic_hash": ""
+  },
+  "mobile/README.md": {
+    "mtime": 1787135358.5742035,
+    "ast_hash": "eddb048269b4d06282f8f794f7cad2ed",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/functions/delete-account/index.ts": {
+    "mtime": 1787135556.813166,
+    "ast_hash": "1358a07b5eb2b310e3b41bab140972fe",
     "semantic_hash": ""
   }
 }
