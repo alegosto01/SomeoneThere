@@ -100,6 +100,11 @@ mobile/
     seed.sql              demo customer, verifier and three visits
 ```
 
+## Picking this up cold
+
+[HANDOFF.md](HANDOFF.md) — current state, what is and is not verified, what to
+do next, and the traps already hit. Start there.
+
 ## Docs
 
 - [Architecture](../docs/mobile/architecture.md)
