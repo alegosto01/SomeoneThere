@@ -42,6 +42,10 @@ cp .env.example .env      # fill in the Supabase and Stripe values
 npx expo start
 ```
 
+Verified on Node 20.18 / Expo SDK 53: `tsc --noEmit` clean, 73 tests passing,
+`eslint` clean, and `expo export --platform android` bundles (2604 modules).
+Dependency versions are reconciled with the SDK (`expo install --check` passes).
+
 You need Node 20+ and, for a device build, the Android SDK (or an EAS account).
 
 Full instructions, including the Supabase project and Stripe webhook, are in
@@ -104,6 +108,20 @@ mobile/
 - [Android release](../docs/mobile/release-android.md)
 - [Build specification](../docs/product/mobile-app-spec.md) — the source of truth
   this implementation follows
+
+## Generated database types
+
+The Supabase client is deliberately untyped. Generating real types needs a live
+project:
+
+```bash
+npx supabase gen types typescript --project-id <ref> > src/lib/supabase/database.types.ts
+```
+
+then add the `<Database>` generic in `src/lib/supabase/client.ts`. Until then the
+row shapes in `src/types/models.ts` are the contract, applied at each call site.
+A hand-written stand-in was tried and removed: it resolved every query builder to
+`never`, which is worse than no type at all.
 
 ## Two rules worth knowing before you change anything
 

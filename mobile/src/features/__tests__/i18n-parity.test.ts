@@ -49,19 +49,41 @@ describe('translations', () => {
     }
   });
 
-  it('keeps guarantee language out of the report disclaimer', () => {
-    // Product language rules (spec §57) — these must never reach a report.
-    const banned = [
-      'guaranteed',
-      'scam-proof',
-      'certified property',
-      'legally verified',
-      'garantizado',
-      'a prueba de estafas',
+  it('states what the report is not', () => {
+    // The disclaimer is required to *name* the things SomeoneThere is not
+    // (spec §28), so it legitimately contains phrases like "certified property
+    // inspection" inside a negation. What it must carry is the denial itself.
+    expect(en.report.disclaimer).toMatch(/this is not a/i);
+    expect(en.report.disclaimer).toMatch(/certified property inspection/i);
+    expect(en.report.disclaimer).toMatch(/legal opinion/i);
+    expect(en.report.disclaimer).toMatch(/guarantee/i);
+    expect(es.report.disclaimer).toMatch(/no es una/i);
+    expect(en.report.disclaimer_secondary).toMatch(/change/i);
+  });
+
+  it('makes no affirmative safety claim anywhere in the UI copy', () => {
+    // The real risk is a *claim*, not a denial: "property is safe", "verified
+    // safe", "scam-free" (spec §57). Denials are checked above.
+    const claims = [
+      /\bproperty is safe\b/i,
+      /\bverified safe\b/i,
+      /\bscam[- ]free\b/i,
+      /\bscam[- ]proof\b/i,
+      /\bguaranteed safe\b/i,
+      /\blegally verified\b/i,
+      /\bapproved landlord\b/i,
+      /\bpiso seguro\b/i,
+      /\bsin estafas\b/i,
+      /\bgarantizado\b/i,
     ];
-    const disclaimer = `${en.report.disclaimer} ${es.report.disclaimer}`.toLowerCase();
-    for (const word of banned) {
-      expect(disclaimer).not.toContain(word);
+    for (const bundle of [en, es]) {
+      for (const path of keyPaths(bundle)) {
+        const value = valueAt(bundle, path);
+        if (typeof value !== 'string') continue;
+        for (const claim of claims) {
+          expect({ path, matches: claim.test(value) }).toEqual({ path, matches: false });
+        }
+      }
     }
   });
 

@@ -13,7 +13,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#FFFFFF"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "package": "com.someonethere.app",
       "versionCode": 1,
@@ -21,8 +23,15 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "permissions": ["CAMERA", "READ_MEDIA_IMAGES", "POST_NOTIFICATIONS"],
-      "blockedPermissions": ["ACCESS_FINE_LOCATION", "RECORD_AUDIO"]
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES",
+        "POST_NOTIFICATIONS"
+      ],
+      "blockedPermissions": [
+        "ACCESS_FINE_LOCATION",
+        "RECORD_AUDIO"
+      ]
     },
     "ios": {
       "bundleIdentifier": "com.someonethere.app",
@@ -45,12 +54,19 @@
       ],
       [
         "expo-notifications",
-        { "color": "#0F5132" }
-      ]
+        {
+          "color": "#0F5132"
+        }
+      ],
+      "expo-web-browser"
     ],
-    "experiments": { "typedRoutes": true },
+    "experiments": {
+      "typedRoutes": true
+    },
     "extra": {
-      "eas": { "projectId": "00000000-0000-0000-0000-000000000000" }
+      "eas": {
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      }
     }
   }
 }

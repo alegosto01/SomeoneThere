@@ -15,6 +15,13 @@ Permissions are deliberately narrow: `CAMERA`, `READ_MEDIA_IMAGES`, and
 blocked — the MVP does not track a verifier's location and does not record
 audio, and the manifest should say so.
 
+## Icons and splash
+
+`mobile/assets/` holds **placeholder** artwork — a plain map-pin mark in the
+brand green, generated so builds have the files `app.json` references. Replace
+`icon.png`, `adaptive-icon.png` and `splash.png` with real artwork before any
+store submission. Sizes and constraints are in `mobile/assets/README.md`.
+
 ## Build
 
 ```bash

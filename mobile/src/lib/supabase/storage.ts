@@ -24,11 +24,13 @@ export async function signVisitMediaUrls(
     .from(STORAGE_BUCKET_VISIT_MEDIA)
     .createSignedUrls(storagePaths, SIGNED_URL_TTL_SECONDS);
   if (error) throw error;
-  return Object.fromEntries(
-    data
-      .filter((item) => item.signedUrl && item.path)
-      .map((item) => [item.path as string, item.signedUrl]),
-  );
+  // createSignedUrls reports per-object failures inline rather than throwing, so
+  // entries with no path or no URL are dropped instead of being cast away.
+  const signed: Record<string, string> = {};
+  for (const item of data) {
+    if (item.path && item.signedUrl) signed[item.path] = item.signedUrl;
+  }
+  return signed;
 }
 
 export async function uploadVisitMedia(params: {

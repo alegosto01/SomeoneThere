@@ -1,18 +1,28 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createClient } from '@supabase/supabase-js';
 import 'react-native-url-polyfill/auto';
 
 import { config } from '@/constants/config';
 
-import type { Database } from './database.types';
+import { secureSessionStorage } from './session-storage';
 
 /**
- * Single Supabase client for the app. Sessions persist in AsyncStorage;
- * `detectSessionInUrl` is off because there is no browser URL to read on native.
+ * Single Supabase client for the app. The session is held in the OS keystore
+ * rather than AsyncStorage (see ./session-storage), and `detectSessionInUrl` is
+ * off because there is no browser URL to read on native.
+ *
+ * The client is intentionally untyped. Generated types need a live project:
+ *
+ *   npx supabase gen types typescript --project-id <ref> \
+ *     > src/lib/supabase/database.types.ts
+ *
+ * then add `<Database>` to createClient below. Until then the row shapes in
+ * `src/types/models.ts` are the contract, applied at each call site — a
+ * hand-written stand-in for the generated type resolves query builders to
+ * `never` and is worse than no type at all.
  */
-export const supabase = createClient<Database>(config.supabaseUrl, config.supabaseAnonKey, {
+export const supabase = createClient(config.supabaseUrl, config.supabaseAnonKey, {
   auth: {
-    storage: AsyncStorage,
+    storage: secureSessionStorage,
     autoRefreshToken: true,
     persistSession: true,
     detectSessionInUrl: false,

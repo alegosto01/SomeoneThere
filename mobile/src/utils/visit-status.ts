@@ -62,13 +62,18 @@ export function isTerminal(status: VisitStatus): boolean {
   return TERMINAL_STATUSES.includes(status);
 }
 
-/** A visit is "upcoming" for the Visits tab while it has not been completed. */
-export function isUpcoming(status: VisitStatus): boolean {
-  return !isTerminal(status) && STATUS_PROGRESS[status] < 5 && status !== 'visit_completed';
-}
-
 export function isCompleted(status: VisitStatus): boolean {
   return status === 'visit_completed' || status === 'report_pending' || status === 'report_ready';
+}
+
+/**
+ * A visit is "upcoming" while it is neither finished nor completed. Defined in
+ * terms of the other two predicates so the Visits tabs cannot both claim the
+ * same visit — an earlier version compared progress numbers and listed
+ * `report_pending` in both.
+ */
+export function isUpcoming(status: VisitStatus): boolean {
+  return !isTerminal(status) && !isCompleted(status) && STATUS_PROGRESS[status] >= 0;
 }
 
 export function hasReport(status: VisitStatus): boolean {

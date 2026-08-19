@@ -113,9 +113,10 @@ Everything except payment works in Expo Go.
 ## 6. Check it works
 
 ```bash
-npm run typecheck
-npm test
-npm run lint
+npm run typecheck   # clean
+npm test            # 73 tests
+npm run lint        # clean (2 harmless i18next default-import warnings)
+npx expo export --platform android   # proves the whole route tree bundles
 ```
 
 Then walk the two acceptance journeys from the spec (§65, §66): sign up, request
