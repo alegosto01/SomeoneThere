@@ -13,7 +13,9 @@
     "test:watch": "jest --watch",
     "prebuild": "expo prebuild",
     "build:android:preview": "eas build --platform android --profile preview",
-    "build:android:prod": "eas build --platform android --profile production"
+    "build:android:prod": "eas build --platform android --profile production",
+    "test:sql": "./supabase/tests/run.sh",
+    "test:all": "npm run typecheck && npm test && npm run test:sql"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.1.2",

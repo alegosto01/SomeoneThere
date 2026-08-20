@@ -13,3 +13,7 @@ ios/
 .env
 .env.local
 expo-env.d.ts
+
+# Supabase CLI working state — contains local service-role keys and JWT secrets
+supabase/.branches/
+supabase/.temp/

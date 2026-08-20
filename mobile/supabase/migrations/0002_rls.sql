@@ -92,13 +92,22 @@ create policy profiles_select_self on profiles
 create policy profiles_update_self on profiles
   for update using (id = auth.uid()) with check (id = auth.uid());
 
--- Role escalation is an operator action, never a client one.
+-- Role escalation is an operator action, never a client one. The check only
+-- applies when an authenticated JWT user is making the change (auth.uid() set);
+-- service-role and direct-SQL contexts (dashboard operators, seeds) are trusted.
+-- SECURITY DEFINER so the guard does not depend on the caller holding privileges
+-- on the auth schema: a guard that errors for the wrong reason is still a guard
+-- that blocks a legitimate write.
 create or replace function prevent_role_self_change()
 returns trigger
 language plpgsql
+security definer
+set search_path = public
 as $$
 begin
-  if new.role is distinct from old.role and not is_admin() then
+  if new.role is distinct from old.role
+     and auth.uid() is not null
+     and not is_admin() then
     raise exception 'role may only be changed by an admin';
   end if;
   return new;
@@ -166,6 +175,14 @@ language plpgsql
 as $$
 begin
   if is_admin() then
+    return new;
+  end if;
+
+  -- Transitions made by the workflow RPCs in 0003 are already validated there
+  -- (assignment, consent, report completeness), so they set this transaction
+  -- local flag to pass through. A verifier writing to `visits` directly has no
+  -- way to set it, so the guard below still applies to them.
+  if current_setting('someonethere.trusted_transition', true) = 'on' then
     return new;
   end if;
 

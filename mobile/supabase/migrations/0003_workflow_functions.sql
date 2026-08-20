@@ -122,7 +122,12 @@ begin
 
   update reports set submitted_at = now() where id = p_report_id returning * into r;
 
+  -- `report_ready` is deliberately not a status a verifier may set by hand, so
+  -- mark this as a trusted transition for the guard in 0002. Transaction-local,
+  -- so it cannot leak into any later statement.
+  perform set_config('someonethere.trusted_transition', 'on', true);
   update visits set status = 'report_ready' where id = r.visit_id;
+  perform set_config('someonethere.trusted_transition', 'off', true);
 
   insert into visit_events (visit_id, event_type, actor_id)
   values (r.visit_id, 'report_ready', auth.uid());

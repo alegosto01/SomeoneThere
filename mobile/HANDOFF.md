@@ -66,14 +66,24 @@ npx jest                              # 73 tests, 7 suites
 npx eslint .                          # 0 errors (2 harmless i18next warnings)
 npx expo install --check              # dependencies match SDK 53
 npx expo export --platform android --output-dir dist && rm -rf dist   # 2604 modules
+npm run test:sql                      # 45 assertions against real Postgres
 ```
+
+`npm run test:all` runs typecheck, Jest and the SQL suite together.
+
+The SQL suite (`supabase/tests/`) applies the migrations and seed to a throwaway
+Postgres container and then exercises the security model as each role: customer
+isolation, the verifier's payment blindness, every write guard, the consent
+clamp, report immutability, the workflow RPCs and the storage policies. It needs
+Docker but not the Supabase CLI. `00_supabase_stubs.sql` stands in for what the
+platform provides (`auth.users`, `auth.uid()`, `storage.objects`, and the role
+GRANTs) — it is not part of the deployed schema.
+
+What it does **not** cover: GoTrue, the Storage HTTP API, Realtime, and anything
+Stripe. Run `supabase db reset` against a real local stack before a pilot.
 
 ### Not verified — this is the honest edge
 
-- **The SQL has never touched a Postgres instance.** Four migrations, four RPCs,
-  a view and storage policies, all written but never applied. Policy syntax
-  errors and the `do $$ ... format(...)` loop in `0002_rls.sql` are the likeliest
-  places to break.
 - **Stripe has never run.** No PaymentIntent has been created, no webhook
   received.
 - **Push has never fired.** The `notify` function has no database webhook wired
@@ -85,30 +95,7 @@ npx expo export --platform android --output-dir dist && rm -rf dist   # 2604 mod
 
 ## 3. Do this next, in this order
 
-### 3.1 Bring up the database (highest value, blocks everything else)
-
-```bash
-cd mobile
-supabase start
-supabase db reset      # applies migrations/ then seed.sql
-```
-
-This is where real problems will surface. If `0002_rls.sql` fails, suspect the
-`do $$` block that generates policies for the five report child tables — the
-`format()` call mixes `%1$s` (policy name) and `%1$I` (identifier) and has never
-been executed.
-
-Then verify the security model actually holds, because it is the thing most
-worth getting right:
-
-- Sign in as `customer@example.com` (`demo-password`), try to read another
-  customer's visit → must return nothing.
-- Sign in as `verifier@example.com`, try to read `payments` → must return
-  nothing (there is deliberately no policy granting it).
-- As a verifier, try to `update` a visit's `access_confirmed` → must raise.
-- Try to `update` a report with `submitted_at` set → must raise.
-
-### 3.2 Get one end-to-end journey working on a device
+### 3.1 Get one end-to-end journey working on a device
 
 Spec §65 and §66 define the two acceptance journeys. Payments need a
 development build — the Stripe PaymentSheet is native, so **Expo Go will not
@@ -118,7 +105,7 @@ work** for that step (everything else does).
 npx expo run:android      # or: eas build --profile development --platform android
 ```
 
-### 3.3 Wire the operator gaps (see §5 — several flows have no UI at all)
+### 3.2 Wire the operator gaps (see §5 — several flows have no UI at all)
 
 ---
 
