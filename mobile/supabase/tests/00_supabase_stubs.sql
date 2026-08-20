@@ -95,3 +95,47 @@ immutable
 as $$
   select string_to_array(name, '/');
 $$;
+
+
+-- ---------------------------------------------------------- vault / net ----
+-- Supabase Vault holds the notify secrets; pg_net makes the outbound call.
+-- Stubbed here so the notification trigger can be exercised: http_post records
+-- the call instead of making it, and the test asserts on what was recorded.
+create schema if not exists vault;
+create schema if not exists extensions;
+create schema if not exists net;
+
+create table if not exists vault.decrypted_secrets (
+  name text primary key,
+  decrypted_secret text not null
+);
+
+create table if not exists net.sent_requests (
+  id bigserial primary key,
+  url text,
+  headers jsonb,
+  body jsonb,
+  created_at timestamptz default now()
+);
+
+create or replace function net.http_post(
+  url text,
+  body jsonb default '{}',
+  params jsonb default '{}',
+  headers jsonb default '{}',
+  timeout_milliseconds integer default 5000
+)
+returns bigint
+language plpgsql
+as $$
+declare
+  new_id bigint;
+begin
+  insert into net.sent_requests (url, headers, body)
+  values (url, headers, body)
+  returning id into new_id;
+  return new_id;
+end;
+$$;
+
+grant usage on schema vault, net, extensions to anon, authenticated, service_role;

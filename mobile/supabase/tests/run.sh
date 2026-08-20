@@ -31,13 +31,16 @@ done
 echo "--> seed"
 run < supabase/seed.sql
 
-echo "--> RLS tests"
-set +e
-docker exec -i "$CONTAINER" psql -U postgres -d postgres -v ON_ERROR_STOP=1 \
-  < supabase/tests/01_rls_test.sql 2>&1 | grep -E '^(NOTICE|ERROR|FAIL)' \
-  | sed -e 's/^NOTICE:  //'
-status=${PIPESTATUS[0]}
-set -e
+status=0
+for t in supabase/tests/0[1-9]_*.sql; do
+  echo "--> $t"
+  set +e
+  docker exec -i "$CONTAINER" psql -U postgres -d postgres -v ON_ERROR_STOP=1 \
+    < "$t" 2>&1 | grep -E '^(NOTICE|ERROR|FAIL)' | sed -e 's/^NOTICE:  //'
+  rc=${PIPESTATUS[0]}
+  set -e
+  [ "$rc" -ne 0 ] && status=$rc
+done
 
 docker rm -f "$CONTAINER" >/dev/null
 if [ "$status" -ne 0 ]; then

@@ -1,3 +1,6 @@
+# Local Supabase stack. `supabase start` reads this; hosted settings live in the
+# dashboard. No secrets here — Edge Function secrets go in `supabase secrets set`
+# and the notify trigger reads its own from Vault (see migration 0005).
 project_id = "someonethere"
 
 [api]
@@ -15,27 +18,37 @@ major_version = 15
 enabled = true
 port = 54323
 
-[auth]
+[inbucket]              # catches local auth emails
 enabled = true
-site_url = "someonethere://"
-additional_redirect_urls = ["someonethere://auth/callback"]
-jwt_expiry = 3600
-enable_signup = true
-
-[auth.email]
-enable_signup = true
-enable_confirmations = false
-
-[auth.external.google]
-enabled = false
-client_id = ""
-secret = ""
-redirect_uri = "someonethere://auth/callback"
+port = 54324
 
 [storage]
 enabled = true
 file_size_limit = "20MiB"
 
-# The webhook must run unauthenticated — Stripe cannot present a Supabase JWT.
-[functions.stripe-webhook]
-verify_jwt = false
+[auth]
+enabled = true
+site_url = "someonethere://"
+additional_redirect_urls = ["someonethere://", "http://localhost:8081"]
+jwt_expiry = 3600
+enable_refresh_token_rotation = true
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+# Local only: skip the confirmation round-trip. Hosted projects must keep
+# confirmation ON.
+enable_confirmations = false
+
+[auth.external.google]
+enabled = false          # set true once the OAuth client exists
+client_id = "env(SUPABASE_AUTH_GOOGLE_CLIENT_ID)"
+secret = "env(SUPABASE_AUTH_GOOGLE_SECRET)"
+redirect_uri = "someonethere://"
+
+[edge_runtime]
+enabled = true
+policy = "oneshot"
+
+[analytics]
+enabled = false
