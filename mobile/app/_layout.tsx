@@ -1,4 +1,4 @@
-import { StripeProvider } from '@stripe/stripe-react-native';
+import { StripeProvider } from '@/lib/stripe/payment-sheet';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Stack } from 'expo-router';
 import { useEffect, useState } from 'react';

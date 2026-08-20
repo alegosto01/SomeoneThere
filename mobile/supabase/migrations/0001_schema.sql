@@ -293,3 +293,19 @@ select
 from profiles p
 join verifier_profiles vp on vp.user_id = p.id
 where p.role = 'verifier';
+
+-- --------------------------------------------------------------- grants ----
+-- PostgREST connects as `authenticated` (or `anon`), and a role with no table
+-- privileges gets "permission denied" before RLS is ever consulted. Supabase
+-- sets similar defaults for new projects, but relying on that is fragile: it
+-- did not cover these tables, and the whole API returned 42501 until this was
+-- made explicit.
+--
+-- These are deliberately narrower than the Supabase default, which also grants
+-- to `anon`. Nothing here is readable without a session — sign-up and sign-in
+-- go through GoTrue, not PostgREST — so `anon` needs no table access at all.
+-- RLS, not GRANTs, is what decides which rows a signed-in user may see.
+grant usage on schema public to authenticated, service_role;
+grant all on all tables in schema public to authenticated, service_role;
+grant all on all sequences in schema public to authenticated, service_role;
+grant all on all functions in schema public to authenticated, service_role;

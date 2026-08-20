@@ -15,18 +15,15 @@ do $$ begin
 do $$ begin
   create role service_role bypassrls; exception when duplicate_object then null; end $$;
 
--- Supabase grants table privileges to these roles by default and relies on RLS
--- (not GRANTs) to gate access. The migrations assume this, so reproduce it here
--- or every policy-protected query fails with "permission denied" instead.
-grant usage on schema public to anon, authenticated, service_role;
+-- Only the schema-level access the platform provides. Table privileges in the
+-- public schema are deliberately NOT granted here: 0001_schema.sql grants them
+-- itself, and stubbing them would hide it if that ever regressed.
 grant usage on schema auth to anon, authenticated, service_role;
-alter default privileges in schema public
-  grant all on tables to anon, authenticated, service_role;
-alter default privileges in schema public
-  grant all on sequences to anon, authenticated, service_role;
-alter default privileges in schema public
-  grant all on functions to anon, authenticated, service_role;
 
+-- Mirrors the columns seed.sql writes. The token columns exist because GoTrue
+-- cannot scan NULL into a Go string; they are not used by the tests, but keeping
+-- the shape honest means the seed is exercised the same way here as it is by
+-- `supabase db reset`.
 create table if not exists auth.users (
   id uuid primary key default gen_random_uuid(),
   instance_id uuid,
@@ -36,7 +33,28 @@ create table if not exists auth.users (
   encrypted_password text,
   email_confirmed_at timestamptz,
   raw_user_meta_data jsonb default '{}',
-  created_at timestamptz default now()
+  raw_app_meta_data jsonb default '{}',
+  confirmation_token text default '',
+  recovery_token text default '',
+  email_change_token_new text default '',
+  email_change_token_current text default '',
+  email_change text default '',
+  phone_change text default '',
+  phone_change_token text default '',
+  reauthentication_token text default '',
+  created_at timestamptz default now(),
+  updated_at timestamptz default now()
+);
+
+create table if not exists auth.identities (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid references auth.users (id) on delete cascade,
+  provider_id text,
+  identity_data jsonb,
+  provider text,
+  last_sign_in_at timestamptz,
+  created_at timestamptz default now(),
+  updated_at timestamptz default now()
 );
 
 -- Mirrors GoTrue: reads the uid out of the request's JWT claims. Tests set the

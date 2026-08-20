@@ -186,7 +186,8 @@
     "confirmed_title": "Solicitud recibida",
     "confirmed_body": "Estamos confirmando el acceso con el contacto del inmueble. Te avisaremos en cuanto este gestionado.",
     "view_booking": "Ver reserva",
-    "back_home": "Volver al inicio"
+    "back_home": "Volver al inicio",
+    "unavailable_here": "El pago requiere la app en el movil. Abre SomeoneThere en Android o iOS para completar esta reserva."
   },
   "visits": {
     "title": "Visitas",

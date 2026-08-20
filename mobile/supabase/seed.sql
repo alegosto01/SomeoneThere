@@ -18,16 +18,44 @@ declare
   visit_3 uuid := gen_random_uuid();
   report_3 uuid := gen_random_uuid();
 begin
+  -- GoTrue scans these token columns into Go strings and cannot handle NULL, so
+  -- they must be '' rather than left unset: a NULL here makes every login fail
+  -- with "Database error querying schema" and no hint as to why.
   insert into auth.users (id, instance_id, aud, role, email, encrypted_password,
-                          email_confirmed_at, raw_user_meta_data)
+                          email_confirmed_at, raw_user_meta_data,
+                          raw_app_meta_data,
+                          confirmation_token, recovery_token,
+                          email_change_token_new, email_change_token_current,
+                          email_change, phone_change, phone_change_token,
+                          reauthentication_token,
+                          created_at, updated_at)
   values
     (customer_id, '00000000-0000-0000-0000-000000000000', 'authenticated',
      'authenticated', 'customer@example.com', crypt('demo-password', gen_salt('bf')),
-     now(), '{"first_name":"Marco","last_name":"Rossi"}'),
+     now(), '{"first_name":"Marco","last_name":"Rossi"}',
+     '{"provider":"email","providers":["email"]}',
+     '', '', '', '', '', '', '', '', now(), now()),
     (verifier_id, '00000000-0000-0000-0000-000000000000', 'authenticated',
      'authenticated', 'verifier@example.com', crypt('demo-password', gen_salt('bf')),
-     now(), '{"first_name":"Lucia","last_name":"Moreno"}')
+     now(), '{"first_name":"Lucia","last_name":"Moreno"}',
+     '{"provider":"email","providers":["email"]}',
+     '', '', '', '', '', '', '', '', now(), now())
   on conflict (id) do nothing;
+
+  -- GoTrue also expects an identity row per provider; without it the user exists
+  -- but cannot sign in with a password.
+  insert into auth.identities (id, user_id, provider_id, identity_data, provider,
+                               last_sign_in_at, created_at, updated_at)
+  values
+    (gen_random_uuid(), customer_id, customer_id::text,
+     jsonb_build_object('sub', customer_id::text, 'email', 'customer@example.com',
+                        'email_verified', true, 'phone_verified', false),
+     'email', now(), now(), now()),
+    (gen_random_uuid(), verifier_id, verifier_id::text,
+     jsonb_build_object('sub', verifier_id::text, 'email', 'verifier@example.com',
+                        'email_verified', true, 'phone_verified', false),
+     'email', now(), now(), now())
+  on conflict do nothing;
 
   update profiles set role = 'verifier', preferred_language = 'es' where id = verifier_id;
   update profiles set preferred_language = 'en', phone = '+34600000000' where id = customer_id;

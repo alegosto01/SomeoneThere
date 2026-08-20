@@ -186,7 +186,8 @@
     "confirmed_title": "Request received",
     "confirmed_body": "We're confirming access with the property contact. You'll get a notification as soon as it's arranged.",
     "view_booking": "View booking",
-    "back_home": "Back to home"
+    "back_home": "Back to home",
+    "unavailable_here": "Payment needs the app on a phone. Open SomeoneThere on Android or iOS to complete this booking."
   },
   "visits": {
     "title": "Visits",

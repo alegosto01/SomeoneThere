@@ -1,4 +1,4 @@
-import { useStripe } from '@stripe/stripe-react-native';
+import { paymentSheetAvailable, useStripe } from '@/lib/stripe/payment-sheet';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -28,6 +28,15 @@ export default function PaymentScreen() {
 
   const prepare = useCallback(async () => {
     if (!visitId) return;
+
+    // On web there is no PaymentSheet. Say so before creating a PaymentIntent,
+    // rather than letting the user reach the pay button and fail there.
+    if (!paymentSheetAvailable) {
+      setError(t('payment.unavailable_here'));
+      setPhase('error');
+      return;
+    }
+
     setPhase('preparing');
     setError(null);
 
