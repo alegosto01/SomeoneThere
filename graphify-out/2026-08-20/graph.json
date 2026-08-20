@@ -1740,7 +1740,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_auth_layout",
-      "community": 66,
+      "community": 68,
       "norm_label": "_layout.tsx"
     },
     {
@@ -1750,7 +1750,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "mobile_app_auth_layout_authlayout",
-      "community": 66,
+      "community": 68,
       "norm_label": "authlayout()"
     },
     {
@@ -1880,7 +1880,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_customer_previsit_id",
-      "community": 68,
+      "community": 80,
       "norm_label": "[id].tsx"
     },
     {
@@ -1890,7 +1890,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "mobile_app_customer_previsit_id_previsitscreen",
-      "community": 68,
+      "community": 80,
       "norm_label": "previsitscreen()"
     },
     {
@@ -1900,7 +1900,7 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "mobile_app_customer_previsit_id_styles",
-      "community": 68,
+      "community": 80,
       "norm_label": "styles"
     },
     {
@@ -2070,7 +2070,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_customer_request_payment",
-      "community": 310,
+      "community": 78,
       "norm_label": "payment.tsx"
     },
     {
@@ -2080,7 +2080,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "mobile_app_customer_request_payment_phase",
-      "community": 310,
+      "community": 78,
       "norm_label": "phase"
     },
     {
@@ -2090,7 +2090,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "mobile_app_customer_request_payment_paymentscreen",
-      "community": 310,
+      "community": 78,
       "norm_label": "paymentscreen()"
     },
     {
@@ -2200,7 +2200,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_customer_request_viewing",
-      "community": 64,
+      "community": 80,
       "norm_label": "viewing.tsx"
     },
     {
@@ -2210,7 +2210,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "mobile_app_customer_request_viewing_requestviewingstep",
-      "community": 78,
+      "community": 80,
       "norm_label": "requestviewingstep()"
     },
     {
@@ -2220,7 +2220,7 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "mobile_app_customer_request_viewing_styles",
-      "community": 64,
+      "community": 80,
       "norm_label": "styles"
     },
     {
@@ -2250,7 +2250,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_customer_settings_how_it_works",
-      "community": 66,
+      "community": 64,
       "norm_label": "how-it-works.tsx"
     },
     {
@@ -2260,7 +2260,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "mobile_app_customer_settings_how_it_works_howitworksscreen",
-      "community": 66,
+      "community": 64,
       "norm_label": "howitworksscreen()"
     },
     {
@@ -2270,7 +2270,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "mobile_app_customer_settings_how_it_works_styles",
-      "community": 66,
+      "community": 64,
       "norm_label": "styles"
     },
     {
@@ -2300,7 +2300,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_customer_visit_id",
-      "community": 310,
+      "community": 80,
       "norm_label": "[id].tsx"
     },
     {
@@ -2310,7 +2310,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "mobile_app_customer_visit_id_visitdetailscreen",
-      "community": 310,
+      "community": 80,
       "norm_label": "visitdetailscreen()"
     },
     {
@@ -2320,7 +2320,7 @@
       "source_location": "L182",
       "_origin": "ast",
       "id": "mobile_app_customer_visit_id_styles",
-      "community": 310,
+      "community": 80,
       "norm_label": "styles"
     },
     {
@@ -2440,7 +2440,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_verifier_earnings",
-      "community": 310,
+      "community": 68,
       "norm_label": "earnings.tsx"
     },
     {
@@ -2450,7 +2450,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "mobile_app_verifier_earnings_verifierearningsscreen",
-      "community": 310,
+      "community": 68,
       "norm_label": "verifierearningsscreen()"
     },
     {
@@ -2460,7 +2460,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "mobile_app_verifier_earnings_styles",
-      "community": 310,
+      "community": 68,
       "norm_label": "styles"
     },
     {
@@ -2710,7 +2710,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "mobile_app_index_index",
-      "community": 66,
+      "community": 68,
       "norm_label": "index()"
     },
     {
@@ -2934,10 +2934,30 @@
       "norm_label": "build:android:prod"
     },
     {
-      "label": "dependencies",
+      "label": "test:sql",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "mobile_package_scripts_test_sql",
+      "community": 102,
+      "norm_label": "test:sql"
+    },
+    {
+      "label": "test:all",
       "file_type": "code",
       "source_file": "mobile/package.json",
       "source_location": "L18",
+      "_origin": "ast",
+      "id": "mobile_package_scripts_test_all",
+      "community": 102,
+      "norm_label": "test:all"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "mobile_package_dependencies",
       "community": 79,
@@ -2947,7 +2967,7 @@
       "label": "@react-native-async-storage/async-storage",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L19",
+      "source_location": "L21",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native_async_storage_async_storage",
       "community": 79,
@@ -2957,7 +2977,7 @@
       "label": "@react-native-community/datetimepicker",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L20",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native_community_datetimepicker",
       "community": 79,
@@ -2967,7 +2987,7 @@
       "label": "@sentry/react-native",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L21",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "mobile_package_dependencies_sentry_react_native",
       "community": 79,
@@ -2977,7 +2997,7 @@
       "label": "@stripe/stripe-react-native",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L22",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "mobile_package_dependencies_stripe_stripe_react_native",
       "community": 79,
@@ -2987,7 +3007,7 @@
       "label": "@supabase/supabase-js",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L23",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "mobile_package_dependencies_supabase_supabase_js",
       "community": 79,
@@ -2997,7 +3017,7 @@
       "label": "@tanstack/react-query",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L24",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "mobile_package_dependencies_tanstack_react_query",
       "community": 79,
@@ -3007,7 +3027,7 @@
       "label": "date-fns",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L25",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "mobile_package_dependencies_date_fns",
       "community": 79,
@@ -3017,7 +3037,7 @@
       "label": "date-fns-tz",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L26",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "mobile_package_dependencies_date_fns_tz",
       "community": 79,
@@ -3027,7 +3047,7 @@
       "label": "expo",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L27",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo",
       "community": 79,
@@ -3037,7 +3057,7 @@
       "label": "expo-constants",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L28",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_constants",
       "community": 79,
@@ -3047,7 +3067,7 @@
       "label": "expo-image-manipulator",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L29",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_image_manipulator",
       "community": 79,
@@ -3057,7 +3077,7 @@
       "label": "expo-image-picker",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L30",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_image_picker",
       "community": 79,
@@ -3067,7 +3087,7 @@
       "label": "expo-linking",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L31",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_linking",
       "community": 79,
@@ -3077,7 +3097,7 @@
       "label": "expo-localization",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L32",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_localization",
       "community": 79,
@@ -3087,7 +3107,7 @@
       "label": "expo-notifications",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L33",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_notifications",
       "community": 79,
@@ -3097,7 +3117,7 @@
       "label": "expo-router",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L34",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_router",
       "community": 79,
@@ -3107,7 +3127,7 @@
       "label": "expo-secure-store",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L35",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_secure_store",
       "community": 79,
@@ -3117,7 +3137,7 @@
       "label": "expo-splash-screen",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L36",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_splash_screen",
       "community": 79,
@@ -3127,7 +3147,7 @@
       "label": "expo-status-bar",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L37",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_status_bar",
       "community": 79,
@@ -3137,7 +3157,7 @@
       "label": "expo-web-browser",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L38",
+      "source_location": "L40",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_web_browser",
       "community": 79,
@@ -3147,7 +3167,7 @@
       "label": "i18next",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L39",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "mobile_package_dependencies_i18next",
       "community": 79,
@@ -3157,7 +3177,7 @@
       "label": "react",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L40",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react",
       "community": 79,
@@ -3167,7 +3187,7 @@
       "label": "react-i18next",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L41",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_i18next",
       "community": 79,
@@ -3177,7 +3197,7 @@
       "label": "react-native",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L42",
+      "source_location": "L44",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native",
       "community": 79,
@@ -3187,7 +3207,7 @@
       "label": "react-native-gesture-handler",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L43",
+      "source_location": "L45",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native_gesture_handler",
       "community": 79,
@@ -3197,7 +3217,7 @@
       "label": "react-native-safe-area-context",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L44",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native_safe_area_context",
       "community": 79,
@@ -3207,7 +3227,7 @@
       "label": "react-native-screens",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L45",
+      "source_location": "L47",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native_screens",
       "community": 79,
@@ -3217,7 +3237,7 @@
       "label": "react-native-url-polyfill",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L46",
+      "source_location": "L48",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native_url_polyfill",
       "community": 79,
@@ -3227,7 +3247,7 @@
       "label": "zod",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L47",
+      "source_location": "L49",
       "_origin": "ast",
       "id": "mobile_package_dependencies_zod",
       "community": 79,
@@ -3237,7 +3257,7 @@
       "label": "zustand",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L48",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "mobile_package_dependencies_zustand",
       "community": 79,
@@ -3247,7 +3267,7 @@
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L50",
+      "source_location": "L52",
       "_origin": "ast",
       "id": "mobile_package_devdependencies",
       "community": 290,
@@ -3257,7 +3277,7 @@
       "label": "@testing-library/react-native",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L51",
+      "source_location": "L53",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_testing_library_react_native",
       "community": 290,
@@ -3267,7 +3287,7 @@
       "label": "@types/jest",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L52",
+      "source_location": "L54",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_types_jest",
       "community": 290,
@@ -3277,7 +3297,7 @@
       "label": "@types/react",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L53",
+      "source_location": "L55",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_types_react",
       "community": 290,
@@ -3287,7 +3307,7 @@
       "label": "eslint",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L54",
+      "source_location": "L56",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_eslint",
       "community": 290,
@@ -3297,7 +3317,7 @@
       "label": "eslint-config-expo",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L55",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_eslint_config_expo",
       "community": 290,
@@ -3307,7 +3327,7 @@
       "label": "jest",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L56",
+      "source_location": "L58",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_jest",
       "community": 290,
@@ -3317,7 +3337,7 @@
       "label": "jest-expo",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L57",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_jest_expo",
       "community": 290,
@@ -3327,7 +3347,7 @@
       "label": "react-test-renderer",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L58",
+      "source_location": "L60",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_react_test_renderer",
       "community": 290,
@@ -3337,7 +3357,7 @@
       "label": "typescript",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L59",
+      "source_location": "L61",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_typescript",
       "community": 290,
@@ -3370,7 +3390,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "mobile_src_components_disclaimer_notice",
-      "community": 78,
+      "community": 80,
       "norm_label": "notice()"
     },
     {
@@ -3550,7 +3570,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "mobile_src_components_visitcard_visitcardprops",
-      "community": 587,
+      "community": 416,
       "norm_label": "visitcardprops"
     },
     {
@@ -3700,7 +3720,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "mobile_src_components_ui_button_secondarybutton",
-      "community": 64,
+      "community": 80,
       "norm_label": "secondarybutton()"
     },
     {
@@ -3790,7 +3810,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "mobile_src_components_ui_choice_checkbox",
-      "community": 64,
+      "community": 78,
       "norm_label": "checkbox()"
     },
     {
@@ -3810,7 +3830,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "mobile_src_components_ui_choice_radiogroup",
-      "community": 78,
+      "community": 64,
       "norm_label": "radiogroup()"
     },
     {
@@ -3930,7 +3950,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "mobile_src_components_ui_sectionheader_sectionheader",
-      "community": 66,
+      "community": 80,
       "norm_label": "sectionheader()"
     },
     {
@@ -4180,7 +4200,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "mobile_src_components_ui_timeline_timeline",
-      "community": 310,
+      "community": 80,
       "norm_label": "timeline()"
     },
     {
@@ -4330,7 +4350,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "mobile_src_constants_priorities_prioritykey",
-      "community": 587,
+      "community": 416,
       "norm_label": "prioritykey"
     },
     {
@@ -4490,7 +4510,7 @@
       "source_location": "L96",
       "_origin": "ast",
       "id": "mobile_src_features_auth_authprovider_useauth",
-      "community": 66,
+      "community": 68,
       "norm_label": "useauth()"
     },
     {
@@ -4780,7 +4800,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_features_reports_queries",
-      "community": 80,
+      "community": 69,
       "norm_label": "queries.ts"
     },
     {
@@ -4790,7 +4810,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "mobile_src_features_reports_queries_reportkeys",
-      "community": 80,
+      "community": 69,
       "norm_label": "reportkeys"
     },
     {
@@ -4840,7 +4860,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "mobile_src_features_reports_queries_usesavereportdraft",
-      "community": 80,
+      "community": 69,
       "norm_label": "usesavereportdraft()"
     },
     {
@@ -4850,7 +4870,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "mobile_src_features_reports_queries_useupsertobservation",
-      "community": 80,
+      "community": 69,
       "norm_label": "useupsertobservation()"
     },
     {
@@ -4950,7 +4970,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "mobile_src_features_visits_api_createvisitinput",
-      "community": 587,
+      "community": 416,
       "norm_label": "createvisitinput"
     },
     {
@@ -5040,7 +5060,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "mobile_src_features_visits_queries_visitkeys",
-      "community": 80,
+      "community": 69,
       "norm_label": "visitkeys"
     },
     {
@@ -5090,7 +5110,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "mobile_src_features_visits_queries_usecancelvisit",
-      "community": 310,
+      "community": 80,
       "norm_label": "usecancelvisit()"
     },
     {
@@ -5190,7 +5210,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_lib_analytics_index",
-      "community": 310,
+      "community": 78,
       "norm_label": "index.ts"
     },
     {
@@ -5200,7 +5220,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "mobile_src_lib_analytics_index_analyticsevent",
-      "community": 310,
+      "community": 78,
       "norm_label": "analyticsevent"
     },
     {
@@ -5210,7 +5230,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "mobile_src_lib_analytics_index_analyticsproperties",
-      "community": 310,
+      "community": 78,
       "norm_label": "analyticsproperties"
     },
     {
@@ -5260,7 +5280,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "mobile_src_lib_analytics_index_consolesink",
-      "community": 310,
+      "community": 78,
       "norm_label": "consolesink"
     },
     {
@@ -5270,7 +5290,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "mobile_src_lib_analytics_index_setanalyticssink",
-      "community": 310,
+      "community": 78,
       "norm_label": "setanalyticssink()"
     },
     {
@@ -5280,7 +5300,7 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "mobile_src_lib_analytics_index_analytics",
-      "community": 310,
+      "community": 78,
       "norm_label": "analytics"
     },
     {
@@ -5290,7 +5310,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_lib_live_call_index",
-      "community": 310,
+      "community": 66,
       "norm_label": "index.ts"
     },
     {
@@ -5300,7 +5320,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "mobile_src_lib_live_call_index_openlivecall",
-      "community": 310,
+      "community": 66,
       "norm_label": "openlivecall()"
     },
     {
@@ -5310,7 +5330,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "mobile_src_lib_live_call_index_openexternalurl",
-      "community": 310,
+      "community": 66,
       "norm_label": "openexternalurl()"
     },
     {
@@ -5360,7 +5380,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "mobile_src_lib_monitoring_index_captureerror",
-      "community": 310,
+      "community": 66,
       "norm_label": "captureerror()"
     },
     {
@@ -5430,7 +5450,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "mobile_src_lib_stripe_index_createpaymentintent",
-      "community": 310,
+      "community": 78,
       "norm_label": "createpaymentintent()"
     },
     {
@@ -5660,7 +5680,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_store_request_draft",
-      "community": 587,
+      "community": 416,
       "norm_label": "request-draft.ts"
     },
     {
@@ -5670,7 +5690,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "mobile_src_store_request_draft_requestdraft",
-      "community": 587,
+      "community": 416,
       "norm_label": "requestdraft"
     },
     {
@@ -5680,7 +5700,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "mobile_src_store_request_draft_empty",
-      "community": 587,
+      "community": 416,
       "norm_label": "empty"
     },
     {
@@ -5690,7 +5710,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "mobile_src_store_request_draft_requestdraftstore",
-      "community": 587,
+      "community": 416,
       "norm_label": "requestdraftstore"
     },
     {
@@ -5730,7 +5750,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "mobile_src_types_domain_visit_statuses",
-      "community": 416,
+      "community": 68,
       "norm_label": "visit_statuses"
     },
     {
@@ -5750,7 +5770,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "mobile_src_types_domain_propertytype",
-      "community": 587,
+      "community": 416,
       "norm_label": "propertytype"
     },
     {
@@ -5760,7 +5780,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "mobile_src_types_domain_propertycontacttype",
-      "community": 587,
+      "community": 416,
       "norm_label": "propertycontacttype"
     },
     {
@@ -5830,7 +5850,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "mobile_src_types_domain_livecallprovider",
-      "community": 587,
+      "community": 416,
       "norm_label": "livecallprovider"
     },
     {
@@ -5850,7 +5870,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_types_index",
-      "community": 68,
+      "community": 69,
       "norm_label": "index.ts"
     },
     {
@@ -5900,7 +5920,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "mobile_src_types_models_property",
-      "community": 587,
+      "community": 416,
       "norm_label": "property"
     },
     {
@@ -5910,7 +5930,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "mobile_src_types_models_propertycontact",
-      "community": 587,
+      "community": 416,
       "norm_label": "propertycontact"
     },
     {
@@ -5950,7 +5970,7 @@
       "source_location": "L119",
       "_origin": "ast",
       "id": "mobile_src_types_models_report",
-      "community": 416,
+      "community": 682,
       "norm_label": "report"
     },
     {
@@ -6030,7 +6050,7 @@
       "source_location": "L190",
       "_origin": "ast",
       "id": "mobile_src_types_models_fullreport",
-      "community": 416,
+      "community": 682,
       "norm_label": "fullreport"
     },
     {
@@ -6110,7 +6130,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_utils_datetime",
-      "community": 68,
+      "community": 80,
       "norm_label": "datetime.ts"
     },
     {
@@ -6120,7 +6140,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "mobile_src_utils_datetime_localefor",
-      "community": 68,
+      "community": 80,
       "norm_label": "localefor()"
     },
     {
@@ -6130,7 +6150,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "mobile_src_utils_datetime_tomarkettime",
-      "community": 68,
+      "community": 80,
       "norm_label": "tomarkettime()"
     },
     {
@@ -6150,7 +6170,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "mobile_src_utils_datetime_formatvisitdatelong",
-      "community": 310,
+      "community": 80,
       "norm_label": "formatvisitdatelong()"
     },
     {
@@ -6160,7 +6180,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "mobile_src_utils_datetime_formattime",
-      "community": 68,
+      "community": 80,
       "norm_label": "formattime()"
     },
     {
@@ -6180,7 +6200,7 @@
       "source_location": "L58",
       "_origin": "ast",
       "id": "mobile_src_utils_datetime_isfuture",
-      "community": 68,
+      "community": 80,
       "norm_label": "isfuture()"
     },
     {
@@ -6200,7 +6220,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "mobile_src_utils_datetime_timeago",
-      "community": 68,
+      "community": 80,
       "norm_label": "timeago()"
     },
     {
@@ -6240,7 +6260,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "mobile_src_utils_format_formatmoney",
-      "community": 310,
+      "community": 78,
       "norm_label": "formatmoney()"
     },
     {
@@ -6260,7 +6280,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "mobile_src_utils_format_initials",
-      "community": 66,
+      "community": 80,
       "norm_label": "initials()"
     },
     {
@@ -6610,7 +6630,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "mobile_src_utils_visit_status_buildtimeline",
-      "community": 310,
+      "community": 80,
       "norm_label": "buildtimeline()"
     },
     {
@@ -6680,7 +6700,7 @@
       "source_location": "L118",
       "_origin": "ast",
       "id": "mobile_src_utils_visit_status_canjoinlivecall",
-      "community": 68,
+      "community": 80,
       "norm_label": "canjoinlivecall()"
     },
     {
@@ -6692,6 +6712,576 @@
       "id": "mobile_src_utils_visit_status_cancustomercancel",
       "community": 68,
       "norm_label": "cancustomercancel()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "community": 310,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "ct()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ct",
+      "community": 310,
+      "norm_label": "ct()"
+    },
+    {
+      "label": "te()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_te",
+      "community": 310,
+      "norm_label": "te()"
+    },
+    {
+      "label": "re()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_re",
+      "community": 310,
+      "norm_label": "re()"
+    },
+    {
+      "label": "at()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_at",
+      "community": 310,
+      "norm_label": "at()"
+    },
+    {
+      "label": "_e()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_e",
+      "community": 310,
+      "norm_label": "_e()"
+    },
+    {
+      "label": "D()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_d",
+      "community": 310,
+      "norm_label": "d()"
+    },
+    {
+      "label": "ut()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ut",
+      "community": 310,
+      "norm_label": "ut()"
+    },
+    {
+      "label": "be()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_be",
+      "community": 310,
+      "norm_label": "be()"
+    },
+    {
+      "label": "ft()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ft",
+      "community": 310,
+      "norm_label": "ft()"
+    },
+    {
+      "label": "constructor()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_constructor",
+      "community": 310,
+      "norm_label": "constructor()"
+    },
+    {
+      "label": "Ie()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ie",
+      "community": 310,
+      "norm_label": "ie()"
+    },
+    {
+      "label": "j()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_j",
+      "community": 310,
+      "norm_label": "j()"
+    },
+    {
+      "label": "ve()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ve",
+      "community": 310,
+      "norm_label": "ve()"
+    },
+    {
+      "label": "se()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_se",
+      "community": 310,
+      "norm_label": "se()"
+    },
+    {
+      "label": "Ne()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ne",
+      "community": 310,
+      "norm_label": "ne()"
+    },
+    {
+      "label": "X()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_x",
+      "community": 310,
+      "norm_label": "x()"
+    },
+    {
+      "label": "Y()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_y",
+      "community": 310,
+      "norm_label": "y()"
+    },
+    {
+      "label": "mt()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_mt",
+      "community": 310,
+      "norm_label": "mt()"
+    },
+    {
+      "label": "q()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_q",
+      "community": 310,
+      "norm_label": "q()"
+    },
+    {
+      "label": "ke()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ke",
+      "community": 310,
+      "norm_label": "ke()"
+    },
+    {
+      "label": "je()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_je",
+      "community": 310,
+      "norm_label": "je()"
+    },
+    {
+      "label": "Fe()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_fe",
+      "community": 310,
+      "norm_label": "fe()"
+    },
+    {
+      "label": "gt()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_gt",
+      "community": 310,
+      "norm_label": "gt()"
+    },
+    {
+      "label": "ue()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ue",
+      "community": 310,
+      "norm_label": "ue()"
+    },
+    {
+      "label": "O()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_o",
+      "community": 310,
+      "norm_label": "o()"
+    },
+    {
+      "label": "He()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_he",
+      "community": 310,
+      "norm_label": "he()"
+    },
+    {
+      "label": "le()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_le",
+      "community": 310,
+      "norm_label": "le()"
+    },
+    {
+      "label": "Ge()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ge",
+      "community": 310,
+      "norm_label": "ge()"
+    },
+    {
+      "label": "Et()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_et",
+      "community": 310,
+      "norm_label": "et()"
+    },
+    {
+      "label": "Xe()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_xe",
+      "community": 310,
+      "norm_label": "xe()"
+    },
+    {
+      "label": "Ye()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ye",
+      "community": 310,
+      "norm_label": "ye()"
+    },
+    {
+      "label": "qe()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_qe",
+      "community": 310,
+      "norm_label": "qe()"
+    },
+    {
+      "label": "de()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_de",
+      "community": 310,
+      "norm_label": "de()"
+    },
+    {
+      "label": "me()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_me",
+      "community": 310,
+      "norm_label": "me()"
+    },
+    {
+      "label": "Ze()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ze",
+      "community": 310,
+      "norm_label": "ze()"
+    },
+    {
+      "label": "z()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_z",
+      "community": 310,
+      "norm_label": "z()"
+    },
+    {
+      "label": "Tt()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_tt",
+      "community": 310,
+      "norm_label": "tt()"
+    },
+    {
+      "label": "bt()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_bt",
+      "community": 310,
+      "norm_label": "bt()"
+    },
+    {
+      "label": "jwks()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_jwks",
+      "community": 310,
+      "norm_label": "jwks()"
+    },
+    {
+      "label": "getKey()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_getkey",
+      "community": 310,
+      "norm_label": "getkey()"
+    },
+    {
+      "label": "W()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_w",
+      "community": 310,
+      "norm_label": "w()"
+    },
+    {
+      "label": "Rt()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_rt",
+      "community": 310,
+      "norm_label": "rt()"
+    },
+    {
+      "label": "xt()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_xt",
+      "community": 310,
+      "norm_label": "xt()"
+    },
+    {
+      "label": "It()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_it",
+      "community": 310,
+      "norm_label": "it()"
+    },
+    {
+      "label": "pendingFetch()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_pendingfetch",
+      "community": 310,
+      "norm_label": "pendingfetch()"
+    },
+    {
+      "label": "#f()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_f",
+      "community": 310,
+      "norm_label": "#f()"
+    },
+    {
+      "label": "coolingDown()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_coolingdown",
+      "community": 310,
+      "norm_label": "coolingdown()"
+    },
+    {
+      "label": "fresh()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_fresh",
+      "community": 310,
+      "norm_label": "fresh()"
+    },
+    {
+      "label": "reload()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_reload",
+      "community": 310,
+      "norm_label": "reload()"
+    },
+    {
+      "label": "Ee()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ee",
+      "community": 310,
+      "norm_label": "ee()"
+    },
+    {
+      "label": "C()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_c",
+      "community": 310,
+      "norm_label": "c()"
+    },
+    {
+      "label": "we()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_we",
+      "community": 310,
+      "norm_label": "we()"
+    },
+    {
+      "label": "Lt()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_lt",
+      "community": 310,
+      "norm_label": "lt()"
+    },
+    {
+      "label": "kt()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_kt",
+      "community": 310,
+      "norm_label": "kt()"
+    },
+    {
+      "label": "jt()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_jt",
+      "community": 310,
+      "norm_label": "jt()"
+    },
+    {
+      "label": "$t()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_t",
+      "community": 310,
+      "norm_label": "$t()"
     },
     {
       "label": "index.ts",
@@ -6842,6 +7432,48 @@
       "id": "mobile_supabase_functions_stripe_webhook_index_admin",
       "community": 496,
       "norm_label": "admin"
+    },
+    {
+      "label": "run.sh",
+      "file_type": "code",
+      "source_file": "mobile/supabase/tests/run.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "mobile_supabase_tests_run",
+      "community": 703,
+      "norm_label": "run.sh"
+    },
+    {
+      "label": "run.sh script",
+      "file_type": "code",
+      "source_file": "mobile/supabase/tests/run.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "mobile_supabase_tests_run_sh__entry",
+      "community": 703,
+      "norm_label": "run.sh script"
+    },
+    {
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "mobile/supabase/tests/run.sh",
+      "source_location": "L23",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "mobile_supabase_tests_run_run",
+      "community": 703,
+      "norm_label": "run()"
     },
     {
       "label": "tsconfig.json",
@@ -13422,7 +14054,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "agents_skills_higgsfield_websites_references_design_taste_frontend_1_the_three_dials_core_configuration",
-      "community": 194,
+      "community": 699,
       "norm_label": "1. the three dials (core configuration)"
     },
     {
@@ -13432,7 +14064,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "agents_skills_higgsfield_websites_references_design_taste_frontend_1_a_dial_inference_design_read_dial_values",
-      "community": 194,
+      "community": 699,
       "norm_label": "1.a dial inference (design read \u2192 dial values)"
     },
     {
@@ -13442,7 +14074,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "agents_skills_higgsfield_websites_references_design_taste_frontend_1_b_use_case_presets",
-      "community": 194,
+      "community": 699,
       "norm_label": "1.b use-case presets"
     },
     {
@@ -13452,7 +14084,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "agents_skills_higgsfield_websites_references_design_taste_frontend_1_c_how_the_dials_drive_output",
-      "community": 194,
+      "community": 699,
       "norm_label": "1.c how the dials drive output"
     },
     {
@@ -18752,7 +19384,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme",
-      "community": 292,
+      "community": 10,
       "norm_label": "readme.md"
     },
     {
@@ -20872,7 +21504,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_mobile_architecture",
-      "community": 292,
+      "community": 695,
       "norm_label": "architecture.md"
     },
     {
@@ -20992,7 +21624,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_mobile_database",
-      "community": 292,
+      "community": 695,
       "norm_label": "database.md"
     },
     {
@@ -21072,7 +21704,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_mobile_release_android",
-      "community": 298,
+      "community": 695,
       "norm_label": "release-android.md"
     },
     {
@@ -21162,7 +21794,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "docs_mobile_setup",
-      "community": 292,
+      "community": 695,
       "norm_label": "setup.md"
     },
     {
@@ -25922,7 +26554,7 @@
       "source_location": "L1062",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_7_oportunidades_opportunities",
-      "community": 115,
+      "community": 294,
       "norm_label": "7. oportunidades / opportunities"
     },
     {
@@ -27362,7 +27994,7 @@
       "source_location": "L1941",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_10_strategic_conclusions",
-      "community": 82,
+      "community": 587,
       "norm_label": "10. strategic conclusions"
     },
     {
@@ -27372,7 +28004,7 @@
       "source_location": "L1945",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_main_conclusion_1_the_product_should_stay_simple",
-      "community": 82,
+      "community": 587,
       "norm_label": "main conclusion 1: the product should stay simple"
     },
     {
@@ -27382,7 +28014,7 @@
       "source_location": "L1953",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_main_conclusion_2_the_biggest_competitor_is_probably_asking_a_friend",
-      "community": 82,
+      "community": 587,
       "norm_label": "main conclusion 2: the biggest competitor is probably \u201casking a friend\u201d"
     },
     {
@@ -27392,7 +28024,7 @@
       "source_location": "L1966",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_main_conclusion_3_trust_is_the_central_challenge",
-      "community": 82,
+      "community": 587,
       "norm_label": "main conclusion 3: trust is the central challenge"
     },
     {
@@ -27402,7 +28034,7 @@
       "source_location": "L1978",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_main_conclusion_4_willingness_to_pay_is_the_key_business_model_test",
-      "community": 82,
+      "community": 587,
       "norm_label": "main conclusion 4: willingness to pay is the key business-model test"
     },
     {
@@ -27412,7 +28044,7 @@
       "source_location": "L1986",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_main_conclusion_5_legal_privacy_and_safety_must_be_handled_early",
-      "community": 82,
+      "community": 587,
       "norm_label": "main conclusion 5: legal, privacy, and safety must be handled early"
     },
     {
@@ -27422,7 +28054,7 @@
       "source_location": "L1998",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_main_conclusion_6_do_not_build_software_yet",
-      "community": 82,
+      "community": 587,
       "norm_label": "main conclusion 6: do not build software yet"
     },
     {
@@ -27452,7 +28084,7 @@
       "source_location": "L2054",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_13_next_validation_steps",
-      "community": 82,
+      "community": 694,
       "norm_label": "13. next validation steps"
     },
     {
@@ -27462,7 +28094,7 @@
       "source_location": "L2056",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_step_1_launch_the_google_form_survey",
-      "community": 82,
+      "community": 694,
       "norm_label": "step 1: launch the google form survey"
     },
     {
@@ -27472,7 +28104,7 @@
       "source_location": "L2071",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_step_2_interview_10_target_users",
-      "community": 82,
+      "community": 694,
       "norm_label": "step 2: interview 10 target users"
     },
     {
@@ -27482,7 +28114,7 @@
       "source_location": "L2088",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_step_3_create_operational_documents",
-      "community": 82,
+      "community": 694,
       "norm_label": "step 3: create operational documents"
     },
     {
@@ -27492,7 +28124,7 @@
       "source_location": "L2098",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_step_4_run_3_dry_runs",
-      "community": 82,
+      "community": 694,
       "norm_label": "step 4: run 3 dry runs"
     },
     {
@@ -27502,7 +28134,7 @@
       "source_location": "L2111",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_step_5_update_dafo_to_v0_3",
-      "community": 82,
+      "community": 694,
       "norm_label": "step 5: update dafo to v0.3"
     },
     {
@@ -27512,7 +28144,7 @@
       "source_location": "L2119",
       "_origin": "ast",
       "id": "docs_research_dafo_analysis_step_6_run_3_5_paid_pilots",
-      "community": 82,
+      "community": 694,
       "norm_label": "step 6: run 3\u20135 paid pilots"
     },
     {
@@ -28196,13 +28828,183 @@
       "norm_label": "future marketplace features"
     },
     {
+      "label": "HANDOFF.md",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_handoff",
+      "community": 695,
+      "norm_label": "handoff.md"
+    },
+    {
+      "label": "Handoff \u2014 SomeoneThere mobile app",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_handoff_handoff_someonethere_mobile_app",
+      "community": 427,
+      "norm_label": "handoff \u2014 someonethere mobile app"
+    },
+    {
+      "label": "1. Read this first: there is no Node on this machine",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "mobile_handoff_1_read_this_first_there_is_no_node_on_this_machine",
+      "community": 427,
+      "norm_label": "1. read this first: there is no node on this machine"
+    },
+    {
+      "label": "2. Where things stand",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "mobile_handoff_2_where_things_stand",
+      "community": 427,
+      "norm_label": "2. where things stand"
+    },
+    {
+      "label": "Verified green",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "mobile_handoff_verified_green",
+      "community": 427,
+      "norm_label": "verified green"
+    },
+    {
+      "label": "Not verified \u2014 this is the honest edge",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "mobile_handoff_not_verified_this_is_the_honest_edge",
+      "community": 427,
+      "norm_label": "not verified \u2014 this is the honest edge"
+    },
+    {
+      "label": "3. Do this next, in this order",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "mobile_handoff_3_do_this_next_in_this_order",
+      "community": 427,
+      "norm_label": "3. do this next, in this order"
+    },
+    {
+      "label": "3.1 Get one end-to-end journey working on a device",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "mobile_handoff_3_1_get_one_end_to_end_journey_working_on_a_device",
+      "community": 427,
+      "norm_label": "3.1 get one end-to-end journey working on a device"
+    },
+    {
+      "label": "3.2 Wire the operator gaps (see \u00a75 \u2014 several flows have no UI at all)",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L108",
+      "_origin": "ast",
+      "id": "mobile_handoff_3_2_wire_the_operator_gaps_see_5_several_flows_have_no_ui_at_all",
+      "community": 427,
+      "norm_label": "3.2 wire the operator gaps (see \u00a75 \u2014 several flows have no ui at all)"
+    },
+    {
+      "label": "4. Invariants \u2014 do not break these",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L112",
+      "_origin": "ast",
+      "id": "mobile_handoff_4_invariants_do_not_break_these",
+      "community": 427,
+      "norm_label": "4. invariants \u2014 do not break these"
+    },
+    {
+      "label": "5. Known gaps and deliberate omissions",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L145",
+      "_origin": "ast",
+      "id": "mobile_handoff_5_known_gaps_and_deliberate_omissions",
+      "community": 702,
+      "norm_label": "5. known gaps and deliberate omissions"
+    },
+    {
+      "label": "Flows with no UI (spec \u00a74.3 says handle these in the Supabase dashboard for v1)",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L147",
+      "_origin": "ast",
+      "id": "mobile_handoff_flows_with_no_ui_spec_4_3_says_handle_these_in_the_supabase_dashboard_for_v1",
+      "community": 702,
+      "norm_label": "flows with no ui (spec \u00a74.3 says handle these in the supabase dashboard for v1)"
+    },
+    {
+      "label": "Unresolved product decisions (hardcoded, need a real answer)",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L162",
+      "_origin": "ast",
+      "id": "mobile_handoff_unresolved_product_decisions_hardcoded_need_a_real_answer",
+      "community": 702,
+      "norm_label": "unresolved product decisions (hardcoded, need a real answer)"
+    },
+    {
+      "label": "Other known gaps",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L175",
+      "_origin": "ast",
+      "id": "mobile_handoff_other_known_gaps",
+      "community": 702,
+      "norm_label": "other known gaps"
+    },
+    {
+      "label": "6. Traps already hit \u2014 do not rediscover these",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L194",
+      "_origin": "ast",
+      "id": "mobile_handoff_6_traps_already_hit_do_not_rediscover_these",
+      "community": 427,
+      "norm_label": "6. traps already hit \u2014 do not rediscover these"
+    },
+    {
+      "label": "7. House rules for this repo",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L212",
+      "_origin": "ast",
+      "id": "mobile_handoff_7_house_rules_for_this_repo",
+      "community": 427,
+      "norm_label": "7. house rules for this repo"
+    },
+    {
+      "label": "8. Map of the code",
+      "file_type": "document",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L233",
+      "_origin": "ast",
+      "id": "mobile_handoff_8_map_of_the_code",
+      "community": 427,
+      "norm_label": "8. map of the code"
+    },
+    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "mobile/README.md",
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_readme",
-      "community": 292,
+      "community": 695,
       "norm_label": "readme.md"
     },
     {
@@ -28276,10 +29078,20 @@
       "norm_label": "layout"
     },
     {
-      "label": "Docs",
+      "label": "Picking this up cold",
       "file_type": "document",
       "source_file": "mobile/README.md",
       "source_location": "L103",
+      "_origin": "ast",
+      "id": "mobile_readme_picking_this_up_cold",
+      "community": 291,
+      "norm_label": "picking this up cold"
+    },
+    {
+      "label": "Docs",
+      "file_type": "document",
+      "source_file": "mobile/README.md",
+      "source_location": "L108",
       "_origin": "ast",
       "id": "mobile_readme_docs",
       "community": 291,
@@ -28289,7 +29101,7 @@
       "label": "Generated database types",
       "file_type": "document",
       "source_file": "mobile/README.md",
-      "source_location": "L112",
+      "source_location": "L117",
       "_origin": "ast",
       "id": "mobile_readme_generated_database_types",
       "community": 291,
@@ -28299,7 +29111,7 @@
       "label": "Two rules worth knowing before you change anything",
       "file_type": "document",
       "source_file": "mobile/README.md",
-      "source_location": "L126",
+      "source_location": "L131",
       "_origin": "ast",
       "id": "mobile_readme_two_rules_worth_knowing_before_you_change_anything",
       "community": 291,
@@ -28786,15 +29598,6 @@
       "id": "housecheck_skills_lock_skills_higgsfield_marketplace_cards"
     },
     {
-      "label": "source",
-      "file_type": "code",
-      "source_file": "skills-lock.json",
-      "source_location": "L17",
-      "community": 702,
-      "norm_label": "source",
-      "id": "housecheck_skills_lock_higgsfield_marketplace_cards_source"
-    },
-    {
       "label": "skillPath",
       "file_type": "code",
       "source_file": "skills-lock.json",
@@ -28811,15 +29614,6 @@
       "community": 721,
       "norm_label": "higgsfield-product-photoshoot",
       "id": "housecheck_skills_lock_skills_higgsfield_product_photoshoot"
-    },
-    {
-      "label": "skillPath",
-      "file_type": "code",
-      "source_file": "skills-lock.json",
-      "source_location": "L25",
-      "community": 704,
-      "norm_label": "skillpath",
-      "id": "housecheck_skills_lock_higgsfield_product_photoshoot_skillpath"
     },
     {
       "label": "higgsfield-soul-id",
@@ -28849,15 +29643,6 @@
       "id": "housecheck_skills_lock_higgsfield_video_explainer_source"
     },
     {
-      "label": "computedHash",
-      "file_type": "code",
-      "source_file": "skills-lock.json",
-      "source_location": "L38",
-      "community": 709,
-      "norm_label": "computedhash",
-      "id": "housecheck_skills_lock_higgsfield_video_explainer_computedhash"
-    },
-    {
       "label": "higgsfield-websites",
       "file_type": "code",
       "source_file": "skills-lock.json",
@@ -28874,15 +29659,6 @@
       "community": 715,
       "norm_label": "source",
       "id": "housecheck_skills_lock_higgsfield_websites_source"
-    },
-    {
-      "label": "sourceType",
-      "file_type": "code",
-      "source_file": "skills-lock.json",
-      "source_location": "L42",
-      "community": 716,
-      "norm_label": "sourcetype",
-      "id": "housecheck_skills_lock_higgsfield_websites_sourcetype"
     },
     {
       "label": "computedHash",
@@ -29198,15 +29974,6 @@
       "community": 432,
       "norm_label": "skill.md",
       "id": "agents_skills_higgsfield_product_photoshoot_skill_md"
-    },
-    {
-      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/c)",
-      "file_type": "document",
-      "source_file": ".agents/skills/higgsfield-product-photoshoot/SKILL.md",
-      "source_location": "L34",
-      "community": 427,
-      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/higgsfield-ai/c)",
-      "id": "agents_skills_higgsfield_product_photoshoot_skill_codeblock_1"
     },
     {
       "label": "code:bash (higgsfield product-photoshoot create \\)",
@@ -43510,7 +44277,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L18",
+      "source_location": "L20",
       "weight": 1.0,
       "source": "mobile_package",
       "target": "mobile_package_dependencies",
@@ -43520,7 +44287,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L50",
+      "source_location": "L52",
       "weight": 1.0,
       "source": "mobile_package",
       "target": "mobile_package_devdependencies",
@@ -43660,6 +44427,26 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "mobile_package_scripts",
+      "target": "mobile_package_scripts_test_all",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "mobile_package_scripts",
+      "target": "mobile_package_scripts_test_sql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
       "source_location": "L13",
       "weight": 1.0,
       "source": "mobile_package_scripts",
@@ -43680,7 +44467,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L25",
+      "source_location": "L27",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_date_fns",
@@ -43690,7 +44477,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L26",
+      "source_location": "L28",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_date_fns_tz",
@@ -43700,7 +44487,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L27",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo",
@@ -43710,7 +44497,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L28",
+      "source_location": "L30",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_constants",
@@ -43720,7 +44507,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L29",
+      "source_location": "L31",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_image_manipulator",
@@ -43730,7 +44517,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L30",
+      "source_location": "L32",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_image_picker",
@@ -43740,7 +44527,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L31",
+      "source_location": "L33",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_linking",
@@ -43750,7 +44537,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L32",
+      "source_location": "L34",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_localization",
@@ -43760,7 +44547,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L33",
+      "source_location": "L35",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_notifications",
@@ -43770,7 +44557,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L34",
+      "source_location": "L36",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_router",
@@ -43780,7 +44567,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L35",
+      "source_location": "L37",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_secure_store",
@@ -43790,7 +44577,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L36",
+      "source_location": "L38",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_splash_screen",
@@ -43800,7 +44587,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L37",
+      "source_location": "L39",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_status_bar",
@@ -43810,7 +44597,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L38",
+      "source_location": "L40",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_web_browser",
@@ -43820,7 +44607,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L39",
+      "source_location": "L41",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_i18next",
@@ -43830,7 +44617,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L40",
+      "source_location": "L42",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_react",
@@ -43840,7 +44627,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L41",
+      "source_location": "L43",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_react_i18next",
@@ -43850,7 +44637,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L42",
+      "source_location": "L44",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_react_native",
@@ -43860,7 +44647,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L19",
+      "source_location": "L21",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_react_native_async_storage_async_storage",
@@ -43870,7 +44657,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L20",
+      "source_location": "L22",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_react_native_community_datetimepicker",
@@ -43880,7 +44667,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L43",
+      "source_location": "L45",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_react_native_gesture_handler",
@@ -43890,7 +44677,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L44",
+      "source_location": "L46",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_react_native_safe_area_context",
@@ -43900,7 +44687,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L45",
+      "source_location": "L47",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_react_native_screens",
@@ -43910,7 +44697,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L46",
+      "source_location": "L48",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_react_native_url_polyfill",
@@ -43920,7 +44707,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L21",
+      "source_location": "L23",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_sentry_react_native",
@@ -43930,7 +44717,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L22",
+      "source_location": "L24",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_stripe_stripe_react_native",
@@ -43940,7 +44727,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L23",
+      "source_location": "L25",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_supabase_supabase_js",
@@ -43950,7 +44737,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L24",
+      "source_location": "L26",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_tanstack_react_query",
@@ -43960,7 +44747,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L47",
+      "source_location": "L49",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_zod",
@@ -43970,7 +44757,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L48",
+      "source_location": "L50",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_zustand",
@@ -43980,7 +44767,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L54",
+      "source_location": "L56",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_eslint",
@@ -43990,7 +44777,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L55",
+      "source_location": "L57",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_eslint_config_expo",
@@ -44000,7 +44787,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L56",
+      "source_location": "L58",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_jest",
@@ -44010,7 +44797,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L57",
+      "source_location": "L59",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_jest_expo",
@@ -44020,7 +44807,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L58",
+      "source_location": "L60",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_react_test_renderer",
@@ -44030,7 +44817,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L51",
+      "source_location": "L53",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_testing_library_react_native",
@@ -44040,7 +44827,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L52",
+      "source_location": "L54",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_types_jest",
@@ -44050,7 +44837,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L53",
+      "source_location": "L55",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_types_react",
@@ -44060,7 +44847,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L59",
+      "source_location": "L61",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_typescript",
@@ -51328,6 +52115,1171 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_at",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_be",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_bt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_c",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_coolingdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_d",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_de",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_et",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_fe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_fresh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ft",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_getkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_gt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_he",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ie",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_it",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_j",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_je",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_jt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_jwks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ke",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_kt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_le",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_lt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_me",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_mt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ne",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_o",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_pendingfetch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_q",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_qe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_re",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_reload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_rt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_se",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_t",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_te",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_tt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ut",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ve",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_w",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_we",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_x",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_xe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_xt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_y",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ye",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_z",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ze",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_te",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_t",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_te",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_re",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ut",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_t",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_re",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_e",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_at",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_et",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_d",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ne",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_d",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_be",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_gt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ft",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_jt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_constructor",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_bt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_constructor",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_it",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_constructor",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_w",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_j",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ie",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ke",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_j",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_se",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_j",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_x",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_j",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_et",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ve",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_et",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_se",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_se",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_x",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_et",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ne",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_et",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_x",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_qe",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_y",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ke",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_mt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_mt",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_mt",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_z",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_et",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ke",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ge",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_fe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_z",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_xe",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_et",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_z",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_xe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ze",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ye",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ze",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_qe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ze",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_de",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ze",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_me",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_z",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ze",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_jt",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_z",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_getkey",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_tt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ee",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_jwks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_w",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_jwks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ee",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_getkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_getkey",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_coolingdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_getkey",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_fresh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_getkey",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_reload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_w",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_getkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_reload",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_w",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_reload",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_rt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_reload",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_xt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ee",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_pendingfetch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_coolingdown",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_fresh",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_f",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ee",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_coolingdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ee",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_fresh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_ee",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_reload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_we",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_c",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_kt",
+      "target": "mobile_supabase_temp_start_secrets_supabase_edge_runtime_someonethere_main_index_lt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "mobile/supabase/functions/create-payment-intent/index.ts",
       "source_location": "L23",
       "weight": 1.0,
@@ -51433,6 +53385,37 @@
       "weight": 1.0,
       "source": "mobile_supabase_functions_stripe_webhook_index",
       "target": "mobile_supabase_functions_stripe_webhook_index_stripe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/tests/run.sh",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "mobile_supabase_tests_run",
+      "target": "mobile_supabase_tests_run_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/tests/run.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_supabase_tests_run",
+      "target": "mobile_supabase_tests_run_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/supabase/tests/run.sh",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "call",
+      "source": "mobile_supabase_tests_run_sh__entry",
+      "target": "mobile_supabase_tests_run_run",
       "confidence_score": 1.0
     },
     {
@@ -64456,8 +66439,18 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L259",
+      "weight": 1.0,
+      "source": "mobile_handoff",
+      "target": "docs_mobile_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "mobile/README.md",
-      "source_location": "L105",
+      "source_location": "L110",
       "weight": 1.0,
       "source": "mobile_readme",
       "target": "docs_mobile_architecture",
@@ -64576,8 +66569,18 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L260",
+      "weight": 1.0,
+      "source": "mobile_handoff",
+      "target": "docs_mobile_database",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "mobile/README.md",
-      "source_location": "L106",
+      "source_location": "L111",
       "weight": 1.0,
       "source": "mobile_readme",
       "target": "docs_mobile_database",
@@ -64656,8 +66659,18 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L261",
+      "weight": 1.0,
+      "source": "mobile_handoff",
+      "target": "docs_mobile_release_android",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "mobile/README.md",
-      "source_location": "L108",
+      "source_location": "L113",
       "weight": 1.0,
       "source": "mobile_readme",
       "target": "docs_mobile_release_android",
@@ -64741,6 +66754,16 @@
       "weight": 1.0,
       "source": "docs_mobile_setup",
       "target": "docs_mobile_setup_someonethere_mobile_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L260",
+      "weight": 1.0,
+      "source": "mobile_handoff",
+      "target": "docs_mobile_setup",
       "confidence_score": 1.0
     },
     {
@@ -66476,8 +68499,18 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "mobile_handoff",
+      "target": "docs_product_mobile_app_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
       "source_file": "mobile/README.md",
-      "source_location": "L109",
+      "source_location": "L114",
       "weight": 1.0,
       "source": "mobile_readme",
       "target": "docs_product_mobile_app_spec",
@@ -71566,6 +73599,176 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_handoff",
+      "target": "mobile_handoff_handoff_someonethere_mobile_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/README.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "mobile_readme",
+      "target": "mobile_handoff",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "mobile_handoff_handoff_someonethere_mobile_app",
+      "target": "mobile_handoff_1_read_this_first_there_is_no_node_on_this_machine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "mobile_handoff_handoff_someonethere_mobile_app",
+      "target": "mobile_handoff_2_where_things_stand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "mobile_handoff_handoff_someonethere_mobile_app",
+      "target": "mobile_handoff_3_do_this_next_in_this_order",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "mobile_handoff_handoff_someonethere_mobile_app",
+      "target": "mobile_handoff_4_invariants_do_not_break_these",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "mobile_handoff_handoff_someonethere_mobile_app",
+      "target": "mobile_handoff_5_known_gaps_and_deliberate_omissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "mobile_handoff_handoff_someonethere_mobile_app",
+      "target": "mobile_handoff_6_traps_already_hit_do_not_rediscover_these",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "mobile_handoff_handoff_someonethere_mobile_app",
+      "target": "mobile_handoff_7_house_rules_for_this_repo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L233",
+      "weight": 1.0,
+      "source": "mobile_handoff_handoff_someonethere_mobile_app",
+      "target": "mobile_handoff_8_map_of_the_code",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "mobile_handoff_2_where_things_stand",
+      "target": "mobile_handoff_not_verified_this_is_the_honest_edge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "mobile_handoff_2_where_things_stand",
+      "target": "mobile_handoff_verified_green",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "mobile_handoff_3_do_this_next_in_this_order",
+      "target": "mobile_handoff_3_1_get_one_end_to_end_journey_working_on_a_device",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "mobile_handoff_3_do_this_next_in_this_order",
+      "target": "mobile_handoff_3_2_wire_the_operator_gaps_see_5_several_flows_have_no_ui_at_all",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "mobile_handoff_5_known_gaps_and_deliberate_omissions",
+      "target": "mobile_handoff_flows_with_no_ui_spec_4_3_says_handle_these_in_the_supabase_dashboard_for_v1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "mobile_handoff_5_known_gaps_and_deliberate_omissions",
+      "target": "mobile_handoff_other_known_gaps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/HANDOFF.md",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "mobile_handoff_5_known_gaps_and_deliberate_omissions",
+      "target": "mobile_handoff_unresolved_product_decisions_hardcoded_need_a_real_answer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "mobile/README.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -71587,7 +73790,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/README.md",
-      "source_location": "L103",
+      "source_location": "L108",
       "weight": 1.0,
       "source": "mobile_readme_someonethere_mobile_app",
       "target": "mobile_readme_docs",
@@ -71607,7 +73810,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/README.md",
-      "source_location": "L112",
+      "source_location": "L117",
       "weight": 1.0,
       "source": "mobile_readme_someonethere_mobile_app",
       "target": "mobile_readme_generated_database_types",
@@ -71621,6 +73824,16 @@
       "weight": 1.0,
       "source": "mobile_readme_someonethere_mobile_app",
       "target": "mobile_readme_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/README.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "mobile_readme_someonethere_mobile_app",
+      "target": "mobile_readme_picking_this_up_cold",
       "confidence_score": 1.0
     },
     {
@@ -71647,7 +73860,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/README.md",
-      "source_location": "L126",
+      "source_location": "L131",
       "weight": 1.0,
       "source": "mobile_readme_someonethere_mobile_app",
       "target": "mobile_readme_two_rules_worth_knowing_before_you_change_anything",
@@ -71945,5 +74158,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4903c4002f79c144f4bd52ef414db92af7d74bb6"
+  "built_at_commit": "135dedacfb84c3c9d4d9694b78f90c381d5629a2"
 }

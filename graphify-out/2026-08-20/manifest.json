@@ -1095,8 +1095,8 @@
     "semantic_hash": ""
   },
   "mobile/package.json": {
-    "mtime": 1787148257.0531614,
-    "ast_hash": "86e3d904bcf3ece3ddc838db8abe1e28",
+    "mtime": 1787221375.0838437,
+    "ast_hash": "28e41dfaa4a1bf44d50fb28e1666f979",
     "semantic_hash": ""
   },
   "mobile/src/components/Disclaimer.tsx": {
@@ -1415,13 +1415,13 @@
     "semantic_hash": ""
   },
   "mobile/supabase/migrations/0002_rls.sql": {
-    "mtime": 1787147776.9513357,
-    "ast_hash": "750ef3060b6fb96a7d2e2d69d1e379c3",
+    "mtime": 1787221230.3737972,
+    "ast_hash": "9376f96012d7bfa64c34dbdd710fd616",
     "semantic_hash": ""
   },
   "mobile/supabase/migrations/0003_workflow_functions.sql": {
-    "mtime": 1787147776.9514742,
-    "ast_hash": "f379640bde4a8291a57562351d0e6a93",
+    "mtime": 1787221230.3755488,
+    "ast_hash": "0053e35c410ed06af3f5452ce76302fc",
     "semantic_hash": ""
   },
   "mobile/supabase/migrations/0004_storage.sql": {
@@ -1500,8 +1500,8 @@
     "semantic_hash": ""
   },
   "mobile/README.md": {
-    "mtime": 1787148373.9820626,
-    "ast_hash": "4e5b5fb972e8ac0ba7a35d71c77915df",
+    "mtime": 1787152305.3890283,
+    "ast_hash": "c45b0a22412992fd5ecb426aad69386c",
     "semantic_hash": ""
   },
   "mobile/supabase/functions/delete-account/index.ts": {
@@ -1542,6 +1542,31 @@
   "mobile/assets/splash.png": {
     "mtime": 1787148171.9655018,
     "ast_hash": "8878de74a9dd85b643ec8d728c591bb2",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/.temp/start-secrets/supabase_edge_runtime_someonethere/main/index.ts": {
+    "mtime": 1787219869.0507417,
+    "ast_hash": "d54efa0db63fd477dae22540fcc5f3be",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/tests/00_supabase_stubs.sql": {
+    "mtime": 1787221335.7365198,
+    "ast_hash": "573e2cf55a5eb11eea8ebf45c7504a43",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/tests/01_rls_test.sql": {
+    "mtime": 1787221323.4071114,
+    "ast_hash": "b1e48d2738970cb7537507c0059eb32d",
+    "semantic_hash": ""
+  },
+  "mobile/supabase/tests/run.sh": {
+    "mtime": 1787221155.404208,
+    "ast_hash": "b1c6398a8c0580fe5baf093edbac1cb7",
+    "semantic_hash": ""
+  },
+  "mobile/HANDOFF.md": {
+    "mtime": 1787221375.123583,
+    "ast_hash": "cd8c7101f455aa25e739aebdbd767e0e",
     "semantic_hash": ""
   }
 }

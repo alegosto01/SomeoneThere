@@ -1384,6 +1384,46 @@
       "norm_label": "make_seamless()"
     },
     {
+      "label": "router.d.ts",
+      "file_type": "code",
+      "source_file": "mobile/.expo/types/router.d.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_expo_types_router_d",
+      "community": 699,
+      "norm_label": "router.d.ts"
+    },
+    {
+      "label": "expo-router",
+      "file_type": "code",
+      "source_file": "mobile/.expo/types/router.d.ts",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "mobile_expo_types_router_d_expo_router",
+      "community": 699,
+      "norm_label": "expo-router"
+    },
+    {
+      "label": "ExpoRouter",
+      "file_type": "code",
+      "source_file": "mobile/.expo/types/router.d.ts",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "mobile_expo_types_router_d_exporouter",
+      "community": 699,
+      "norm_label": "exporouter"
+    },
+    {
+      "label": "__routes",
+      "file_type": "code",
+      "source_file": "mobile/.expo/types/router.d.ts",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "mobile_expo_types_router_d_routes",
+      "community": 699,
+      "norm_label": "__routes"
+    },
+    {
       "label": "app.json",
       "file_type": "code",
       "source_file": "mobile/app.json",
@@ -1760,7 +1800,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_auth_login",
-      "community": 78,
+      "community": 64,
       "norm_label": "login.tsx"
     },
     {
@@ -1770,7 +1810,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "mobile_app_auth_login_loginscreen",
-      "community": 78,
+      "community": 64,
       "norm_label": "loginscreen()"
     },
     {
@@ -1780,7 +1820,7 @@
       "source_location": "L112",
       "_origin": "ast",
       "id": "mobile_app_auth_login_styles",
-      "community": 78,
+      "community": 64,
       "norm_label": "styles"
     },
     {
@@ -1790,7 +1830,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_auth_register",
-      "community": 78,
+      "community": 64,
       "norm_label": "register.tsx"
     },
     {
@@ -1800,7 +1840,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "mobile_app_auth_register_registerscreen",
-      "community": 78,
+      "community": 64,
       "norm_label": "registerscreen()"
     },
     {
@@ -1810,7 +1850,7 @@
       "source_location": "L109",
       "_origin": "ast",
       "id": "mobile_app_auth_register_styles",
-      "community": 78,
+      "community": 64,
       "norm_label": "styles"
     },
     {
@@ -1820,7 +1860,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_customer_layout",
-      "community": 66,
+      "community": 68,
       "norm_label": "_layout.tsx"
     },
     {
@@ -1830,7 +1870,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "mobile_app_customer_layout_tabglyph",
-      "community": 66,
+      "community": 68,
       "norm_label": "tabglyph()"
     },
     {
@@ -1840,7 +1880,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "mobile_app_customer_layout_customerlayout",
-      "community": 66,
+      "community": 68,
       "norm_label": "customerlayout()"
     },
     {
@@ -1910,7 +1950,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_customer_profile",
-      "community": 66,
+      "community": 698,
       "norm_label": "profile.tsx"
     },
     {
@@ -1920,7 +1960,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "mobile_app_customer_profile_row",
-      "community": 66,
+      "community": 698,
       "norm_label": "row()"
     },
     {
@@ -1930,7 +1970,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "mobile_app_customer_profile_customerprofile",
-      "community": 66,
+      "community": 698,
       "norm_label": "customerprofile()"
     },
     {
@@ -1940,7 +1980,7 @@
       "source_location": "L195",
       "_origin": "ast",
       "id": "mobile_app_customer_profile_styles",
-      "community": 66,
+      "community": 698,
       "norm_label": "styles"
     },
     {
@@ -1950,7 +1990,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_customer_report_id",
-      "community": 80,
+      "community": 69,
       "norm_label": "[id].tsx"
     },
     {
@@ -1960,7 +2000,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "mobile_app_customer_report_id_match_tone",
-      "community": 80,
+      "community": 69,
       "norm_label": "match_tone"
     },
     {
@@ -1970,7 +2010,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "mobile_app_customer_report_id_reportdetailscreen",
-      "community": 80,
+      "community": 69,
       "norm_label": "reportdetailscreen()"
     },
     {
@@ -1980,7 +2020,7 @@
       "source_location": "L233",
       "_origin": "ast",
       "id": "mobile_app_customer_report_id_styles",
-      "community": 80,
+      "community": 69,
       "norm_label": "styles"
     },
     {
@@ -1990,7 +2030,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_customer_reports",
-      "community": 68,
+      "community": 80,
       "norm_label": "reports.tsx"
     },
     {
@@ -2000,7 +2040,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "mobile_app_customer_reports_reportsscreen",
-      "community": 68,
+      "community": 80,
       "norm_label": "reportsscreen()"
     },
     {
@@ -2010,7 +2050,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "mobile_app_customer_reports_styles",
-      "community": 68,
+      "community": 80,
       "norm_label": "styles"
     },
     {
@@ -2040,7 +2080,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_customer_request_confirmation",
-      "community": 66,
+      "community": 78,
       "norm_label": "confirmation.tsx"
     },
     {
@@ -2050,7 +2090,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "mobile_app_customer_request_confirmation_confirmationscreen",
-      "community": 66,
+      "community": 78,
       "norm_label": "confirmationscreen()"
     },
     {
@@ -2060,7 +2100,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "mobile_app_customer_request_confirmation_styles",
-      "community": 66,
+      "community": 78,
       "norm_label": "styles"
     },
     {
@@ -2200,7 +2240,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_customer_request_viewing",
-      "community": 80,
+      "community": 78,
       "norm_label": "viewing.tsx"
     },
     {
@@ -2210,7 +2250,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "mobile_app_customer_request_viewing_requestviewingstep",
-      "community": 80,
+      "community": 78,
       "norm_label": "requestviewingstep()"
     },
     {
@@ -2220,7 +2260,7 @@
       "source_location": "L180",
       "_origin": "ast",
       "id": "mobile_app_customer_request_viewing_styles",
-      "community": 80,
+      "community": 78,
       "norm_label": "styles"
     },
     {
@@ -2250,7 +2290,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_customer_settings_how_it_works",
-      "community": 64,
+      "community": 698,
       "norm_label": "how-it-works.tsx"
     },
     {
@@ -2260,7 +2300,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "mobile_app_customer_settings_how_it_works_howitworksscreen",
-      "community": 64,
+      "community": 698,
       "norm_label": "howitworksscreen()"
     },
     {
@@ -2270,7 +2310,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "mobile_app_customer_settings_how_it_works_styles",
-      "community": 64,
+      "community": 698,
       "norm_label": "styles"
     },
     {
@@ -2370,7 +2410,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_verifier_layout",
-      "community": 66,
+      "community": 68,
       "norm_label": "_layout.tsx"
     },
     {
@@ -2380,7 +2420,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "mobile_app_verifier_layout_tabglyph",
-      "community": 66,
+      "community": 68,
       "norm_label": "tabglyph()"
     },
     {
@@ -2390,7 +2430,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "mobile_app_verifier_layout_verifierlayout",
-      "community": 66,
+      "community": 68,
       "norm_label": "verifierlayout()"
     },
     {
@@ -2500,7 +2540,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_app_verifier_profile",
-      "community": 66,
+      "community": 698,
       "norm_label": "profile.tsx"
     },
     {
@@ -2510,7 +2550,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "mobile_app_verifier_profile_verifierprofilescreen",
-      "community": 66,
+      "community": 698,
       "norm_label": "verifierprofilescreen()"
     },
     {
@@ -2520,7 +2560,7 @@
       "source_location": "L153",
       "_origin": "ast",
       "id": "mobile_app_verifier_profile_styles",
-      "community": 66,
+      "community": 698,
       "norm_label": "styles"
     },
     {
@@ -2754,6 +2794,26 @@
       "norm_label": "expoconfig"
     },
     {
+      "label": "expo-env.d.ts",
+      "file_type": "code",
+      "source_file": "mobile/expo-env.d.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_expo_env_d",
+      "community": 704,
+      "norm_label": "expo-env.d.ts"
+    },
+    {
+      "label": "NOTE: This file should not be edited and should be in your git ignore",
+      "file_type": "rationale",
+      "source_file": "mobile/expo-env.d.ts",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "mobile_expo_env_d_rationale_3",
+      "community": 704,
+      "norm_label": "note: this file should not be edited and should be in your git ignore"
+    },
+    {
       "label": "jest.config.js",
       "file_type": "code",
       "source_file": "mobile/jest.config.js",
@@ -2964,10 +3024,20 @@
       "norm_label": "dependencies"
     },
     {
-      "label": "@react-native-async-storage/async-storage",
+      "label": "@expo/metro-runtime",
       "file_type": "code",
       "source_file": "mobile/package.json",
       "source_location": "L21",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_expo_metro_runtime",
+      "community": 79,
+      "norm_label": "@expo/metro-runtime"
+    },
+    {
+      "label": "@react-native-async-storage/async-storage",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L22",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native_async_storage_async_storage",
       "community": 79,
@@ -2977,7 +3047,7 @@
       "label": "@react-native-community/datetimepicker",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L22",
+      "source_location": "L23",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native_community_datetimepicker",
       "community": 79,
@@ -2987,7 +3057,7 @@
       "label": "@sentry/react-native",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L23",
+      "source_location": "L24",
       "_origin": "ast",
       "id": "mobile_package_dependencies_sentry_react_native",
       "community": 79,
@@ -2997,7 +3067,7 @@
       "label": "@stripe/stripe-react-native",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L24",
+      "source_location": "L25",
       "_origin": "ast",
       "id": "mobile_package_dependencies_stripe_stripe_react_native",
       "community": 79,
@@ -3007,7 +3077,7 @@
       "label": "@supabase/supabase-js",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L25",
+      "source_location": "L26",
       "_origin": "ast",
       "id": "mobile_package_dependencies_supabase_supabase_js",
       "community": 79,
@@ -3017,7 +3087,7 @@
       "label": "@tanstack/react-query",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L26",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "mobile_package_dependencies_tanstack_react_query",
       "community": 79,
@@ -3027,7 +3097,7 @@
       "label": "date-fns",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L27",
+      "source_location": "L28",
       "_origin": "ast",
       "id": "mobile_package_dependencies_date_fns",
       "community": 79,
@@ -3037,7 +3107,7 @@
       "label": "date-fns-tz",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L28",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "mobile_package_dependencies_date_fns_tz",
       "community": 79,
@@ -3047,7 +3117,7 @@
       "label": "expo",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L29",
+      "source_location": "L30",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo",
       "community": 79,
@@ -3057,7 +3127,7 @@
       "label": "expo-constants",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L30",
+      "source_location": "L31",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_constants",
       "community": 79,
@@ -3067,7 +3137,7 @@
       "label": "expo-image-manipulator",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L31",
+      "source_location": "L32",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_image_manipulator",
       "community": 79,
@@ -3077,7 +3147,7 @@
       "label": "expo-image-picker",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L32",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_image_picker",
       "community": 79,
@@ -3087,7 +3157,7 @@
       "label": "expo-linking",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L33",
+      "source_location": "L34",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_linking",
       "community": 79,
@@ -3097,7 +3167,7 @@
       "label": "expo-localization",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L34",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_localization",
       "community": 79,
@@ -3107,7 +3177,7 @@
       "label": "expo-notifications",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L35",
+      "source_location": "L36",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_notifications",
       "community": 79,
@@ -3117,7 +3187,7 @@
       "label": "expo-router",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L36",
+      "source_location": "L37",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_router",
       "community": 79,
@@ -3127,7 +3197,7 @@
       "label": "expo-secure-store",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L37",
+      "source_location": "L38",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_secure_store",
       "community": 79,
@@ -3137,7 +3207,7 @@
       "label": "expo-splash-screen",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L38",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_splash_screen",
       "community": 79,
@@ -3147,7 +3217,7 @@
       "label": "expo-status-bar",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L39",
+      "source_location": "L40",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_status_bar",
       "community": 79,
@@ -3157,7 +3227,7 @@
       "label": "expo-web-browser",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L40",
+      "source_location": "L41",
       "_origin": "ast",
       "id": "mobile_package_dependencies_expo_web_browser",
       "community": 79,
@@ -3167,7 +3237,7 @@
       "label": "i18next",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L41",
+      "source_location": "L42",
       "_origin": "ast",
       "id": "mobile_package_dependencies_i18next",
       "community": 79,
@@ -3177,17 +3247,27 @@
       "label": "react",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L42",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react",
       "community": 79,
       "norm_label": "react"
     },
     {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_react_dom",
+      "community": 79,
+      "norm_label": "react-dom"
+    },
+    {
       "label": "react-i18next",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L43",
+      "source_location": "L45",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_i18next",
       "community": 79,
@@ -3197,7 +3277,7 @@
       "label": "react-native",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L44",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native",
       "community": 79,
@@ -3207,7 +3287,7 @@
       "label": "react-native-gesture-handler",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L45",
+      "source_location": "L47",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native_gesture_handler",
       "community": 79,
@@ -3217,7 +3297,7 @@
       "label": "react-native-safe-area-context",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L46",
+      "source_location": "L48",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native_safe_area_context",
       "community": 79,
@@ -3227,7 +3307,7 @@
       "label": "react-native-screens",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L47",
+      "source_location": "L49",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native_screens",
       "community": 79,
@@ -3237,17 +3317,27 @@
       "label": "react-native-url-polyfill",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L48",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "mobile_package_dependencies_react_native_url_polyfill",
       "community": 79,
       "norm_label": "react-native-url-polyfill"
     },
     {
+      "label": "react-native-web",
+      "file_type": "code",
+      "source_file": "mobile/package.json",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "mobile_package_dependencies_react_native_web",
+      "community": 79,
+      "norm_label": "react-native-web"
+    },
+    {
       "label": "zod",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L49",
+      "source_location": "L52",
       "_origin": "ast",
       "id": "mobile_package_dependencies_zod",
       "community": 79,
@@ -3257,7 +3347,7 @@
       "label": "zustand",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L50",
+      "source_location": "L53",
       "_origin": "ast",
       "id": "mobile_package_dependencies_zustand",
       "community": 79,
@@ -3267,7 +3357,7 @@
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L52",
+      "source_location": "L55",
       "_origin": "ast",
       "id": "mobile_package_devdependencies",
       "community": 290,
@@ -3277,7 +3367,7 @@
       "label": "@testing-library/react-native",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L53",
+      "source_location": "L56",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_testing_library_react_native",
       "community": 290,
@@ -3287,7 +3377,7 @@
       "label": "@types/jest",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L54",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_types_jest",
       "community": 290,
@@ -3297,7 +3387,7 @@
       "label": "@types/react",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L55",
+      "source_location": "L58",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_types_react",
       "community": 290,
@@ -3307,7 +3397,7 @@
       "label": "eslint",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L56",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_eslint",
       "community": 290,
@@ -3317,7 +3407,7 @@
       "label": "eslint-config-expo",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L57",
+      "source_location": "L60",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_eslint_config_expo",
       "community": 290,
@@ -3327,7 +3417,7 @@
       "label": "jest",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L58",
+      "source_location": "L61",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_jest",
       "community": 290,
@@ -3337,7 +3427,7 @@
       "label": "jest-expo",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L59",
+      "source_location": "L62",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_jest_expo",
       "community": 290,
@@ -3347,7 +3437,7 @@
       "label": "react-test-renderer",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L60",
+      "source_location": "L63",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_react_test_renderer",
       "community": 290,
@@ -3357,7 +3447,7 @@
       "label": "typescript",
       "file_type": "code",
       "source_file": "mobile/package.json",
-      "source_location": "L61",
+      "source_location": "L64",
       "_origin": "ast",
       "id": "mobile_package_devdependencies_typescript",
       "community": 290,
@@ -3370,7 +3460,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_components_disclaimer",
-      "community": 64,
+      "community": 78,
       "norm_label": "disclaimer.tsx"
     },
     {
@@ -3390,7 +3480,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "mobile_src_components_disclaimer_notice",
-      "community": 80,
+      "community": 78,
       "norm_label": "notice()"
     },
     {
@@ -3400,7 +3490,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "mobile_src_components_disclaimer_styles",
-      "community": 64,
+      "community": 78,
       "norm_label": "styles"
     },
     {
@@ -3610,7 +3700,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_components_wizardprogress",
-      "community": 64,
+      "community": 78,
       "norm_label": "wizardprogress.tsx"
     },
     {
@@ -3630,7 +3720,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "mobile_src_components_wizardprogress_requeststep",
-      "community": 64,
+      "community": 78,
       "norm_label": "requeststep"
     },
     {
@@ -3650,7 +3740,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "mobile_src_components_wizardprogress_styles",
-      "community": 64,
+      "community": 78,
       "norm_label": "styles"
     },
     {
@@ -3720,7 +3810,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "mobile_src_components_ui_button_secondarybutton",
-      "community": 80,
+      "community": 78,
       "norm_label": "secondarybutton()"
     },
     {
@@ -3730,7 +3820,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "mobile_src_components_ui_button_textbutton",
-      "community": 78,
+      "community": 64,
       "norm_label": "textbutton()"
     },
     {
@@ -3770,7 +3860,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "mobile_src_components_ui_card_card",
-      "community": 68,
+      "community": 698,
       "norm_label": "card()"
     },
     {
@@ -3830,7 +3920,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "mobile_src_components_ui_choice_radiogroup",
-      "community": 64,
+      "community": 78,
       "norm_label": "radiogroup()"
     },
     {
@@ -3840,7 +3930,7 @@
       "source_location": "L108",
       "_origin": "ast",
       "id": "mobile_src_components_ui_choice_checkboxgroup",
-      "community": 64,
+      "community": 78,
       "norm_label": "checkboxgroup()"
     },
     {
@@ -3870,7 +3960,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "mobile_src_components_ui_input_inputprops",
-      "community": 78,
+      "community": 64,
       "norm_label": "inputprops"
     },
     {
@@ -3880,7 +3970,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "mobile_src_components_ui_input_input",
-      "community": 78,
+      "community": 64,
       "norm_label": "input()"
     },
     {
@@ -3950,7 +4040,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "mobile_src_components_ui_sectionheader_sectionheader",
-      "community": 80,
+      "community": 698,
       "norm_label": "sectionheader()"
     },
     {
@@ -4000,7 +4090,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "mobile_src_components_ui_sheet_confirmationdialog",
-      "community": 66,
+      "community": 698,
       "norm_label": "confirmationdialog()"
     },
     {
@@ -4110,7 +4200,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "mobile_src_components_ui_statusbadge_statusbadge",
-      "community": 68,
+      "community": 64,
       "norm_label": "statusbadge()"
     },
     {
@@ -4470,7 +4560,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_features_auth_authprovider",
-      "community": 66,
+      "community": 68,
       "norm_label": "authprovider.tsx"
     },
     {
@@ -4490,7 +4580,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "mobile_src_features_auth_authprovider_authcontext",
-      "community": 66,
+      "community": 68,
       "norm_label": "authcontext"
     },
     {
@@ -4520,7 +4610,7 @@
       "source_location": "L103",
       "_origin": "ast",
       "id": "mobile_src_features_auth_authprovider_useuserid",
-      "community": 66,
+      "community": 68,
       "norm_label": "useuserid()"
     },
     {
@@ -4590,7 +4680,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_features_payments_api",
-      "community": 0,
+      "community": 66,
       "norm_label": "api.ts"
     },
     {
@@ -4600,7 +4690,7 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "mobile_src_features_payments_api_fetchpaymentforvisit",
-      "community": 0,
+      "community": 66,
       "norm_label": "fetchpaymentforvisit()"
     },
     {
@@ -4610,7 +4700,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "mobile_src_features_payments_api_fetchverifierearnings",
-      "community": 0,
+      "community": 66,
       "norm_label": "fetchverifierearnings()"
     },
     {
@@ -4640,7 +4730,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "mobile_src_features_profile_api_fetchverifierprofile",
-      "community": 66,
+      "community": 698,
       "norm_label": "fetchverifierprofile()"
     },
     {
@@ -4820,7 +4910,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "mobile_src_features_reports_queries_usecustomerreports",
-      "community": 68,
+      "community": 80,
       "norm_label": "usecustomerreports()"
     },
     {
@@ -4830,7 +4920,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "mobile_src_features_reports_queries_usereport",
-      "community": 80,
+      "community": 69,
       "norm_label": "usereport()"
     },
     {
@@ -4850,7 +4940,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "mobile_src_features_reports_queries_usesignedreportmedia",
-      "community": 80,
+      "community": 69,
       "norm_label": "usesignedreportmedia()"
     },
     {
@@ -5160,7 +5250,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_i18n_index",
-      "community": 66,
+      "community": 698,
       "norm_label": "index.ts"
     },
     {
@@ -5170,7 +5260,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "mobile_src_i18n_index_supported_languages",
-      "community": 66,
+      "community": 698,
       "norm_label": "supported_languages"
     },
     {
@@ -5180,7 +5270,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "mobile_src_i18n_index_language",
-      "community": 66,
+      "community": 698,
       "norm_label": "language"
     },
     {
@@ -5190,7 +5280,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "mobile_src_i18n_index_resolvedevicelanguage",
-      "community": 66,
+      "community": 698,
       "norm_label": "resolvedevicelanguage()"
     },
     {
@@ -5200,7 +5290,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "mobile_src_i18n_index_setlanguage",
-      "community": 66,
+      "community": 698,
       "norm_label": "setlanguage()"
     },
     {
@@ -5210,7 +5300,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_lib_analytics_index",
-      "community": 78,
+      "community": 318,
       "norm_label": "index.ts"
     },
     {
@@ -5220,7 +5310,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "mobile_src_lib_analytics_index_analyticsevent",
-      "community": 78,
+      "community": 318,
       "norm_label": "analyticsevent"
     },
     {
@@ -5230,7 +5320,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "mobile_src_lib_analytics_index_analyticsproperties",
-      "community": 78,
+      "community": 318,
       "norm_label": "analyticsproperties"
     },
     {
@@ -5280,7 +5370,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "mobile_src_lib_analytics_index_consolesink",
-      "community": 78,
+      "community": 318,
       "norm_label": "consolesink"
     },
     {
@@ -5290,7 +5380,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "mobile_src_lib_analytics_index_setanalyticssink",
-      "community": 78,
+      "community": 318,
       "norm_label": "setanalyticssink()"
     },
     {
@@ -5310,7 +5400,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_lib_live_call_index",
-      "community": 66,
+      "community": 69,
       "norm_label": "index.ts"
     },
     {
@@ -5320,7 +5410,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "mobile_src_lib_live_call_index_openlivecall",
-      "community": 66,
+      "community": 80,
       "norm_label": "openlivecall()"
     },
     {
@@ -5330,7 +5420,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "mobile_src_lib_live_call_index_openexternalurl",
-      "community": 66,
+      "community": 69,
       "norm_label": "openexternalurl()"
     },
     {
@@ -5430,7 +5520,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_lib_stripe_index",
-      "community": 0,
+      "community": 78,
       "norm_label": "index.ts"
     },
     {
@@ -5440,7 +5530,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "mobile_src_lib_stripe_index_paymentintentresult",
-      "community": 0,
+      "community": 78,
       "norm_label": "paymentintentresult"
     },
     {
@@ -5460,8 +5550,58 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "mobile_src_lib_stripe_index_visit_price",
-      "community": 0,
+      "community": 78,
       "norm_label": "visit_price"
+    },
+    {
+      "label": "payment-sheet.ts",
+      "file_type": "code",
+      "source_file": "mobile/src/lib/stripe/payment-sheet.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_src_lib_stripe_payment_sheet",
+      "community": 66,
+      "norm_label": "payment-sheet.ts"
+    },
+    {
+      "label": "payment-sheet.web.ts",
+      "file_type": "code",
+      "source_file": "mobile/src/lib/stripe/payment-sheet.web.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_src_lib_stripe_payment_sheet_web",
+      "community": 700,
+      "norm_label": "payment-sheet.web.ts"
+    },
+    {
+      "label": "StripeProvider()",
+      "file_type": "code",
+      "source_file": "mobile/src/lib/stripe/payment-sheet.web.ts",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "mobile_src_lib_stripe_payment_sheet_web_stripeprovider",
+      "community": 700,
+      "norm_label": "stripeprovider()"
+    },
+    {
+      "label": "unavailable()",
+      "file_type": "code",
+      "source_file": "mobile/src/lib/stripe/payment-sheet.web.ts",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "mobile_src_lib_stripe_payment_sheet_web_unavailable",
+      "community": 700,
+      "norm_label": "unavailable()"
+    },
+    {
+      "label": "useStripe()",
+      "file_type": "code",
+      "source_file": "mobile/src/lib/stripe/payment-sheet.web.ts",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "mobile_src_lib_stripe_payment_sheet_web_usestripe",
+      "community": 700,
+      "norm_label": "usestripe()"
     },
     {
       "label": "session-storage.test.ts",
@@ -5480,7 +5620,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_lib_supabase_client",
-      "community": 0,
+      "community": 66,
       "norm_label": "client.ts"
     },
     {
@@ -5490,7 +5630,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "mobile_src_lib_supabase_client_supabase",
-      "community": 0,
+      "community": 66,
       "norm_label": "supabase"
     },
     {
@@ -5560,7 +5700,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_lib_supabase_storage",
-      "community": 429,
+      "community": 66,
       "norm_label": "storage.ts"
     },
     {
@@ -5570,7 +5710,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "mobile_src_lib_supabase_storage_signvisitmediaurl",
-      "community": 429,
+      "community": 66,
       "norm_label": "signvisitmediaurl()"
     },
     {
@@ -5600,7 +5740,7 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "mobile_src_lib_supabase_storage_uploadavatar",
-      "community": 429,
+      "community": 66,
       "norm_label": "uploadavatar()"
     },
     {
@@ -6180,7 +6320,7 @@
       "source_location": "L40",
       "_origin": "ast",
       "id": "mobile_src_utils_datetime_formattime",
-      "community": 80,
+      "community": 78,
       "norm_label": "formattime()"
     },
     {
@@ -6210,7 +6350,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "mobile_src_utils_datetime_durationbetween",
-      "community": 80,
+      "community": 69,
       "norm_label": "durationbetween()"
     },
     {
@@ -6230,7 +6370,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "mobile_src_utils_form_errors",
-      "community": 78,
+      "community": 64,
       "norm_label": "form-errors.ts"
     },
     {
@@ -6240,7 +6380,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "mobile_src_utils_form_errors_fielderrors",
-      "community": 78,
+      "community": 64,
       "norm_label": "fielderrors()"
     },
     {
@@ -6280,7 +6420,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "mobile_src_utils_format_initials",
-      "community": 80,
+      "community": 698,
       "norm_label": "initials()"
     },
     {
@@ -6290,7 +6430,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "mobile_src_utils_format_shortaddress",
-      "community": 68,
+      "community": 80,
       "norm_label": "shortaddress()"
     },
     {
@@ -6710,7 +6850,7 @@
       "source_location": "L132",
       "_origin": "ast",
       "id": "mobile_src_utils_visit_status_cancustomercancel",
-      "community": 68,
+      "community": 80,
       "norm_label": "cancustomercancel()"
     },
     {
@@ -14054,7 +14194,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "agents_skills_higgsfield_websites_references_design_taste_frontend_1_the_three_dials_core_configuration",
-      "community": 699,
+      "community": 194,
       "norm_label": "1. the three dials (core configuration)"
     },
     {
@@ -14064,7 +14204,7 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "agents_skills_higgsfield_websites_references_design_taste_frontend_1_a_dial_inference_design_read_dial_values",
-      "community": 699,
+      "community": 194,
       "norm_label": "1.a dial inference (design read \u2192 dial values)"
     },
     {
@@ -14074,7 +14214,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "agents_skills_higgsfield_websites_references_design_taste_frontend_1_b_use_case_presets",
-      "community": 699,
+      "community": 194,
       "norm_label": "1.b use-case presets"
     },
     {
@@ -14084,7 +14224,7 @@
       "source_location": "L95",
       "_origin": "ast",
       "id": "agents_skills_higgsfield_websites_references_design_taste_frontend_1_c_how_the_dials_drive_output",
-      "community": 699,
+      "community": 194,
       "norm_label": "1.c how the dials drive output"
     },
     {
@@ -28828,6 +28968,16 @@
       "norm_label": "future marketplace features"
     },
     {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "mobile/.expo/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "mobile_expo_readme",
+      "community": 705,
+      "norm_label": "readme.md"
+    },
+    {
       "label": "HANDOFF.md",
       "file_type": "document",
       "source_file": "mobile/HANDOFF.md",
@@ -29562,24 +29712,6 @@
       "id": "housecheck_skills_lock_skills_higgsfield_generate"
     },
     {
-      "label": "sourceType",
-      "file_type": "code",
-      "source_file": "skills-lock.json",
-      "source_location": "L12",
-      "community": 700,
-      "norm_label": "sourcetype",
-      "id": "housecheck_skills_lock_higgsfield_generate_sourcetype"
-    },
-    {
-      "label": "skillPath",
-      "file_type": "code",
-      "source_file": "skills-lock.json",
-      "source_location": "L13",
-      "community": 698,
-      "norm_label": "skillpath",
-      "id": "housecheck_skills_lock_higgsfield_generate_skillpath"
-    },
-    {
       "label": "computedHash",
       "file_type": "code",
       "source_file": "skills-lock.json",
@@ -29650,24 +29782,6 @@
       "community": 724,
       "norm_label": "higgsfield-websites",
       "id": "housecheck_skills_lock_skills_higgsfield_websites"
-    },
-    {
-      "label": "source",
-      "file_type": "code",
-      "source_file": "skills-lock.json",
-      "source_location": "L41",
-      "community": 715,
-      "norm_label": "source",
-      "id": "housecheck_skills_lock_higgsfield_websites_source"
-    },
-    {
-      "label": "computedHash",
-      "file_type": "code",
-      "source_file": "skills-lock.json",
-      "source_location": "L44",
-      "community": 713,
-      "norm_label": "computedhash",
-      "id": "housecheck_skills_lock_higgsfield_websites_computedhash"
     },
     {
       "label": "settings.json",
@@ -36105,6 +36219,36 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "mobile/.expo/types/router.d.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "mobile_expo_types_router_d",
+      "target": "mobile_expo_types_router_d_expo_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/.expo/types/router.d.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "mobile_expo_types_router_d",
+      "target": "mobile_expo_types_router_d_exporouter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/.expo/types/router.d.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "mobile_expo_types_router_d",
+      "target": "mobile_expo_types_router_d_routes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "mobile/app.json",
       "source_location": "L2",
       "weight": 1.0,
@@ -38986,6 +39130,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "mobile/app/(customer)/request/payment.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_customer_request_payment",
+      "target": "mobile_src_lib_stripe_payment_sheet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app/(customer)/request/payment.tsx",
       "source_location": "L10",
       "weight": 1.0,
       "source": "mobile_app_customer_request_payment",
@@ -39009,7 +39164,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "mobile/app/(customer)/request/payment.tsx",
-      "source_location": "L47",
+      "source_location": "L56",
       "weight": 1.0,
       "source": "mobile_app_customer_request_payment_paymentscreen",
       "target": "mobile_src_lib_monitoring_index_captureerror"
@@ -39020,7 +39175,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "mobile/app/(customer)/request/payment.tsx",
-      "source_location": "L35",
+      "source_location": "L44",
       "weight": 1.0,
       "source": "mobile_app_customer_request_payment_paymentscreen",
       "target": "mobile_src_lib_stripe_index_createpaymentintent"
@@ -39031,7 +39186,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "mobile/app/(customer)/request/payment.tsx",
-      "source_location": "L105",
+      "source_location": "L114",
       "weight": 1.0,
       "source": "mobile_app_customer_request_payment_paymentscreen",
       "target": "mobile_src_utils_format_formatmoney"
@@ -44145,6 +44300,17 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/app/_layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "mobile_app_layout",
+      "target": "mobile_src_lib_stripe_payment_sheet",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/app/index.tsx",
@@ -44274,6 +44440,16 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/expo-env.d.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "mobile_expo_env_d_rationale_3",
+      "target": "mobile_expo_env_d",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
@@ -44287,7 +44463,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L52",
+      "source_location": "L55",
       "weight": 1.0,
       "source": "mobile_package",
       "target": "mobile_package_devdependencies",
@@ -44467,7 +44643,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L27",
+      "source_location": "L28",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_date_fns",
@@ -44477,7 +44653,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L28",
+      "source_location": "L29",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_date_fns_tz",
@@ -44487,7 +44663,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L29",
+      "source_location": "L30",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo",
@@ -44497,7 +44673,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L30",
+      "source_location": "L31",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_constants",
@@ -44507,7 +44683,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L31",
+      "source_location": "L32",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_image_manipulator",
@@ -44517,7 +44693,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L32",
+      "source_location": "L33",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_image_picker",
@@ -44527,7 +44703,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L33",
+      "source_location": "L34",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_linking",
@@ -44537,7 +44713,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L34",
+      "source_location": "L35",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_expo_localization",
@@ -44547,10 +44723,10 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L35",
+      "source_location": "L21",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_expo_notifications",
+      "target": "mobile_package_dependencies_expo_metro_runtime",
       "confidence_score": 1.0
     },
     {
@@ -44560,7 +44736,7 @@
       "source_location": "L36",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_expo_router",
+      "target": "mobile_package_dependencies_expo_notifications",
       "confidence_score": 1.0
     },
     {
@@ -44570,7 +44746,7 @@
       "source_location": "L37",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_expo_secure_store",
+      "target": "mobile_package_dependencies_expo_router",
       "confidence_score": 1.0
     },
     {
@@ -44580,7 +44756,7 @@
       "source_location": "L38",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_expo_splash_screen",
+      "target": "mobile_package_dependencies_expo_secure_store",
       "confidence_score": 1.0
     },
     {
@@ -44590,7 +44766,7 @@
       "source_location": "L39",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_expo_status_bar",
+      "target": "mobile_package_dependencies_expo_splash_screen",
       "confidence_score": 1.0
     },
     {
@@ -44600,7 +44776,7 @@
       "source_location": "L40",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_expo_web_browser",
+      "target": "mobile_package_dependencies_expo_status_bar",
       "confidence_score": 1.0
     },
     {
@@ -44610,7 +44786,7 @@
       "source_location": "L41",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_i18next",
+      "target": "mobile_package_dependencies_expo_web_browser",
       "confidence_score": 1.0
     },
     {
@@ -44620,7 +44796,7 @@
       "source_location": "L42",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_react",
+      "target": "mobile_package_dependencies_i18next",
       "confidence_score": 1.0
     },
     {
@@ -44630,7 +44806,7 @@
       "source_location": "L43",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_react_i18next",
+      "target": "mobile_package_dependencies_react",
       "confidence_score": 1.0
     },
     {
@@ -44640,27 +44816,7 @@
       "source_location": "L44",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_react_native",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "mobile/package.json",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_react_native_async_storage_async_storage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "mobile/package.json",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_react_native_community_datetimepicker",
+      "target": "mobile_package_dependencies_react_dom",
       "confidence_score": 1.0
     },
     {
@@ -44670,7 +44826,7 @@
       "source_location": "L45",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_react_native_gesture_handler",
+      "target": "mobile_package_dependencies_react_i18next",
       "confidence_score": 1.0
     },
     {
@@ -44680,27 +44836,17 @@
       "source_location": "L46",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_react_native_safe_area_context",
+      "target": "mobile_package_dependencies_react_native",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L47",
+      "source_location": "L22",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_react_native_screens",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "mobile/package.json",
-      "source_location": "L48",
-      "weight": 1.0,
-      "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_react_native_url_polyfill",
+      "target": "mobile_package_dependencies_react_native_async_storage_async_storage",
       "confidence_score": 1.0
     },
     {
@@ -44710,37 +44856,27 @@
       "source_location": "L23",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_sentry_react_native",
+      "target": "mobile_package_dependencies_react_native_community_datetimepicker",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L24",
+      "source_location": "L47",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_stripe_stripe_react_native",
+      "target": "mobile_package_dependencies_react_native_gesture_handler",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L25",
+      "source_location": "L48",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_supabase_supabase_js",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "mobile/package.json",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_tanstack_react_query",
+      "target": "mobile_package_dependencies_react_native_safe_area_context",
       "confidence_score": 1.0
     },
     {
@@ -44750,7 +44886,7 @@
       "source_location": "L49",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
-      "target": "mobile_package_dependencies_zod",
+      "target": "mobile_package_dependencies_react_native_screens",
       "confidence_score": 1.0
     },
     {
@@ -44760,37 +44896,77 @@
       "source_location": "L50",
       "weight": 1.0,
       "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_react_native_url_polyfill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_react_native_web",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_sentry_react_native",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_stripe_stripe_react_native",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_supabase_supabase_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_tanstack_react_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
+      "target": "mobile_package_dependencies_zod",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "mobile_package_dependencies",
       "target": "mobile_package_dependencies_zustand",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "mobile/package.json",
-      "source_location": "L56",
-      "weight": 1.0,
-      "source": "mobile_package_devdependencies",
-      "target": "mobile_package_devdependencies_eslint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "mobile/package.json",
-      "source_location": "L57",
-      "weight": 1.0,
-      "source": "mobile_package_devdependencies",
-      "target": "mobile_package_devdependencies_eslint_config_expo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "mobile/package.json",
-      "source_location": "L58",
-      "weight": 1.0,
-      "source": "mobile_package_devdependencies",
-      "target": "mobile_package_devdependencies_jest",
       "confidence_score": 1.0
     },
     {
@@ -44800,7 +44976,7 @@
       "source_location": "L59",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
-      "target": "mobile_package_devdependencies_jest_expo",
+      "target": "mobile_package_devdependencies_eslint",
       "confidence_score": 1.0
     },
     {
@@ -44810,6 +44986,36 @@
       "source_location": "L60",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
+      "target": "mobile_package_devdependencies_eslint_config_expo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "mobile_package_devdependencies",
+      "target": "mobile_package_devdependencies_jest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "mobile_package_devdependencies",
+      "target": "mobile_package_devdependencies_jest_expo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/package.json",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_react_test_renderer",
       "confidence_score": 1.0
     },
@@ -44817,7 +45023,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L53",
+      "source_location": "L56",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_testing_library_react_native",
@@ -44827,7 +45033,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L54",
+      "source_location": "L57",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_types_jest",
@@ -44837,7 +45043,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L55",
+      "source_location": "L58",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_types_react",
@@ -44847,7 +45053,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mobile/package.json",
-      "source_location": "L61",
+      "source_location": "L64",
       "weight": 1.0,
       "source": "mobile_package_devdependencies",
       "target": "mobile_package_devdependencies_typescript",
@@ -50006,6 +50212,47 @@
       "source": "mobile_src_lib_stripe_index",
       "target": "mobile_src_lib_supabase_client_supabase",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/lib/stripe/payment-sheet.web.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "mobile_src_lib_stripe_payment_sheet_web",
+      "target": "mobile_src_lib_stripe_payment_sheet_web_stripeprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/lib/stripe/payment-sheet.web.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "mobile_src_lib_stripe_payment_sheet_web",
+      "target": "mobile_src_lib_stripe_payment_sheet_web_unavailable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mobile/src/lib/stripe/payment-sheet.web.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "mobile_src_lib_stripe_payment_sheet_web",
+      "target": "mobile_src_lib_stripe_payment_sheet_web_usestripe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "source_file": "mobile/src/lib/stripe/payment-sheet.web.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "mobile_src_lib_stripe_payment_sheet_web_usestripe",
+      "target": "mobile_src_lib_stripe_payment_sheet_web_unavailable",
+      "confidence_score": 0.5
     },
     {
       "relation": "imports_from",
@@ -74158,5 +74405,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "135dedacfb84c3c9d4d9694b78f90c381d5629a2"
+  "built_at_commit": "b63bd26fe1d257f81fab8458c729fa88a57c945f"
 }
