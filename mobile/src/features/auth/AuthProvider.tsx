@@ -74,6 +74,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setProfile(null);
   }, []);
 
+  // eslint-disable-next-line react-hooks/preserve-manual-memoization -- `session?.user` dep is intentional; identity matters, not the object
   const refreshProfile = useCallback(async () => {
     if (session?.user) await loadProfile(session.user.id);
   }, [loadProfile, session?.user]);

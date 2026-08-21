@@ -1,11 +1,11 @@
 import { Redirect, Tabs } from 'expo-router';
 import { useTranslation } from 'react-i18next';
-import { Text } from 'react-native';
+import { Text, type ColorValue } from 'react-native';
 
 import { colors } from '@/constants/theme';
 import { useAuth } from '@/features/auth/AuthProvider';
 
-function TabGlyph({ glyph, color }: { glyph: string; color: string }) {
+function TabGlyph({ glyph, color }: { glyph: string; color: ColorValue }) {
   return <Text style={{ color, fontSize: 18 }}>{glyph}</Text>;
 }
 

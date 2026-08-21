@@ -1,6 +1,7 @@
 # Handoff — SomeoneThere mobile app
 
-For whoever picks this up next. Written 2026-08-21.
+For whoever picks this up next. Written 2026-08-21, updated same day after
+finishing the SDK upgrade.
 
 Read this, then [docs/product/mobile-app-spec.md](../docs/product/mobile-app-spec.md)
 — the spec is the source of truth. Where this file and the spec disagree, the
@@ -8,84 +9,50 @@ spec wins and this file is out of date.
 
 ---
 
-## 1. STOP: the working tree is mid-upgrade and does not build
+## 1. SDK 57 upgrade: DONE and green
 
-An Expo SDK 53 → 57 upgrade was started and **interrupted partway through**.
-`package.json` has mostly been rewritten to SDK 57, but `npm install` failed on
-a peer conflict, so `node_modules` still holds the old tree. They disagree:
-
-| package | package.json says | actually installed | SDK 57 wants |
-| --- | --- | --- | --- |
-| expo | ^57.0.15 | **57.0.15** | — |
-| react | 19.2.3 | **19.0.0** | 19.2.3 |
-| react-native | 0.86.2 | **0.79.6** | 0.86.2 |
-| jest-expo | **~53.0.0** | 53.0.14 | ~57.0.4 |
-| react-test-renderer | 19.0.0 | 19.0.0 | should match react |
-
-`npx tsc --noEmit` currently reports **2 errors** (`expo-notifications` changed
-its permissions type). Nothing else has been run in this state — assume Jest,
-the bundlers and the app are all broken until proven otherwise.
-
-**None of this is committed.** `git status` shows only `package.json` and
-`package-lock.json` modified. Everything committed at `c312771` was green.
-
-### Your first decision
-
-**Option A — finish the upgrade** (recommended; see §2 for why it is needed).
-
-**Option B — abandon it and get back to green:**
+The Expo SDK 53 → 57 upgrade is finished. Manifest, lockfile and
+`node_modules` now agree. Everything below is verified in the upgraded tree:
 
 ```bash
-cd mobile
-git checkout package.json package-lock.json
-rm -rf node_modules && npm install
-npx tsc --noEmit && npx jest        # should be clean, 73 tests
+npx tsc --noEmit                     # clean
+npx jest                             # 73 tests, 7 suites
+npm run lint                         # 0 errors, 2 benign i18next warnings
+npx expo export --platform android   # bundles fine
+npx expo export --platform web       # bundle parses, no import.meta trap
 ```
 
-Do not leave it half-done. A tree where the manifest and the lockfile describe
-different apps is the worst of both.
+Browser smoke (headless Chrome against the local Supabase stack): login,
+customer home with seeded visit, verifier role routing to Jobs — all render
+with zero console errors.
 
----
+**None of the upgrade is committed yet.** `git status` shows `package.json`,
+`package-lock.json`, `tsconfig.json`, `eslint.config.js`, two tab layouts,
+`Sheet.tsx`, `viewing.tsx`, `payment.tsx`, `_layout.tsx`, `AuthProvider.tsx`
+and `graphify-out/` modified.
 
-## 2. Why the upgrade is needed at all
+What it took beyond dependency math:
 
-The app was written against **SDK 53**. That was my error — I wrote the
-dependency list from memory and `expo install --fix` reconciled *within* 53
-rather than telling me 53 was four majors stale. Current is **57**.
+- `@types/react` → `^19.1.1` (RN 0.86 peer), `typescript` → `~6.0.3`,
+  `eslint-config-expo` → `~57.0.1` (via `expo install --fix`).
+- `i18next` → `^26.4.0` and `react-i18next` → `^17.0.12` — the old majors
+  peer-require `typescript@^5` and block install under TS 6.
+- The `pretty-format` 29.7.0 pin and `overrides` block are **deleted** —
+  RN 0.86 declares its own `pretty-format@^29.7.0` dependency, so the tree
+  resolves correctly on its own (§6 trap closed).
+- `tsconfig.json` gained `"types": ["jest"]` — TS 6 no longer auto-includes
+  `@types/jest` globals.
+- `StyleSheet.absoluteFillObject` is gone in RN 0.86 — `Sheet.tsx` uses
+  explicit insets now. Tab icon `color` is typed `ColorValue`, not `string`.
+- `eslint-config-expo` 57 ships react-compiler-era rules; three idiomatic
+  spots carry `eslint-disable` comments with reasons, and
+  `viewing.tsx`'s in-render `Date.now()` became a `useState` initializer.
 
-It matters for one concrete reason: **Expo Go only ever supports the newest
-SDK.** Scanning a QR for an SDK 53 project with a current Expo Go fails with an
-incompatibility error, which is exactly where this stopped. There is no
-"see it on a phone" path on SDK 53 that does not involve sideloading an old
-Expo Go APK or building a dev client with an EAS account.
+### What is still NOT verified
 
-### Finishing the upgrade
-
-The install failed on a peer conflict. The known offenders:
-
-- `jest-expo` is still `~53.0.0` and pins the old react-native. Move it to
-  `~57.0.4`.
-- `react-test-renderer` is pinned to `19.0.0` and must track react (`19.2.3`).
-  It was pinned deliberately — without a pin npm cannot resolve the tree at all.
-- The `overrides: { "pretty-format": "29.7.0" }` block and the explicit
-  `pretty-format` devDependency exist because RN 0.79's HMR client used a
-  default export that pretty-format 30 removed (§6). **Re-test whether RN 0.86
-  still needs this** — if not, delete both; a stale override is a trap.
-
-Then:
-
-```bash
-rm -rf node_modules package-lock.json
-npm install
-npx expo install --fix
-```
-
-Expect real breakage beyond dependency math — this is four majors of
-react-native. The two known typecheck errors are in
-`src/lib/notifications/index.ts`, where `getPermissionsAsync()` no longer
-returns `.status` in the same shape.
-
----
+- **Expo Go on a real phone.** SDK 57 removes the version mismatch that
+  blocked this, but nobody has scanned the QR yet. Do that next.
+- Stripe and push remain untested (§4).
 
 ## 3. Environment (already set up, persists)
 
@@ -103,8 +70,7 @@ If a command says "node: command not found", you have not activated the env.
 
 - **Supabase local stack: up** (11 containers, API on `http://127.0.0.1:54321`).
   Studio at `http://127.0.0.1:54323`.
-- **Expo dev server: running** but serving the broken tree. Kill and restart
-  once the upgrade is resolved.
+- **Expo dev server: running** on the SDK 57 tree (started with `--clear`).
 
 `mobile/.env` is gitignored and points at the **LAN IP**, not `127.0.0.1`, so a
 phone on the same Wi-Fi can reach Supabase. If the laptop's IP changes, update
@@ -115,21 +81,13 @@ that can never authenticate.
 
 ## 4. Where things stand otherwise
 
-**Branch:** `main`, pushed, in sync with `origin/main` at `c312771`.
+**Branch:** `main`, pushed, in sync with `origin/main` at `c312771` **plus
+uncommitted SDK 57 upgrade changes** (see §1).
 Remote is `git@github.com:alegosto01/SomeoneThere.git`.
 
-Everything below was verified green **before** the upgrade started:
-
-```bash
-npx tsc --noEmit                     # clean
-npx jest                             # 73 tests, 8 suites
-npm run test:sql                     # 68 assertions, needs Docker
-npx expo export --platform android   # 2605 modules
-```
-
-The app has been driven end to end in a real browser against the real Supabase
-stack: both demo accounts sign in, role routing sends the verifier to Jobs, and
-each side renders its seeded visit with zero console errors.
+Verified green in the upgraded tree (§1 has the commands): typecheck, Jest
+(73 tests, 7 suites), lint, `test:sql` (68 assertions), android + web export,
+and a browser drive of both demo accounts.
 
 Demo logins (password `demo-password` for both):
 

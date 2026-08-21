@@ -4,6 +4,8 @@
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
+    // TS 6 no longer auto-includes @types/jest globals for test files.
+    "types": ["jest"],
     "paths": {
       "@/*": ["./src/*"]
     }

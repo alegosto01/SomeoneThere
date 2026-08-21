@@ -60,6 +60,7 @@ export default function PaymentScreen() {
   }, [visitId, initPaymentSheet, t]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- prepare() is async; its setState calls are not synchronous
     void prepare();
   }, [prepare]);
 

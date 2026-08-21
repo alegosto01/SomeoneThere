@@ -28,6 +28,9 @@ export default function RequestViewingStep() {
   const { draft, update } = useRequestDraft();
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [picker, setPicker] = useState<'date' | 'time' | null>(null);
+  // Stable "tomorrow" for the picker's fallback value — computing it in render
+  // would change on every re-render (react-hooks/purity).
+  const [defaultDate] = useState(() => new Date(Date.now() + 24 * 60 * 60 * 1000));
 
   const scheduled = draft.scheduled_at ? new Date(draft.scheduled_at) : null;
 
@@ -99,7 +102,7 @@ export default function RequestViewingStep() {
 
       {picker ? (
         <DateTimePicker
-          value={scheduled ?? new Date(Date.now() + 24 * 60 * 60 * 1000)}
+          value={scheduled ?? defaultDate}
           mode={picker}
           minimumDate={picker === 'date' ? new Date() : undefined}
           display={Platform.OS === 'ios' ? 'spinner' : 'default'}
