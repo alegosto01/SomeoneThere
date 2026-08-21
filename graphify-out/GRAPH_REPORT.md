@@ -1,16 +1,16 @@
 # Graph Report - HouseCheck  (2026-08-21)
 
 ## Corpus Check
-- 314 files · ~263,955 words
+- 314 files · ~264,251 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 3420 nodes · 3945 edges · 738 communities (295 shown, 443 thin omitted)
+- 3426 nodes · 3952 edges · 740 communities (297 shown, 443 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b02d29b2`
+- Built from commit: `7f69a5d0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -678,8 +678,10 @@
 - [[_COMMUNITY_1. THE THREE DIALS (Core Configuration)|1. THE THREE DIALS (Core Configuration)]]
 - [[_COMMUNITY_sourceType|sourceType]]
 - [[_COMMUNITY_skillPath|skillPath]]
+- [[_COMMUNITY_request-draft.ts|request-draft.ts]]
 - [[_COMMUNITY_run.sh|run.sh]]
 - [[_COMMUNITY_expo-env.d.ts|expo-env.d.ts]]
+- [[_COMMUNITY_payment-sheet.ts|payment-sheet.ts]]
 - [[_COMMUNITY_source|source]]
 - [[_COMMUNITY_skills|skills]]
 - [[_COMMUNITY_higgsfield-game-generation|higgsfield-game-generation]]
@@ -737,11 +739,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (738 total, 443 thin omitted)
+## Communities (740 total, 443 thin omitted)
 
 ### Community 0 - "HOUSECHECK_AGENT_SETUP_GUIDE.md"
-Cohesion: 0.19
-Nodes (18): fetchVerifierProfile(), requestAccountDeletion(), updateProfile(), updateVerifierProfile(), cancelVisit(), checkIn(), checkOut(), createVisitDraft() (+10 more)
+Cohesion: 0.15
+Nodes (21): fetchPaymentForVisit(), requestAccountDeletion(), updateProfile(), updateVerifierProfile(), cancelVisit(), checkIn(), checkOut(), createVisitDraft() (+13 more)
 
 ### Community 1 - "compress.py"
 Cohesion: 0.09
@@ -940,8 +942,8 @@ Cohesion: 0.07
 Nodes (28): Anti-Patterns, App shell, Button Rules, Code layouts (preferred starting points), Component Priority, Core Imports, Current Spacing And Token Rules, Data & Charts (LOW — dashboards only) (+20 more)
 
 ### Community 64 - "Community 64"
-Cohesion: 0.06
-Nodes (44): styles, Index(), styles, styles, ReportDisclaimer(), styles, ObservationRow(), RATING_SYMBOL (+36 more)
+Cohesion: 0.08
+Nodes (39): styles, styles, ReportDisclaimer(), styles, ObservationRow(), RATING_SYMBOL, RATING_TONE, styles (+31 more)
 
 ### Community 65 - "Community 65"
 Cohesion: 0.03
@@ -956,12 +958,12 @@ Cohesion: 0.15
 Nodes (12): Confidence level, Disclaimer, Evidence collected, Factual questions and answers, Listing match, Live viewing observations, Remote Viewing Visit Summary Template, Report metadata (+4 more)
 
 ### Community 68 - "Community 68"
-Cohesion: 0.10
-Nodes (41): AuthLayout(), CustomerHome(), styles, ReportsScreen(), styles, styles, Tab, VisitsScreen() (+33 more)
+Cohesion: 0.11
+Nodes (39): CustomerHome(), styles, PreVisitScreen(), styles, styles, Tab, VisitsScreen(), styles (+31 more)
 
 ### Community 69 - "Community 69"
-Cohesion: 0.08
-Nodes (30): RATINGS, styles, VerifierChecklistScreen(), MATCHES, SOURCES, styles, VerifierReportScreen(), GLYPH (+22 more)
+Cohesion: 0.09
+Nodes (34): RATINGS, styles, VerifierChecklistScreen(), MATCHES, SOURCES, styles, VerifierReportScreen(), styles (+26 more)
 
 ### Community 70 - "Community 70"
 Cohesion: 0.05
@@ -972,20 +974,20 @@ Cohesion: 0.25
 Nodes (7): Anti-abuse rules, Delivery, Intake - required fields, QA gate, Remote Viewing Request Lifecycle, Request statuses, Service mapping
 
 ### Community 78 - "Community 78"
-Cohesion: 0.13
-Nodes (21): styles, styles, RequestPreferencesStep(), RequestPrioritiesStep(), RequestPropertyStep(), RequestViewingStep(), styles, Notice() (+13 more)
+Cohesion: 0.14
+Nodes (19): styles, styles, RequestPreferencesStep(), RequestPrioritiesStep(), RequestPropertyStep(), RequestViewingStep(), styles, Notice() (+11 more)
 
 ### Community 79 - "Community 79"
 Cohesion: 0.06
 Nodes (34): dependencies, date-fns, date-fns-tz, expo, expo-constants, expo-image-manipulator, expo-image-picker, expo-linking (+26 more)
 
 ### Community 80 - "Community 80"
-Cohesion: 0.10
-Nodes (40): PreVisitScreen(), styles, MATCH_TONE, ReportDetailScreen(), styles, RequestReviewStep(), styles, styles (+32 more)
+Cohesion: 0.13
+Nodes (22): MATCH_TONE, ReportDetailScreen(), styles, styles, styles, VisitDetailScreen(), Avatar(), Card() (+14 more)
 
 ### Community 81 - "Community 81"
-Cohesion: 0.12
-Nodes (17): PRIORITY_KEYS, validProperty, emailSchema, loginSchema, passwordSchema, PreferencesStepInput, preferencesStepSchema, PrioritiesStepInput (+9 more)
+Cohesion: 0.14
+Nodes (16): validProperty, emailSchema, loginSchema, passwordSchema, PreferencesStepInput, preferencesStepSchema, PrioritiesStepInput, prioritiesStepSchema (+8 more)
 
 ### Community 82 - "Community 82"
 Cohesion: 0.17
@@ -1028,8 +1030,8 @@ Cohesion: 0.15
 Nodes (13): scripts, android, build:android:preview, build:android:prod, ios, lint, prebuild, start (+5 more)
 
 ### Community 103 - "Community 103"
-Cohesion: 0.22
-Nodes (9): Action for SomeoneThere, Confidence, Description, Evidence available now, Evidence still needed, Example MVP workflow, F3. Manual MVP is possible, Risks connected to this strength (+1 more)
+Cohesion: 0.20
+Nodes (10): 5. Fortalezas / Strengths, Action for SomeoneThere, Confidence, Description, Evidence available now, Evidence still needed, Example MVP workflow, F3. Manual MVP is possible (+2 more)
 
 ### Community 104 - "Community 104"
 Cohesion: 0.20
@@ -1060,8 +1062,8 @@ Cohesion: 0.22
 Nodes (9): Dangerous Zero/Null/Empty Defaults, Fail-Open Patterns, Insecure Defaults Check, Output Format, Pitfalls, Precedent Rules, The 5 Rationalizations to Reject, Web audit (+1 more)
 
 ### Community 115 - "Community 115"
-Cohesion: 0.25
-Nodes (8): Action, Confidence, Description, Evidence available now, Evidence still needed, O8. Potential to become a trusted rental decision layer, Risks, Why it matters
+Cohesion: 0.22
+Nodes (9): 7. Oportunidades / Opportunities, Action, Confidence, Description, Evidence available now, Evidence still needed, O8. Potential to become a trusted rental decision layer, Risks (+1 more)
 
 ### Community 116 - "Community 116"
 Cohesion: 0.22
@@ -1324,8 +1326,8 @@ Cohesion: 0.22
 Nodes (8): 1. Read the cover's content, 2. Design the beats (~5s), all derived from the cover's actual content, 3. Generate, 4. Wire into the app, Cover animator (~5s reveal → `og_video_url`), Deviations, The trick: end-frame reveal, Workflow
 
 ### Community 190 - "Community 190"
-Cohesion: 0.20
-Nodes (10): 5. Fortalezas / Strengths, Action for SomeoneThere, Confidence, Description, Evidence available now, Evidence still needed, Example use case, F5. Bring-your-own-listing model (+2 more)
+Cohesion: 0.22
+Nodes (9): Action for SomeoneThere, Confidence, Description, Evidence available now, Evidence still needed, Example use case, F5. Bring-your-own-listing model, Risks connected to this strength (+1 more)
 
 ### Community 191 - "Community 191"
 Cohesion: 0.22
@@ -1588,8 +1590,8 @@ Cohesion: 0.25
 Nodes (8): 56. Future features to keep architecture ready for, Agency accounts, AI-assisted comparison, Automatic listing extraction, Bundles, In-app video, Owner Guided / Self Capture, Verifier levels
 
 ### Community 294 - "Community 294"
-Cohesion: 0.22
-Nodes (9): 7. Oportunidades / Opportunities, Confidence, Description, Evidence available now, Evidence still needed, How to test, O7. Partnerships with student and relocation communities, Strategic value (+1 more)
+Cohesion: 0.25
+Nodes (8): Confidence, Description, Evidence available now, Evidence still needed, How to test, O7. Partnerships with student and relocation communities, Strategic value, Why it matters
 
 ### Community 295 - "Community 295"
 Cohesion: 0.25
@@ -1700,8 +1702,8 @@ Cohesion: 0.67
 Nodes (3): projectId, extra, eas
 
 ### Community 416 - "code:bash (curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/c)"
-Cohesion: 0.14
-Nodes (25): VisitCardProps, AuthState, CreateVisitInput, RequestDraft, CancellationReason, LiveCallProvider, MediaType, PropertyContactType (+17 more)
+Cohesion: 0.10
+Nodes (30): AuthState, ChecklistStore, ObservationDraft, QuestionDraft, ReportDraft, AnswerSource, CancellationReason, ListingMatch (+22 more)
 
 ### Community 427 - "code:bash (curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/c)"
 Cohesion: 0.12
@@ -1720,12 +1722,12 @@ Cohesion: 0.29
 Nodes (7): 10. Strategic conclusions, Main conclusion 1: The product should stay simple, Main conclusion 2: The biggest competitor is probably “asking a friend”, Main conclusion 3: Trust is the central challenge, Main conclusion 4: Willingness to pay is the key business-model test, Main conclusion 5: Legal, privacy, and safety must be handled early, Main conclusion 6: Do not build software yet
 
 ### Community 682 - "13. Next validation steps"
-Cohesion: 0.21
-Nodes (9): ChecklistStore, ObservationDraft, QuestionDraft, ReportDraft, AnswerSource, ListingMatch, ObservationRating, ReportObservation (+1 more)
+Cohesion: 0.13
+Nodes (18): ReportsScreen(), styles, PaymentScreen(), Phase, RequestReviewStep(), styles, styles, VerifierEarningsScreen() (+10 more)
 
 ### Community 684 - "session-storage.ts"
-Cohesion: 0.17
-Nodes (11): fetchPaymentForVisit(), fetchVerifierEarnings(), PaymentIntentResult, VISIT_PRICE, supabase, chunkKey(), clearChunks(), readChunkCount() (+3 more)
+Cohesion: 0.53
+Nodes (4): chunkKey(), clearChunks(), readChunkCount(), secureSessionStorage
 
 ### Community 694 - "13. Next validation steps"
 Cohesion: 0.29
@@ -1737,28 +1739,36 @@ Nodes (4): 1.A Dial Inference (design read → dial values), 1.B Use-Case Preset
 
 ### Community 698 - "skillPath"
 Cohesion: 0.08
-Nodes (28): CustomerLayout(), CustomerProfile(), styles, ConfirmationScreen(), styles, PaymentScreen(), Phase, queryClient (+20 more)
+Nodes (32): AuthLayout(), CustomerLayout(), CustomerProfile(), styles, ConfirmationScreen(), styles, Index(), queryClient (+24 more)
 
 ### Community 699 - "1. THE THREE DIALS (Core Configuration)"
 Cohesion: 0.50
 Nodes (3): expo-router, ExpoRouter, __routes
 
+### Community 702 - "request-draft.ts"
+Cohesion: 0.20
+Nodes (11): VisitCardProps, PRIORITY_KEYS, PriorityKey, CreateVisitInput, EMPTY, RequestDraft, RequestDraftStore, PropertyContactType (+3 more)
+
+### Community 706 - "payment-sheet.ts"
+Cohesion: 0.33
+Nodes (3): StripeModule, StripeProvider, StripeProviderProps
+
 ## Knowledge Gaps
-- **2324 isolated node(s):** `expo-router`, `ExpoRouter`, `__routes`, `name`, `slug` (+2319 more)
+- **2327 isolated node(s):** `expo-router`, `ExpoRouter`, `__routes`, `name`, `slug` (+2322 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **443 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `5. Fortalezas / Strengths` connect `Community 103` to `Community 257`, `Community 139`, `Community 145`, `Community 82`, `Community 246`, `Community 153`, `Community 190`, `Community 191`?**
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `6. Debilidades / Weaknesses` connect `Community 104` to `Community 288`, `Community 289`, `Community 265`, `Community 267`, `Community 82`, `Community 284`, `Community 285`, `Community 287`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **Why does `8. Amenazas / Threats` connect `Community 116` to `Community 130`, `Community 132`, `Community 82`, `Community 117`, `Community 118`, `Community 119`, `Community 120`, `Community 127`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **Why does `5. Fortalezas / Strengths` connect `Community 190` to `Community 257`, `Community 103`, `Community 139`, `Community 145`, `Community 82`, `Community 246`, `Community 153`, `Community 191`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `Caveman compress scripts.  This package provides tools to compress natural langu`, `Split YAML frontmatter from body. Returns (frontmatter, body).      Memory files`, `Resolve the out-of-tree backup directory for a given source file.      Backups m` to the rest of the system?**
-  _2344 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _2347 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `compress.py` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
 - **Should `README.md` be split into smaller, more focused modules?**
