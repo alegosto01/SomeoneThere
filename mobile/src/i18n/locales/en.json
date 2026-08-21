@@ -70,7 +70,8 @@
     "view_booking": "View booking",
     "empty_title": "No upcoming visits.",
     "empty_body": "Found a rental you want checked? Request a viewing.",
-    "how_it_works": "How SomeoneThere works"
+    "how_it_works": "How SomeoneThere works",
+    "tab": "Home"
   },
   "how_it_works": {
     "title": "How SomeoneThere works",

@@ -56,9 +56,9 @@ export default function VerifierLayout() {
         }}
       />
 
-      <Tabs.Screen name="visit" options={{ href: null }} />
-      <Tabs.Screen name="checklist" options={{ href: null }} />
-      <Tabs.Screen name="report" options={{ href: null }} />
+      <Tabs.Screen name="visit/[id]" options={{ href: null }} />
+      <Tabs.Screen name="checklist/[id]" options={{ href: null }} />
+      <Tabs.Screen name="report/[id]" options={{ href: null }} />
       <Tabs.Screen name="report-submitted" options={{ href: null }} />
     </Tabs>
   );

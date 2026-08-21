@@ -30,7 +30,7 @@ export default function CustomerLayout() {
       <Tabs.Screen
         name="home"
         options={{
-          title: t('common.app_name'),
+          title: t('home.tab'),
           tabBarIcon: ({ color }) => <TabGlyph glyph="⌂" color={color} />,
         }}
       />
@@ -56,12 +56,17 @@ export default function CustomerLayout() {
         }}
       />
 
-      {/* Stacks that live inside the customer area but are not tabs. */}
+      {/*
+        Routes inside the customer area that are not tabs. The name must be the
+        full route as Expo Router registers it: a folder with no _layout.tsx is
+        not a navigator, so `visit/[id].tsx` is the route "visit/[id]", and
+        hiding "visit" silently matches nothing and leaks an extra tab.
+      */}
       <Tabs.Screen name="request" options={{ href: null }} />
-      <Tabs.Screen name="visit" options={{ href: null }} />
-      <Tabs.Screen name="previsit" options={{ href: null }} />
-      <Tabs.Screen name="report" options={{ href: null }} />
       <Tabs.Screen name="settings" options={{ href: null }} />
+      <Tabs.Screen name="visit/[id]" options={{ href: null }} />
+      <Tabs.Screen name="previsit/[id]" options={{ href: null }} />
+      <Tabs.Screen name="report/[id]" options={{ href: null }} />
     </Tabs>
   );
 }

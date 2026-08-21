@@ -70,7 +70,8 @@
     "view_booking": "Ver reserva",
     "empty_title": "No tienes visitas próximas.",
     "empty_body": "¿Has encontrado un piso que quieres comprobar? Solicita una visita.",
-    "how_it_works": "Cómo funciona SomeoneThere"
+    "how_it_works": "Cómo funciona SomeoneThere",
+    "tab": "Inicio"
   },
   "how_it_works": {
     "title": "Cómo funciona SomeoneThere",
