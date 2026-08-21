@@ -1,16 +1,16 @@
-# Graph Report - mobile  (2026-08-20)
+# Graph Report - mobile  (2026-08-21)
 
 ## Corpus Check
-- 119 files · ~44,658 words
+- 121 files · ~45,975 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 593 nodes · 1547 edges · 27 communities (20 shown, 7 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.5)
+- 610 nodes · 1566 edges · 33 communities (25 shown, 8 thin omitted)
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `607617a3`
+- Built from commit: `400c0a5e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -36,6 +36,12 @@
 - [[_COMMUNITY_README|README.md]]
 - [[_COMMUNITY_eslint.config.js|eslint.config.js]]
 - [[_COMMUNITY_EMPTY_REQUEST_DRAFT|EMPTY_REQUEST_DRAFT]]
+- [[_COMMUNITY_PermissionSummary.tsx|PermissionSummary.tsx]]
+- [[_COMMUNITY_checklist-draft.ts|checklist-draft.ts]]
+- [[_COMMUNITY_devDependencies|devDependencies]]
+- [[_COMMUNITY_package.json|package.json]]
+- [[_COMMUNITY_payment-sheet.web.ts|payment-sheet.web.ts]]
+- [[_COMMUNITY_UserRole|UserRole]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Text()` - 43 edges
@@ -50,49 +56,49 @@
 10. `expo` - 16 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `CustomerLayout()` --calls--> `useAuth()`  [EXTRACTED]
-  app/(customer)/_layout.tsx → src/features/auth/AuthProvider.tsx
-- `CustomerProfile()` --calls--> `useAuth()`  [EXTRACTED]
-  app/(customer)/profile.tsx → src/features/auth/AuthProvider.tsx
-- `VerifierLayout()` --calls--> `useAuth()`  [EXTRACTED]
-  app/(verifier)/_layout.tsx → src/features/auth/AuthProvider.tsx
 - `AuthLayout()` --calls--> `useAuth()`  [EXTRACTED]
   app/(auth)/_layout.tsx → src/features/auth/AuthProvider.tsx
-- `PreVisitScreen()` --calls--> `useVisit()`  [EXTRACTED]
-  app/(customer)/previsit/[id].tsx → src/features/visits/queries.ts
+- `CustomerLayout()` --calls--> `useAuth()`  [EXTRACTED]
+  app/(customer)/_layout.tsx → src/features/auth/AuthProvider.tsx
+- `CustomerHome()` --calls--> `useAuth()`  [EXTRACTED]
+  app/(customer)/home.tsx → src/features/auth/AuthProvider.tsx
+- `PreVisitScreen()` --calls--> `verifierDisplayName()`  [EXTRACTED]
+  app/(customer)/previsit/[id].tsx → src/utils/format.ts
+- `CustomerProfile()` --calls--> `useAuth()`  [EXTRACTED]
+  app/(customer)/profile.tsx → src/features/auth/AuthProvider.tsx
 
 ## Import Cycles
 - None detected.
 
-## Communities (27 total, 7 thin omitted)
+## Communities (33 total, 8 thin omitted)
 
 ### Community 0 - "[id].tsx"
 Cohesion: 0.07
-Nodes (71): AuthLayout(), CustomerHome(), styles, PreVisitScreen(), styles, MATCH_TONE, ReportDetailScreen(), styles (+63 more)
+Nodes (61): CustomerHome(), styles, PreVisitScreen(), styles, ReportsScreen(), styles, styles, VisitDetailScreen() (+53 more)
 
 ### Community 1 - "theme.ts"
 Cohesion: 0.06
-Nodes (50): styles, styles, CustomerLayout(), styles, styles, VerifierLayout(), styles, ReportDisclaimer() (+42 more)
+Nodes (57): styles, styles, ConfirmationScreen(), styles, RequestPreferencesStep(), RequestPrioritiesStep(), RequestPropertyStep(), styles (+49 more)
 
 ### Community 2 - "AuthProvider.tsx"
 Cohesion: 0.07
-Nodes (34): CustomerProfile(), styles, ConfirmationScreen(), styles, PaymentScreen(), Phase, queryClient, styles (+26 more)
+Nodes (33): AuthLayout(), CustomerLayout(), CustomerProfile(), styles, Index(), queryClient, VerifierLayout(), styles (+25 more)
 
 ### Community 3 - "toUserFacingError"
-Cohesion: 0.08
-Nodes (42): fetchPaymentForVisit(), fetchVerifierEarnings(), requestAccountDeletion(), updateProfile(), updateVerifierProfile(), addReportMedia(), fetchCustomerReports(), fetchReport() (+34 more)
+Cohesion: 0.07
+Nodes (47): PaymentScreen(), Phase, RequestReviewStep(), styles, VerifierEarningsScreen(), fetchPaymentForVisit(), fetchVerifierEarnings(), addReportMedia() (+39 more)
 
 ### Community 4 - "review.tsx"
 Cohesion: 0.08
-Nodes (35): RequestPreferencesStep(), RequestPrioritiesStep(), RequestPropertyStep(), RequestReviewStep(), styles, RequestViewingStep(), styles, Notice() (+27 more)
+Nodes (28): CheckboxGroup(), TextArea(), PRIORITY_KEYS, PriorityKey, completeOAuthSession(), mapAuthError(), signIn(), signInWithGoogle() (+20 more)
 
 ### Community 5 - "[id].tsx"
-Cohesion: 0.09
-Nodes (33): RATINGS, styles, VerifierChecklistScreen(), MATCHES, SOURCES, styles, VerifierReportScreen(), styles (+25 more)
+Cohesion: 0.13
+Nodes (20): RATINGS, styles, VerifierChecklistScreen(), MATCHES, SOURCES, styles, VerifierReportScreen(), CHECKLIST_SECTIONS (+12 more)
 
 ### Community 6 - "models.ts"
-Cohesion: 0.09
-Nodes (36): VisitCardProps, AuthState, CreateVisitInput, ChecklistStore, ObservationDraft, QuestionDraft, ReportDraft, useChecklistDraft (+28 more)
+Cohesion: 0.13
+Nodes (25): VisitCardProps, CreateVisitInput, EMPTY, RequestDraft, CancellationReason, LiveCallProvider, MediaType, PaymentStatus (+17 more)
 
 ### Community 7 - "expo"
 Cohesion: 0.06
@@ -100,47 +106,67 @@ Nodes (34): backgroundColor, foregroundImage, adaptiveIcon, blockedPermissions, 
 
 ### Community 8 - "dependencies"
 Cohesion: 0.06
-Nodes (31): dependencies, date-fns, date-fns-tz, expo, expo-constants, expo-image-manipulator, expo-image-picker, expo-linking (+23 more)
+Nodes (34): dependencies, date-fns, date-fns-tz, expo, expo-constants, expo-image-manipulator, expo-image-picker, expo-linking (+26 more)
 
 ### Community 9 - "SomeoneThere — mobile app"
 Cohesion: 0.07
-Nodes (27): 1. Read this first: there is no Node on this machine, 2. Where things stand, 3.1 Get one end-to-end journey working on a device, 3.2 Wire the operator gaps (see §5 — several flows have no UI at all), 3. Do this next, in this order, 4. Invariants — do not break these, 5. Known gaps and deliberate omissions, 6. Traps already hit — do not rediscover these (+19 more)
+Nodes (28): 1. STOP: the working tree is mid-upgrade and does not build, 2. Why the upgrade is needed at all, 3. Environment (already set up, persists), 4. Where things stand otherwise, 5. Invariants — do not break these, 6. Traps already hit — do not rediscover these, 7. Known gaps, 8. House rules (+20 more)
 
 ### Community 10 - "scripts"
-Cohesion: 0.07
-Nodes (27): devDependencies, eslint, eslint-config-expo, jest, jest-expo, react-test-renderer, @testing-library/react-native, @types/jest (+19 more)
+Cohesion: 0.15
+Nodes (13): scripts, android, build:android:preview, build:android:prod, ios, lint, prebuild, start (+5 more)
 
 ### Community 11 - "compilerOptions"
-Cohesion: 0.20
-Nodes (9): compilerOptions, noImplicitOverride, noUncheckedIndexedAccess, paths, strict, exclude, extends, include (+1 more)
+Cohesion: 0.18
+Nodes (10): compilerOptions, noImplicitOverride, noUncheckedIndexedAccess, paths, strict, types, exclude, extends (+2 more)
 
 ### Community 12 - "api.ts"
-Cohesion: 0.39
-Nodes (7): completeOAuthSession(), mapAuthError(), signIn(), signInWithGoogle(), signUp(), LoginInput, RegisterInput
+Cohesion: 0.13
+Nodes (20): MATCH_TONE, ReportDetailScreen(), styles, ObservationRow(), RATING_SYMBOL, RATING_TONE, styles, Avatar() (+12 more)
 
 ### Community 13 - "index.ts"
 Cohesion: 0.40
 Nodes (3): admin, COPY, NOTIFIABLE
 
+### Community 27 - "PermissionSummary.tsx"
+Cohesion: 0.23
+Nodes (9): GLYPH, PermissionState, PermissionSummary(), styles, TONE, canEditReport(), canVerifierCheckIn(), canVerifierCheckOut() (+1 more)
+
+### Community 28 - "checklist-draft.ts"
+Cohesion: 0.21
+Nodes (9): ChecklistStore, ObservationDraft, QuestionDraft, ReportDraft, AnswerSource, ListingMatch, ObservationRating, ReportObservation (+1 more)
+
+### Community 29 - "devDependencies"
+Cohesion: 0.20
+Nodes (10): devDependencies, eslint, eslint-config-expo, jest, jest-expo, react-test-renderer, @testing-library/react-native, @types/jest (+2 more)
+
+### Community 30 - "package.json"
+Cohesion: 0.40
+Nodes (4): main, name, private, version
+
+### Community 32 - "UserRole"
+Cohesion: 1.00
+Nodes (3): AuthState, UserRole, Profile
+
 ## Knowledge Gaps
-- **209 isolated node(s):** `name`, `slug`, `version`, `orientation`, `scheme` (+204 more)
+- **215 isolated node(s):** `name`, `slug`, `version`, `orientation`, `scheme` (+210 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Text()` connect `theme.ts` to `[id].tsx`, `AuthProvider.tsx`, `review.tsx`, `[id].tsx`?**
-  _High betweenness centrality (0.036) - this node is a cross-community bridge._
-- **Why does `spacing` connect `theme.ts` to `[id].tsx`, `AuthProvider.tsx`, `review.tsx`, `[id].tsx`?**
-  _High betweenness centrality (0.026) - this node is a cross-community bridge._
-- **Why does `useAuth()` connect `[id].tsx` to `theme.ts`, `AuthProvider.tsx`, `review.tsx`, `[id].tsx`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
+- **Why does `Text()` connect `theme.ts` to `[id].tsx`, `AuthProvider.tsx`, `toUserFacingError`, `review.tsx`, `[id].tsx`, `api.ts`, `PermissionSummary.tsx`?**
+  _High betweenness centrality (0.035) - this node is a cross-community bridge._
+- **Why does `spacing` connect `theme.ts` to `[id].tsx`, `AuthProvider.tsx`, `toUserFacingError`, `[id].tsx`, `api.ts`, `PermissionSummary.tsx`?**
+  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+- **Why does `useAuth()` connect `AuthProvider.tsx` to `[id].tsx`, `theme.ts`, `toUserFacingError`?**
+  _High betweenness centrality (0.016) - this node is a cross-community bridge._
 - **What connects `name`, `slug`, `version` to the rest of the system?**
-  _209 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _215 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `[id].tsx` be split into smaller, more focused modules?**
-  _Cohesion score 0.06741573033707865 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0725685034628124 - nodes in this community are weakly interconnected._
 - **Should `theme.ts` be split into smaller, more focused modules?**
-  _Cohesion score 0.05554035567715458 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.060855639441775335 - nodes in this community are weakly interconnected._
 - **Should `AuthProvider.tsx` be split into smaller, more focused modules?**
-  _Cohesion score 0.06988120195667366 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06676342525399129 - nodes in this community are weakly interconnected._

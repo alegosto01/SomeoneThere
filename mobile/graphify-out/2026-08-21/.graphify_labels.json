@@ -25,11 +25,5 @@
   "23": "babel.config.js",
   "24": "jest.config.js",
   "25": "jest.setup.js",
-  "26": "EMPTY_REQUEST_DRAFT",
-  "27": "PermissionSummary.tsx",
-  "28": "checklist-draft.ts",
-  "29": "devDependencies",
-  "30": "package.json",
-  "31": "payment-sheet.web.ts",
-  "32": "UserRole"
+  "26": "EMPTY_REQUEST_DRAFT"
 }
