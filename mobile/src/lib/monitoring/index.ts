@@ -1,6 +1,23 @@
-import * as Sentry from '@sentry/react-native';
-
 import { config } from '@/constants/config';
+
+/**
+ * Sentry is a native module and is not present in Expo Go, where importing it
+ * at module scope crashes the app before the first screen renders. Monitoring
+ * is support scaffolding, not a feature — if it cannot load, the app must still
+ * run. Resolved lazily so a missing native side degrades to console logging.
+ */
+type SentryModule = typeof import('@sentry/react-native');
+
+let sentry: SentryModule | null = null;
+try {
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  sentry = require('@sentry/react-native') as SentryModule;
+} catch {
+  sentry = null;
+}
+
+/** False in Expo Go and anywhere the native module is unavailable. */
+export const monitoringAvailable = sentry !== null;
 
 /**
  * Crash/error monitoring (spec §58: "error monitoring without exposing
@@ -33,8 +50,8 @@ function scrub(value: unknown): unknown {
 }
 
 export function initMonitoring() {
-  if (!config.sentryDsn) return;
-  Sentry.init({
+  if (!config.sentryDsn || !sentry) return;
+  sentry.init({
     dsn: config.sentryDsn,
     environment: config.env,
     // Report bodies and addresses must never leave the device in a crash report.
@@ -54,12 +71,12 @@ export function initMonitoring() {
 
 export function captureError(error: unknown, context?: Record<string, string>) {
   if (__DEV__) console.error(error, context);
-  if (!config.sentryDsn) return;
-  Sentry.captureException(error, { tags: context });
+  if (!config.sentryDsn || !sentry) return;
+  sentry.captureException(error, { tags: context });
 }
 
 /** Ties errors to a user without shipping their email or name. */
 export function setMonitoringUser(userId: string | null, role?: string) {
-  if (!config.sentryDsn) return;
-  Sentry.setUser(userId ? { id: userId, role } : null);
+  if (!config.sentryDsn || !sentry) return;
+  sentry.setUser(userId ? { id: userId, role } : null);
 }
