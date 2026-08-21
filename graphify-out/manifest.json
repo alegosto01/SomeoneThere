@@ -925,8 +925,8 @@
     "semantic_hash": ""
   },
   "mobile/app/(customer)/_layout.tsx": {
-    "mtime": 1787147776.9435723,
-    "ast_hash": "ba7577d2c10339a931c105f721f38234",
+    "mtime": 1787321817.1253333,
+    "ast_hash": "46bbe08b6dcaacc29a74e2836e9e0404",
     "semantic_hash": ""
   },
   "mobile/app/(customer)/home.tsx": {
@@ -1020,8 +1020,8 @@
     "semantic_hash": ""
   },
   "mobile/app/(verifier)/_layout.tsx": {
-    "mtime": 1787147776.9448788,
-    "ast_hash": "83c562312d449261018d0797eaa94f41",
+    "mtime": 1787321817.125513,
+    "ast_hash": "01e1590e42dc910731ec239c7e648648",
     "semantic_hash": ""
   },
   "mobile/app/(verifier)/checklist/[id].tsx": {
@@ -1095,8 +1095,8 @@
     "semantic_hash": ""
   },
   "mobile/package.json": {
-    "mtime": 1787234576.666834,
-    "ast_hash": "3101e9d69e08d295fa47c6ed0877ce14",
+    "mtime": 1787321638.0893707,
+    "ast_hash": "b8cd0fdd41b2701970eb2efa5f0b401b",
     "semantic_hash": ""
   },
   "mobile/src/components/Disclaimer.tsx": {
@@ -1275,13 +1275,13 @@
     "semantic_hash": ""
   },
   "mobile/src/i18n/locales/en.json": {
-    "mtime": 1787234746.2983778,
-    "ast_hash": "8cb5336f5c8f956c047249d2727912e5",
+    "mtime": 1787321817.1261485,
+    "ast_hash": "cca275192e841571c24eb767c9f5c7c5",
     "semantic_hash": ""
   },
   "mobile/src/i18n/locales/es.json": {
-    "mtime": 1787234746.3003776,
-    "ast_hash": "e17887b1f680402cbeea9b2716e7f44a",
+    "mtime": 1787321817.1265976,
+    "ast_hash": "3a5ec601e19dd7b59036481856a5c9a0",
     "semantic_hash": ""
   },
   "mobile/src/lib/analytics/index.ts": {
@@ -1570,17 +1570,17 @@
     "semantic_hash": ""
   },
   "mobile/.expo/devices.json": {
-    "mtime": 1787321251.4485617,
+    "mtime": 1787321649.9591522,
     "ast_hash": "e5f6eb13c875f326cfd5915d3364614f",
     "semantic_hash": ""
   },
   "mobile/.expo/types/router.d.ts": {
-    "mtime": 1787321252.4855452,
+    "mtime": 1787321650.989187,
     "ast_hash": "ab03269643aa15e9fe36dd2f9494e7c5",
     "semantic_hash": ""
   },
   "mobile/expo-env.d.ts": {
-    "mtime": 1787321251.4775612,
+    "mtime": 1787321649.978153,
     "ast_hash": "0dd9dccdb4b08595bc83df70d6a154d3",
     "semantic_hash": ""
   },
@@ -1605,7 +1605,7 @@
     "semantic_hash": ""
   },
   "mobile/.expo/README.md": {
-    "mtime": 1787321251.4255621,
+    "mtime": 1787321649.9371731,
     "ast_hash": "5b7704d0d342e4ae362671b70b5d86bc",
     "semantic_hash": ""
   }
